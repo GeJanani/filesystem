@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for x in $*; do
+	{ [ "$x" = "-mno-avx" ] || false; } && continue
+	newargs="${newargs} $x"
+done
+exec /usr/local/genode-gcc/bin/genode-x86-gcc ${newargs}

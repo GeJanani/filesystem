@@ -1,0 +1,1009 @@
+Archive member included because of file (symbol)
+
+librumpkern_sys_linux_pic.a(linux_ipc.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_pipe.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_file64.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_misc.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_hdio.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_fdio.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_blkio.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_rump.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_termios.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_socket.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_signal.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_mtio.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_file.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_errno.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_time.pico)
+                              (--whole-archive)
+librumpkern_sys_linux_pic.a(linux_signo.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_linux_sys_tz
+                    0x8               librumpkern_sys_linux_pic.a(linux_time.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpkern_sys_linux_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0xa28
+ *(.hash)
+ .hash          0x00000000000000b4      0xa28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000adc     0x1810
+ *(.dynsym)
+ .dynsym        0x0000000000000adc     0x1810 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000022ec     0x21f6
+ *(.dynstr)
+ .dynstr        0x00000000000022ec     0x21f6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000044e2        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000044e4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000044e4        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x00000000000044e4     0x11c8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x00000000000044e4       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000000000000459c     0x1020 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x00000000000055bc        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000055c4       0xe0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x00000000000056a4        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000056ac      0x5c0
+ *(.rel.plt)
+ .rel.plt       0x00000000000056ac      0x5c0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000005c6c        0xa
+ *(.init)
+ .init          0x0000000000005c6c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000005c71        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000005c80      0xb90
+ *(.plt)
+ .plt           0x0000000000005c80      0xb90 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000006810     0x9f58
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000006810      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000694b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000694b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000694f        0x1 90909090
+ .text          0x0000000000006950        0x0 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .text          0x0000000000006950       0x82 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                0x0000000000006990                rumpns_linux_fakedev
+                0x00000000000069a0                rumpns_vm_map_unlock
+                0x00000000000069a0                rumpns_uvm_mremap
+                0x00000000000069a0                rumpns_lwp_find
+                0x00000000000069a0                rumpns_sys_mmap
+                0x00000000000069a0                rumpns_sigsuspend1
+                0x00000000000069a0                rumpns_oss_ioctl_sequencer
+                0x00000000000069a0                rumplinux__stub
+                0x00000000000069a0                rumpns_sigtimedwait1
+                0x00000000000069a0                rumpns_sigaction1
+                0x00000000000069a0                rumpns_sys_obreak
+                0x00000000000069a0                rumpns_rusage_to_rusage50
+                0x00000000000069a0                rumpns_kpsignal2
+                0x00000000000069a0                rumpns_linux_ioctl_sg
+                0x00000000000069a0                rumpns_compat_offseterr
+                0x00000000000069a0                rumpns_sys_kill
+                0x00000000000069a0                rumpns_vm_map_lock
+                0x00000000000069a0                rumpns_do_sys_wait
+                0x00000000000069a0                rumpns_uvm_map_lookup_entry
+                0x00000000000069a0                rumpns_linux_sys_ptrace_arch
+                0x00000000000069a0                rumpns_oss_ioctl_mixer
+                0x00000000000069a0                rumpns_linux_machdepioctl
+                0x00000000000069a0                rumpns_oss_ioctl_audio
+                0x00000000000069c0                rumpns_linux_get_uname_arch
+ .text.__x86.get_pc_thunk.cx
+                0x00000000000069d2        0x4 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                0x00000000000069d2                __x86.get_pc_thunk.cx
+ *fill*         0x00000000000069d6        0x2 90909090
+ .text          0x00000000000069d8        0x0 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ *fill*         0x00000000000069d8        0x8 90909090
+ .text          0x00000000000069e0      0x10a librumpkern_sys_linux_pic.a(linux_pipe.pico)
+                0x00000000000069e0                rumpns_linux_sys_pipe
+                0x0000000000006a60                rumpns_linux_sys_pipe2
+ *fill*         0x0000000000006aea        0x6 90909090
+ .text          0x0000000000006af0      0x7bf librumpkern_sys_linux_pic.a(linux_file64.pico)
+                0x0000000000006c60                rumpns_linux_sys_fstat64
+                0x0000000000006d00                rumpns_linux_sys_stat64
+                0x0000000000006d10                rumpns_linux_sys_lstat64
+                0x0000000000006d20                rumpns_linux_sys_fstatat64
+                0x0000000000006de0                rumpns_linux_sys_truncate64
+                0x0000000000006e30                rumpns_linux_sys_ftruncate64
+                0x0000000000006e80                rumpns_linux_sys_getdents64
+ *fill*         0x00000000000072af        0x1 90909090
+ .text          0x00000000000072b0     0x1f7c librumpkern_sys_linux_pic.a(linux_misc.pico)
+                0x00000000000074b0                rumpns_bsd_to_linux_wstat
+                0x0000000000007510                rumpns_linux_sys_wait4
+                0x00000000000076f0                rumpns_linux_sys_brk
+                0x0000000000007760                rumpns_linux_sys_statfs
+                0x0000000000007810                rumpns_linux_sys_fstatfs
+                0x00000000000078c0                rumpns_linux_sys_uname
+                0x00000000000079c0                rumpns_linux_sys_mmap
+                0x0000000000007a20                rumpns_linux_sys_mmap2
+                0x0000000000007a60                rumpns_linux_sys_mremap
+                0x0000000000007b50                rumpns_linux_sys_mprotect
+                0x0000000000007ce0                rumpns_linux_sys_times
+                0x0000000000007e80                rumpns_linux_sys_getdents
+                0x0000000000008370                rumpns_linux_select1
+                0x00000000000086b0                rumpns_linux_sys_select
+                0x0000000000008700                rumpns_linux_sys_ppoll
+                0x00000000000087f0                rumpns_linux_sys_personality
+                0x0000000000008840                rumpns_linux_sys_setfsuid
+                0x00000000000088b0                rumpns_linux_sys_setfsgid
+                0x0000000000008920                rumpns_linux_sys_setresuid
+                0x0000000000008960                rumpns_linux_sys_getresuid
+                0x0000000000008a20                rumpns_linux_sys_ptrace
+                0x0000000000008b20                rumpns_linux_sys_reboot
+                0x0000000000008c40                rumpns_linux_sys_swapon
+                0x0000000000008c90                rumpns_linux_sys_swapoff
+                0x0000000000008ce0                rumpns_linux_sys_setdomainname
+                0x0000000000008d50                rumpns_linux_sys_sysinfo
+                0x0000000000008e40                rumpns_linux_sys_getrlimit
+                0x0000000000008f20                rumpns_linux_sys_setrlimit
+                0x0000000000008ff0                rumpns_linux_sys_ugetrlimit
+                0x0000000000009020                rumpns_linux_sys_nosys
+                0x0000000000009030                rumpns_linux_sys_getpriority
+                0x0000000000009090                rumpns_linux_do_sys_utimensat
+                0x0000000000009170                rumpns_linux_sys_utimensat
+ *fill*         0x000000000000922c        0x4 90909090
+ .text          0x0000000000009230      0x24d librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+                0x0000000000009230                rumpns_linux_sys_ioctl
+ *fill*         0x000000000000947d        0x3 90909090
+ .text          0x0000000000009480      0x2da librumpkern_sys_linux_pic.a(linux_hdio.pico)
+                0x0000000000009480                rumpns_linux_ioctl_hdio
+ *fill*         0x000000000000975a        0x6 90909090
+ .text          0x0000000000009760      0x1b9 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+                0x0000000000009760                rumpns_linux_ioctl_fdio
+ *fill*         0x0000000000009919        0x7 90909090
+ .text          0x0000000000009920      0x821 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+                0x0000000000009960                rumpns_linux_ioctl_cdrom
+ *fill*         0x000000000000a141        0xf 90909090
+ .text          0x000000000000a150      0x153 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+                0x000000000000a150                rumpns_linux_ioctl_blkio
+ *fill*         0x000000000000a2a3        0xd 90909090
+ .text          0x000000000000a2b0       0x50 librumpkern_sys_linux_pic.a(linux_rump.pico)
+                0x000000000000a2b0                rump_linux_sys_mknodat
+ .text          0x000000000000a300     0x143f librumpkern_sys_linux_pic.a(linux_termios.pico)
+                0x000000000000a300                rumpns_linux_ioctl_termios
+ *fill*         0x000000000000b73f        0x1 90909090
+ .text          0x000000000000b740      0x6ec librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                0x000000000000b740                rumpns_linux_sysctl_fini
+                0x000000000000b780                rumpns_linux_sysctl_init
+                0x000000000000bc60                rumpns_linux_sys___sysctl
+ *fill*         0x000000000000be2c        0x4 90909090
+ .text          0x000000000000be30     0x1dbc librumpkern_sys_linux_pic.a(linux_socket.pico)
+                0x000000000000c2b0                rumpns_linux_sys_socket
+                0x000000000000c3f0                rumpns_linux_sys_socketpair
+                0x000000000000c4a0                rumpns_linux_sys_sendto
+                0x000000000000c5a0                rumpns_linux_sys_sendmsg
+                0x000000000000c9d0                rumpns_linux_sys_recvfrom
+                0x000000000000ca50                rumpns_linux_sys_recvmsg
+                0x000000000000cee0                rumpns_linux_to_bsd_sopt_level
+                0x000000000000cf10                rumpns_linux_to_bsd_so_sockopt
+                0x000000000000cf40                rumpns_linux_to_bsd_ip_sockopt
+                0x000000000000cf70                rumpns_linux_to_bsd_ipv6_sockopt
+                0x000000000000cf90                rumpns_linux_to_bsd_tcp_sockopt
+                0x000000000000cfc0                rumpns_linux_to_bsd_udp_sockopt
+                0x000000000000cfd0                rumpns_linux_sys_setsockopt
+                0x000000000000d140                rumpns_linux_sys_getsockopt
+                0x000000000000d230                rumpns_linux_getifname
+                0x000000000000d2e0                rumpns_linux_getifconf
+                0x000000000000d460                rumpns_linux_getifhwaddr
+                0x000000000000d680                rumpns_linux_ioctl_socket
+                0x000000000000d890                rumpns_linux_sys_connect
+                0x000000000000d9a0                rumpns_linux_sys_bind
+                0x000000000000da10                rumpns_linux_sys_getsockname
+                0x000000000000da70                rumpns_linux_sys_getpeername
+                0x000000000000dad0                rumpns_linux_sys_recv
+                0x000000000000db30                rumpns_linux_sys_send
+                0x000000000000db90                rumpns_linux_sys_accept
+ *fill*         0x000000000000dbec        0x4 90909090
+ .text          0x000000000000dbf0     0x1266 librumpkern_sys_linux_pic.a(linux_signal.pico)
+                0x000000000000ddd0                rumpns_linux_to_native_sigset
+                0x000000000000deb0                rumpns_linux_old_extra_to_native_sigset
+                0x000000000000df00                rumpns_native_to_linux_sigset
+                0x000000000000df80                rumpns_native_to_linux_old_extra_sigset
+                0x000000000000dfd0                rumpns_native_to_linux_sigflags
+                0x000000000000e030                rumpns_linux_to_native_sigflags
+                0x000000000000e090                rumpns_linux_old_to_native_sigaction
+                0x000000000000e0f0                rumpns_native_to_linux_old_sigaction
+                0x000000000000e160                rumpns_linux_to_native_sigaction
+                0x000000000000e1c0                rumpns_native_to_linux_sigaction
+                0x000000000000e220                rumpns_linux_sys_rt_sigaction
+                0x000000000000e390                rumpns_linux_sigprocmask1
+                0x000000000000e500                rumpns_linux_sys_rt_sigprocmask
+                0x000000000000e670                rumpns_linux_sys_rt_sigpending
+                0x000000000000e6f0                rumpns_linux_sys_sigpending
+                0x000000000000e760                rumpns_linux_sys_sigsuspend
+                0x000000000000e7c0                rumpns_linux_sys_rt_sigsuspend
+                0x000000000000e840                rumpns_linux_sys_rt_sigtimedwait
+                0x000000000000e8a0                rumpns_linux_sys_kill
+                0x000000000000e900                rumpns_linux_sys_rt_queueinfo
+                0x000000000000e990                rumpns_native_to_linux_sigaltstack
+                0x000000000000e9c0                rumpns_linux_sys_sigaltstack
+                0x000000000000eb30                rumpns_linux_sys_tkill
+                0x000000000000eb70                rumpns_linux_sys_tgkill
+                0x000000000000ebb0                rumpns_native_to_linux_si_code
+                0x000000000000ec00                rumpns_native_to_linux_si_status
+                0x000000000000ec40                rumpns_native_to_linux_siginfo
+ *fill*         0x000000000000ee56        0xa 90909090
+ .text          0x000000000000ee60      0x19b librumpkern_sys_linux_pic.a(linux_mtio.pico)
+                0x000000000000ee60                rumpns_linux_ioctl_mtio
+ *fill*         0x000000000000effb        0x5 90909090
+ .text          0x000000000000f000     0x11b6 librumpkern_sys_linux_pic.a(linux_file.pico)
+                0x000000000000f2b0                rumpns_linux_to_bsd_ioflags
+                0x000000000000f360                rumpns_linux_sys_creat
+                0x000000000000f3b0                rumpns_linux_sys_open
+                0x000000000000f450                rumpns_linux_sys_openat
+                0x000000000000f500                rumpns_linux_sys_fcntl
+                0x000000000000fb80                rumpns_linux_sys_fstat
+                0x000000000000fc20                rumpns_linux_sys_stat
+                0x000000000000fc30                rumpns_linux_sys_lstat
+                0x000000000000fc40                rumpns_linux_sys_linkat
+                0x000000000000fca0                rumpns_linux_sys_unlink
+                0x000000000000fd00                rumpns_linux_sys_mknodat
+                0x000000000000fda0                rumpns_linux_sys_mknod
+                0x000000000000fe00                rumpns_linux_sys_fchmodat
+                0x000000000000fe50                rumpns_linux_sys_faccessat
+                0x000000000000fe90                rumpns_linux_sys_fdatasync
+                0x000000000000fec0                rumpns_linux_sys_pread
+                0x000000000000ff20                rumpns_linux_sys_pwrite
+                0x000000000000ff80                rumpns_linux_sys_dup3
+                0x0000000000010000                rumpns_linux_to_bsd_atflags
+                0x0000000000010030                rumpns_linux_sys_fchownat
+                0x0000000000010090                rumpns_linux_sys_unlinkat
+                0x0000000000010100                rumpns_linux_sys_setxattr
+                0x0000000000010110                rumpns_linux_sys_lsetxattr
+                0x0000000000010120                rumpns_linux_sys_fsetxattr
+                0x0000000000010130                rumpns_linux_sys_getxattr
+                0x0000000000010140                rumpns_linux_sys_lgetxattr
+                0x0000000000010150                rumpns_linux_sys_fgetxattr
+                0x0000000000010160                rumpns_linux_sys_listxattr
+                0x0000000000010170                rumpns_linux_sys_llistxattr
+                0x0000000000010180                rumpns_linux_sys_flistxattr
+                0x0000000000010190                rumpns_linux_sys_removexattr
+                0x00000000000101a0                rumpns_linux_sys_lremovexattr
+                0x00000000000101b0                rumpns_linux_sys_fremovexattr
+ *fill*         0x00000000000101b6        0x2 90909090
+ .text          0x00000000000101b8        0x0 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ *fill*         0x00000000000101b8        0x8 90909090
+ .text          0x00000000000101c0      0x570 librumpkern_sys_linux_pic.a(linux_time.pico)
+                0x00000000000101c0                rumpns_linux_sys_gettimeofday
+                0x0000000000010230                rumpns_linux_sys_settimeofday
+                0x00000000000102a0                rumpns_native_to_linux_timespec
+                0x00000000000102c0                rumpns_linux_to_native_timespec
+                0x00000000000102e0                rumpns_linux_sys_nanosleep
+                0x00000000000103d0                rumpns_linux_to_native_clockid
+                0x0000000000010410                rumpns_linux_sys_clock_gettime
+                0x00000000000104b0                rumpns_linux_sys_clock_settime
+                0x0000000000010560                rumpns_linux_sys_clock_getres
+                0x0000000000010610                rumpns_linux_sys_clock_nanosleep
+ .text          0x0000000000010730        0x0 librumpkern_sys_linux_pic.a(linux_signo.pico)
+ .text          0x0000000000010730       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000010768        0x5
+ *(.fini)
+ .fini          0x0000000000010768        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001076d                PROVIDE (__etext, .)
+                0x000000000001076d                PROVIDE (_etext, .)
+                0x000000000001076d                PROVIDE (etext, .)
+
+.rodata         0x0000000000010780     0x1140
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000010780       0x1c librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .rodata.str1.1
+                0x000000000001079c        0xe librumpkern_sys_linux_pic.a(linux_file64.pico)
+ *fill*         0x00000000000107aa        0x2 00
+ .rodata.str1.4
+                0x00000000000107ac       0xf2 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .rodata.str1.1
+                0x000000000001089e       0x8b librumpkern_sys_linux_pic.a(linux_misc.pico)
+                                         0x9d (size before relaxing)
+ *fill*         0x0000000000010929       0x17 00
+ .rodata        0x0000000000010940       0xac librumpkern_sys_linux_pic.a(linux_misc.pico)
+                0x0000000000010940                rumpns_linux_fstypes_cnt
+                0x0000000000010960                rumpns_linux_ptrace_request_map
+ .rodata        0x00000000000109ec      0x228 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .rodata        0x0000000000010c14       0xc4 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .rodata        0x0000000000010cd8      0x248 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .rodata.str1.1
+                0x0000000000010f20        0xd librumpkern_sys_linux_pic.a(linux_termios.pico)
+ *fill*         0x0000000000010f2d       0x13 00
+ .rodata        0x0000000000010f40       0xac librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .rodata.str1.1
+                0x0000000000010fec       0x26 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                                         0x2e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000011012       0x38 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ *fill*         0x000000000001104a        0x2 00
+ .rodata.str1.4
+                0x000000000001104c       0x40 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ *fill*         0x000000000001108c       0x14 00
+ .rodata        0x00000000000110a0      0x3cc librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .rodata.str1.4
+                0x000000000001146c       0x24 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ *fill*         0x0000000000011490       0x10 00
+ .rodata        0x00000000000114a0       0x3c librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .rodata        0x00000000000114dc       0x28 librumpkern_sys_linux_pic.a(linux_file.pico)
+ *fill*         0x0000000000011504       0x1c 00
+ .rodata        0x0000000000011520      0x184 librumpkern_sys_linux_pic.a(linux_errno.pico)
+                0x0000000000011520                rumpns_native_to_linux_errno
+ *fill*         0x00000000000116a4       0x1c 00
+ .rodata        0x00000000000116c0      0x200 librumpkern_sys_linux_pic.a(linux_signo.pico)
+                0x00000000000116c0                rumpns_linux_to_native_signo
+                0x00000000000117c0                rumpns_native_to_linux_signo
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000118c0      0x56c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000118c0      0x56c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000011e2c     0x18d0
+ *(.eh_frame)
+ .eh_frame      0x0000000000011e2c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000011e68       0x80 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                                         0xac (size before relaxing)
+ .eh_frame      0x0000000000011ee8       0x4c librumpkern_sys_linux_pic.a(linux_pipe.pico)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000011f34      0x15c librumpkern_sys_linux_pic.a(linux_file64.pico)
+                                        0x188 (size before relaxing)
+ .eh_frame      0x0000000000012090      0x59c librumpkern_sys_linux_pic.a(linux_misc.pico)
+                                        0x5c8 (size before relaxing)
+ .eh_frame      0x000000000001262c       0x30 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x000000000001265c       0x2c librumpkern_sys_linux_pic.a(linux_hdio.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000012688       0x28 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x00000000000126b0       0x40 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x00000000000126f0       0x2c librumpkern_sys_linux_pic.a(linux_blkio.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001271c       0x24 librumpkern_sys_linux_pic.a(linux_rump.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000012740       0x2c librumpkern_sys_linux_pic.a(linux_termios.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000001276c       0x8c librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x00000000000127f8      0x490 librumpkern_sys_linux_pic.a(linux_socket.pico)
+                                        0x4d0 (size before relaxing)
+ .eh_frame      0x0000000000012c88      0x460 librumpkern_sys_linux_pic.a(linux_signal.pico)
+                                        0x48c (size before relaxing)
+ .eh_frame      0x00000000000130e8       0x2c librumpkern_sys_linux_pic.a(linux_mtio.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000013114      0x484 librumpkern_sys_linux_pic.a(linux_file.pico)
+                                        0x4b0 (size before relaxing)
+ .eh_frame      0x0000000000013598      0x160 librumpkern_sys_linux_pic.a(linux_time.pico)
+                                        0x18c (size before relaxing)
+ .eh_frame      0x00000000000136f8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000136fc                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000014000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000014000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000014000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000014004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000014008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000014008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001400c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001400c                __DTOR_END__
+
+.jcr            0x0000000000014010        0x4
+ *(.jcr)
+ .jcr           0x0000000000014010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000014010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000014020       0xb8
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000014020       0xb8 librumpkern_sys_linux_pic.a(linux_misc.pico)
+                0x0000000000014020                rumpns_linux_fstypes
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00000000000140d8       0xa0
+ *(.dynamic)
+ .dynamic       0x00000000000140d8       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000140d8                _DYNAMIC
+
+.got            0x0000000000014178       0x70
+ *(.got)
+ .got           0x0000000000014178       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000141e8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000141e8      0x2ec
+ *(.got.plt)
+ .got.plt       0x00000000000141e8      0x2ec /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000141e8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000144e0     0x1a80
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000144e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000144e0                __dso_handle
+ .data          0x00000000000144e4        0x0 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .data          0x00000000000144e4        0x0 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ *fill*         0x00000000000144e4       0x1c 00
+ .data.rel      0x0000000000014500       0x5c librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                0x0000000000014500                rumpns_emul_rump_sys_linux
+ .data.rel.local
+                0x000000000001455c       0x10 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .data          0x000000000001456c        0x0 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ *fill*         0x000000000001456c       0x14 00
+ .data.rel      0x0000000000014580     0x1800 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+                0x0000000000014580                rump_linux_sysent
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .data          0x0000000000015d80        0x0 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .data          0x0000000000015d80      0x1e0 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                0x0000000000015d80                rumpns_linux_sysctl_root
+                0x0000000000015de0                rumpns_linux_version
+                0x0000000000015e60                rumpns_linux_release
+                0x0000000000015ee0                rumpns_linux_sysname
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .data          0x0000000000015f60        0x0 librumpkern_sys_linux_pic.a(linux_signo.pico)
+ .data          0x0000000000015f60        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000015f60        0x0
+ .tm_clone_table
+                0x0000000000015f60        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000015f60        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x0000000000015f60        0x4
+                0x0000000000015f60                . = ALIGN (0x4)
+                0x0000000000015f60                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000015f60        0x4 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                0x0000000000015f64                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000015f64                _edata = .
+                0x0000000000015f64                PROVIDE (edata, .)
+                0x0000000000015f64                __bss_start = .
+
+.bss            0x0000000000015f64       0x18
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000015f64        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .bss           0x0000000000015f6c        0x0 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .bss           0x0000000000015f6c        0x8 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .bss           0x0000000000015f74        0x0 librumpkern_sys_linux_pic.a(linux_signo.pico)
+ .bss           0x0000000000015f74        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000015f74        0x8 librumpkern_sys_linux_pic.a(linux_time.pico)
+                0x0000000000015f74                rumpns_linux_sys_tz
+                0x0000000000015f7c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000015f7c                . = ALIGN (0x4)
+                0x0000000000015f7c                . = ALIGN (0x4)
+                0x0000000000015f7c                _end = .
+                0x0000000000015f7c                PROVIDE (end, .)
+                0x0000000000015f7c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sys_linux_pic.a(linux_signo.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x4d9
+ .ident         0x0000000000000000       0x3c librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .ident         0x000000000000003c       0x44 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .ident         0x0000000000000080       0x3c librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .ident         0x00000000000000bc       0x3f librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .ident         0x00000000000000fb       0x3e librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .ident         0x0000000000000139       0x41 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .ident         0x000000000000017a       0x3a librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .ident         0x00000000000001b4       0x3a librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .ident         0x00000000000001ee       0x3f librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .ident         0x000000000000022d       0x3b librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .ident         0x0000000000000268       0x40 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .ident         0x00000000000002a8       0x40 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .ident         0x00000000000002e8       0x42 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .ident         0x000000000000032a       0x3e librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .ident         0x0000000000000368       0x39 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .ident         0x00000000000003a1       0x3d librumpkern_sys_linux_pic.a(linux_file.pico)
+ .ident         0x00000000000003de       0x3e librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .ident         0x000000000000041c       0x3d librumpkern_sys_linux_pic.a(linux_time.pico)
+ .ident         0x0000000000000459       0x80 librumpkern_sys_linux_pic.a(linux_signo.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x280
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x18 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .debug_aranges
+                0x0000000000000018       0x20 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .debug_aranges
+                0x0000000000000038       0x18 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .debug_aranges
+                0x0000000000000050       0x20 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .debug_aranges
+                0x0000000000000070       0x20 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_aranges
+                0x0000000000000090       0x20 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_aranges
+                0x00000000000000b0       0x20 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_aranges
+                0x00000000000000d0       0x20 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .debug_aranges
+                0x00000000000000f0       0x20 librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .debug_aranges
+                0x0000000000000110       0x20 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .debug_aranges
+                0x0000000000000130       0x20 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .debug_aranges
+                0x0000000000000150       0x20 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .debug_aranges
+                0x0000000000000170       0x20 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_aranges
+                0x0000000000000190       0x20 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_aranges
+                0x00000000000001b0       0x20 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_aranges
+                0x00000000000001d0       0x20 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_aranges
+                0x00000000000001f0       0x20 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .debug_aranges
+                0x0000000000000210       0x20 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .debug_aranges
+                0x0000000000000230       0x18 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .debug_aranges
+                0x0000000000000248       0x20 librumpkern_sys_linux_pic.a(linux_time.pico)
+ .debug_aranges
+                0x0000000000000268       0x18 librumpkern_sys_linux_pic.a(linux_signo.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x691a5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x79 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .debug_info    0x0000000000000079     0x560a librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .debug_info    0x0000000000005683      0x130 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .debug_info    0x00000000000057b3      0x50d librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .debug_info    0x0000000000005cc0     0x7a8b librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_info    0x000000000000d74b     0xc627 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_info    0x0000000000019d72     0x61c8 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_info    0x000000000001ff3a     0x4909 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .debug_info    0x0000000000024843     0x45de librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .debug_info    0x0000000000028e21     0x5917 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .debug_info    0x000000000002e738     0x46fa librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .debug_info    0x0000000000032e32      0x64e librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .debug_info    0x0000000000033480     0x4cc0 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_info    0x0000000000038140     0x4be0 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_info    0x000000000003cd20     0xf2c8 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_info    0x000000000004bfe8     0x699c librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_info    0x0000000000052984     0x4556 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .debug_info    0x0000000000056eda     0xd61a librumpkern_sys_linux_pic.a(linux_file.pico)
+ .debug_info    0x00000000000644f4       0x56 librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .debug_info    0x000000000006454a     0x4bab librumpkern_sys_linux_pic.a(linux_time.pico)
+ .debug_info    0x00000000000690f5       0xb0 librumpkern_sys_linux_pic.a(linux_signo.pico)
+
+.debug_abbrev   0x0000000000000000     0x3c19
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x26 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .debug_abbrev  0x0000000000000026      0x2cb librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .debug_abbrev  0x00000000000002f1       0x9d librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .debug_abbrev  0x000000000000038e      0x260 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .debug_abbrev  0x00000000000005ee      0x447 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_abbrev  0x0000000000000a35      0x592 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_abbrev  0x0000000000000fc7      0x2e1 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_abbrev  0x00000000000012a8      0x299 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .debug_abbrev  0x0000000000001541      0x27b librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .debug_abbrev  0x00000000000017bc      0x318 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .debug_abbrev  0x0000000000001ad4      0x288 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .debug_abbrev  0x0000000000001d5c      0x18d librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .debug_abbrev  0x0000000000001ee9      0x3b8 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_abbrev  0x00000000000022a1      0x367 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_abbrev  0x0000000000002608      0x56c librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_abbrev  0x0000000000002b74      0x4f4 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_abbrev  0x0000000000003068      0x285 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .debug_abbrev  0x00000000000032ed      0x580 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .debug_abbrev  0x000000000000386d       0x4e librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .debug_abbrev  0x00000000000038bb      0x30e librumpkern_sys_linux_pic.a(linux_time.pico)
+ .debug_abbrev  0x0000000000003bc9       0x50 librumpkern_sys_linux_pic.a(linux_signo.pico)
+
+.debug_line     0x0000000000000000     0x7d80
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x1d librumpkern_sys_linux_pic.a(linux_ipc.pico)
+ .debug_line    0x000000000000001d      0x713 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .debug_line    0x0000000000000730      0x15e librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+ .debug_line    0x000000000000088e      0x2aa librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .debug_line    0x0000000000000b38      0x858 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_line    0x0000000000001390      0xeb9 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_line    0x0000000000002249      0x772 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_line    0x00000000000029bb      0x559 librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .debug_line    0x0000000000002f14      0x4ac librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .debug_line    0x00000000000033c0      0x5be librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .debug_line    0x000000000000397e      0x488 librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .debug_line    0x0000000000003e06      0x308 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .debug_line    0x000000000000410e      0x7dd librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_line    0x00000000000048eb      0x618 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_line    0x0000000000004f03     0x1136 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_line    0x0000000000006039      0x75f librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_line    0x0000000000006798      0x49f librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .debug_line    0x0000000000006c37      0x9d4 librumpkern_sys_linux_pic.a(linux_file.pico)
+ .debug_line    0x000000000000760b       0xcb librumpkern_sys_linux_pic.a(linux_errno.pico)
+ .debug_line    0x00000000000076d6      0x52b librumpkern_sys_linux_pic.a(linux_time.pico)
+ .debug_line    0x0000000000007c01      0x17f librumpkern_sys_linux_pic.a(linux_signo.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0xa1a0
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x161 librumpkern_sys_linux_pic.a(linux_ipc.pico)
+                                        0x19a (size before relaxing)
+ .debug_str     0x0000000000000161     0x2e30 librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+                                       0x328d (size before relaxing)
+ .debug_str     0x0000000000002f91       0x91 librumpkern_sys_linux_pic.a(rump_linux_sysent.pico)
+                                        0x1d4 (size before relaxing)
+ .debug_str     0x0000000000003022      0x152 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+                                        0x273 (size before relaxing)
+ .debug_str     0x0000000000003174     0x13f2 librumpkern_sys_linux_pic.a(linux_file64.pico)
+                                       0x39c9 (size before relaxing)
+ .debug_str     0x0000000000004566     0x14c8 librumpkern_sys_linux_pic.a(linux_misc.pico)
+                                       0x4d3a (size before relaxing)
+ .debug_str     0x0000000000005a2e      0x1ca librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+                                       0x33ed (size before relaxing)
+ .debug_str     0x0000000000005bf8      0x30a librumpkern_sys_linux_pic.a(linux_hdio.pico)
+                                       0x284b (size before relaxing)
+ .debug_str     0x0000000000005f02      0x1ee librumpkern_sys_linux_pic.a(linux_fdio.pico)
+                                       0x2702 (size before relaxing)
+ .debug_str     0x00000000000060f0      0x7cd librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+                                       0x2d8e (size before relaxing)
+ .debug_str     0x00000000000068bd       0xab librumpkern_sys_linux_pic.a(linux_blkio.pico)
+                                       0x278e (size before relaxing)
+ .debug_str     0x0000000000006968       0xcb librumpkern_sys_linux_pic.a(linux_rump.pico)
+                                        0x224 (size before relaxing)
+ .debug_str     0x0000000000006a33      0x1a3 librumpkern_sys_linux_pic.a(linux_termios.pico)
+                                       0x272c (size before relaxing)
+ .debug_str     0x0000000000006bd6      0x22d librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+                                       0x27cb (size before relaxing)
+ .debug_str     0x0000000000006e03     0x1c96 librumpkern_sys_linux_pic.a(linux_socket.pico)
+                                       0x5af6 (size before relaxing)
+ .debug_str     0x0000000000008a99      0x85c librumpkern_sys_linux_pic.a(linux_signal.pico)
+                                       0x2ba2 (size before relaxing)
+ .debug_str     0x00000000000092f5      0x132 librumpkern_sys_linux_pic.a(linux_mtio.pico)
+                                       0x263c (size before relaxing)
+ .debug_str     0x0000000000009427      0x8db librumpkern_sys_linux_pic.a(linux_file.pico)
+                                       0x4756 (size before relaxing)
+ .debug_str     0x0000000000009d02       0xab librumpkern_sys_linux_pic.a(linux_errno.pico)
+                                         0xdb (size before relaxing)
+ .debug_str     0x0000000000009dad      0x348 librumpkern_sys_linux_pic.a(linux_time.pico)
+                                       0x23e5 (size before relaxing)
+ .debug_str     0x000000000000a0f5       0xab librumpkern_sys_linux_pic.a(linux_signo.pico)
+                                        0x1c2 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x7bbc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c librumpkern_sys_linux_pic.a(sys_linux_component.pico)
+ .debug_loc     0x000000000000002c      0x148 librumpkern_sys_linux_pic.a(linux_pipe.pico)
+ .debug_loc     0x0000000000000174      0x668 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_loc     0x00000000000007dc     0x1bec librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_loc     0x00000000000023c8      0x11e librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_loc     0x00000000000024e6      0x1ff librumpkern_sys_linux_pic.a(linux_hdio.pico)
+ .debug_loc     0x00000000000026e5      0x11b librumpkern_sys_linux_pic.a(linux_fdio.pico)
+ .debug_loc     0x0000000000002800      0x4a0 librumpkern_sys_linux_pic.a(linux_cdrom.pico)
+ .debug_loc     0x0000000000002ca0      0x18c librumpkern_sys_linux_pic.a(linux_blkio.pico)
+ .debug_loc     0x0000000000002e2c       0x44 librumpkern_sys_linux_pic.a(linux_rump.pico)
+ .debug_loc     0x0000000000002e70      0x746 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_loc     0x00000000000035b6      0x1e8 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_loc     0x000000000000379e     0x2322 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_loc     0x0000000000005ac0      0xd21 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_loc     0x00000000000067e1      0x16b librumpkern_sys_linux_pic.a(linux_mtio.pico)
+ .debug_loc     0x000000000000694c      0xeea librumpkern_sys_linux_pic.a(linux_file.pico)
+ .debug_loc     0x0000000000007836      0x386 librumpkern_sys_linux_pic.a(linux_time.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x700
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 librumpkern_sys_linux_pic.a(linux_file64.pico)
+ .debug_ranges  0x0000000000000018       0xa8 librumpkern_sys_linux_pic.a(linux_misc.pico)
+ .debug_ranges  0x00000000000000c0       0x18 librumpkern_sys_linux_pic.a(linux_ioctl.pico)
+ .debug_ranges  0x00000000000000d8      0x150 librumpkern_sys_linux_pic.a(linux_termios.pico)
+ .debug_ranges  0x0000000000000228       0x20 librumpkern_sys_linux_pic.a(linux_sysctl.pico)
+ .debug_ranges  0x0000000000000248      0x370 librumpkern_sys_linux_pic.a(linux_socket.pico)
+ .debug_ranges  0x00000000000005b8       0x18 librumpkern_sys_linux_pic.a(linux_signal.pico)
+ .debug_ranges  0x00000000000005d0      0x130 librumpkern_sys_linux_pic.a(linux_file.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpkern_sys_linux.so.0.0 elf32-i386)

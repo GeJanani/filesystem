@@ -1,0 +1,2692 @@
+Archive member included because of file (symbol)
+
+librumpvfs_pic.a(rumpvnode_if.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_syscalls_50.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(firmload.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(quota1_subr.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(mfs_miniroot.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(bufq_readprio.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(bufq_priocscan.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(bufq_fcfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(bufq_disksort.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(subr_bufq.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(genfs_rename.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_wapbl.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(rumpvfs_syscalls.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(compat.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(kern_ktrace_vfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_xattr.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_quotactl.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(spec_vnops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(genfs_vnops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(genfs_vfsops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(genfs_io.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(dead_vnops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(sync_vnops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(sync_subr.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(uvm_vnode.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(subr_kobj_vfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(kern_module_vfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_vnops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_vnode.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(dead_vfsops.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_trans.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_syscalls.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_subr.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_mount.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_lookup.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_getcwd.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_init.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_hooks.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_dirhash.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(rumpfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vm_vfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(rumpblk.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(kern_physio.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(rump_vfs.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_lockf.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_cwd.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_cache.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(vfs_bio.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(devnull.pico)
+                              (--whole-archive)
+librumpvfs_pic.a(devnodes.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_spec_vnodeop_p
+                    0x4               librumpvfs_pic.a(spec_vnops.pico)
+rumpns_invalhash    0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_rootvnode    0x4               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_vfs_hooks_lock
+                    0x4               librumpvfs_pic.a(vfs_hooks.pico)
+rumpns_vfs_list_lock
+                    0x4               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_mountlist_lock
+                    0x4               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_bufmem_hiwater
+                    0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_mountlist    0x8               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_bufhash      0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_bufcache_lock
+                    0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_root_device  0x4               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_mfs_rootbase
+                    0x4               librumpvfs_pic.a(mfs_miniroot.pico)
+rumpns_dead_vnodeop_p
+                    0x4               librumpvfs_pic.a(dead_vnops.pico)
+rumpns_rootfstime   0x8               librumpvfs_pic.a(vfs_subr.pico)
+rumpns_fifo_vnodeop_p
+                    0x4               librumpvfs_pic.a(rumpfs.pico)
+rump_vnodeop_p      0x4               librumpvfs_pic.a(rumpfs.pico)
+rumpns_vn_union_readdir_hook
+                    0x4               librumpvfs_pic.a(vfs_vnops.pico)
+rumpns_physio_workqueue
+                    0x4               librumpvfs_pic.a(kern_physio.pico)
+rumpns_sync_vnodeop_p
+                    0x4               librumpvfs_pic.a(sync_vnops.pico)
+rumpns_bufmem       0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_bufmem_valimit
+                    0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_bufmem_lowater
+                    0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_buffer_lock  0x4               librumpvfs_pic.a(vfs_bio.pico)
+rump_specop_p       0x4               librumpvfs_pic.a(rumpfs.pico)
+rumpns_syncer_mutex
+                    0x4               librumpvfs_pic.a(sync_subr.pico)
+rumpns_kinfo_vgetfailed
+                    0x4               librumpvfs_pic.a(vfs_subr.pico)
+rumpns_bufqueues    0x50              librumpvfs_pic.a(vfs_bio.pico)
+rumpns_bufhashtbl   0x4               librumpvfs_pic.a(vfs_bio.pico)
+rumpns_mfs_rootsize
+                    0x4               librumpvfs_pic.a(mfs_miniroot.pico)
+rumpns_mntvnode_lock
+                    0x4               librumpvfs_pic.a(vfs_mount.pico)
+rumpns_nbuf         0x4               librumpvfs_pic.a(vfs_bio.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpvnode_if.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpvnode_if.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(firmload.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(firmload.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(mfs_miniroot.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(mfs_miniroot.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(bufq_readprio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(bufq_readprio.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(bufq_priocscan.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(bufq_priocscan.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(bufq_fcfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(bufq_fcfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(bufq_disksort.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(bufq_disksort.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(subr_bufq.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(subr_bufq.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(genfs_rename.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(genfs_rename.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_wapbl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_wapbl.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_xattr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_xattr.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_quotactl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_quotactl.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(spec_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(spec_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(spec_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(genfs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(genfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(genfs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(genfs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(genfs_io.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(genfs_io.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(dead_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(dead_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(sync_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(sync_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(sync_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(sync_subr.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(uvm_vnode.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(uvm_vnode.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(kern_module_vfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(kern_module_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_vnode.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_vnode.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(dead_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(dead_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_trans.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_trans.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_syscalls.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_syscalls.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_subr.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_mount.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_mount.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_lookup.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_lookup.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_getcwd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_getcwd.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_init.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_init.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_hooks.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_hooks.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_dirhash.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_dirhash.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpfs.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vm_vfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vm_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpblk.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rumpblk.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpblk.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rumpblk.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(kern_physio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(kern_physio.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rump_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(rump_vfs.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rump_vfs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(rump_vfs.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_lockf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_lockf.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_cwd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_cwd.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_cache.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_cache.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_bio.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(vfs_bio.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_bio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(vfs_bio.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(devnull.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(devnull.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_pic.a(devnodes.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_pic.a(devnodes.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpvfs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4     0x22f4
+ *(.hash)
+ .hash          0x00000000000000b4     0x22f4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000023a8     0x4b40
+ *(.dynsym)
+ .dynsym        0x00000000000023a8     0x4b40 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000006ee8     0x60bc
+ *(.dynstr)
+ .dynstr        0x0000000000006ee8     0x60bc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x000000000000cfa4      0x968
+ *(.gnu.version)
+ .gnu.version   0x000000000000cfa4      0x968 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x000000000000d90c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x000000000000d90c       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000000000000d90c       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x000000000000d92c     0x1518
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.text.unlikely
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x000000000000d92c      0x260 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x000000000000db8c      0xbe8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x000000000000e774      0x208 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x000000000000e97c       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000000000000e9a4      0x450 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_sysctl_funcs
+                0x000000000000edf4       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_bufq_strats
+                0x000000000000ee04       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x000000000000ee2c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x000000000000ee34       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x000000000000ee44     0x1288
+ *(.rel.plt)
+ .rel.plt       0x000000000000ee44     0x1288 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000100cc        0xa
+ *(.init)
+ .init          0x00000000000100cc        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000100d1        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000100e0     0x2520
+ *(.plt)
+ .plt           0x00000000000100e0     0x2520 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000012600    0x41178
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x0000000000012600       0x4a librumpvfs_pic.a(vfs_wapbl.pico)
+ .text.unlikely
+                0x000000000001264a       0x37 librumpvfs_pic.a(vfs_vnode.pico)
+ .text.unlikely
+                0x0000000000012681       0x48 librumpvfs_pic.a(vfs_lookup.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x00000000000126c9        0x7 90909090
+ .text          0x00000000000126d0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000001280b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001280b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000001280f        0x1 90909090
+ .text          0x0000000000012810     0x119c librumpvfs_pic.a(rumpvnode_if.pico)
+                0x0000000000012810                RUMP_VOP_BWRITE
+                0x0000000000012860                RUMP_VOP_LOOKUP
+                0x00000000000128b0                RUMP_VOP_CREATE
+                0x0000000000012910                RUMP_VOP_MKNOD
+                0x0000000000012970                RUMP_VOP_OPEN
+                0x00000000000129c0                RUMP_VOP_CLOSE
+                0x0000000000012a10                RUMP_VOP_ACCESS
+                0x0000000000012a60                RUMP_VOP_GETATTR
+                0x0000000000012ab0                RUMP_VOP_SETATTR
+                0x0000000000012b00                RUMP_VOP_READ
+                0x0000000000012b60                RUMP_VOP_WRITE
+                0x0000000000012bc0                RUMP_VOP_FALLOCATE
+                0x0000000000012c40                RUMP_VOP_FDISCARD
+                0x0000000000012cc0                RUMP_VOP_IOCTL
+                0x0000000000012d20                RUMP_VOP_FCNTL
+                0x0000000000012d80                RUMP_VOP_POLL
+                0x0000000000012dd0                RUMP_VOP_KQFILTER
+                0x0000000000012e20                RUMP_VOP_REVOKE
+                0x0000000000012e70                RUMP_VOP_MMAP
+                0x0000000000012ec0                RUMP_VOP_FSYNC
+                0x0000000000012f50                RUMP_VOP_SEEK
+                0x0000000000012fd0                RUMP_VOP_REMOVE
+                0x0000000000013020                RUMP_VOP_LINK
+                0x0000000000013070                RUMP_VOP_RENAME
+                0x00000000000130e0                RUMP_VOP_MKDIR
+                0x0000000000013140                RUMP_VOP_RMDIR
+                0x0000000000013190                RUMP_VOP_SYMLINK
+                0x00000000000131f0                RUMP_VOP_READDIR
+                0x0000000000013260                RUMP_VOP_READLINK
+                0x00000000000132b0                RUMP_VOP_ABORTOP
+                0x0000000000013300                RUMP_VOP_INACTIVE
+                0x0000000000013350                RUMP_VOP_RECLAIM
+                0x0000000000013390                RUMP_VOP_LOCK
+                0x00000000000133e0                RUMP_VOP_UNLOCK
+                0x0000000000013420                RUMP_VOP_BMAP
+                0x0000000000013490                RUMP_VOP_STRATEGY
+                0x00000000000134e0                RUMP_VOP_PRINT
+                0x0000000000013520                RUMP_VOP_ISLOCKED
+                0x0000000000013560                RUMP_VOP_PATHCONF
+                0x00000000000135b0                RUMP_VOP_ADVLOCK
+                0x0000000000013610                RUMP_VOP_WHITEOUT
+                0x0000000000013660                RUMP_VOP_GETPAGES
+                0x00000000000136f0                RUMP_VOP_PUTPAGES
+                0x0000000000013770                RUMP_VOP_CLOSEEXTATTR
+                0x00000000000137c0                RUMP_VOP_GETEXTATTR
+                0x0000000000013830                RUMP_VOP_LISTEXTATTR
+                0x00000000000138a0                RUMP_VOP_OPENEXTATTR
+                0x00000000000138f0                RUMP_VOP_DELETEEXTATTR
+                0x0000000000013950                RUMP_VOP_SETEXTATTR
+ *fill*         0x00000000000139ac        0x4 90909090
+ .text          0x00000000000139b0      0x858 librumpvfs_pic.a(vfs_syscalls_50.pico)
+                0x0000000000013b10                rumpns_compat_50_sys___stat30
+                0x0000000000013bb0                rumpns_compat_50_sys___lstat30
+                0x0000000000013c50                rumpns_compat_50_sys___fstat30
+                0x0000000000013cf0                rumpns_compat_50_sys___fhstat40
+                0x0000000000013da0                rumpns_compat_50_sys_utimes
+                0x0000000000013dd0                rumpns_compat_50_sys_futimes
+                0x0000000000013e50                rumpns_compat_50_sys_lutimes
+                0x0000000000013e80                rumpns_compat_50_sys_lfs_segwait
+                0x0000000000013e90                rumpns_compat_50_sys_mknod
+                0x0000000000013ee0                rumpns_compat_50_sys_quotactl
+ *fill*         0x0000000000014208        0x8 90909090
+ .text          0x0000000000014210      0x970 librumpvfs_pic.a(firmload.pico)
+                0x0000000000014350                rumpns_sysctl_hw_firmware_setup
+                0x0000000000014690                rumpns_firmware_open
+                0x0000000000014a20                rumpns_firmware_close
+                0x0000000000014a80                rumpns_firmware_get_size
+                0x0000000000014a90                rumpns_firmware_read
+                0x0000000000014b30                rumpns_firmware_malloc
+                0x0000000000014b60                rumpns_firmware_free
+ .text          0x0000000000014b80      0x160 librumpvfs_pic.a(quota1_subr.pico)
+                0x0000000000014b80                rumpns_dqblk_to_quotavals
+                0x0000000000014c50                rumpns_quotavals_to_dqblk
+ .text          0x0000000000014ce0       0x9f librumpvfs_pic.a(mfs_miniroot.pico)
+                0x0000000000014ce0                rumpns_mfs_initminiroot
+ *fill*         0x0000000000014d7f        0x1 90909090
+ .text          0x0000000000014d80      0x43e librumpvfs_pic.a(bufq_readprio.pico)
+ *fill*         0x00000000000151be        0x2 90909090
+ .text          0x00000000000151c0      0x6f1 librumpvfs_pic.a(bufq_priocscan.pico)
+ *fill*         0x00000000000158b1        0xf 90909090
+ .text          0x00000000000158c0      0x196 librumpvfs_pic.a(bufq_fcfs.pico)
+ *fill*         0x0000000000015a56        0xa 90909090
+ .text          0x0000000000015a60      0x3f5 librumpvfs_pic.a(bufq_disksort.pico)
+ *fill*         0x0000000000015e55        0xb 90909090
+ .text          0x0000000000015e60      0x60f librumpvfs_pic.a(subr_bufq.pico)
+                0x0000000000016130                rumpns_bufq_alloc
+                0x00000000000162e0                rumpns_bufq_put
+                0x0000000000016300                rumpns_bufq_get
+                0x0000000000016320                rumpns_bufq_peek
+                0x0000000000016340                rumpns_bufq_cancel
+                0x0000000000016360                rumpns_bufq_drain
+                0x00000000000163a0                rumpns_bufq_free
+                0x0000000000016420                rumpns_bufq_getstrategyname
+                0x0000000000016430                rumpns_bufq_move
+ *fill*         0x000000000001646f        0x1 90909090
+ .text          0x0000000000016470     0x3ec9 librumpvfs_pic.a(genfs_rename.pico)
+                0x00000000000172d0                rumpns_genfs_insane_rename
+                0x00000000000176f0                rumpns_genfs_sane_rename
+                0x00000000000190f0                rumpns_genfs_rename_knote
+                0x0000000000019670                rumpns_genfs_rename_cache_purge
+                0x0000000000019a50                rumpns_genfs_ufslike_rename_check_possible
+                0x0000000000019ab0                rumpns_genfs_ufslike_rename_check_permitted
+                0x000000000001a070                rumpns_genfs_ufslike_remove_check_possible
+                0x000000000001a090                rumpns_genfs_ufslike_remove_check_permitted
+ *fill*         0x000000000001a339        0x7 90909090
+ .text          0x000000000001a340     0x58cf librumpvfs_pic.a(vfs_wapbl.pico)
+                0x000000000001a590                rumpns_wapbl_replay_can_read
+                0x000000000001b430                rumpns_wapbl_biodone
+                0x000000000001b720                rumpns_wapbl_discard
+                0x000000000001bae0                rumpns_wapbl_resize_buf
+                0x000000000001bb90                rumpns_wapbl_junlock_assert
+                0x000000000001bd30                rumpns_wapbl_end
+                0x000000000001c510                rumpns_wapbl_write
+                0x000000000001c560                rumpns_wapbl_read
+                0x000000000001c790                rumpns_wapbl_replay_read
+                0x000000000001c8b0                rumpns_wapbl_jlock_assert
+                0x000000000001cbd0                rumpns_wapbl_flush
+                0x000000000001de30                rumpns_wapbl_begin
+                0x000000000001df10                rumpns_wapbl_stop
+                0x000000000001e240                rumpns_wapbl_remove_buf
+                0x000000000001e290                rumpns_wapbl_add_buf
+                0x000000000001e430                rumpns_wapbl_print
+                0x000000000001e7b0                rumpns_wapbl_register_deallocation
+                0x000000000001e860                rumpns_wapbl_register_inode
+                0x000000000001e950                rumpns_wapbl_start
+                0x000000000001f130                rumpns_wapbl_unregister_inode
+                0x000000000001f230                rumpns_wapbl_replay_stop
+                0x000000000001f2e0                rumpns_wapbl_replay_free
+                0x000000000001f330                rumpns_wapbl_replay_start
+                0x000000000001fb30                rumpns_wapbl_replay_write
+ *fill*         0x000000000001fc0f        0x1 90909090
+ .text          0x000000000001fc10       0x2a librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ *fill*         0x000000000001fc3a        0x6 90909090
+ .text          0x000000000001fc40      0x7e2 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+                0x000000000001fc40                rump_vfs_unavailable
+                0x000000000001fc40                rump_syspuffs_glueinit
+                0x000000000001fc60                rump_pub_getvninfo
+                0x000000000001fcb0                rump_pub_vfslist_iterate
+                0x000000000001fcf0                rump_pub_vfs_getopsbyname
+                0x000000000001fd30                rump_pub_vattr_init
+                0x000000000001fd70                rump_pub_vattr_settype
+                0x000000000001fdb0                rump_pub_vattr_setmode
+                0x000000000001fdf0                rump_pub_vattr_setrdev
+                0x000000000001fe40                rump_pub_vattr_free
+                0x000000000001fe70                rump_pub_vp_incref
+                0x000000000001fea0                rump_pub_vp_getref
+                0x000000000001fee0                rump_pub_vp_rele
+                0x000000000001ff10                rump_pub_vp_interlock
+                0x000000000001ff40                rump_pub_freecn
+                0x000000000001ff80                rump_pub_namei
+                0x000000000001fff0                rump_pub_makecn
+                0x0000000000020060                rump_pub_vfs_unmount
+                0x00000000000200b0                rump_pub_vfs_root
+                0x0000000000020100                rump_pub_vfs_statvfs
+                0x0000000000020150                rump_pub_vfs_sync
+                0x00000000000201a0                rump_pub_vfs_fhtovp
+                0x00000000000201f0                rump_pub_vfs_vptofh
+                0x0000000000020240                rump_pub_vfs_extattrctl
+                0x00000000000202a0                rump_pub_vfs_syncwait
+                0x00000000000202d0                rump_pub_vfs_getmp
+                0x0000000000020320                rump_pub_vfs_mount_print
+                0x0000000000020360                rump_pub_syspuffs_glueinit
+                0x00000000000203b0                rump_pub_vattr50_to_vattr
+                0x00000000000203f0                rump_pub_vattr_to_vattr50
+ *fill*         0x0000000000020422        0xe 90909090
+ .text          0x0000000000020430      0x18b librumpvfs_pic.a(compat.pico)
+                0x0000000000020430                rump_vattr50_to_vattr
+                0x0000000000020510                rump_vattr_to_vattr50
+ *fill*         0x00000000000205bb        0x5 90909090
+ .text          0x00000000000205c0      0x256 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+                0x00000000000205c0                rumpns_sys_ktrace
+ *fill*         0x0000000000020816        0xa 90909090
+ .text          0x0000000000020820     0x201a librumpvfs_pic.a(vfs_xattr.pico)
+                0x0000000000020fe0                rumpns_extattr_check_cred
+                0x0000000000021070                rumpns_vfs_stdextattrctl
+                0x00000000000210a0                rumpns_sys_extattrctl
+                0x0000000000021240                rumpns_sys_extattr_set_fd
+                0x0000000000021320                rumpns_sys_extattr_set_file
+                0x0000000000021410                rumpns_sys_extattr_set_link
+                0x0000000000021500                rumpns_sys_extattr_get_fd
+                0x00000000000215d0                rumpns_sys_extattr_get_file
+                0x00000000000216b0                rumpns_sys_extattr_get_link
+                0x0000000000021790                rumpns_sys_extattr_delete_fd
+                0x0000000000021850                rumpns_sys_extattr_delete_file
+                0x0000000000021920                rumpns_sys_extattr_delete_link
+                0x00000000000219f0                rumpns_sys_extattr_list_fd
+                0x0000000000021a80                rumpns_sys_extattr_list_file
+                0x0000000000021b10                rumpns_sys_extattr_list_link
+                0x0000000000021ba0                rumpns_sys_setxattr
+                0x0000000000021cc0                rumpns_sys_lsetxattr
+                0x0000000000021de0                rumpns_sys_fsetxattr
+                0x0000000000021f00                rumpns_sys_getxattr
+                0x0000000000021ff0                rumpns_sys_lgetxattr
+                0x00000000000220e0                rumpns_sys_fgetxattr
+                0x00000000000221e0                rumpns_sys_listxattr
+                0x0000000000022320                rumpns_sys_llistxattr
+                0x0000000000022460                rumpns_sys_flistxattr
+                0x00000000000225a0                rumpns_sys_removexattr
+                0x0000000000022680                rumpns_sys_lremovexattr
+                0x0000000000022760                rumpns_sys_fremovexattr
+ *fill*         0x000000000002283a        0x6 90909090
+ .text          0x0000000000022840      0x398 librumpvfs_pic.a(vfs_quotactl.pico)
+                0x0000000000022840                rumpns_vfs_quotactl_stat
+                0x0000000000022880                rumpns_vfs_quotactl_idtypestat
+                0x00000000000228c0                rumpns_vfs_quotactl_objtypestat
+                0x0000000000022900                rumpns_vfs_quotactl_get
+                0x0000000000022940                rumpns_vfs_quotactl_put
+                0x0000000000022980                rumpns_vfs_quotactl_del
+                0x00000000000229c0                rumpns_vfs_quotactl_cursoropen
+                0x0000000000022a00                rumpns_vfs_quotactl_cursorclose
+                0x0000000000022a40                rumpns_vfs_quotactl_cursorskipidtype
+                0x0000000000022a80                rumpns_vfs_quotactl_cursorget
+                0x0000000000022ae0                rumpns_vfs_quotactl_cursoratend
+                0x0000000000022b20                rumpns_vfs_quotactl_cursorrewind
+                0x0000000000022b60                rumpns_vfs_quotactl_quotaon
+                0x0000000000022ba0                rumpns_vfs_quotactl_quotaoff
+ *fill*         0x0000000000022bd8        0x8 90909090
+ .text          0x0000000000022be0     0x238d librumpvfs_pic.a(spec_vnops.pico)
+                0x0000000000022c00                rumpns_spec_lookup
+                0x0000000000022c20                rumpns_spec_bmap
+                0x0000000000022c60                rumpns_spec_pathconf
+                0x0000000000022cd0                rumpns_spec_advlock
+                0x0000000000022d20                rumpns_spec_print
+                0x0000000000022d90                rumpns_spec_inactive
+                0x0000000000022dc0                rumpns_spec_close
+                0x0000000000023140                rumpns_spec_strategy
+                0x0000000000023220                rumpns_spec_mmap
+                0x00000000000232c0                rumpns_spec_kqfilter
+                0x0000000000023320                rumpns_spec_poll
+                0x00000000000233f0                rumpns_spec_ioctl
+                0x0000000000023560                rumpns_spec_fdiscard
+                0x00000000000236c0                rumpns_spec_write
+                0x0000000000023a80                rumpns_spec_read
+                0x0000000000023dc0                rumpns_spec_open
+                0x00000000000242a0                rumpns_iskmemdev
+                0x0000000000024320                rumpns_iskmemvp
+                0x0000000000024370                rumpns_spec_init
+                0x00000000000243b0                rumpns_spec_node_init
+                0x0000000000024660                rumpns_spec_node_lookup_by_dev
+                0x00000000000247e0                rumpns_spec_node_lookup_by_mount
+                0x00000000000248b0                rumpns_spec_node_getmountedfs
+                0x0000000000024920                rumpns_spec_fsync
+                0x00000000000249a0                rumpns_spec_node_setmountedfs
+                0x0000000000024a70                rumpns_spec_node_revoke
+                0x0000000000024c80                rumpns_spec_node_destroy
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000024f6d        0x4 librumpvfs_pic.a(spec_vnops.pico)
+                0x0000000000024f6d                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000024f71        0xf 90909090
+ .text          0x0000000000024f80     0x118b librumpvfs_pic.a(genfs_vnops.pico)
+                0x0000000000025280                rumpns_genfs_poll
+                0x0000000000025290                rumpns_genfs_seek
+                0x00000000000252a0                rumpns_genfs_abortop
+                0x00000000000252b0                rumpns_genfs_fcntl
+                0x00000000000252d0                rumpns_genfs_badop
+                0x00000000000252f0                rumpns_genfs_nullop
+                0x0000000000025300                rumpns_genfs_einval
+                0x0000000000025310                rumpns_genfs_eopnotsupp
+                0x0000000000025490                rumpns_genfs_ebadf
+                0x00000000000254a0                rumpns_genfs_enoioctl
+                0x00000000000254b0                rumpns_genfs_revoke
+                0x00000000000254f0                rumpns_genfs_deadlock
+                0x0000000000025720                rumpns_genfs_deadunlock
+                0x0000000000025750                rumpns_genfs_lock
+                0x0000000000025910                rumpns_genfs_unlock
+                0x0000000000025960                rumpns_genfs_islocked
+                0x00000000000259d0                rumpns_genfs_nolock
+                0x00000000000259e0                rumpns_genfs_nounlock
+                0x00000000000259f0                rumpns_genfs_noislocked
+                0x0000000000025a00                rumpns_genfs_mmap
+                0x0000000000025a10                rumpns_genfs_null_putpages
+                0x0000000000025a90                rumpns_genfs_node_init
+                0x0000000000025ad0                rumpns_genfs_node_destroy
+                0x0000000000025b00                rumpns_genfs_size
+                0x0000000000025b60                rumpns_genfs_kqfilter
+                0x0000000000025c00                rumpns_genfs_node_wrlock
+                0x0000000000025c40                rumpns_genfs_node_rdlock
+                0x0000000000025c80                rumpns_genfs_node_rdtrylock
+                0x0000000000025cc0                rumpns_genfs_node_unlock
+                0x0000000000025cf0                rumpns_genfs_node_wrlocked
+                0x0000000000025d20                rumpns_genfs_can_access
+                0x0000000000025e30                rumpns_genfs_can_chmod
+                0x0000000000025ed0                rumpns_genfs_can_chown
+                0x0000000000025f70                rumpns_genfs_can_chtimes
+                0x0000000000025ff0                rumpns_genfs_can_chflags
+                0x0000000000026060                rumpns_genfs_can_sticky
+                0x00000000000260b0                rumpns_genfs_can_extattr
+ *fill*         0x000000000002610b        0x5 90909090
+ .text          0x0000000000026110      0x103 librumpvfs_pic.a(genfs_vfsops.pico)
+                0x0000000000026110                rumpns_genfs_statvfs
+                0x00000000000261c0                rumpns_genfs_renamelock_enter
+                0x00000000000261f0                rumpns_genfs_renamelock_exit
+ *fill*         0x0000000000026213        0xd 90909090
+ .text          0x0000000000026220     0x3ec5 librumpvfs_pic.a(genfs_io.pico)
+                0x0000000000026a00                rumpns_genfs_getpages
+                0x0000000000028430                rumpns_genfs_do_putpages
+                0x0000000000029430                rumpns_genfs_putpages
+                0x0000000000029480                rumpns_genfs_gop_write
+                0x0000000000029510                rumpns_genfs_gop_write_rwmap
+                0x00000000000295a0                rumpns_genfs_compat_getpages
+                0x0000000000029960                rumpns_genfs_compat_gop_write
+                0x0000000000029ad0                rumpns_genfs_directio
+ *fill*         0x000000000002a0e5        0xb 90909090
+ .text          0x000000000002a0f0      0x2e0 librumpvfs_pic.a(dead_vnops.pico)
+                0x000000000002a0f0                rumpns_dead_default_error
+                0x000000000002a100                rumpns_dead_bmap
+                0x000000000002a110                rumpns_dead_lookup
+                0x000000000002a130                rumpns_dead_open
+                0x000000000002a140                rumpns_dead_read
+                0x000000000002a160                rumpns_dead_write
+                0x000000000002a170                rumpns_dead_ioctl
+                0x000000000002a180                rumpns_dead_poll
+                0x000000000002a190                rumpns_dead_putpages
+                0x000000000002a1c0                rumpns_dead_print
+                0x000000000002a1f0                rumpns_dead_strategy
+                0x000000000002a230                rumpns_dead_inactive
+                0x000000000002a260                rumpns_dead_rmdir
+                0x000000000002a2b0                rumpns_dead_link
+                0x000000000002a2e0                rumpns_dead_remove
+                0x000000000002a330                rumpns_dead_rename
+                0x000000000002a3a0                rumpns_dead_getpages
+ .text          0x000000000002a3d0      0x30b librumpvfs_pic.a(sync_vnops.pico)
+                0x000000000002a3d0                rumpns_sync_reclaim
+                0x000000000002a3e0                rumpns_sync_print
+                0x000000000002a410                rumpns_sync_inactive
+                0x000000000002a440                rumpns_sync_fsync
+                0x000000000002a520                rumpns_vfs_allocate_syncvnode
+                0x000000000002a680                rumpns_vfs_deallocate_syncvnode
+ *fill*         0x000000000002a6db        0x5 90909090
+ .text          0x000000000002a6e0      0x7c0 librumpvfs_pic.a(sync_subr.pico)
+                0x000000000002a860                rumpns_vn_initialize_syncerd
+                0x000000000002ab70                rumpns_vn_syncer_add_to_worklist
+                0x000000000002ac10                rumpns_vn_syncer_remove_from_worklist
+                0x000000000002acf0                rumpns_sched_sync
+ .text          0x000000000002aea0      0xb29 librumpvfs_pic.a(uvm_vnode.pico)
+                0x000000000002b360                rumpns_uvn_findpages
+                0x000000000002b4b0                rumpns_uvm_vnp_setsize
+                0x000000000002b760                rumpns_uvm_vnp_setwritesize
+                0x000000000002b950                rumpns_uvn_text_p
+                0x000000000002b960                rumpns_uvn_clean_p
+                0x000000000002b980                rumpns_uvn_needs_writefault_p
+ *fill*         0x000000000002b9c9        0x7 90909090
+ .text          0x000000000002b9d0      0x403 librumpvfs_pic.a(subr_kobj_vfs.pico)
+                0x000000000002bc10                rumpns_kobj_load_vfs
+ *fill*         0x000000000002bdd3        0xd 90909090
+ .text          0x000000000002bde0      0x69a librumpvfs_pic.a(kern_module_vfs.pico)
+                0x000000000002bde0                rumpns_module_load_vfs
+                0x000000000002c440                rumpns_module_load_vfs_init
+ *fill*         0x000000000002c47a        0x6 90909090
+ .text          0x000000000002c480     0x1e6a librumpvfs_pic.a(vfs_vnops.pico)
+                0x000000000002c620                rumpns_vn_kqfilter
+                0x000000000002c650                rumpns_vn_writechk
+                0x000000000002c670                rumpns_vn_openchk
+                0x000000000002c710                rumpns_vn_markexec
+                0x000000000002c7b0                rumpns_vn_marktext
+                0x000000000002c8c0                rumpns_vn_stat
+                0x000000000002cb10                rumpns_vn_lock
+                0x000000000002d620                rumpns_vn_readdir
+                0x000000000002d8b0                rumpns_vn_rdwr
+                0x000000000002da70                rumpns_vn_close
+                0x000000000002db80                rumpns_vn_open
+                0x000000000002df20                rumpns_vn_extattr_get
+                0x000000000002e030                rumpns_vn_extattr_set
+                0x000000000002e130                rumpns_vn_extattr_rm
+                0x000000000002e1f0                rumpns_vn_ra_allocctx
+                0x000000000002e2c0                rumpns_vn_fifo_bypass
+ *fill*         0x000000000002e2ea        0x6 90909090
+ .text          0x000000000002e2f0     0x420f librumpvfs_pic.a(vfs_vnode.pico)
+                0x000000000002e990                rumpns_vfs_vnode_sysinit
+                0x000000000002ed40                rumpns_vnalloc
+                0x000000000002ef30                rumpns_vnfree
+                0x000000000002ff00                rumpns_getnewvnode
+                0x0000000000030240                rumpns_ungetnewvnode
+                0x0000000000030350                rumpns_vremfree
+                0x00000000000304d0                rumpns_vrele
+                0x0000000000030600                rumpns_vput
+                0x0000000000030680                rumpns_vget
+                0x0000000000030890                rumpns_vrele_async
+                0x00000000000309c0                rumpns_vrele_flush
+                0x0000000000030a30                rumpns_vref
+                0x0000000000030ae0                rumpns_vholdl
+                0x0000000000030c70                rumpns_holdrelel
+                0x0000000000030e20                rumpns_vrecycle
+                0x0000000000030f30                rumpns_vgone
+                0x0000000000030fa0                rumpns_vrevoke
+                0x00000000000310c0                rumpns_vcache_get
+                0x00000000000317a0                rumpns_vcache_rekey_enter
+                0x0000000000031b70                rumpns_vcache_rekey_exit
+                0x0000000000031f60                rumpns_vcache_remove
+                0x0000000000032150                rumpns_vwakeup
+                0x0000000000032260                rumpns_vdead_check
+                0x0000000000032360                rumpns_vfs_drainvnodes
+ *fill*         0x00000000000324ff        0x1 90909090
+ .text          0x0000000000032500       0x1d librumpvfs_pic.a(dead_vfsops.pico)
+ *fill*         0x000000000003251d        0x3 90909090
+ .text          0x0000000000032520     0x13a3 librumpvfs_pic.a(vfs_trans.pico)
+                0x0000000000032c20                rumpns_fstrans_init
+                0x0000000000032d10                rumpns_fstrans_mount
+                0x0000000000032dc0                rumpns_fstrans_unmount
+                0x0000000000032e30                rumpns__fstrans_start
+                0x0000000000032f80                rumpns_fstrans_done
+                0x00000000000330c0                rumpns_fstrans_is_owner
+                0x00000000000331b0                rumpns_fstrans_setstate
+                0x0000000000033360                rumpns_fstrans_getstate
+                0x00000000000333d0                rumpns_vfs_suspend
+                0x0000000000033480                rumpns_vfs_resume
+                0x00000000000334d0                rumpns_fscow_establish
+                0x00000000000335b0                rumpns_fscow_disestablish
+                0x00000000000336b0                rumpns_fscow_run
+ *fill*         0x00000000000338c3        0xd 90909090
+ .text          0x00000000000338d0     0x7bef librumpvfs_pic.a(vfs_syscalls.pico)
+                0x00000000000354c0                rumpns_do_sys_mount
+                0x0000000000035cf0                rumpns_sys___mount50
+                0x0000000000035d50                rumpns_sys_unmount
+                0x0000000000035f20                rumpns_do_sys_sync
+                0x0000000000036000                rumpns_sys_sync
+                0x0000000000036030                rumpns_do_sys_quotactl
+                0x0000000000036550                rumpns_sys___quotactl
+                0x00000000000365b0                rumpns_dostatvfs
+                0x0000000000036930                rumpns_do_sys_pstatvfs
+                0x00000000000369b0                rumpns_sys_statvfs1
+                0x0000000000036a50                rumpns_do_sys_fstatvfs
+                0x0000000000036ad0                rumpns_sys_fstatvfs1
+                0x0000000000036b70                rumpns_do_sys_getvfsstat
+                0x0000000000036e10                rumpns_sys_getvfsstat
+                0x0000000000036e70                rumpns_sys_fchdir
+                0x0000000000037010                rumpns_change_root
+                0x0000000000037110                rumpns_sys_fchroot
+                0x0000000000037250                rumpns_chdir_lookup
+                0x0000000000037360                rumpns_sys_chroot
+                0x0000000000037430                rumpns_sys_chdir
+                0x00000000000374c0                rumpns_do_open
+                0x00000000000377c0                rumpns_fd_open
+                0x0000000000037860                rumpns_sys_open
+                0x00000000000378b0                rumpns_sys_openat
+                0x00000000000378f0                rumpns_vfs_composefh
+                0x00000000000379c0                rumpns_vfs_composefh_alloc
+                0x0000000000037b60                rumpns_vfs_composefh_free
+                0x0000000000037ba0                rumpns_vfs_fhtovp
+                0x0000000000037c10                rumpns_vfs_copyinfh_alloc
+                0x0000000000037d00                rumpns_vfs_copyinfh_free
+                0x0000000000037d40                rumpns_sys___getfh30
+                0x0000000000037f10                rumpns_dofhopen
+                0x0000000000038200                rumpns_sys___fhopen40
+                0x0000000000038240                rumpns_do_fhstat
+                0x0000000000038320                rumpns_sys___fhstat50
+                0x00000000000383b0                rumpns_do_fhstatvfs
+                0x00000000000384a0                rumpns_sys___fhstatvfs140
+                0x0000000000038550                rumpns_do_sys_mknodat
+                0x00000000000388e0                rumpns_do_sys_mknod
+                0x0000000000038940                rumpns_sys_mknodat
+                0x00000000000389a0                rumpns_sys___mknod50
+                0x0000000000038a00                rumpns_sys_mkfifo
+                0x0000000000038a20                rumpns_sys_mkfifoat
+                0x0000000000038a40                rumpns_do_sys_linkat
+                0x0000000000038bb0                rumpns_sys_link
+                0x0000000000038c10                rumpns_sys_linkat
+                0x0000000000038c70                rumpns_do_sys_symlink
+                0x0000000000038c90                rumpns_sys_symlink
+                0x0000000000038cc0                rumpns_sys_symlinkat
+                0x0000000000038cf0                rumpns_sys_undelete
+                0x0000000000038e40                rumpns_sys_unlink
+                0x0000000000038e70                rumpns_sys_unlinkat
+                0x0000000000038ea0                rumpns_do_sys_unlink
+                0x0000000000038ed0                rumpns_sys_lseek
+                0x00000000000390d0                rumpns_sys_pread
+                0x00000000000391d0                rumpns_sys_preadv
+                0x0000000000039230                rumpns_sys_pwrite
+                0x0000000000039330                rumpns_sys_pwritev
+                0x0000000000039390                rumpns_do_sys_accessat
+                0x0000000000039560                rumpns_sys_access
+                0x00000000000395b0                rumpns_sys_faccessat
+                0x00000000000395f0                rumpns_do_sys_statat
+                0x0000000000039720                rumpns_do_sys_stat
+                0x0000000000039760                rumpns_sys___stat50
+                0x0000000000039800                rumpns_sys___lstat50
+                0x00000000000398a0                rumpns_sys_fstatat
+                0x0000000000039940                rumpns_sys_pathconf
+                0x0000000000039a20                rumpns_sys_readlink
+                0x0000000000039a60                rumpns_sys_readlinkat
+                0x0000000000039aa0                rumpns_sys_chflags
+                0x0000000000039b10                rumpns_sys_fchflags
+                0x0000000000039b90                rumpns_sys_lchflags
+                0x0000000000039c00                rumpns_do_sys_chmodat
+                0x0000000000039c80                rumpns_sys_chmod
+                0x0000000000039cd0                rumpns_sys_fchmod
+                0x0000000000039d40                rumpns_sys_fchmodat
+                0x0000000000039d80                rumpns_sys_lchmod
+                0x0000000000039df0                rumpns_do_sys_chownat
+                0x0000000000039e80                rumpns_sys_chown
+                0x0000000000039ed0                rumpns_sys___posix_chown
+                0x0000000000039f50                rumpns_sys_fchown
+                0x0000000000039fd0                rumpns_sys_fchownat
+                0x000000000003a020                rumpns_sys___posix_fchown
+                0x000000000003a0a0                rumpns_sys_lchown
+                0x000000000003a120                rumpns_sys___posix_lchown
+                0x000000000003a1a0                rumpns_do_sys_utimensat
+                0x000000000003a590                rumpns_do_sys_utimens
+                0x000000000003a5e0                rumpns_sys_utimensat
+                0x000000000003a640                rumpns_sys_futimens
+                0x000000000003a6d0                rumpns_do_sys_utimes
+                0x000000000003a7b0                rumpns_sys___lutimes50
+                0x000000000003a800                rumpns_sys___futimes50
+                0x000000000003a890                rumpns_sys___utimes50
+                0x000000000003a8e0                rumpns_sys_truncate
+                0x000000000003aa20                rumpns_sys_ftruncate
+                0x000000000003ab40                rumpns_sys_fsync
+                0x000000000003ac00                rumpns_sys_fsync_range
+                0x000000000003ad60                rumpns_sys_fdatasync
+                0x000000000003ae30                rumpns_sys_rename
+                0x000000000003ae70                rumpns_sys_renameat
+                0x000000000003aeb0                rumpns_sys___posix_rename
+                0x000000000003aef0                rumpns_do_sys_rename
+                0x000000000003af30                rumpns_sys_mkdir
+                0x000000000003af50                rumpns_sys_mkdirat
+                0x000000000003af70                rumpns_do_sys_mkdir
+                0x000000000003af80                rumpns_sys_rmdir
+                0x000000000003afb0                rumpns_sys___getdents30
+                0x000000000003b0b0                rumpns_sys_umask
+                0x000000000003b120                rumpns_dorevoke
+                0x000000000003b210                rumpns_sys_revoke
+                0x000000000003b280                rumpns_sys_posix_fallocate
+                0x000000000003b3a0                rumpns_sys_fdiscard
+ *fill*         0x000000000003b4bf        0x1 90909090
+ .text          0x000000000003b4c0     0x2f0a librumpvfs_pic.a(vfs_subr.pico)
+                0x000000000003b590                rumpns_vntblinit
+                0x000000000003b5c0                rumpns_vinvalbuf
+                0x000000000003b930                rumpns_vtruncbuf
+                0x000000000003bbc0                rumpns_bdevvp
+                0x000000000003bc00                rumpns_cdevvp
+                0x000000000003bc40                rumpns_bgetvp
+                0x000000000003bea0                rumpns_brelvp
+                0x000000000003c0f0                rumpns_reassignbuf
+                0x000000000003c350                rumpns_vfinddev
+                0x000000000003c390                rumpns_vdevgone
+                0x000000000003c450                rumpns_sysctl_vfs_generic_fstypes
+                0x000000000003c640                rumpns_sysctl_kern_vnode
+                0x000000000003c900                rumpns_vattr_null
+                0x000000000003ca40                rumpns_vprint
+                0x000000000003cbe0                rumpns_vflushbuf
+                0x000000000003cdb0                rumpns_vaccess
+                0x000000000003ce80                rumpns_vfs_getopsbyname
+                0x000000000003cef0                rumpns_copy_statvfs_info
+                0x000000000003d1a0                rumpns_set_statvfs_info
+                0x000000000003d4e0                rumpns_vfs_timestamp
+                0x000000000003d500                rumpns_setrootfstime
+                0x000000000003d530                rumpns_vtype2dt
+                0x000000000003d550                rumpns_VFS_MOUNT
+                0x000000000003d5c0                rumpns_VFS_START
+                0x000000000003d630                rumpns_VFS_UNMOUNT
+                0x000000000003d690                rumpns_VFS_ROOT
+                0x000000000003d700                rumpns_VFS_QUOTACTL
+                0x000000000003d770                rumpns_VFS_STATVFS
+                0x000000000003d7e0                rumpns_VFS_SYNC
+                0x000000000003d860                rumpns_VFS_FHTOVP
+                0x000000000003d8e0                rumpns_VFS_VPTOFH
+                0x000000000003d960                rumpns_VFS_SNAPSHOT
+                0x000000000003d9e0                rumpns_VFS_EXTATTRCTL
+                0x000000000003da60                rumpns_VFS_SUSPENDCTL
+                0x000000000003dad0                rumpns_vfs_buf_print
+                0x000000000003dc30                rumpns_vfs_vnode_print
+                0x000000000003de70                rumpns_vfs_mount_print
+                0x000000000003e300                rumpns_printlockedvnodes
+ *fill*         0x000000000003e3ca        0x6 90909090
+ .text          0x000000000003e3d0     0x238e librumpvfs_pic.a(vfs_mount.pico)
+                0x000000000003e4a0                rumpns_vfs_mount_sysinit
+                0x000000000003e580                rumpns_vfs_getvfs
+                0x000000000003e600                rumpns_vfs_destroy
+                0x000000000003e6e0                rumpns_vfs_busy
+                0x000000000003e850                rumpns_vfs_unbusy
+                0x000000000003e9b0                rumpns_vfs_vnode_iterator_init
+                0x000000000003ea40                rumpns_vfs_vnode_iterator_destroy
+                0x000000000003eb00                rumpns_vfs_vnode_iterator_next
+                0x000000000003ecc0                rumpns_vfs_insmntque
+                0x000000000003edd0                rumpns_vflush
+                0x000000000003eed0                rumpns_dounmount
+                0x000000000003f1c0                rumpns_vfs_unmount_forceone
+                0x000000000003f2c0                rumpns_vfs_unmountall1
+                0x000000000003f420                rumpns_vfs_unmountall
+                0x000000000003f460                rumpns_vfs_sync_all
+                0x000000000003f4e0                rumpns_vfs_shutdown
+                0x000000000003f540                rumpns_vfs_mountroot
+                0x000000000003f990                rumpns_mount_specific_key_create
+                0x000000000003f9d0                rumpns_mount_specific_key_delete
+                0x000000000003fa00                rumpns_mount_initspecific
+                0x000000000003fa70                rumpns_vfs_mountalloc
+                0x000000000003fbe0                rumpns_mount_domount
+                0x0000000000040240                rumpns_vfs_rootmountalloc
+                0x0000000000040350                rumpns_mount_finispecific
+                0x0000000000040380                rumpns_mount_getspecific
+                0x00000000000403c0                rumpns_mount_setspecific
+                0x0000000000040400                rumpns_vfs_mountedon
+                0x00000000000404b0                rumpns_rawdev_mounted
+                0x00000000000405e0                rumpns_makefstype
+                0x0000000000040610                rumpns_vfs_getnewfsid
+                0x0000000000040700                rumpns_mountlist_append
+ *fill*         0x000000000004075e        0x2 90909090
+ .text          0x0000000000040760     0x2ec8 librumpvfs_pic.a(vfs_lookup.pico)
+                0x0000000000040f80                rumpns_namei_hash
+                0x0000000000041010                rumpns_pathbuf_destroy
+                0x00000000000410f0                rumpns_pathbuf_assimilate
+                0x0000000000041130                rumpns_pathbuf_create
+                0x00000000000411e0                rumpns_pathbuf_copyin
+                0x0000000000041260                rumpns_pathbuf_maybe_copyin
+                0x00000000000412b0                rumpns_pathbuf_copystring
+                0x00000000000412f0                rumpns_pathbuf_stringcopy_get
+                0x0000000000041360                rumpns_pathbuf_stringcopy_put
+                0x0000000000042d90                rumpns_namei
+                0x0000000000042e80                rumpns_lookup_for_nfsd
+                0x0000000000042fc0                rumpns_lookup_for_nfsd_index
+                0x0000000000043310                rumpns_relookup
+                0x0000000000043460                rumpns_nameiat_simple_kernel
+                0x0000000000043500                rumpns_namei_simple_kernel
+                0x0000000000043540                rumpns_nameiat_simple_user
+                0x00000000000435f0                rumpns_namei_simple_user
+ *fill*         0x0000000000043628        0x8 90909090
+ .text          0x0000000000043630      0xa36 librumpvfs_pic.a(vfs_getcwd.pico)
+                0x0000000000043630                rumpns_getcwd_common
+                0x0000000000043c80                rumpns_vn_isunder
+                0x0000000000043ce0                rumpns_proc_isunder
+                0x0000000000043d40                rumpns_sys___getcwd
+                0x0000000000043e90                rumpns_vnode_to_path
+ *fill*         0x0000000000044066        0xa 90909090
+ .text          0x0000000000044070      0x7b8 librumpvfs_pic.a(vfs_init.pico)
+                0x00000000000440e0                rumpns_vn_default_error
+                0x00000000000440f0                rumpns_vfs_opv_init
+                0x00000000000442b0                rumpns_vfs_opv_free
+                0x0000000000044310                rumpns_usermount_common_policy
+                0x0000000000044350                rumpns_vfsinit
+                0x0000000000044600                rumpns_vfs_delref
+                0x0000000000044650                rumpns_vfs_attach
+                0x0000000000044700                rumpns_vfs_detach
+                0x00000000000447c0                rumpns_vfs_reinit
+ *fill*         0x0000000000044828        0x8 90909090
+ .text          0x0000000000044830      0x200 librumpvfs_pic.a(vfs_hooks.pico)
+                0x0000000000044830                rumpns_vfs_hooks_init
+                0x0000000000044870                rumpns_vfs_hooks_attach
+                0x00000000000448d0                rumpns_vfs_hooks_detach
+                0x0000000000044950                rumpns_vfs_hooks_unmount
+                0x00000000000449b0                rumpns_vfs_hooks_reexport
+ .text          0x0000000000044a30     0x1198 librumpvfs_pic.a(vfs_dirhash.pico)
+                0x0000000000044a30                rumpns_dirhash_init
+                0x0000000000044cc0                rumpns_dirhash_purge_entries
+                0x0000000000044da0                rumpns_dirhash_purge
+                0x0000000000044e50                rumpns_dirhash_get
+                0x0000000000044fb0                rumpns_dirhash_put
+                0x0000000000045000                rumpns_dirhash_enter
+                0x0000000000045470                rumpns_dirhash_enter_freed
+                0x0000000000045690                rumpns_dirhash_remove
+                0x0000000000045910                rumpns_dirhash_lookup
+                0x0000000000045a60                rumpns_dirhash_lookup_freed
+                0x0000000000045b60                rumpns_dirhash_dir_isempty
+ *fill*         0x0000000000045bc8        0x8 90909090
+ .text          0x0000000000045bd0     0x320e librumpvfs_pic.a(rumpfs.pico)
+                0x0000000000045d10                rumpfs_vget
+                0x00000000000481c0                rumpfs_mountroot
+                0x00000000000482d0                rumpfs_done
+                0x0000000000048930                rumpfs_init
+                0x00000000000489f0                rumpfs_root
+                0x0000000000048a40                rumpfs_unmount
+                0x0000000000048af0                rumpfs_mount
+ *fill*         0x0000000000048dde        0x2 90909090
+ .text          0x0000000000048de0      0xa27 librumpvfs_pic.a(vm_vfs.pico)
+                0x0000000000048de0                rumpns_uvm_aio_aiodone
+                0x00000000000490e0                rumpns_uvm_aio_biodone
+                0x0000000000049100                rumpns_ubc_zerorange
+                0x00000000000493e0                rumpns_ubc_uiomove
+ *fill*         0x0000000000049807        0x9 90909090
+ .text          0x0000000000049810      0xfff librumpvfs_pic.a(rumpblk.pico)
+                0x0000000000049810                rumpblk_open
+                0x0000000000049870                rumpblk_close
+                0x0000000000049880                rumpblk_ioctl
+                0x0000000000049b80                rumpblk_strategy
+                0x0000000000049b90                rumpblk_read
+                0x0000000000049c10                rumpblk_strategy_fail
+                0x0000000000049cc0                rumpblk_write
+                0x0000000000049d40                rumpblk_init
+                0x000000000004a060                rumpblk_register
+                0x000000000004a690                rumpblk_deregister
+                0x000000000004a7c0                rumpblk_fini
+ *fill*         0x000000000004a80f        0x1 90909090
+ .text          0x000000000004a810      0xc06 librumpvfs_pic.a(kern_physio.pico)
+                0x000000000004adb0                rumpns_physio
+                0x000000000004b400                rumpns_minphys
+ *fill*         0x000000000004b416        0xa 90909090
+ .text          0x000000000004b420      0xc19 librumpvfs_pic.a(rump_vfs.pico)
+                0x000000000004b7c0                rump_makecn
+                0x000000000004b850                rump_freecn
+                0x000000000004b8c0                rump_namei
+                0x000000000004ba90                rump_getvninfo
+                0x000000000004baf0                rump_vfslist_iterate
+                0x000000000004bb20                rump_vfs_getopsbyname
+                0x000000000004bb40                rump_vfs_getmp
+                0x000000000004bbb0                rump_vattr_init
+                0x000000000004bc00                rump_vattr_settype
+                0x000000000004bc10                rump_vattr_setmode
+                0x000000000004bc20                rump_vattr_setrdev
+                0x000000000004bc40                rump_vattr_free
+                0x000000000004bc70                rump_vp_incref
+                0x000000000004bc90                rump_vp_getref
+                0x000000000004bca0                rump_vp_rele
+                0x000000000004bcc0                rump_vp_interlock
+                0x000000000004bcf0                rump_vfs_unmount
+                0x000000000004bd20                rump_vfs_root
+                0x000000000004bd80                rump_vfs_statvfs
+                0x000000000004bdb0                rump_vfs_sync
+                0x000000000004bdf0                rump_vfs_fhtovp
+                0x000000000004be20                rump_vfs_vptofh
+                0x000000000004be50                rump_vfs_extattrctl
+                0x000000000004be90                rump_vfs_syncwait
+                0x000000000004bec0                rump_vfs_mount_print
+                0x000000000004bfc0                rump_biodone
+ *fill*         0x000000000004c039        0x7 90909090
+ .text          0x000000000004c040     0x117e librumpvfs_pic.a(vfs_lockf.pico)
+                0x000000000004c850                rumpns_lf_advlock
+                0x000000000004d130                rumpns_lf_init
+ *fill*         0x000000000004d1be        0x2 90909090
+ .text          0x000000000004d1c0      0x350 librumpvfs_pic.a(vfs_cwd.pico)
+                0x000000000004d220                rumpns_cwd_sys_init
+                0x000000000004d2e0                rumpns_cwdinit
+                0x000000000004d3a0                rumpns_cwdshare
+                0x000000000004d3f0                rumpns_cwdfree
+                0x000000000004d480                rumpns_cwdunshare
+                0x000000000004d4d0                rumpns_cwdexec
+ .text          0x000000000004d510     0x1a33 librumpvfs_pic.a(vfs_cache.pico)
+                0x000000000004d510                rumpns_sysctl_cache_stat_setup
+                0x000000000004dfd0                rumpns_cache_lookup
+                0x000000000004e230                rumpns_cache_lookup_raw
+                0x000000000004e3f0                rumpns_cache_revlookup
+                0x000000000004e620                rumpns_cache_enter
+                0x000000000004e8c0                rumpns_nchinit
+                0x000000000004eb50                rumpns_cache_cpu_init
+                0x000000000004ebd0                rumpns_nchreinit
+                0x000000000004ed60                rumpns_cache_purge1
+                0x000000000004ee60                rumpns_cache_purgevfs
+                0x000000000004eef0                rumpns_namecache_count_pass2
+                0x000000000004ef20                rumpns_namecache_count_2passes
+ *fill*         0x000000000004ef43        0xd 90909090
+ .text          0x000000000004ef50     0x3ed8 librumpvfs_pic.a(vfs_bio.pico)
+                0x000000000004f3b0                rumpns_buf_setvalimit
+                0x000000000004f3e0                rumpns_bremfree
+                0x000000000004f570                rumpns_buf_memcalc
+                0x000000000004f6d0                rumpns_bufinit
+                0x000000000004fce0                rumpns_bufinit2
+                0x000000000004fd30                rumpns_bawrite
+                0x000000000004fdf0                rumpns_incore
+                0x000000000004ff10                rumpns_biowait
+                0x0000000000050010                rumpns_buf_syncwait
+                0x00000000000501c0                rumpns_nestiobuf_setup
+                0x00000000000502f0                rumpns_buf_init
+                0x0000000000050390                rumpns_getiobuf
+                0x00000000000508d0                rumpns_buf_destroy
+                0x0000000000050910                rumpns_brelsel
+                0x00000000000511f0                rumpns_buf_drain
+                0x0000000000051480                rumpns_allocbuf
+                0x0000000000051830                rumpns_geteblk
+                0x0000000000051900                rumpns_brelse
+                0x0000000000051b20                rumpns_biodone
+                0x0000000000051c10                rumpns_nestiobuf_done
+                0x0000000000051dd0                rumpns_bdwrite
+                0x0000000000052090                rumpns_bwrite
+                0x0000000000052350                rumpns_vn_bwrite
+                0x0000000000052380                rumpns_putiobuf
+                0x00000000000523d0                rumpns_nestiobuf_iodone
+                0x00000000000524e0                rumpns_bbusy
+                0x0000000000052790                rumpns_getblk
+                0x0000000000052bf0                rumpns_breadn
+                0x0000000000052d70                rumpns_bread
+ *fill*         0x0000000000052e28        0x8 90909090
+ .text          0x0000000000052e30      0x207 librumpvfs_pic.a(devnull.pico)
+                0x0000000000052f30                rump_devnull_init
+ *fill*         0x0000000000053037        0x9 90909090
+ .text          0x0000000000053040      0x6fe librumpvfs_pic.a(devnodes.pico)
+                0x0000000000053570                rump_vfs_builddevs
+ *fill*         0x000000000005373e        0x2 90909090
+ .text          0x0000000000053740       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000053778        0x5
+ *(.fini)
+ .fini          0x0000000000053778        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000005377d                PROVIDE (__etext, .)
+                0x000000000005377d                PROVIDE (_etext, .)
+                0x000000000005377d                PROVIDE (etext, .)
+
+.rodata         0x0000000000053780     0x62a4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000053780        0x8 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .rodata.str1.4
+                0x0000000000053788       0xec librumpvfs_pic.a(firmload.pico)
+ .rodata.str1.1
+                0x0000000000053874       0x4a librumpvfs_pic.a(firmload.pico)
+ *fill*         0x00000000000538be        0x2 00
+ .rodata.str1.4
+                0x00000000000538c0       0x29 librumpvfs_pic.a(mfs_miniroot.pico)
+ .rodata.str1.1
+                0x00000000000538e9        0x4 librumpvfs_pic.a(mfs_miniroot.pico)
+ *fill*         0x00000000000538ed        0x3 00
+ .rodata.str1.4
+                0x00000000000538f0       0xcb librumpvfs_pic.a(bufq_readprio.pico)
+                                        0x100 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000539bb       0x22 librumpvfs_pic.a(bufq_readprio.pico)
+                                         0x2e (size before relaxing)
+ *fill*         0x00000000000539dd        0x3 00
+ .rodata.str1.4
+                0x00000000000539e0      0x128 librumpvfs_pic.a(bufq_priocscan.pico)
+                                        0x15c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000053b08       0x49 librumpvfs_pic.a(bufq_priocscan.pico)
+                                         0x6e (size before relaxing)
+ *fill*         0x0000000000053b51        0x3 00
+ .rodata        0x0000000000053b54       0x18 librumpvfs_pic.a(bufq_priocscan.pico)
+                0x0000000000053b54                rumpns_priocscan_burst
+ .rodata.str1.4
+                0x0000000000053b6c       0x91 librumpvfs_pic.a(bufq_fcfs.pico)
+                                         0xc8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000053bfd        0x5 librumpvfs_pic.a(bufq_fcfs.pico)
+                                         0x2a (size before relaxing)
+ *fill*         0x0000000000053c02        0x2 00
+ .rodata.str1.4
+                0x0000000000053c04       0x95 librumpvfs_pic.a(bufq_disksort.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x0000000000053c99        0x9 librumpvfs_pic.a(bufq_disksort.pico)
+                                         0x2e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000053ca2       0x64 librumpvfs_pic.a(subr_bufq.pico)
+                                         0x73 (size before relaxing)
+ *fill*         0x0000000000053d06        0x2 00
+ .rodata.str1.4
+                0x0000000000053d08       0xcc librumpvfs_pic.a(subr_bufq.pico)
+                                        0x100 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000053dd4      0x49d librumpvfs_pic.a(genfs_rename.pico)
+                                        0x4d1 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000054271      0x371 librumpvfs_pic.a(genfs_rename.pico)
+                                        0x3da (size before relaxing)
+ .rodata.str1.1
+                0x00000000000545e2      0x3fc librumpvfs_pic.a(vfs_wapbl.pico)
+                                        0x42b (size before relaxing)
+ *fill*         0x00000000000549de        0x2 00
+ .rodata.str1.4
+                0x00000000000549e0      0x7d9 librumpvfs_pic.a(vfs_wapbl.pico)
+                                        0x80d (size before relaxing)
+ .rodata        0x00000000000551b9        0xc librumpvfs_pic.a(vfs_wapbl.pico)
+ .rodata.str1.1
+                0x00000000000551c5       0x1a librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .rodata.str1.1
+                0x00000000000551df       0x4d librumpvfs_pic.a(vfs_xattr.pico)
+                                         0x59 (size before relaxing)
+ .rodata.str1.4
+                0x000000000005522c       0x91 librumpvfs_pic.a(vfs_xattr.pico)
+                                         0xc8 (size before relaxing)
+ *fill*         0x00000000000552bd        0x3 00
+ .rodata        0x00000000000552c0       0x64 librumpvfs_pic.a(spec_vnops.pico)
+                0x00000000000552ec                rumpns_devcls
+                0x00000000000552f3                rumpns_devioc
+                0x00000000000552fa                rumpns_devout
+                0x0000000000055301                rumpns_devin
+                0x0000000000055307                rumpns_devwait
+                0x000000000005530f                rumpns_devio
+                0x0000000000055315                rumpns_devopn
+ .rodata.str1.1
+                0x0000000000055324      0x187 librumpvfs_pic.a(spec_vnops.pico)
+                                        0x1c7 (size before relaxing)
+ *fill*         0x00000000000554ab        0x1 00
+ .rodata.str1.4
+                0x00000000000554ac      0x1cc librumpvfs_pic.a(spec_vnops.pico)
+                                        0x200 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000055678       0xf5 librumpvfs_pic.a(genfs_vnops.pico)
+                                        0x129 (size before relaxing)
+ .rodata.str1.1
+                0x000000000005576d       0x44 librumpvfs_pic.a(genfs_vnops.pico)
+                                         0x84 (size before relaxing)
+ *fill*         0x00000000000557b1        0x3 00
+ .rodata.str1.4
+                0x00000000000557b4      0x398 librumpvfs_pic.a(genfs_io.pico)
+                                        0x3cc (size before relaxing)
+ .rodata.str1.1
+                0x0000000000055b4c       0xec librumpvfs_pic.a(genfs_io.pico)
+                                        0x115 (size before relaxing)
+ .rodata        0x0000000000055c38        0xf librumpvfs_pic.a(genfs_io.pico)
+ .rodata.str1.1
+                0x0000000000055c47       0x18 librumpvfs_pic.a(dead_vnops.pico)
+ .rodata.str1.1
+                0x0000000000055c5f        0xe librumpvfs_pic.a(sync_vnops.pico)
+ *fill*         0x0000000000055c6d        0x3 00
+ .rodata.str1.4
+                0x0000000000055c70       0xbb librumpvfs_pic.a(sync_subr.pico)
+                                         0xf0 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000055d2b       0x24 librumpvfs_pic.a(sync_subr.pico)
+                                         0x58 (size before relaxing)
+ *fill*         0x0000000000055d4f        0x1 00
+ .rodata.str1.4
+                0x0000000000055d50      0x18f librumpvfs_pic.a(uvm_vnode.pico)
+                                        0x1c3 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000055edf       0x74 librumpvfs_pic.a(uvm_vnode.pico)
+                                         0xbb (size before relaxing)
+ *fill*         0x0000000000055f53        0x1 00
+ .rodata.str1.4
+                0x0000000000055f54      0x10a librumpvfs_pic.a(subr_kobj_vfs.pico)
+                                        0x13e (size before relaxing)
+ .rodata.str1.1
+                0x000000000005605e       0x23 librumpvfs_pic.a(subr_kobj_vfs.pico)
+                                         0x2f (size before relaxing)
+ .rodata.str1.1
+                0x0000000000056081       0x3a librumpvfs_pic.a(kern_module_vfs.pico)
+                                         0x5b (size before relaxing)
+ *fill*         0x00000000000560bb        0x1 00
+ .rodata.str1.4
+                0x00000000000560bc      0x10f librumpvfs_pic.a(kern_module_vfs.pico)
+                                        0x144 (size before relaxing)
+ *fill*         0x00000000000561cb        0x1 00
+ .rodata.str1.4
+                0x00000000000561cc      0x112 librumpvfs_pic.a(vfs_vnops.pico)
+                                        0x16a (size before relaxing)
+ .rodata.str1.1
+                0x00000000000562de       0x50 librumpvfs_pic.a(vfs_vnops.pico)
+                                         0x85 (size before relaxing)
+ *fill*         0x000000000005632e        0x2 00
+ .rodata        0x0000000000056330       0x20 librumpvfs_pic.a(vfs_vnops.pico)
+ .rodata.str1.4
+                0x0000000000056350      0x2f1 librumpvfs_pic.a(vfs_vnode.pico)
+                                        0x325 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000056641      0x32b librumpvfs_pic.a(vfs_vnode.pico)
+                                        0x397 (size before relaxing)
+ .rodata        0x000000000005696c       0x20 librumpvfs_pic.a(vfs_vnode.pico)
+ .rodata.str1.1
+                0x000000000005698c       0x1c librumpvfs_pic.a(dead_vfsops.pico)
+ .rodata.str1.4
+                0x00000000000569a8       0xe2 librumpvfs_pic.a(vfs_trans.pico)
+                                        0x116 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000056a8a       0xef librumpvfs_pic.a(vfs_trans.pico)
+                                        0x106 (size before relaxing)
+ *fill*         0x0000000000056b79        0x3 00
+ .rodata.str1.4
+                0x0000000000056b7c      0x1fb librumpvfs_pic.a(vfs_syscalls.pico)
+                                        0x28b (size before relaxing)
+ .rodata.str1.1
+                0x0000000000056d77       0xa6 librumpvfs_pic.a(vfs_syscalls.pico)
+                                         0xee (size before relaxing)
+ *fill*         0x0000000000056e1d        0x3 00
+ .rodata        0x0000000000056e20       0x3c librumpvfs_pic.a(vfs_syscalls.pico)
+                0x0000000000056e58                rumpns_nmountcompatnames
+ .rodata.str1.4
+                0x0000000000056e5c      0x48f librumpvfs_pic.a(vfs_subr.pico)
+                                        0x4e7 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000572eb      0x4a3 librumpvfs_pic.a(vfs_subr.pico)
+                                        0x500 (size before relaxing)
+ *fill*         0x000000000005778e       0x12 00
+ .rodata        0x00000000000577a0      0x187 librumpvfs_pic.a(vfs_subr.pico)
+                0x00000000000577a0                rumpns_vnode_flagbits
+                0x0000000000057820                rumpns_vttoif_tab
+                0x0000000000057860                rumpns_iftovt_tab
+ *fill*         0x0000000000057927        0x1 00
+ .rodata.str1.4
+                0x0000000000057928      0x308 librumpvfs_pic.a(vfs_mount.pico)
+                                        0x33c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000057c30      0x16f librumpvfs_pic.a(vfs_mount.pico)
+                                        0x193 (size before relaxing)
+ *fill*         0x0000000000057d9f        0x1 00
+ .rodata.str1.4
+                0x0000000000057da0      0x2e2 librumpvfs_pic.a(vfs_lookup.pico)
+                                        0x316 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058082      0x219 librumpvfs_pic.a(vfs_lookup.pico)
+                                        0x22d (size before relaxing)
+ .rodata.str1.1
+                0x000000000005829b        0x3 librumpvfs_pic.a(vfs_getcwd.pico)
+                                         0x22 (size before relaxing)
+ *fill*         0x000000000005829e        0x2 00
+ .rodata.str1.4
+                0x00000000000582a0       0xb2 librumpvfs_pic.a(vfs_getcwd.pico)
+                                         0xe8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058352       0x78 librumpvfs_pic.a(vfs_init.pico)
+                                         0x84 (size before relaxing)
+ *fill*         0x00000000000583ca        0x2 00
+ .rodata.str1.4
+                0x00000000000583cc       0xe8 librumpvfs_pic.a(vfs_init.pico)
+                                        0x11c (size before relaxing)
+ .rodata.str1.1
+                0x00000000000584b4       0x89 librumpvfs_pic.a(vfs_dirhash.pico)
+                                         0x9a (size before relaxing)
+ *fill*         0x000000000005853d        0x3 00
+ .rodata.str1.4
+                0x0000000000058540      0x112 librumpvfs_pic.a(vfs_dirhash.pico)
+                                        0x146 (size before relaxing)
+ *fill*         0x0000000000058652        0x2 00
+ .rodata        0x0000000000058654       0x5c librumpvfs_pic.a(rumpfs.pico)
+ .rodata.str1.4
+                0x00000000000586b0      0x10f librumpvfs_pic.a(rumpfs.pico)
+                                        0x143 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000587bf      0x10e librumpvfs_pic.a(rumpfs.pico)
+                                        0x11c (size before relaxing)
+ *fill*         0x00000000000588cd        0x3 00
+ .rodata.str1.4
+                0x00000000000588d0       0xca librumpvfs_pic.a(vm_vfs.pico)
+                                         0xfe (size before relaxing)
+ .rodata.str1.1
+                0x000000000005899a       0x46 librumpvfs_pic.a(vm_vfs.pico)
+                                         0x7a (size before relaxing)
+ .rodata.str1.4
+                0x00000000000589e0      0x145 librumpvfs_pic.a(rumpblk.pico)
+                                        0x17c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058b25       0xe6 librumpvfs_pic.a(rumpblk.pico)
+                                         0xf2 (size before relaxing)
+ *fill*         0x0000000000058c0b        0x1 00
+ .rodata.str1.4
+                0x0000000000058c0c       0xd7 librumpvfs_pic.a(kern_physio.pico)
+                                        0x10b (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058ce3      0x112 librumpvfs_pic.a(kern_physio.pico)
+                                        0x11e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058df5       0xb3 librumpvfs_pic.a(rump_vfs.pico)
+                                         0xc1 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000058ea8       0xee librumpvfs_pic.a(rump_vfs.pico)
+                                        0x122 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000058f96       0x55 librumpvfs_pic.a(vfs_lockf.pico)
+                                         0x6b (size before relaxing)
+ *fill*         0x0000000000058feb        0x1 00
+ .rodata.str1.4
+                0x0000000000058fec       0xb7 librumpvfs_pic.a(vfs_lockf.pico)
+                                         0xeb (size before relaxing)
+ *fill*         0x00000000000590a3        0x1 00
+ .rodata        0x00000000000590a4       0x30 librumpvfs_pic.a(vfs_lockf.pico)
+ .rodata.str1.1
+                0x00000000000590d4       0x18 librumpvfs_pic.a(vfs_cwd.pico)
+                                         0x24 (size before relaxing)
+ .rodata.str1.4
+                0x00000000000590ec       0x8f librumpvfs_pic.a(vfs_cwd.pico)
+                                         0xc4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000005917b      0x10e librumpvfs_pic.a(vfs_cache.pico)
+                                        0x126 (size before relaxing)
+ *fill*         0x0000000000059289        0x3 00
+ .rodata.str1.4
+                0x000000000005928c      0x100 librumpvfs_pic.a(vfs_cache.pico)
+                                        0x134 (size before relaxing)
+ .rodata.str1.1
+                0x000000000005938c      0x229 librumpvfs_pic.a(vfs_bio.pico)
+                                        0x2a1 (size before relaxing)
+ *fill*         0x00000000000595b5        0x3 00
+ .rodata.str1.4
+                0x00000000000595b8      0x28c librumpvfs_pic.a(vfs_bio.pico)
+                                        0x2e4 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000059844       0x2c librumpvfs_pic.a(devnull.pico)
+                                         0x3d (size before relaxing)
+ .rodata.str1.4
+                0x0000000000059870       0x81 librumpvfs_pic.a(devnull.pico)
+                                         0xb8 (size before relaxing)
+ *fill*         0x00000000000598f1        0x3 00
+ .rodata.str1.4
+                0x00000000000598f4      0x108 librumpvfs_pic.a(devnodes.pico)
+                                        0x13c (size before relaxing)
+ .rodata.str1.1
+                0x00000000000599fc       0x28 librumpvfs_pic.a(devnodes.pico)
+                                         0x34 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000059a24     0x1b7c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000059a24     0x1b7c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000005b5a0     0x920c
+ *(.eh_frame)
+ .eh_frame      0x000000000005b5a0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000005b5dc      0x63c librumpvfs_pic.a(rumpvnode_if.pico)
+                                        0x668 (size before relaxing)
+ .eh_frame      0x000000000005bc18      0x198 librumpvfs_pic.a(vfs_syscalls_50.pico)
+                                        0x1c4 (size before relaxing)
+ .eh_frame      0x000000000005bdb0      0x1b8 librumpvfs_pic.a(firmload.pico)
+                                        0x1e4 (size before relaxing)
+ .eh_frame      0x000000000005bf68       0x48 librumpvfs_pic.a(quota1_subr.pico)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000005bfb0       0x30 librumpvfs_pic.a(mfs_miniroot.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x000000000005bfe0      0x10c librumpvfs_pic.a(bufq_readprio.pico)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000005c0ec      0x1a0 librumpvfs_pic.a(bufq_priocscan.pico)
+                                        0x1cc (size before relaxing)
+ .eh_frame      0x000000000005c28c       0x90 librumpvfs_pic.a(bufq_fcfs.pico)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x000000000005c31c       0xc8 librumpvfs_pic.a(bufq_disksort.pico)
+                                         0xf4 (size before relaxing)
+ .eh_frame      0x000000000005c3e4      0x1d0 librumpvfs_pic.a(subr_bufq.pico)
+                                        0x1fc (size before relaxing)
+ .eh_frame      0x000000000005c5b4      0x218 librumpvfs_pic.a(genfs_rename.pico)
+                                        0x244 (size before relaxing)
+ .eh_frame      0x000000000005c7cc      0x844 librumpvfs_pic.a(vfs_wapbl.pico)
+                                        0x870 (size before relaxing)
+ .eh_frame      0x000000000005d010       0x20 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x000000000005d030      0x3a0 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+                                        0x3cc (size before relaxing)
+ .eh_frame      0x000000000005d3d0       0x38 librumpvfs_pic.a(compat.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000005d408       0x2c librumpvfs_pic.a(kern_ktrace_vfs.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000005d434      0x524 librumpvfs_pic.a(vfs_xattr.pico)
+                                        0x550 (size before relaxing)
+ .eh_frame      0x000000000005d958      0x1c4 librumpvfs_pic.a(vfs_quotactl.pico)
+                                        0x1f0 (size before relaxing)
+ .eh_frame      0x000000000005db1c      0x4d8 librumpvfs_pic.a(spec_vnops.pico)
+                                        0x504 (size before relaxing)
+ .eh_frame      0x000000000005dff4      0x534 librumpvfs_pic.a(genfs_vnops.pico)
+                                        0x560 (size before relaxing)
+ .eh_frame      0x000000000005e528       0x64 librumpvfs_pic.a(genfs_vfsops.pico)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x000000000005e58c      0x304 librumpvfs_pic.a(genfs_io.pico)
+                                        0x330 (size before relaxing)
+ .eh_frame      0x000000000005e890      0x1cc librumpvfs_pic.a(dead_vnops.pico)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x000000000005ea5c       0xc8 librumpvfs_pic.a(sync_vnops.pico)
+                                         0xf4 (size before relaxing)
+ .eh_frame      0x000000000005eb24       0xd4 librumpvfs_pic.a(sync_subr.pico)
+                                        0x100 (size before relaxing)
+ .eh_frame      0x000000000005ebf8      0x19c librumpvfs_pic.a(uvm_vnode.pico)
+                                        0x1c8 (size before relaxing)
+ .eh_frame      0x000000000005ed94       0x78 librumpvfs_pic.a(subr_kobj_vfs.pico)
+                                         0xa4 (size before relaxing)
+ .eh_frame      0x000000000005ee0c       0x90 librumpvfs_pic.a(kern_module_vfs.pico)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x000000000005ee9c      0x420 librumpvfs_pic.a(vfs_vnops.pico)
+                                        0x44c (size before relaxing)
+ .eh_frame      0x000000000005f2bc      0x690 librumpvfs_pic.a(vfs_vnode.pico)
+                                        0x6bc (size before relaxing)
+ .eh_frame      0x000000000005f94c       0x1c librumpvfs_pic.a(dead_vfsops.pico)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x000000000005f968      0x364 librumpvfs_pic.a(vfs_trans.pico)
+                                        0x390 (size before relaxing)
+ .eh_frame      0x000000000005fccc     0x1320 librumpvfs_pic.a(vfs_syscalls.pico)
+                                       0x134c (size before relaxing)
+ .eh_frame      0x0000000000060fec      0x758 librumpvfs_pic.a(vfs_subr.pico)
+                                        0x798 (size before relaxing)
+ .eh_frame      0x0000000000061744      0x5f0 librumpvfs_pic.a(vfs_mount.pico)
+                                        0x61c (size before relaxing)
+ .eh_frame      0x0000000000061d34      0x3d8 librumpvfs_pic.a(vfs_lookup.pico)
+                                        0x404 (size before relaxing)
+ .eh_frame      0x000000000006210c       0xdc librumpvfs_pic.a(vfs_getcwd.pico)
+                                        0x108 (size before relaxing)
+ .eh_frame      0x00000000000621e8      0x1b0 librumpvfs_pic.a(vfs_init.pico)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x0000000000062398       0xf4 librumpvfs_pic.a(vfs_hooks.pico)
+                                        0x120 (size before relaxing)
+ .eh_frame      0x000000000006248c      0x278 librumpvfs_pic.a(vfs_dirhash.pico)
+                                        0x2a4 (size before relaxing)
+ .eh_frame      0x0000000000062704      0x758 librumpvfs_pic.a(rumpfs.pico)
+                                        0x798 (size before relaxing)
+ .eh_frame      0x0000000000062e5c       0xfc librumpvfs_pic.a(vm_vfs.pico)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x0000000000062f58      0x218 librumpvfs_pic.a(rumpblk.pico)
+                                        0x258 (size before relaxing)
+ .eh_frame      0x0000000000063170      0x134 librumpvfs_pic.a(kern_physio.pico)
+                                        0x160 (size before relaxing)
+ .eh_frame      0x00000000000632a4      0x3f8 librumpvfs_pic.a(rump_vfs.pico)
+                                        0x438 (size before relaxing)
+ .eh_frame      0x000000000006369c      0x1e8 librumpvfs_pic.a(vfs_lockf.pico)
+                                        0x214 (size before relaxing)
+ .eh_frame      0x0000000000063884      0x118 librumpvfs_pic.a(vfs_cwd.pico)
+                                        0x144 (size before relaxing)
+ .eh_frame      0x000000000006399c      0x460 librumpvfs_pic.a(vfs_cache.pico)
+                                        0x48c (size before relaxing)
+ .eh_frame      0x0000000000063dfc      0x800 librumpvfs_pic.a(vfs_bio.pico)
+                                        0x840 (size before relaxing)
+ .eh_frame      0x00000000000645fc       0xb0 librumpvfs_pic.a(devnull.pico)
+                                         0xdc (size before relaxing)
+ .eh_frame      0x00000000000646ac       0xfc librumpvfs_pic.a(devnodes.pico)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x00000000000647a8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000647ac                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000065000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000065000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000065000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000065004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000065008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000065008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000006500c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000006500c                __DTOR_END__
+
+.jcr            0x0000000000065010        0x4
+ *(.jcr)
+ .jcr           0x0000000000065010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000065010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000065020      0xa40
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000065020        0xc librumpvfs_pic.a(bufq_readprio.pico)
+ .data.rel.ro.local
+                0x000000000006502c        0xc librumpvfs_pic.a(bufq_priocscan.pico)
+ .data.rel.ro.local
+                0x0000000000065038        0xc librumpvfs_pic.a(bufq_fcfs.pico)
+ .data.rel.ro.local
+                0x0000000000065044        0xc librumpvfs_pic.a(bufq_disksort.pico)
+ .data.rel.ro.local
+                0x0000000000065050        0xc librumpvfs_pic.a(subr_bufq.pico)
+ .data.rel.ro.local
+                0x000000000006505c       0x14 librumpvfs_pic.a(vfs_wapbl.pico)
+ .data.rel.ro.local
+                0x0000000000065070       0x20 librumpvfs_pic.a(genfs_vnops.pico)
+ .data.rel.ro.local
+                0x0000000000065090       0x18 librumpvfs_pic.a(uvm_vnode.pico)
+                0x0000000000065090                rumpns_uvm_vnodeops
+ *fill*         0x00000000000650a8       0x18 00
+ .data.rel.ro.local
+                0x00000000000650c0       0x28 librumpvfs_pic.a(vfs_syscalls.pico)
+                0x00000000000650c0                rumpns_mountcompatnames
+ *fill*         0x00000000000650e8       0x18 00
+ .data.rel.ro.local
+                0x0000000000065100       0xd0 librumpvfs_pic.a(vfs_subr.pico)
+                0x0000000000065100                rumpns_vnode_types
+                0x0000000000065140                rumpns_vnode_tags
+ .data.rel.ro.local
+                0x00000000000651d0       0x10 librumpvfs_pic.a(vfs_lookup.pico)
+                0x00000000000651d0                rumpns_NSM_FOLLOW_TRYEMULROOT
+                0x00000000000651d4                rumpns_NSM_FOLLOW_NOEMULROOT
+                0x00000000000651d8                rumpns_NSM_NOFOLLOW_TRYEMULROOT
+                0x00000000000651dc                rumpns_NSM_NOFOLLOW_NOEMULROOT
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00000000000651e0      0x300 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .data.rel.ro   0x00000000000654e0      0x180 librumpvfs_pic.a(spec_vnops.pico)
+                0x00000000000654e0                rumpns_spec_vnodeop_opv_desc
+                0x0000000000065500                rumpns_spec_vnodeop_entries
+ .data.rel.ro   0x0000000000065660      0x110 librumpvfs_pic.a(dead_vnops.pico)
+                0x0000000000065660                rumpns_dead_vnodeop_opv_desc
+                0x0000000000065680                rumpns_dead_vnodeop_entries
+ *fill*         0x0000000000065770       0x10 00
+ .data.rel.ro   0x0000000000065780       0x78 librumpvfs_pic.a(sync_vnops.pico)
+                0x0000000000065780                rumpns_sync_vnodeop_opv_desc
+                0x00000000000657a0                rumpns_sync_vnodeop_entries
+ *fill*         0x00000000000657f8        0x8 00
+ .data.rel.ro   0x0000000000065800       0x2c librumpvfs_pic.a(vfs_vnops.pico)
+                0x0000000000065800                rumpns_vnops
+ .data.rel.ro   0x000000000006582c        0x8 librumpvfs_pic.a(dead_vfsops.pico)
+ .data.rel.ro   0x0000000000065834       0x14 librumpvfs_pic.a(vfs_init.pico)
+                0x0000000000065834                rumpns_vfs_special_vnodeopv_descs
+ *fill*         0x0000000000065848       0x18 00
+ .data.rel.ro   0x0000000000065860      0x168 librumpvfs_pic.a(rumpfs.pico)
+                0x0000000000065860                rump_opv_descs
+                0x000000000006586c                rump_specop_opv_desc
+                0x0000000000065874                rump_specop_entries
+                0x0000000000065884                rump_vnodeop_opv_desc
+                0x00000000000658a0                rump_vnodeop_entries
+                0x00000000000659a8                rumpns_fifo_vnodeop_opv_desc
+                0x00000000000659b0                rumpns_fifo_vnodeop_entries
+ *fill*         0x00000000000659c8       0x18 00
+ .data.rel.ro   0x00000000000659e0       0x80 librumpvfs_pic.a(rumpblk.pico)
+
+.dynamic        0x0000000000065a60       0xb8
+ *(.dynamic)
+ .dynamic       0x0000000000065a60       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000065a60                _DYNAMIC
+
+.got            0x0000000000065b18      0x228
+ *(.got)
+ .got           0x0000000000065b18      0x228 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000065d40                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000065d40      0x950
+ *(.got.plt)
+ .got.plt       0x0000000000065d40      0x950 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000065d40                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000666c0      0xa30
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000666c0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000666c0                __dso_handle
+ .data          0x00000000000666c4        0x0 librumpvfs_pic.a(rumpvnode_if.pico)
+ .data          0x00000000000666c4        0x0 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ *fill*         0x00000000000666c4       0x1c 00
+ .data          0x00000000000666e0      0x401 librumpvfs_pic.a(firmload.pico)
+ *fill*         0x0000000000066ae1        0x3 00
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(quota1_subr.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(mfs_miniroot.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(bufq_readprio.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(bufq_priocscan.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(bufq_fcfs.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(bufq_disksort.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(subr_bufq.pico)
+ .data          0x0000000000066ae4        0x0 librumpvfs_pic.a(genfs_rename.pico)
+ .data          0x0000000000066ae4        0x4 librumpvfs_pic.a(vfs_wapbl.pico)
+ *fill*         0x0000000000066ae8       0x18 00
+ .data.rel      0x0000000000066b00       0x2c librumpvfs_pic.a(vfs_wapbl.pico)
+                0x0000000000066b00                rumpns_wapbl_ops
+ .data          0x0000000000066b2c        0x0 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .data.rel.local
+                0x0000000000066b2c       0x10 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(compat.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(vfs_xattr.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(vfs_quotactl.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(spec_vnops.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(genfs_vnops.pico)
+ .data          0x0000000000066b3c        0x0 librumpvfs_pic.a(genfs_vfsops.pico)
+ .data          0x0000000000066b3c        0x4 librumpvfs_pic.a(genfs_io.pico)
+                0x0000000000066b3c                rumpns_genfs_maxdio
+ .data          0x0000000000066b40        0x0 librumpvfs_pic.a(dead_vnops.pico)
+ .data          0x0000000000066b40        0x0 librumpvfs_pic.a(sync_vnops.pico)
+ .data          0x0000000000066b40       0x2c librumpvfs_pic.a(sync_subr.pico)
+                0x0000000000066b40                rumpns_lockdelay
+                0x0000000000066b48                rumpns_metadelay
+                0x0000000000066b50                rumpns_dirdelay
+                0x0000000000066b58                rumpns_filedelay
+                0x0000000000066b60                rumpns_syncdelay
+                0x0000000000066b68                rumpns_syncer_maxdelay
+ .data          0x0000000000066b6c        0x0 librumpvfs_pic.a(uvm_vnode.pico)
+ .data          0x0000000000066b6c        0x0 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .data          0x0000000000066b6c        0x0 librumpvfs_pic.a(kern_module_vfs.pico)
+ .data          0x0000000000066b6c        0x0 librumpvfs_pic.a(vfs_vnops.pico)
+ .data          0x0000000000066b6c        0x0 librumpvfs_pic.a(vfs_vnode.pico)
+ *fill*         0x0000000000066b6c       0x14 00
+ .data.cacheline_aligned
+                0x0000000000066b80      0x2d0 librumpvfs_pic.a(vfs_vnode.pico)
+                0x0000000000066b80                rumpns_numvnodes
+ .data.read_mostly
+                0x0000000000066e50        0x4 librumpvfs_pic.a(vfs_vnode.pico)
+ .data          0x0000000000066e54        0x0 librumpvfs_pic.a(dead_vfsops.pico)
+ *fill*         0x0000000000066e54        0xc 00
+ .data.rel      0x0000000000066e60       0x6c librumpvfs_pic.a(dead_vfsops.pico)
+                0x0000000000066e60                rumpns_dead_vfsops
+ .data          0x0000000000066ecc        0x0 librumpvfs_pic.a(vfs_trans.pico)
+ .data          0x0000000000066ecc        0x0 librumpvfs_pic.a(vfs_syscalls.pico)
+ .data          0x0000000000066ecc        0x8 librumpvfs_pic.a(vfs_subr.pico)
+                0x0000000000066ecc                rumpns_kinfo_vdebug
+                0x0000000000066ed0                rumpns_doforce
+ .data          0x0000000000066ed4        0x0 librumpvfs_pic.a(vfs_mount.pico)
+ .data          0x0000000000066ed4        0x0 librumpvfs_pic.a(vfs_lookup.pico)
+ .data          0x0000000000066ed4        0x0 librumpvfs_pic.a(vfs_getcwd.pico)
+ .data          0x0000000000066ed4        0x0 librumpvfs_pic.a(vfs_init.pico)
+ .data          0x0000000000066ed4        0x0 librumpvfs_pic.a(vfs_hooks.pico)
+ .data          0x0000000000066ed4        0x4 librumpvfs_pic.a(vfs_dirhash.pico)
+ .data          0x0000000000066ed8        0x4 librumpvfs_pic.a(rumpfs.pico)
+ *fill*         0x0000000000066edc        0x4 00
+ .data.rel      0x0000000000066ee0       0x7c librumpvfs_pic.a(rumpfs.pico)
+                0x0000000000066ee0                rumpfs_vfsops
+                0x0000000000066f4c                rumpfs_genfsops
+ .data          0x0000000000066f5c        0x0 librumpvfs_pic.a(vm_vfs.pico)
+ .data          0x0000000000066f5c        0x4 librumpvfs_pic.a(rumpblk.pico)
+ .data          0x0000000000066f60        0x4 librumpvfs_pic.a(kern_physio.pico)
+                0x0000000000066f60                rumpns_physio_concurrency
+ .data          0x0000000000066f64        0x0 librumpvfs_pic.a(rump_vfs.pico)
+ .data.rel.local
+                0x0000000000066f64       0x14 librumpvfs_pic.a(rump_vfs.pico)
+                0x0000000000066f64                rumpns_rootfstype
+ .data          0x0000000000066f78        0xe librumpvfs_pic.a(vfs_lockf.pico)
+                0x0000000000066f78                rumpns_maxlocksperuid
+                0x0000000000066f7c                rumpns_maxlockdepth
+ *fill*         0x0000000000066f86        0x2 00
+ .data          0x0000000000066f88        0x0 librumpvfs_pic.a(vfs_cwd.pico)
+ .data          0x0000000000066f88        0x0 librumpvfs_pic.a(vfs_cache.pico)
+ *fill*         0x0000000000066f88       0x38 00
+ .data.cacheline_aligned
+                0x0000000000066fc0       0x88 librumpvfs_pic.a(vfs_cache.pico)
+                0x0000000000066fc0                rumpns_nchstats
+ .data.read_mostly
+                0x0000000000067048       0x18 librumpvfs_pic.a(vfs_cache.pico)
+ .data          0x0000000000067060        0x4 librumpvfs_pic.a(vfs_bio.pico)
+                0x0000000000067060                rumpns_bufcache
+ *fill*         0x0000000000067064       0x1c 00
+ .data.rel.local
+                0x0000000000067080       0x24 librumpvfs_pic.a(vfs_bio.pico)
+ .data          0x00000000000670a4        0x0 librumpvfs_pic.a(devnull.pico)
+ *fill*         0x00000000000670a4       0x1c 00
+ .data.rel      0x00000000000670c0       0x30 librumpvfs_pic.a(devnull.pico)
+ .data          0x00000000000670f0        0x0 librumpvfs_pic.a(devnodes.pico)
+ .data          0x00000000000670f0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x00000000000670f0        0x0
+ .tm_clone_table
+                0x00000000000670f0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x00000000000670f0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_sysctl_funcs
+                0x00000000000670f0        0x8
+                0x00000000000670f0                . = ALIGN (0x4)
+                0x00000000000670f0                PROVIDE (__start_link_set_sysctl_funcs, ABSOLUTE (.))
+ link_set_sysctl_funcs
+                0x00000000000670f0        0x4 librumpvfs_pic.a(firmload.pico)
+ link_set_sysctl_funcs
+                0x00000000000670f4        0x4 librumpvfs_pic.a(vfs_cache.pico)
+                0x00000000000670f8                PROVIDE (__stop_link_set_sysctl_funcs, .)
+
+link_set_bufq_strats
+                0x00000000000670f8       0x14
+                0x00000000000670f8                . = ALIGN (0x4)
+                0x00000000000670f8                PROVIDE (__start_link_set_bufq_strats, ABSOLUTE (.))
+ link_set_bufq_strats
+                0x00000000000670f8        0x4 librumpvfs_pic.a(bufq_readprio.pico)
+ link_set_bufq_strats
+                0x00000000000670fc        0x4 librumpvfs_pic.a(bufq_priocscan.pico)
+ link_set_bufq_strats
+                0x0000000000067100        0x4 librumpvfs_pic.a(bufq_fcfs.pico)
+ link_set_bufq_strats
+                0x0000000000067104        0x4 librumpvfs_pic.a(bufq_disksort.pico)
+ link_set_bufq_strats
+                0x0000000000067108        0x4 librumpvfs_pic.a(subr_bufq.pico)
+                0x000000000006710c                PROVIDE (__stop_link_set_bufq_strats, .)
+
+link_set_modules
+                0x000000000006710c        0x4
+                0x000000000006710c                . = ALIGN (0x4)
+                0x000000000006710c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000006710c        0x4 librumpvfs_pic.a(vfs_wapbl.pico)
+                0x0000000000067110                PROVIDE (__stop_link_set_modules, .)
+
+link_set_rump_components
+                0x0000000000067110        0x8
+                0x0000000000067110                . = ALIGN (0x4)
+                0x0000000000067110                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000067110        0x4 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ link_set_rump_components
+                0x0000000000067114        0x4 librumpvfs_pic.a(rump_vfs.pico)
+                0x0000000000067118                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000067118                _edata = .
+                0x0000000000067118                PROVIDE (edata, .)
+                0x0000000000067118                __bss_start = .
+
+.bss            0x0000000000067120     0x2a38
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000067120        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000067128        0x0 librumpvfs_pic.a(rumpvnode_if.pico)
+ .bss           0x0000000000067128        0x0 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .bss           0x0000000000067128        0x0 librumpvfs_pic.a(firmload.pico)
+ .bss           0x0000000000067128        0x0 librumpvfs_pic.a(quota1_subr.pico)
+ .bss           0x0000000000067128        0x1 librumpvfs_pic.a(mfs_miniroot.pico)
+ *fill*         0x0000000000067129        0x3 00
+ .bss           0x000000000006712c        0x0 librumpvfs_pic.a(bufq_readprio.pico)
+ .bss           0x000000000006712c        0x0 librumpvfs_pic.a(bufq_priocscan.pico)
+ .bss           0x000000000006712c        0x0 librumpvfs_pic.a(bufq_fcfs.pico)
+ .bss           0x000000000006712c        0x0 librumpvfs_pic.a(bufq_disksort.pico)
+ .bss           0x000000000006712c        0xc librumpvfs_pic.a(subr_bufq.pico)
+ .bss           0x0000000000067138        0x0 librumpvfs_pic.a(genfs_rename.pico)
+ *fill*         0x0000000000067138        0x8 00
+ .bss           0x0000000000067140      0x1f8 librumpvfs_pic.a(vfs_wapbl.pico)
+                0x0000000000067140                rumpns_wapbl_lazy_truncate
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(compat.pico)
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(vfs_xattr.pico)
+ .bss           0x0000000000067338        0x0 librumpvfs_pic.a(vfs_quotactl.pico)
+ *fill*         0x0000000000067338        0x8 00
+ .bss           0x0000000000067340      0x120 librumpvfs_pic.a(spec_vnops.pico)
+ .bss           0x0000000000067460        0x0 librumpvfs_pic.a(genfs_vnops.pico)
+ .bss           0x0000000000067460        0x0 librumpvfs_pic.a(genfs_vfsops.pico)
+ .bss           0x0000000000067460        0x0 librumpvfs_pic.a(genfs_io.pico)
+ .bss           0x0000000000067460        0x0 librumpvfs_pic.a(dead_vnops.pico)
+ .bss           0x0000000000067460        0xc librumpvfs_pic.a(sync_vnops.pico)
+ .bss           0x000000000006746c       0x10 librumpvfs_pic.a(sync_subr.pico)
+ .bss           0x000000000006747c        0x0 librumpvfs_pic.a(uvm_vnode.pico)
+ .bss           0x000000000006747c        0x0 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .bss           0x000000000006747c        0x0 librumpvfs_pic.a(kern_module_vfs.pico)
+ .bss           0x000000000006747c        0x0 librumpvfs_pic.a(vfs_vnops.pico)
+ .bss           0x000000000006747c        0x4 librumpvfs_pic.a(vfs_vnode.pico)
+ .bss           0x0000000000067480        0x0 librumpvfs_pic.a(dead_vfsops.pico)
+ .bss           0x0000000000067480       0x2c librumpvfs_pic.a(vfs_trans.pico)
+ .bss           0x00000000000674ac        0x0 librumpvfs_pic.a(vfs_syscalls.pico)
+ .bss           0x00000000000674ac        0x4 librumpvfs_pic.a(vfs_subr.pico)
+                0x00000000000674ac                rumpns_prtactive
+ .bss           0x00000000000674b0       0x1a librumpvfs_pic.a(vfs_mount.pico)
+ *fill*         0x00000000000674ca        0x2 00
+ .bss           0x00000000000674cc       0x14 librumpvfs_pic.a(vfs_lookup.pico)
+                0x00000000000674cc                rumpns_vfs_magiclinks
+ .bss           0x00000000000674e0        0x0 librumpvfs_pic.a(vfs_getcwd.pico)
+ .bss           0x00000000000674e0        0xc librumpvfs_pic.a(vfs_init.pico)
+                0x00000000000674e0                rumpns_vfs_list
+ .bss           0x00000000000674ec        0x4 librumpvfs_pic.a(vfs_hooks.pico)
+                0x00000000000674ec                rumpns_vfs_hooks_head
+ *fill*         0x00000000000674f0       0x10 00
+ .bss           0x0000000000067500      0x1e4 librumpvfs_pic.a(vfs_dirhash.pico)
+ .bss           0x00000000000676e4        0xc librumpvfs_pic.a(rumpfs.pico)
+ .bss           0x00000000000676f0        0x0 librumpvfs_pic.a(vm_vfs.pico)
+ *fill*         0x00000000000676f0       0x10 00
+ .bss           0x0000000000067700     0x1c80 librumpvfs_pic.a(rumpblk.pico)
+ .bss           0x0000000000069380        0x8 librumpvfs_pic.a(kern_physio.pico)
+                0x0000000000069380                rumpns_physio_initialized
+ .bss           0x0000000000069388        0x0 librumpvfs_pic.a(rump_vfs.pico)
+ .bss           0x0000000000069388        0x8 librumpvfs_pic.a(vfs_lockf.pico)
+ .bss           0x0000000000069390        0x4 librumpvfs_pic.a(vfs_cwd.pico)
+ *fill*         0x0000000000069394        0xc 00
+ .bss           0x00000000000693a0       0xc0 librumpvfs_pic.a(vfs_cache.pico)
+ .bss           0x0000000000069460      0x610 librumpvfs_pic.a(vfs_bio.pico)
+                0x0000000000069460                rumpns_bufpages
+ .bss           0x0000000000069a70        0x0 librumpvfs_pic.a(devnull.pico)
+ .bss           0x0000000000069a70        0x0 librumpvfs_pic.a(devnodes.pico)
+ .bss           0x0000000000069a70        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000069a70        0x8 librumpvfs_pic.a(mfs_miniroot.pico)
+                0x0000000000069a70                rumpns_mfs_rootbase
+                0x0000000000069a74                rumpns_mfs_rootsize
+ COMMON         0x0000000000069a78        0x4 librumpvfs_pic.a(spec_vnops.pico)
+                0x0000000000069a78                rumpns_spec_vnodeop_p
+ COMMON         0x0000000000069a7c        0x4 librumpvfs_pic.a(dead_vnops.pico)
+                0x0000000000069a7c                rumpns_dead_vnodeop_p
+ COMMON         0x0000000000069a80        0x4 librumpvfs_pic.a(sync_vnops.pico)
+                0x0000000000069a80                rumpns_sync_vnodeop_p
+ COMMON         0x0000000000069a84        0x4 librumpvfs_pic.a(sync_subr.pico)
+                0x0000000000069a84                rumpns_syncer_mutex
+ COMMON         0x0000000000069a88        0x4 librumpvfs_pic.a(vfs_vnops.pico)
+                0x0000000000069a88                rumpns_vn_union_readdir_hook
+ *fill*         0x0000000000069a8c        0x4 00
+ COMMON         0x0000000000069a90        0xc librumpvfs_pic.a(vfs_subr.pico)
+                0x0000000000069a90                rumpns_rootfstime
+                0x0000000000069a98                rumpns_kinfo_vgetfailed
+ COMMON         0x0000000000069a9c       0x1c librumpvfs_pic.a(vfs_mount.pico)
+                0x0000000000069a9c                rumpns_rootvnode
+                0x0000000000069aa0                rumpns_vfs_list_lock
+                0x0000000000069aa4                rumpns_mountlist_lock
+                0x0000000000069aa8                rumpns_mountlist
+                0x0000000000069ab0                rumpns_root_device
+                0x0000000000069ab4                rumpns_mntvnode_lock
+ COMMON         0x0000000000069ab8        0x4 librumpvfs_pic.a(vfs_hooks.pico)
+                0x0000000000069ab8                rumpns_vfs_hooks_lock
+ COMMON         0x0000000000069abc        0xc librumpvfs_pic.a(rumpfs.pico)
+                0x0000000000069abc                rumpns_fifo_vnodeop_p
+                0x0000000000069ac0                rump_vnodeop_p
+                0x0000000000069ac4                rump_specop_p
+ COMMON         0x0000000000069ac8        0x4 librumpvfs_pic.a(kern_physio.pico)
+                0x0000000000069ac8                rumpns_physio_workqueue
+ *fill*         0x0000000000069acc       0x14 00
+ COMMON         0x0000000000069ae0       0x78 librumpvfs_pic.a(vfs_bio.pico)
+                0x0000000000069ae0                rumpns_invalhash
+                0x0000000000069ae4                rumpns_bufmem_hiwater
+                0x0000000000069ae8                rumpns_bufhash
+                0x0000000000069aec                rumpns_bufcache_lock
+                0x0000000000069af0                rumpns_bufmem
+                0x0000000000069af4                rumpns_bufmem_valimit
+                0x0000000000069af8                rumpns_bufmem_lowater
+                0x0000000000069afc                rumpns_buffer_lock
+                0x0000000000069b00                rumpns_bufqueues
+                0x0000000000069b50                rumpns_bufhashtbl
+                0x0000000000069b54                rumpns_nbuf
+                0x0000000000069b58                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000069b58                . = ALIGN (0x4)
+                0x0000000000069b58                . = ALIGN (0x4)
+                0x0000000000069b58                _end = .
+                0x0000000000069b58                PROVIDE (end, .)
+                0x0000000000069b58                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rumpvnode_if.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(firmload.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(quota1_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(mfs_miniroot.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(bufq_readprio.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(bufq_priocscan.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(bufq_fcfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(bufq_disksort.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(subr_bufq.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(genfs_rename.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_wapbl.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(compat.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_xattr.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_quotactl.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(spec_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(genfs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(genfs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(genfs_io.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(dead_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(sync_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(sync_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(uvm_vnode.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(kern_module_vfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_vnode.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(dead_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_trans.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_syscalls.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_mount.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_lookup.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_getcwd.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_init.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_hooks.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_dirhash.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rumpfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vm_vfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rumpblk.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(kern_physio.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(rump_vfs.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_lockf.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_cwd.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_cache.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(vfs_bio.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(devnull.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_pic.a(devnodes.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0xc08
+ .ident         0x0000000000000000       0x42 librumpvfs_pic.a(rumpvnode_if.pico)
+ .ident         0x0000000000000042       0x41 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .ident         0x0000000000000083       0x3e librumpvfs_pic.a(firmload.pico)
+ .ident         0x00000000000000c1       0x40 librumpvfs_pic.a(quota1_subr.pico)
+ .ident         0x0000000000000101       0x3e librumpvfs_pic.a(mfs_miniroot.pico)
+ .ident         0x000000000000013f       0x3f librumpvfs_pic.a(bufq_readprio.pico)
+ .ident         0x000000000000017e       0x42 librumpvfs_pic.a(bufq_priocscan.pico)
+ .ident         0x00000000000001c0       0x3b librumpvfs_pic.a(bufq_fcfs.pico)
+ .ident         0x00000000000001fb       0x3f librumpvfs_pic.a(bufq_disksort.pico)
+ .ident         0x000000000000023a       0x3c librumpvfs_pic.a(subr_bufq.pico)
+ .ident         0x0000000000000276       0x40 librumpvfs_pic.a(genfs_rename.pico)
+ .ident         0x00000000000002b6       0x3a librumpvfs_pic.a(vfs_wapbl.pico)
+ .ident         0x00000000000002f0       0x42 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .ident         0x0000000000000332       0x39 librumpvfs_pic.a(compat.pico)
+ .ident         0x000000000000036b       0x40 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .ident         0x00000000000003ab       0x3b librumpvfs_pic.a(vfs_xattr.pico)
+ .ident         0x00000000000003e6       0x43 librumpvfs_pic.a(vfs_quotactl.pico)
+ .ident         0x0000000000000429       0x41 librumpvfs_pic.a(spec_vnops.pico)
+ .ident         0x000000000000046a       0x41 librumpvfs_pic.a(genfs_vnops.pico)
+ .ident         0x00000000000004ab       0x3e librumpvfs_pic.a(genfs_vfsops.pico)
+ .ident         0x00000000000004e9       0x3c librumpvfs_pic.a(genfs_io.pico)
+ .ident         0x0000000000000525       0x40 librumpvfs_pic.a(dead_vnops.pico)
+ .ident         0x0000000000000565       0x3d librumpvfs_pic.a(sync_vnops.pico)
+ .ident         0x00000000000005a2       0x3c librumpvfs_pic.a(sync_subr.pico)
+ .ident         0x00000000000005de       0x3b librumpvfs_pic.a(uvm_vnode.pico)
+ .ident         0x0000000000000619       0x40 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .ident         0x0000000000000659       0x42 librumpvfs_pic.a(kern_module_vfs.pico)
+ .ident         0x000000000000069b       0x3b librumpvfs_pic.a(vfs_vnops.pico)
+ .ident         0x00000000000006d6       0x3e librumpvfs_pic.a(vfs_vnode.pico)
+ .ident         0x0000000000000714       0x3f librumpvfs_pic.a(dead_vfsops.pico)
+ .ident         0x0000000000000753       0x3b librumpvfs_pic.a(vfs_trans.pico)
+ .ident         0x000000000000078e       0x3f librumpvfs_pic.a(vfs_syscalls.pico)
+ .ident         0x00000000000007cd       0x3b librumpvfs_pic.a(vfs_subr.pico)
+ .ident         0x0000000000000808       0x3b librumpvfs_pic.a(vfs_mount.pico)
+ .ident         0x0000000000000843       0x40 librumpvfs_pic.a(vfs_lookup.pico)
+ .ident         0x0000000000000883       0x3f librumpvfs_pic.a(vfs_getcwd.pico)
+ .ident         0x00000000000008c2       0x3b librumpvfs_pic.a(vfs_init.pico)
+ .ident         0x00000000000008fd       0x3c librumpvfs_pic.a(vfs_hooks.pico)
+ .ident         0x0000000000000939       0x3d librumpvfs_pic.a(vfs_dirhash.pico)
+ .ident         0x0000000000000976       0x3b librumpvfs_pic.a(rumpfs.pico)
+ .ident         0x00000000000009b1       0x3c librumpvfs_pic.a(vm_vfs.pico)
+ .ident         0x00000000000009ed       0x3a librumpvfs_pic.a(rumpblk.pico)
+ .ident         0x0000000000000a27       0x3e librumpvfs_pic.a(kern_physio.pico)
+ .ident         0x0000000000000a65       0x3b librumpvfs_pic.a(rump_vfs.pico)
+ .ident         0x0000000000000aa0       0x3f librumpvfs_pic.a(vfs_lockf.pico)
+ .ident         0x0000000000000adf       0x39 librumpvfs_pic.a(vfs_cwd.pico)
+ .ident         0x0000000000000b18       0x3e librumpvfs_pic.a(vfs_cache.pico)
+ .ident         0x0000000000000b56       0x3b librumpvfs_pic.a(vfs_bio.pico)
+ .ident         0x0000000000000b91       0x3c librumpvfs_pic.a(devnull.pico)
+ .ident         0x0000000000000bcd       0x3b librumpvfs_pic.a(devnodes.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x690
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpvfs_pic.a(rumpvnode_if.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpvfs_pic.a(firmload.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpvfs_pic.a(quota1_subr.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpvfs_pic.a(mfs_miniroot.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpvfs_pic.a(bufq_fcfs.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpvfs_pic.a(subr_bufq.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpvfs_pic.a(genfs_rename.pico)
+ .debug_aranges
+                0x0000000000000160       0x30 librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_aranges
+                0x0000000000000190       0x20 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .debug_aranges
+                0x00000000000001b0       0x20 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .debug_aranges
+                0x00000000000001d0       0x20 librumpvfs_pic.a(compat.pico)
+ .debug_aranges
+                0x00000000000001f0       0x20 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_aranges
+                0x0000000000000210       0x20 librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_aranges
+                0x0000000000000230       0x20 librumpvfs_pic.a(vfs_quotactl.pico)
+ .debug_aranges
+                0x0000000000000250       0x20 librumpvfs_pic.a(spec_vnops.pico)
+ .debug_aranges
+                0x0000000000000270       0x20 librumpvfs_pic.a(genfs_vnops.pico)
+ .debug_aranges
+                0x0000000000000290       0x20 librumpvfs_pic.a(genfs_vfsops.pico)
+ .debug_aranges
+                0x00000000000002b0       0x20 librumpvfs_pic.a(genfs_io.pico)
+ .debug_aranges
+                0x00000000000002d0       0x20 librumpvfs_pic.a(dead_vnops.pico)
+ .debug_aranges
+                0x00000000000002f0       0x20 librumpvfs_pic.a(sync_vnops.pico)
+ .debug_aranges
+                0x0000000000000310       0x20 librumpvfs_pic.a(sync_subr.pico)
+ .debug_aranges
+                0x0000000000000330       0x20 librumpvfs_pic.a(uvm_vnode.pico)
+ .debug_aranges
+                0x0000000000000350       0x20 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .debug_aranges
+                0x0000000000000370       0x20 librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_aranges
+                0x0000000000000390       0x20 librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_aranges
+                0x00000000000003b0       0x30 librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_aranges
+                0x00000000000003e0       0x20 librumpvfs_pic.a(dead_vfsops.pico)
+ .debug_aranges
+                0x0000000000000400       0x20 librumpvfs_pic.a(vfs_trans.pico)
+ .debug_aranges
+                0x0000000000000420       0x20 librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_aranges
+                0x0000000000000440       0x20 librumpvfs_pic.a(vfs_subr.pico)
+ .debug_aranges
+                0x0000000000000460       0x20 librumpvfs_pic.a(vfs_mount.pico)
+ .debug_aranges
+                0x0000000000000480       0x30 librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_aranges
+                0x00000000000004b0       0x20 librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_aranges
+                0x00000000000004d0       0x20 librumpvfs_pic.a(vfs_init.pico)
+ .debug_aranges
+                0x00000000000004f0       0x20 librumpvfs_pic.a(vfs_hooks.pico)
+ .debug_aranges
+                0x0000000000000510       0x20 librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_aranges
+                0x0000000000000530       0x20 librumpvfs_pic.a(rumpfs.pico)
+ .debug_aranges
+                0x0000000000000550       0x20 librumpvfs_pic.a(vm_vfs.pico)
+ .debug_aranges
+                0x0000000000000570       0x20 librumpvfs_pic.a(rumpblk.pico)
+ .debug_aranges
+                0x0000000000000590       0x20 librumpvfs_pic.a(kern_physio.pico)
+ .debug_aranges
+                0x00000000000005b0       0x20 librumpvfs_pic.a(rump_vfs.pico)
+ .debug_aranges
+                0x00000000000005d0       0x20 librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_aranges
+                0x00000000000005f0       0x20 librumpvfs_pic.a(vfs_cwd.pico)
+ .debug_aranges
+                0x0000000000000610       0x20 librumpvfs_pic.a(vfs_cache.pico)
+ .debug_aranges
+                0x0000000000000630       0x20 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_aranges
+                0x0000000000000650       0x20 librumpvfs_pic.a(devnull.pico)
+ .debug_aranges
+                0x0000000000000670       0x20 librumpvfs_pic.a(devnodes.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000   0x146a6c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x8bcb librumpvfs_pic.a(rumpvnode_if.pico)
+ .debug_info    0x0000000000008bcb     0x9071 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .debug_info    0x0000000000011c3c     0x6bee librumpvfs_pic.a(firmload.pico)
+ .debug_info    0x000000000001882a      0x353 librumpvfs_pic.a(quota1_subr.pico)
+ .debug_info    0x0000000000018b7d      0x93d librumpvfs_pic.a(mfs_miniroot.pico)
+ .debug_info    0x00000000000194ba      0x94f librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_info    0x0000000000019e09     0x1253 librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_info    0x000000000001b05c      0x821 librumpvfs_pic.a(bufq_fcfs.pico)
+ .debug_info    0x000000000001b87d      0x9fa librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_info    0x000000000001c277     0x520e librumpvfs_pic.a(subr_bufq.pico)
+ .debug_info    0x0000000000021485     0x5e7a librumpvfs_pic.a(genfs_rename.pico)
+ .debug_info    0x00000000000272ff     0xc0e3 librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_info    0x00000000000333e2     0x5576 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .debug_info    0x0000000000038958     0x650a librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .debug_info    0x000000000003ee62      0x66c librumpvfs_pic.a(compat.pico)
+ .debug_info    0x000000000003f4ce     0x604d librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_info    0x000000000004551b     0xbc8e librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_info    0x00000000000511a9     0x14e0 librumpvfs_pic.a(vfs_quotactl.pico)
+ .debug_info    0x0000000000052689     0x8e07 librumpvfs_pic.a(spec_vnops.pico)
+ .debug_info    0x000000000005b490     0x7f6b librumpvfs_pic.a(genfs_vnops.pico)
+ .debug_info    0x00000000000633fb     0x1717 librumpvfs_pic.a(genfs_vfsops.pico)
+ .debug_info    0x0000000000064b12     0x91f2 librumpvfs_pic.a(genfs_io.pico)
+ .debug_info    0x000000000006dd04     0x5d52 librumpvfs_pic.a(dead_vnops.pico)
+ .debug_info    0x0000000000073a56     0x1bee librumpvfs_pic.a(sync_vnops.pico)
+ .debug_info    0x0000000000075644     0x5d6e librumpvfs_pic.a(sync_subr.pico)
+ .debug_info    0x000000000007b3b2     0x6627 librumpvfs_pic.a(uvm_vnode.pico)
+ .debug_info    0x00000000000819d9     0x6055 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .debug_info    0x0000000000087a2e     0x6b38 librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_info    0x000000000008e566     0x889e librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_info    0x0000000000096e04     0xbc5e librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_info    0x00000000000a2a62     0x1683 librumpvfs_pic.a(dead_vfsops.pico)
+ .debug_info    0x00000000000a40e5     0x6a04 librumpvfs_pic.a(vfs_trans.pico)
+ .debug_info    0x00000000000aaae9    0x18881 librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_info    0x00000000000c336a     0x9507 librumpvfs_pic.a(vfs_subr.pico)
+ .debug_info    0x00000000000cc871     0x95a6 librumpvfs_pic.a(vfs_mount.pico)
+ .debug_info    0x00000000000d5e17     0x8a60 librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_info    0x00000000000de877     0x6a54 librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_info    0x00000000000e52cb     0x699b librumpvfs_pic.a(vfs_init.pico)
+ .debug_info    0x00000000000ebc66      0xec3 librumpvfs_pic.a(vfs_hooks.pico)
+ .debug_info    0x00000000000ecb29     0x6c5c librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_info    0x00000000000f3785     0xb9f7 librumpvfs_pic.a(rumpfs.pico)
+ .debug_info    0x00000000000ff17c     0x66c4 librumpvfs_pic.a(vm_vfs.pico)
+ .debug_info    0x0000000000105840     0x7eb4 librumpvfs_pic.a(rumpblk.pico)
+ .debug_info    0x000000000010d6f4     0x50f1 librumpvfs_pic.a(kern_physio.pico)
+ .debug_info    0x00000000001127e5     0x8d13 librumpvfs_pic.a(rump_vfs.pico)
+ .debug_info    0x000000000011b4f8     0x664e librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_info    0x0000000000121b46     0x5c38 librumpvfs_pic.a(vfs_cwd.pico)
+ .debug_info    0x000000000012777e     0x7a73 librumpvfs_pic.a(vfs_cache.pico)
+ .debug_info    0x000000000012f1f1     0xb026 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_info    0x000000000013a217     0x5c3d librumpvfs_pic.a(devnull.pico)
+ .debug_info    0x000000000013fe54     0x6c18 librumpvfs_pic.a(devnodes.pico)
+
+.debug_abbrev   0x0000000000000000     0xc939
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2fe librumpvfs_pic.a(rumpvnode_if.pico)
+ .debug_abbrev  0x00000000000002fe      0x4a6 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .debug_abbrev  0x00000000000007a4      0x4c4 librumpvfs_pic.a(firmload.pico)
+ .debug_abbrev  0x0000000000000c68      0x104 librumpvfs_pic.a(quota1_subr.pico)
+ .debug_abbrev  0x0000000000000d6c      0x155 librumpvfs_pic.a(mfs_miniroot.pico)
+ .debug_abbrev  0x0000000000000ec1      0x27a librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_abbrev  0x000000000000113b      0x3c0 librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_abbrev  0x00000000000014fb      0x22f librumpvfs_pic.a(bufq_fcfs.pico)
+ .debug_abbrev  0x000000000000172a      0x299 librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_abbrev  0x00000000000019c3      0x4be librumpvfs_pic.a(subr_bufq.pico)
+ .debug_abbrev  0x0000000000001e81      0x42f librumpvfs_pic.a(genfs_rename.pico)
+ .debug_abbrev  0x00000000000022b0      0x5fe librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_abbrev  0x00000000000028ae      0x242 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .debug_abbrev  0x0000000000002af0      0x32a librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .debug_abbrev  0x0000000000002e1a      0x134 librumpvfs_pic.a(compat.pico)
+ .debug_abbrev  0x0000000000002f4e      0x369 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_abbrev  0x00000000000032b7      0x4e1 librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_abbrev  0x0000000000003798      0x1d6 librumpvfs_pic.a(vfs_quotactl.pico)
+ .debug_abbrev  0x000000000000396e      0x49e librumpvfs_pic.a(spec_vnops.pico)
+ .debug_abbrev  0x0000000000003e0c      0x3e1 librumpvfs_pic.a(genfs_vnops.pico)
+ .debug_abbrev  0x00000000000041ed      0x1ee librumpvfs_pic.a(genfs_vfsops.pico)
+ .debug_abbrev  0x00000000000043db      0x5ec librumpvfs_pic.a(genfs_io.pico)
+ .debug_abbrev  0x00000000000049c7      0x39e librumpvfs_pic.a(dead_vnops.pico)
+ .debug_abbrev  0x0000000000004d65      0x301 librumpvfs_pic.a(sync_vnops.pico)
+ .debug_abbrev  0x0000000000005066      0x3e5 librumpvfs_pic.a(sync_subr.pico)
+ .debug_abbrev  0x000000000000544b      0x467 librumpvfs_pic.a(uvm_vnode.pico)
+ .debug_abbrev  0x00000000000058b2      0x303 librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .debug_abbrev  0x0000000000005bb5      0x380 librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_abbrev  0x0000000000005f35      0x51b librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_abbrev  0x0000000000006450      0x623 librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_abbrev  0x0000000000006a73      0x1e4 librumpvfs_pic.a(dead_vfsops.pico)
+ .debug_abbrev  0x0000000000006c57      0x4b6 librumpvfs_pic.a(vfs_trans.pico)
+ .debug_abbrev  0x000000000000710d      0x66b librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_abbrev  0x0000000000007778      0x549 librumpvfs_pic.a(vfs_subr.pico)
+ .debug_abbrev  0x0000000000007cc1      0x59c librumpvfs_pic.a(vfs_mount.pico)
+ .debug_abbrev  0x000000000000825d      0x5da librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_abbrev  0x0000000000008837      0x436 librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_abbrev  0x0000000000008c6d      0x4b8 librumpvfs_pic.a(vfs_init.pico)
+ .debug_abbrev  0x0000000000009125      0x251 librumpvfs_pic.a(vfs_hooks.pico)
+ .debug_abbrev  0x0000000000009376      0x416 librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_abbrev  0x000000000000978c      0x59e librumpvfs_pic.a(rumpfs.pico)
+ .debug_abbrev  0x0000000000009d2a      0x353 librumpvfs_pic.a(vm_vfs.pico)
+ .debug_abbrev  0x000000000000a07d      0x58d librumpvfs_pic.a(rumpblk.pico)
+ .debug_abbrev  0x000000000000a60a      0x38a librumpvfs_pic.a(kern_physio.pico)
+ .debug_abbrev  0x000000000000a994      0x48a librumpvfs_pic.a(rump_vfs.pico)
+ .debug_abbrev  0x000000000000ae1e      0x4c0 librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_abbrev  0x000000000000b2de      0x31d librumpvfs_pic.a(vfs_cwd.pico)
+ .debug_abbrev  0x000000000000b5fb      0x585 librumpvfs_pic.a(vfs_cache.pico)
+ .debug_abbrev  0x000000000000bb80      0x668 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_abbrev  0x000000000000c1e8      0x378 librumpvfs_pic.a(devnull.pico)
+ .debug_abbrev  0x000000000000c560      0x3d9 librumpvfs_pic.a(devnodes.pico)
+
+.debug_line     0x0000000000000000    0x1bfa8
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x831 librumpvfs_pic.a(rumpvnode_if.pico)
+ .debug_line    0x0000000000000831      0x8a6 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .debug_line    0x00000000000010d7      0x731 librumpvfs_pic.a(firmload.pico)
+ .debug_line    0x0000000000001808      0x1f2 librumpvfs_pic.a(quota1_subr.pico)
+ .debug_line    0x00000000000019fa      0x21f librumpvfs_pic.a(mfs_miniroot.pico)
+ .debug_line    0x0000000000001c19      0x395 librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_line    0x0000000000001fae      0x429 librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_line    0x00000000000023d7      0x2c8 librumpvfs_pic.a(bufq_fcfs.pico)
+ .debug_line    0x000000000000269f      0x39b librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_line    0x0000000000002a3a      0x64f librumpvfs_pic.a(subr_bufq.pico)
+ .debug_line    0x0000000000003089      0xb7d librumpvfs_pic.a(genfs_rename.pico)
+ .debug_line    0x0000000000003c06     0x151b librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_line    0x0000000000005121      0x62c librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .debug_line    0x000000000000574d      0x763 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .debug_line    0x0000000000005eb0      0x252 librumpvfs_pic.a(compat.pico)
+ .debug_line    0x0000000000006102      0x596 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_line    0x0000000000006698      0xb53 librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_line    0x00000000000071eb      0x271 librumpvfs_pic.a(vfs_quotactl.pico)
+ .debug_line    0x000000000000745c      0xcaa librumpvfs_pic.a(spec_vnops.pico)
+ .debug_line    0x0000000000008106      0x9bb librumpvfs_pic.a(genfs_vnops.pico)
+ .debug_line    0x0000000000008ac1      0x321 librumpvfs_pic.a(genfs_vfsops.pico)
+ .debug_line    0x0000000000008de2     0x12ae librumpvfs_pic.a(genfs_io.pico)
+ .debug_line    0x000000000000a090      0x55b librumpvfs_pic.a(dead_vnops.pico)
+ .debug_line    0x000000000000a5eb      0x3c5 librumpvfs_pic.a(sync_vnops.pico)
+ .debug_line    0x000000000000a9b0      0x685 librumpvfs_pic.a(sync_subr.pico)
+ .debug_line    0x000000000000b035      0x77d librumpvfs_pic.a(uvm_vnode.pico)
+ .debug_line    0x000000000000b7b2      0x62a librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .debug_line    0x000000000000bddc      0x77e librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_line    0x000000000000c55a      0xc56 librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_line    0x000000000000d1b0     0x135e librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_line    0x000000000000e50e      0x30f librumpvfs_pic.a(dead_vfsops.pico)
+ .debug_line    0x000000000000e81d      0xa4c librumpvfs_pic.a(vfs_trans.pico)
+ .debug_line    0x000000000000f269     0x1a6f librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_line    0x0000000000010cd8      0xe3d librumpvfs_pic.a(vfs_subr.pico)
+ .debug_line    0x0000000000011b15      0xe2b librumpvfs_pic.a(vfs_mount.pico)
+ .debug_line    0x0000000000012940      0xd46 librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_line    0x0000000000013686      0x7cd librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_line    0x0000000000013e53      0x770 librumpvfs_pic.a(vfs_init.pico)
+ .debug_line    0x00000000000145c3      0x247 librumpvfs_pic.a(vfs_hooks.pico)
+ .debug_line    0x000000000001480a      0x8c4 librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_line    0x00000000000150ce     0x11b8 librumpvfs_pic.a(rumpfs.pico)
+ .debug_line    0x0000000000016286      0x74b librumpvfs_pic.a(vm_vfs.pico)
+ .debug_line    0x00000000000169d1      0xa08 librumpvfs_pic.a(rumpblk.pico)
+ .debug_line    0x00000000000173d9      0x738 librumpvfs_pic.a(kern_physio.pico)
+ .debug_line    0x0000000000017b11      0xb0d librumpvfs_pic.a(rump_vfs.pico)
+ .debug_line    0x000000000001861e      0x930 librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_line    0x0000000000018f4e      0x5d0 librumpvfs_pic.a(vfs_cwd.pico)
+ .debug_line    0x000000000001951e      0xa7f librumpvfs_pic.a(vfs_cache.pico)
+ .debug_line    0x0000000000019f9d     0x1239 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_line    0x000000000001b1d6      0x67b librumpvfs_pic.a(devnull.pico)
+ .debug_line    0x000000000001b851      0x757 librumpvfs_pic.a(devnodes.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x10ea5
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x39cc librumpvfs_pic.a(rumpvnode_if.pico)
+                                       0x4128 (size before relaxing)
+ .debug_str     0x00000000000039cc     0x15a6 librumpvfs_pic.a(vfs_syscalls_50.pico)
+                                       0x4426 (size before relaxing)
+ .debug_str     0x0000000000004f72      0x500 librumpvfs_pic.a(firmload.pico)
+                                       0x39a3 (size before relaxing)
+ .debug_str     0x0000000000005472       0xb6 librumpvfs_pic.a(quota1_subr.pico)
+                                        0x2be (size before relaxing)
+ .debug_str     0x0000000000005528      0x594 librumpvfs_pic.a(mfs_miniroot.pico)
+                                        0x705 (size before relaxing)
+ .debug_str     0x0000000000005abc      0x1eb librumpvfs_pic.a(bufq_readprio.pico)
+                                        0x515 (size before relaxing)
+ .debug_str     0x0000000000005ca7      0x2a2 librumpvfs_pic.a(bufq_priocscan.pico)
+                                        0x72d (size before relaxing)
+ .debug_str     0x0000000000005f49      0x119 librumpvfs_pic.a(bufq_fcfs.pico)
+                                        0x4c5 (size before relaxing)
+ .debug_str     0x0000000000006062      0x145 librumpvfs_pic.a(bufq_disksort.pico)
+                                        0x514 (size before relaxing)
+ .debug_str     0x00000000000061a7      0x222 librumpvfs_pic.a(subr_bufq.pico)
+                                       0x2a30 (size before relaxing)
+ .debug_str     0x00000000000063c9      0x57c librumpvfs_pic.a(genfs_rename.pico)
+                                       0x1417 (size before relaxing)
+ .debug_str     0x0000000000006945      0xef4 librumpvfs_pic.a(vfs_wapbl.pico)
+                                       0x4526 (size before relaxing)
+ .debug_str     0x0000000000007839      0x28b librumpvfs_pic.a(rumpvfs_syscalls.pico)
+                                       0x322c (size before relaxing)
+ .debug_str     0x0000000000007ac4      0x553 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+                                       0x3508 (size before relaxing)
+ .debug_str     0x0000000000008017       0x9d librumpvfs_pic.a(compat.pico)
+                                        0x365 (size before relaxing)
+ .debug_str     0x00000000000080b4      0x111 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+                                       0x340a (size before relaxing)
+ .debug_str     0x00000000000081c5      0x5e7 librumpvfs_pic.a(vfs_xattr.pico)
+                                       0x3b67 (size before relaxing)
+ .debug_str     0x00000000000087ac      0x17c librumpvfs_pic.a(vfs_quotactl.pico)
+                                        0xa88 (size before relaxing)
+ .debug_str     0x0000000000008928     0x1145 librumpvfs_pic.a(spec_vnops.pico)
+                                       0x433b (size before relaxing)
+ .debug_str     0x0000000000009a6d      0x510 librumpvfs_pic.a(genfs_vnops.pico)
+                                       0x3e02 (size before relaxing)
+ .debug_str     0x0000000000009f7d       0xe9 librumpvfs_pic.a(genfs_vfsops.pico)
+                                        0xe35 (size before relaxing)
+ .debug_str     0x000000000000a066      0x671 librumpvfs_pic.a(genfs_io.pico)
+                                       0x3dc2 (size before relaxing)
+ .debug_str     0x000000000000a6d7      0x1cf librumpvfs_pic.a(dead_vnops.pico)
+                                       0x33d2 (size before relaxing)
+ .debug_str     0x000000000000a8a6      0x195 librumpvfs_pic.a(sync_vnops.pico)
+                                       0x1055 (size before relaxing)
+ .debug_str     0x000000000000aa3b      0x19d librumpvfs_pic.a(sync_subr.pico)
+                                       0x31fb (size before relaxing)
+ .debug_str     0x000000000000abd8      0x164 librumpvfs_pic.a(uvm_vnode.pico)
+                                       0x34f8 (size before relaxing)
+ .debug_str     0x000000000000ad3c      0x612 librumpvfs_pic.a(subr_kobj_vfs.pico)
+                                       0x35a1 (size before relaxing)
+ .debug_str     0x000000000000b34e      0x2d8 librumpvfs_pic.a(kern_module_vfs.pico)
+                                       0x3bfd (size before relaxing)
+ .debug_str     0x000000000000b626      0x2a9 librumpvfs_pic.a(vfs_vnops.pico)
+                                       0x3f56 (size before relaxing)
+ .debug_str     0x000000000000b8cf      0x475 librumpvfs_pic.a(vfs_vnode.pico)
+                                       0x4807 (size before relaxing)
+ .debug_str     0x000000000000bd44       0xbb librumpvfs_pic.a(dead_vfsops.pico)
+                                        0xe18 (size before relaxing)
+ .debug_str     0x000000000000bdff      0x478 librumpvfs_pic.a(vfs_trans.pico)
+                                       0x3455 (size before relaxing)
+ .debug_str     0x000000000000c277     0x18a3 librumpvfs_pic.a(vfs_syscalls.pico)
+                                       0x5e70 (size before relaxing)
+ .debug_str     0x000000000000db1a      0x3a4 librumpvfs_pic.a(vfs_subr.pico)
+                                       0x3ebe (size before relaxing)
+ .debug_str     0x000000000000debe      0x4dc librumpvfs_pic.a(vfs_mount.pico)
+                                       0x4983 (size before relaxing)
+ .debug_str     0x000000000000e39a      0x3de librumpvfs_pic.a(vfs_lookup.pico)
+                                       0x3bc5 (size before relaxing)
+ .debug_str     0x000000000000e778      0x15f librumpvfs_pic.a(vfs_getcwd.pico)
+                                       0x35ac (size before relaxing)
+ .debug_str     0x000000000000e8d7      0x1f3 librumpvfs_pic.a(vfs_init.pico)
+                                       0x3f75 (size before relaxing)
+ .debug_str     0x000000000000eaca      0x16f librumpvfs_pic.a(vfs_hooks.pico)
+                                        0x8ff (size before relaxing)
+ .debug_str     0x000000000000ec39      0x233 librumpvfs_pic.a(vfs_dirhash.pico)
+                                       0x36ed (size before relaxing)
+ .debug_str     0x000000000000ee6c      0x823 librumpvfs_pic.a(rumpfs.pico)
+                                       0x51d1 (size before relaxing)
+ .debug_str     0x000000000000f68f       0xf8 librumpvfs_pic.a(vm_vfs.pico)
+                                       0x3599 (size before relaxing)
+ .debug_str     0x000000000000f787      0x411 librumpvfs_pic.a(rumpblk.pico)
+                                       0x4279 (size before relaxing)
+ .debug_str     0x000000000000fb98      0x1ad librumpvfs_pic.a(kern_physio.pico)
+                                       0x290c (size before relaxing)
+ .debug_str     0x000000000000fd45      0x304 librumpvfs_pic.a(rump_vfs.pico)
+                                       0x4cdd (size before relaxing)
+ .debug_str     0x0000000000010049      0x252 librumpvfs_pic.a(vfs_lockf.pico)
+                                       0x356b (size before relaxing)
+ .debug_str     0x000000000001029b       0xd9 librumpvfs_pic.a(vfs_cwd.pico)
+                                       0x33fa (size before relaxing)
+ .debug_str     0x0000000000010374      0x470 librumpvfs_pic.a(vfs_cache.pico)
+                                       0x39f7 (size before relaxing)
+ .debug_str     0x00000000000107e4      0x4b7 librumpvfs_pic.a(vfs_bio.pico)
+                                       0x4429 (size before relaxing)
+ .debug_str     0x0000000000010c9b       0xdf librumpvfs_pic.a(devnull.pico)
+                                       0x340d (size before relaxing)
+ .debug_str     0x0000000000010d7a      0x12b librumpvfs_pic.a(devnodes.pico)
+                                       0x3c10 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x31b55
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x104b librumpvfs_pic.a(rumpvnode_if.pico)
+ .debug_loc     0x000000000000104b      0x593 librumpvfs_pic.a(vfs_syscalls_50.pico)
+ .debug_loc     0x00000000000015de      0x715 librumpvfs_pic.a(firmload.pico)
+ .debug_loc     0x0000000000001cf3      0x1dc librumpvfs_pic.a(quota1_subr.pico)
+ .debug_loc     0x0000000000001ecf       0xbc librumpvfs_pic.a(mfs_miniroot.pico)
+ .debug_loc     0x0000000000001f8b      0x522 librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_loc     0x00000000000024ad      0xaea librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_loc     0x0000000000002f97      0x162 librumpvfs_pic.a(bufq_fcfs.pico)
+ .debug_loc     0x00000000000030f9      0x68a librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_loc     0x0000000000003783      0x647 librumpvfs_pic.a(subr_bufq.pico)
+ .debug_loc     0x0000000000003dca     0x1c0e librumpvfs_pic.a(genfs_rename.pico)
+ .debug_loc     0x00000000000059d8     0x49ce librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_loc     0x000000000000a3a6       0x44 librumpvfs_pic.a(rumpvfs_syscalls.pico)
+ .debug_loc     0x000000000000a3ea      0x883 librumpvfs_pic.a(rumpvfs_if_wrappers.pico)
+ .debug_loc     0x000000000000ac6d       0x58 librumpvfs_pic.a(compat.pico)
+ .debug_loc     0x000000000000acc5      0x1d2 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_loc     0x000000000000ae97     0x1a1d librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_loc     0x000000000000c8b4      0x3c6 librumpvfs_pic.a(vfs_quotactl.pico)
+ .debug_loc     0x000000000000cc7a     0x1bfc librumpvfs_pic.a(spec_vnops.pico)
+ .debug_loc     0x000000000000e876      0xfd3 librumpvfs_pic.a(genfs_vnops.pico)
+ .debug_loc     0x000000000000f849       0xcc librumpvfs_pic.a(genfs_vfsops.pico)
+ .debug_loc     0x000000000000f915     0x36a5 librumpvfs_pic.a(genfs_io.pico)
+ .debug_loc     0x0000000000012fba      0x344 librumpvfs_pic.a(dead_vnops.pico)
+ .debug_loc     0x00000000000132fe      0x208 librumpvfs_pic.a(sync_vnops.pico)
+ .debug_loc     0x0000000000013506      0x345 librumpvfs_pic.a(sync_subr.pico)
+ .debug_loc     0x000000000001384b      0x665 librumpvfs_pic.a(uvm_vnode.pico)
+ .debug_loc     0x0000000000013eb0      0x1bb librumpvfs_pic.a(subr_kobj_vfs.pico)
+ .debug_loc     0x000000000001406b      0x60d librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_loc     0x0000000000014678     0x1187 librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_loc     0x00000000000157ff     0x24d2 librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_loc     0x0000000000017cd1       0x2c librumpvfs_pic.a(dead_vfsops.pico)
+ .debug_loc     0x0000000000017cfd      0xe55 librumpvfs_pic.a(vfs_trans.pico)
+ .debug_loc     0x0000000000018b52     0x6137 librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_loc     0x000000000001ec89     0x1b19 librumpvfs_pic.a(vfs_subr.pico)
+ .debug_loc     0x00000000000207a2     0x1990 librumpvfs_pic.a(vfs_mount.pico)
+ .debug_loc     0x0000000000022132     0x2b09 librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_loc     0x0000000000024c3b      0xf00 librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_loc     0x0000000000025b3b      0x4d6 librumpvfs_pic.a(vfs_init.pico)
+ .debug_loc     0x0000000000026011      0x2ae librumpvfs_pic.a(vfs_hooks.pico)
+ .debug_loc     0x00000000000262bf      0xb5a librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_loc     0x0000000000026e19     0x3586 librumpvfs_pic.a(rumpfs.pico)
+ .debug_loc     0x000000000002a39f      0x6a8 librumpvfs_pic.a(vm_vfs.pico)
+ .debug_loc     0x000000000002aa47      0x987 librumpvfs_pic.a(rumpblk.pico)
+ .debug_loc     0x000000000002b3ce      0x8b1 librumpvfs_pic.a(kern_physio.pico)
+ .debug_loc     0x000000000002bc7f      0x976 librumpvfs_pic.a(rump_vfs.pico)
+ .debug_loc     0x000000000002c5f5     0x1128 librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_loc     0x000000000002d71d      0x27b librumpvfs_pic.a(vfs_cwd.pico)
+ .debug_loc     0x000000000002d998     0x1617 librumpvfs_pic.a(vfs_cache.pico)
+ .debug_loc     0x000000000002efaf     0x2425 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_loc     0x00000000000313d4      0x261 librumpvfs_pic.a(devnull.pico)
+ .debug_loc     0x0000000000031635      0x520 librumpvfs_pic.a(devnodes.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x35d8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x48 librumpvfs_pic.a(firmload.pico)
+ .debug_ranges  0x0000000000000048       0x68 librumpvfs_pic.a(quota1_subr.pico)
+ .debug_ranges  0x00000000000000b0       0x38 librumpvfs_pic.a(bufq_readprio.pico)
+ .debug_ranges  0x00000000000000e8      0x1f0 librumpvfs_pic.a(bufq_priocscan.pico)
+ .debug_ranges  0x00000000000002d8       0xb8 librumpvfs_pic.a(bufq_disksort.pico)
+ .debug_ranges  0x0000000000000390      0x208 librumpvfs_pic.a(genfs_rename.pico)
+ .debug_ranges  0x0000000000000598      0xa58 librumpvfs_pic.a(vfs_wapbl.pico)
+ .debug_ranges  0x0000000000000ff0       0x20 librumpvfs_pic.a(kern_ktrace_vfs.pico)
+ .debug_ranges  0x0000000000001010       0x98 librumpvfs_pic.a(vfs_xattr.pico)
+ .debug_ranges  0x00000000000010a8       0x50 librumpvfs_pic.a(spec_vnops.pico)
+ .debug_ranges  0x00000000000010f8      0x2d0 librumpvfs_pic.a(genfs_io.pico)
+ .debug_ranges  0x00000000000013c8       0x30 librumpvfs_pic.a(sync_vnops.pico)
+ .debug_ranges  0x00000000000013f8       0x30 librumpvfs_pic.a(sync_subr.pico)
+ .debug_ranges  0x0000000000001428       0x60 librumpvfs_pic.a(kern_module_vfs.pico)
+ .debug_ranges  0x0000000000001488       0xf0 librumpvfs_pic.a(vfs_vnops.pico)
+ .debug_ranges  0x0000000000001578      0x808 librumpvfs_pic.a(vfs_vnode.pico)
+ .debug_ranges  0x0000000000001d80       0x60 librumpvfs_pic.a(vfs_trans.pico)
+ .debug_ranges  0x0000000000001de0      0x3e8 librumpvfs_pic.a(vfs_syscalls.pico)
+ .debug_ranges  0x00000000000021c8       0xc0 librumpvfs_pic.a(vfs_subr.pico)
+ .debug_ranges  0x0000000000002288      0x140 librumpvfs_pic.a(vfs_mount.pico)
+ .debug_ranges  0x00000000000023c8      0x528 librumpvfs_pic.a(vfs_lookup.pico)
+ .debug_ranges  0x00000000000028f0       0xf8 librumpvfs_pic.a(vfs_getcwd.pico)
+ .debug_ranges  0x00000000000029e8       0x80 librumpvfs_pic.a(vfs_init.pico)
+ .debug_ranges  0x0000000000002a68       0xd0 librumpvfs_pic.a(vfs_dirhash.pico)
+ .debug_ranges  0x0000000000002b38      0x200 librumpvfs_pic.a(rumpfs.pico)
+ .debug_ranges  0x0000000000002d38       0x58 librumpvfs_pic.a(vm_vfs.pico)
+ .debug_ranges  0x0000000000002d90      0x158 librumpvfs_pic.a(rumpblk.pico)
+ .debug_ranges  0x0000000000002ee8       0xa8 librumpvfs_pic.a(kern_physio.pico)
+ .debug_ranges  0x0000000000002f90       0x18 librumpvfs_pic.a(rump_vfs.pico)
+ .debug_ranges  0x0000000000002fa8      0x120 librumpvfs_pic.a(vfs_lockf.pico)
+ .debug_ranges  0x00000000000030c8       0x40 librumpvfs_pic.a(vfs_cache.pico)
+ .debug_ranges  0x0000000000003108      0x4b8 librumpvfs_pic.a(vfs_bio.pico)
+ .debug_ranges  0x00000000000035c0       0x18 librumpvfs_pic.a(devnull.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpvfs.so.0.0 elf32-i386)

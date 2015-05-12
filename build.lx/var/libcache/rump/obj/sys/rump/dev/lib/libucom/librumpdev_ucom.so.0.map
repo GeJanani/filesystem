@@ -1,0 +1,506 @@
+Archive member included because of file (symbol)
+
+librumpdev_ucom_pic.a(ucom_at_usb.pico)
+                              (--whole-archive)
+librumpdev_ucom_pic.a(u3g.pico)
+                              (--whole-archive)
+librumpdev_ucom_pic.a(uplcom.pico)
+                              (--whole-archive)
+librumpdev_ucom_pic.a(ucom.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ucom_pic.a(u3g.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ucom_pic.a(u3g.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ucom_pic.a(uplcom.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ucom_pic.a(uplcom.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ucom_pic.a(ucom.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ucom_pic.a(ucom.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_ucom_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x428
+ *(.hash)
+ .hash          0x00000000000000b4      0x428 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000004dc      0x850
+ *(.dynsym)
+ .dynsym        0x00000000000004dc      0x850 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000d2c      0xae2
+ *(.dynstr)
+ .dynstr        0x0000000000000d2c      0xae2 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x000000000000180e        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001810        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001810        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001810      0x390
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000001810       0x98 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x00000000000018a8       0xa8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000001950      0x180 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000001ad0       0x58 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001b28       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000001b98        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000001ba0      0x2c8
+ *(.rel.plt)
+ .rel.plt       0x0000000000001ba0      0x2c8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000001e68        0xa
+ *(.init)
+ .init          0x0000000000001e68        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000001e6d        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000001e80      0x5a0
+ *(.plt)
+ .plt           0x0000000000001e80      0x5a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000002420     0x45e8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002420      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000255b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000255b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000255f        0x1 90909090
+ .text          0x0000000000002560      0x151 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ *fill*         0x00000000000026b1        0xf 90909090
+ .text          0x00000000000026c0     0x1479 librumpdev_ucom_pic.a(u3g.pico)
+ *fill*         0x0000000000003b39        0x7 90909090
+ .text          0x0000000000003b40      0xe6d librumpdev_ucom_pic.a(uplcom.pico)
+                0x0000000000003c20                rumpns_uplcom_activate
+                0x0000000000003cf0                rumpns_uplcom_detach
+                0x0000000000003d90                rumpns_uplcom_childdet
+                0x0000000000003e00                rumpns_uplcom_match
+                0x00000000000042c0                rumpns_uplcom_attach
+ *fill*         0x00000000000049ad        0x3 90909090
+ .text          0x00000000000049b0     0x2014 librumpdev_ucom_pic.a(ucom.pico)
+                0x00000000000049b0                rumpns_ucom_match
+                0x00000000000049c0                rumpns_ucomstop
+                0x00000000000049d0                rumpns_ucomtty
+                0x0000000000004b80                rumpns_ucompoll
+                0x0000000000004c30                rumpns_ucomwrite
+                0x0000000000004ce0                rumpns_ucomread
+                0x0000000000004eb0                rumpns_ucom_activate
+                0x0000000000004f00                rumpns_ucom_attach
+                0x0000000000005330                rumpns_ucom_detach
+                0x0000000000005720                rumpns_ucomclose
+                0x00000000000059e0                rumpns_ucomioctl
+                0x0000000000006190                rumpns_ucom_status_change
+                0x0000000000006290                rumpns_ucomopen
+                0x0000000000006900                rumpns_ucomprint
+                0x0000000000006950                rumpns_ucomsubmatch
+ *fill*         0x00000000000069c4        0xc 90909090
+ .text          0x00000000000069d0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000006a08        0x5
+ *(.fini)
+ .fini          0x0000000000006a08        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006a0d                PROVIDE (__etext, .)
+                0x0000000000006a0d                PROVIDE (_etext, .)
+                0x0000000000006a0d                PROVIDE (etext, .)
+
+.rodata         0x0000000000006a20      0x82f
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000006a20       0x60 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .rodata.str1.4
+                0x0000000000006a80       0xbb librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .rodata.str1.1
+                0x0000000000006b3b       0x3c librumpdev_ucom_pic.a(u3g.pico)
+                                         0x52 (size before relaxing)
+ *fill*         0x0000000000006b77        0x1 00
+ .rodata.str1.4
+                0x0000000000006b78      0x1ea librumpdev_ucom_pic.a(u3g.pico)
+ *fill*         0x0000000000006d62       0x1e 00
+ .rodata        0x0000000000006d80       0xf8 librumpdev_ucom_pic.a(u3g.pico)
+ .rodata.str1.4
+                0x0000000000006e78      0x228 librumpdev_ucom_pic.a(uplcom.pico)
+ .rodata.str1.1
+                0x00000000000070a0       0x8d librumpdev_ucom_pic.a(uplcom.pico)
+                                         0xa2 (size before relaxing)
+ *fill*         0x000000000000712d       0x13 00
+ .rodata        0x0000000000007140       0xb8 librumpdev_ucom_pic.a(uplcom.pico)
+ .rodata.str1.1
+                0x00000000000071f8       0x57 librumpdev_ucom_pic.a(ucom.pico)
+                                         0x5e (size before relaxing)
+ .rodata.str1.4
+                0x0000000000000000       0x22 librumpdev_ucom_pic.a(ucom.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000007250      0x1dc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000007250      0x1dc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000742c      0xa68
+ *(.eh_frame)
+ .eh_frame      0x000000000000742c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000007468       0x30 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000007498      0x330 librumpdev_ucom_pic.a(u3g.pico)
+                                        0x35c (size before relaxing)
+ .eh_frame      0x00000000000077c8      0x25c librumpdev_ucom_pic.a(uplcom.pico)
+                                        0x288 (size before relaxing)
+ .eh_frame      0x0000000000007a24      0x46c librumpdev_ucom_pic.a(ucom.pico)
+                                        0x498 (size before relaxing)
+ .eh_frame      0x0000000000007e90        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000007e94                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000008000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000008000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000008000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000008004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000008008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000008008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000800c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000800c                __DTOR_END__
+
+.jcr            0x0000000000008010        0x4
+ *(.jcr)
+ .jcr           0x0000000000008010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000008010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000008020       0xf0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000008020       0x7c librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000809c       0x34 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ *fill*         0x00000000000080d0       0x10 00
+ .data.rel.ro   0x00000000000080e0       0x30 librumpdev_ucom_pic.a(ucom.pico)
+                0x00000000000080e0                rumpns_ucom_cdevsw
+
+.dynamic        0x0000000000008110       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000008110       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000008110                _DYNAMIC
+
+.got            0x00000000000081b0       0x38
+ *(.got)
+ .got           0x00000000000081b0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000081e8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000081e8      0x170
+ *(.got.plt)
+ .got.plt       0x00000000000081e8      0x170 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000081e8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000008360      0x2cc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000008360        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000008360                __dso_handle
+ *fill*         0x0000000000008364       0x1c 00
+ .data          0x0000000000008380       0x50 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ *fill*         0x00000000000083d0       0x10 00
+ .data.rel.local
+                0x00000000000083e0      0x120 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+                0x00000000000083e0                rumpns_uplcom_cd
+                0x0000000000008400                rumpns_u3ginit_cd
+                0x0000000000008420                rumpns_u3g_cd
+                0x0000000000008440                rumpns_ucom_cd
+ .data          0x0000000000008500        0x0 librumpdev_ucom_pic.a(u3g.pico)
+ .data.rel.local
+                0x0000000000008500       0x8c librumpdev_ucom_pic.a(u3g.pico)
+                0x0000000000008500                rumpns_u3g_methods
+                0x0000000000008520                rumpns_u3g_ca
+                0x0000000000008560                rumpns_u3ginit_ca
+ .data          0x000000000000858c        0x0 librumpdev_ucom_pic.a(uplcom.pico)
+ *fill*         0x000000000000858c       0x14 00
+ .data.rel      0x00000000000085a0       0x2c librumpdev_ucom_pic.a(uplcom.pico)
+                0x00000000000085a0                rumpns_uplcom_ca
+ *fill*         0x00000000000085cc       0x14 00
+ .data.rel.local
+                0x00000000000085e0       0x20 librumpdev_ucom_pic.a(uplcom.pico)
+                0x00000000000085e0                rumpns_uplcom_methods
+ .data          0x0000000000008600        0x0 librumpdev_ucom_pic.a(ucom.pico)
+ .data.rel      0x0000000000008600       0x2c librumpdev_ucom_pic.a(ucom.pico)
+                0x0000000000008600                rumpns_ucom_ca
+ .data          0x000000000000862c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000862c        0x0
+ .tm_clone_table
+                0x000000000000862c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000862c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000000862c        0x4
+                0x000000000000862c                . = ALIGN (0x4)
+                0x000000000000862c                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000000862c        0x4 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+                0x0000000000008630                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000008630                _edata = .
+                0x0000000000008630                PROVIDE (edata, .)
+                0x0000000000008630                __bss_start = .
+
+.bss            0x0000000000008630        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000008630        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000008638        0x0 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .bss           0x0000000000008638        0x0 librumpdev_ucom_pic.a(u3g.pico)
+ .bss           0x0000000000008638        0x0 librumpdev_ucom_pic.a(uplcom.pico)
+ .bss           0x0000000000008638        0x0 librumpdev_ucom_pic.a(ucom.pico)
+ .bss           0x0000000000008638        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000008638                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000008638                . = ALIGN (0x4)
+                0x0000000000008638                . = ALIGN (0x4)
+                0x0000000000008638                _end = .
+                0x0000000000008638                PROVIDE (end, .)
+                0x0000000000008638                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ucom_pic.a(u3g.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ucom_pic.a(uplcom.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ucom_pic.a(ucom.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xad
+ .ident         0x0000000000000000       0x39 librumpdev_ucom_pic.a(u3g.pico)
+ .ident         0x0000000000000039       0x39 librumpdev_ucom_pic.a(uplcom.pico)
+ .ident         0x0000000000000072       0x3b librumpdev_ucom_pic.a(ucom.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_ucom_pic.a(u3g.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_ucom_pic.a(ucom.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x196c9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x6b20 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_info    0x0000000000006b20     0x3878 librumpdev_ucom_pic.a(u3g.pico)
+ .debug_info    0x000000000000a398     0x6306 librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_info    0x000000000001069e     0x902b librumpdev_ucom_pic.a(ucom.pico)
+
+.debug_abbrev   0x0000000000000000     0x1188
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x304 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_abbrev  0x0000000000000304      0x3ec librumpdev_ucom_pic.a(u3g.pico)
+ .debug_abbrev  0x00000000000006f0      0x4bf librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_abbrev  0x0000000000000baf      0x5d9 librumpdev_ucom_pic.a(ucom.pico)
+
+.debug_line     0x0000000000000000     0x233a
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x74a librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_line    0x000000000000074a      0x75c librumpdev_ucom_pic.a(u3g.pico)
+ .debug_line    0x0000000000000ea6      0x7f8 librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_line    0x000000000000169e      0xc9c librumpdev_ucom_pic.a(ucom.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x57df
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x39e8 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+                                       0x3d06 (size before relaxing)
+ .debug_str     0x00000000000039e8      0xefa librumpdev_ucom_pic.a(u3g.pico)
+                                       0x1817 (size before relaxing)
+ .debug_str     0x00000000000048e2      0x56b librumpdev_ucom_pic.a(uplcom.pico)
+                                       0x3401 (size before relaxing)
+ .debug_str     0x0000000000004e4d      0x992 librumpdev_ucom_pic.a(ucom.pico)
+                                       0x4436 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x3a28
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xc4 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_loc     0x00000000000000c4     0x148e librumpdev_ucom_pic.a(u3g.pico)
+ .debug_loc     0x0000000000001552      0xd05 librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_loc     0x0000000000002257     0x17d1 librumpdev_ucom_pic.a(ucom.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x7d8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x50 librumpdev_ucom_pic.a(ucom_at_usb.pico)
+ .debug_ranges  0x0000000000000050      0x208 librumpdev_ucom_pic.a(u3g.pico)
+ .debug_ranges  0x0000000000000258      0x1d8 librumpdev_ucom_pic.a(uplcom.pico)
+ .debug_ranges  0x0000000000000430      0x3a8 librumpdev_ucom_pic.a(ucom.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_ucom.so.0.0 elf32-i386)

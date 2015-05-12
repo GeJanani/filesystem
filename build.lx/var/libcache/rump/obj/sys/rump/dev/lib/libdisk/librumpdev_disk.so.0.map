@@ -1,0 +1,558 @@
+Archive member included because of file (symbol)
+
+librumpdev_disk_pic.a(dksubr.pico)
+                              (--whole-archive)
+librumpdev_disk_pic.a(subr_disk_open.pico)
+                              (--whole-archive)
+librumpdev_disk_pic.a(subr_disk_mbr.pico)
+                              (--whole-archive)
+librumpdev_disk_pic.a(dk.pico)
+                              (--whole-archive)
+librumpdev_disk_pic.a(subr_disk.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(dksubr.pico)
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(dksubr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_disk_pic.a(dksubr.pico)
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(dk.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_disk_pic.a(dk.pico)
+ .group         0x0000000000000000        0x8 librumpdev_disk_pic.a(subr_disk.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_disk_pic.a(subr_disk.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_disk_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x4bc
+ *(.hash)
+ .hash          0x00000000000000b4      0x4bc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000570      0xaa0
+ *(.dynsym)
+ .dynsym        0x0000000000000570      0xaa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001010      0xd24
+ *(.dynstr)
+ .dynstr        0x0000000000001010      0xd24 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000001d34      0x154
+ *(.gnu.version)
+ .gnu.version   0x0000000000001d34      0x154 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001e88        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001e88       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001e88       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001ea8      0x128
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000001ea8       0x48 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x0000000000001ef0       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000001f40       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001f68       0x58 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000001fc0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_dkwedge_methods
+                0x0000000000001fc8        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000001fd0      0x408
+ *(.rel.plt)
+ .rel.plt       0x0000000000001fd0      0x408 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000023d8        0xa
+ *(.init)
+ .init          0x00000000000023d8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000023dd        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000023f0      0x820
+ *(.plt)
+ .plt           0x00000000000023f0      0x820 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000002c10     0x66c8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002c10      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000002d4b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000002d4b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000002d4f        0x1 90909090
+ .text          0x0000000000002d50     0x12c0 librumpdev_disk_pic.a(dksubr.pico)
+                0x0000000000002d60                rumpns_dk_sc_init
+                0x0000000000002e10                rumpns_dk_close
+                0x0000000000002ed0                rumpns_dk_strategy
+                0x0000000000003030                rumpns_dk_size
+                0x0000000000003170                rumpns_dk_dump
+                0x00000000000031c0                rumpns_dk_getdefaultlabel
+                0x0000000000003320                rumpns_dk_ioctl
+                0x0000000000003aa0                rumpns_dk_getdisklabel
+                0x0000000000003d30                rumpns_dk_open
+                0x0000000000003e90                rumpns_dk_lookup
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000004010        0x4 librumpdev_disk_pic.a(dksubr.pico)
+                0x0000000000004010                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000004014        0xc 90909090
+ .text          0x0000000000004020      0x49a librumpdev_disk_pic.a(subr_disk_open.pico)
+                0x0000000000004020                rumpns_opendisk
+                0x00000000000041b0                rumpns_getdisksize
+                0x0000000000004340                rumpns_getdiskinfo
+ *fill*         0x00000000000044ba        0x6 90909090
+ .text          0x00000000000044c0      0xfeb librumpdev_disk_pic.a(subr_disk_mbr.pico)
+                0x0000000000004e00                rumpns_readdisklabel
+                0x00000000000052b0                rumpns_setdisklabel
+                0x00000000000053e0                rumpns_writedisklabel
+ *fill*         0x00000000000054ab        0x5 90909090
+ .text          0x00000000000054b0     0x2e2c librumpdev_disk_pic.a(dk.pico)
+                0x0000000000006ea0                rumpns_dkwedge_add
+                0x0000000000007820                rumpns_dkwedge_del
+                0x0000000000007830                rumpns_dkwedge_delall
+                0x0000000000007840                rumpns_dkwedge_list
+                0x0000000000007a70                rumpns_dkwedge_find_by_wname
+                0x0000000000007b70                rumpns_dkwedge_print_wnames
+                0x0000000000007bf0                rumpns_dkwedge_init
+                0x0000000000007dc0                rumpns_dkwedge_discover
+                0x0000000000007fc0                rumpns_dkwedge_read
+                0x00000000000080f0                rumpns_dkwedge_find_partition
+                0x0000000000008250                rumpns_dkwedge_get_parent_name
+ *fill*         0x00000000000082dc        0x4 90909090
+ .text          0x00000000000082e0      0xfb2 librumpdev_disk_pic.a(subr_disk.pico)
+                0x00000000000082e0                rumpns_dkcksum_sized
+                0x0000000000008310                rumpns_dkcksum
+                0x0000000000008340                rumpns_diskerr
+                0x0000000000008610                rumpns_disk_find
+                0x0000000000008650                rumpns_disk_attach
+                0x00000000000086d0                rumpns_disk_begindetach
+                0x0000000000008750                rumpns_disk_detach
+                0x00000000000087c0                rumpns_disk_destroy
+                0x0000000000008800                rumpns_disk_busy
+                0x0000000000008830                rumpns_disk_unbusy
+                0x0000000000008870                rumpns_disk_isbusy
+                0x00000000000088a0                rumpns_disk_blocksize
+                0x00000000000088d0                rumpns_disk_init
+                0x0000000000008960                rumpns_bounds_check_with_mediasize
+                0x0000000000008a30                rumpns_bounds_check_with_label
+                0x0000000000008cc0                rumpns_disk_read_sectors
+                0x0000000000008d30                rumpns_convertdisklabel
+                0x0000000000008fb0                rumpns_disk_ioctl
+                0x0000000000009010                rumpns_disk_set_info
+ *fill*         0x0000000000009292        0xe 90909090
+ .text          0x00000000000092a0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000092d8        0x5
+ *(.fini)
+ .fini          0x00000000000092d8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000092dd                PROVIDE (__etext, .)
+                0x00000000000092dd                PROVIDE (_etext, .)
+                0x00000000000092dd                PROVIDE (etext, .)
+
+.rodata         0x00000000000092e0      0x911
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000092e0       0x21 librumpdev_disk_pic.a(dksubr.pico)
+                                         0x29 (size before relaxing)
+ *fill*         0x0000000000009301        0x3 00
+ .rodata.str1.4
+                0x0000000000009304       0x8d librumpdev_disk_pic.a(dksubr.pico)
+ .rodata.str1.1
+                0x0000000000009391       0x43 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .rodata.str1.4
+                0x00000000000093d4       0x46 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .rodata        0x000000000000941a       0x15 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .rodata.str1.1
+                0x000000000000942f       0xb1 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .rodata.str1.4
+                0x00000000000094e0       0x20 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .rodata.str1.4
+                0x0000000000009500      0x47b librumpdev_disk_pic.a(dk.pico)
+ .rodata.str1.1
+                0x000000000000997b       0x96 librumpdev_disk_pic.a(dk.pico)
+                                         0x99 (size before relaxing)
+ .rodata        0x0000000000009a11        0x7 librumpdev_disk_pic.a(dk.pico)
+ .rodata.str1.1
+                0x0000000000009a18       0xe6 librumpdev_disk_pic.a(subr_disk.pico)
+                                         0xeb (size before relaxing)
+ *fill*         0x0000000000009afe        0x2 00
+ .rodata.str1.4
+                0x0000000000009b00       0xf0 librumpdev_disk_pic.a(subr_disk.pico)
+                                         0xed (size before relaxing)
+ .rodata        0x0000000000009bf0        0x1 librumpdev_disk_pic.a(subr_disk.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000009bf4      0x274
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000009bf4      0x274 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000009e68      0xe38
+ *(.eh_frame)
+ .eh_frame      0x0000000000009e68       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000009ea4      0x21c librumpdev_disk_pic.a(dksubr.pico)
+                                        0x248 (size before relaxing)
+ .eh_frame      0x000000000000a0c0       0x84 librumpdev_disk_pic.a(subr_disk_open.pico)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x000000000000a144      0x1f8 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+                                        0x224 (size before relaxing)
+ .eh_frame      0x000000000000a33c      0x660 librumpdev_disk_pic.a(dk.pico)
+                                        0x68c (size before relaxing)
+ .eh_frame      0x000000000000a99c      0x300 librumpdev_disk_pic.a(subr_disk.pico)
+                                        0x32c (size before relaxing)
+ .eh_frame      0x000000000000ac9c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000aca0                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000b000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000b000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000b004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000b008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000b008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000b00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000b00c                __DTOR_END__
+
+.jcr            0x000000000000b010        0x4
+ *(.jcr)
+ .jcr           0x000000000000b010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000b010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000b020       0x70
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000b020       0x14 librumpdev_disk_pic.a(dksubr.pico)
+ *fill*         0x000000000000b034        0xc 00
+ .data.rel.ro.local
+                0x000000000000b040       0x20 librumpdev_disk_pic.a(dk.pico)
+                0x000000000000b040                rumpns_dk_bdevsw
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000b060       0x30 librumpdev_disk_pic.a(dk.pico)
+                0x000000000000b060                rumpns_dk_cdevsw
+
+.dynamic        0x000000000000b090       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000000b090       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b090                _DYNAMIC
+
+.got            0x000000000000b148       0x2c
+ *(.got)
+ .got           0x000000000000b148       0x2c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000b174                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000b174      0x210
+ *(.got.plt)
+ .got.plt       0x000000000000b174      0x210 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b174                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000b3a0       0x80
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000b3a0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b3a0                __dso_handle
+ .data          0x000000000000b3a4        0x0 librumpdev_disk_pic.a(dksubr.pico)
+ .data          0x000000000000b3a4        0x0 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .data          0x000000000000b3a4        0x0 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .data          0x000000000000b3a4        0x0 librumpdev_disk_pic.a(dk.pico)
+ *fill*         0x000000000000b3a4       0x1c 00
+ .data.rel.local
+                0x000000000000b3c0       0x60 librumpdev_disk_pic.a(dk.pico)
+                0x000000000000b3c0                rumpns_dk_ca
+                0x000000000000b400                rumpns_dk_cd
+ .data          0x000000000000b420        0x0 librumpdev_disk_pic.a(subr_disk.pico)
+ .data          0x000000000000b420        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000b420        0x0
+ .tm_clone_table
+                0x000000000000b420        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000b420        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000b420        0x4
+                0x000000000000b420                . = ALIGN (0x4)
+                0x000000000000b420                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000b420        0x4 librumpdev_disk_pic.a(dksubr.pico)
+                0x000000000000b424                PROVIDE (__stop_link_set_modules, .)
+
+link_set_dkwedge_methods
+                0x000000000000b424        0x4
+                0x000000000000b424                . = ALIGN (0x4)
+                0x000000000000b424                PROVIDE (__start_link_set_dkwedge_methods, ABSOLUTE (.))
+ link_set_dkwedge_methods
+                0x000000000000b424        0x4 librumpdev_disk_pic.a(dk.pico)
+                0x000000000000b428                PROVIDE (__stop_link_set_dkwedge_methods, .)
+
+.data1
+ *(.data1)
+                0x000000000000b428                _edata = .
+                0x000000000000b428                PROVIDE (edata, .)
+                0x000000000000b428                __bss_start = .
+
+.bss            0x000000000000b428       0x3c
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000b428        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000b430        0x8 librumpdev_disk_pic.a(dksubr.pico)
+                0x000000000000b430                rumpns_dkdebug
+ .bss           0x000000000000b438        0x0 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .bss           0x000000000000b438        0x0 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .bss           0x000000000000b438       0x2c librumpdev_disk_pic.a(dk.pico)
+                0x000000000000b438                rumpns_dkwedge_autodiscover
+ .bss           0x000000000000b464        0x0 librumpdev_disk_pic.a(subr_disk.pico)
+ .bss           0x000000000000b464        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x000000000000b464                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000b464                . = ALIGN (0x4)
+                0x000000000000b464                . = ALIGN (0x4)
+                0x000000000000b464                _end = .
+                0x000000000000b464                PROVIDE (end, .)
+                0x000000000000b464                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_disk_pic.a(dksubr.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_disk_pic.a(dk.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_disk_pic.a(subr_disk.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x12f
+ .ident         0x0000000000000000       0x3b librumpdev_disk_pic.a(dksubr.pico)
+ .ident         0x000000000000003b       0x3f librumpdev_disk_pic.a(subr_disk_open.pico)
+ .ident         0x000000000000007a       0x3f librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .ident         0x00000000000000b9       0x37 librumpdev_disk_pic.a(dk.pico)
+ .ident         0x00000000000000f0       0x3f librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_disk_pic.a(dk.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x2485b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x7775 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_info    0x0000000000007775     0x6438 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .debug_info    0x000000000000dbad     0x712a librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_info    0x0000000000014cd7     0x96dd librumpdev_disk_pic.a(dk.pico)
+ .debug_info    0x000000000001e3b4     0x64a7 librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug_abbrev   0x0000000000000000     0x1779
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x505 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_abbrev  0x0000000000000505      0x2f4 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .debug_abbrev  0x00000000000007f9      0x4a7 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_abbrev  0x0000000000000ca0      0x65d librumpdev_disk_pic.a(dk.pico)
+ .debug_abbrev  0x00000000000012fd      0x47c librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug_line     0x0000000000000000     0x3489
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0xab4 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_line    0x0000000000000ab4      0x7a5 librumpdev_disk_pic.a(subr_disk_open.pico)
+ .debug_line    0x0000000000001259      0x9f6 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_line    0x0000000000001c4f      0xf48 librumpdev_disk_pic.a(dk.pico)
+ .debug_line    0x0000000000002b97      0x8f2 librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x512e
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3c9a librumpdev_disk_pic.a(dksubr.pico)
+                                       0x4016 (size before relaxing)
+ .debug_str     0x0000000000003c9a      0x167 librumpdev_disk_pic.a(subr_disk_open.pico)
+                                       0x38c7 (size before relaxing)
+ .debug_str     0x0000000000003e01      0x677 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+                                       0x3d57 (size before relaxing)
+ .debug_str     0x0000000000004478      0x882 librumpdev_disk_pic.a(dk.pico)
+                                       0x4349 (size before relaxing)
+ .debug_str     0x0000000000004cfa      0x434 librumpdev_disk_pic.a(subr_disk.pico)
+                                       0x3607 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x478a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xd09 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_loc     0x0000000000000d09      0x23a librumpdev_disk_pic.a(subr_disk_open.pico)
+ .debug_loc     0x0000000000000f43      0xf1f librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_loc     0x0000000000001e62     0x1ea3 librumpdev_disk_pic.a(dk.pico)
+ .debug_loc     0x0000000000003d05      0xa85 librumpdev_disk_pic.a(subr_disk.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x2a0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x90 librumpdev_disk_pic.a(dksubr.pico)
+ .debug_ranges  0x0000000000000090       0x58 librumpdev_disk_pic.a(subr_disk_mbr.pico)
+ .debug_ranges  0x00000000000000e8      0x1b8 librumpdev_disk_pic.a(dk.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_disk.so.0.0 elf32-i386)

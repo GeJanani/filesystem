@@ -1,0 +1,461 @@
+Archive member included because of file (symbol)
+
+librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                              (--whole-archive)
+librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_devctty      0x8               librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+rumpns_fdesc_vnodeop_p
+                    0x4               librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_fdesc_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x454
+ *(.hash)
+ .hash          0x00000000000000b4      0x454 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000508      0x900
+ *(.dynsym)
+ .dynsym        0x0000000000000508      0x900 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000e08      0xb8f
+ *(.dynstr)
+ .dynstr        0x0000000000000e08      0xb8f /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000001998        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001998        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001998        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001998      0x3e0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000001998      0x2b8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000001c50       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000001c60       0xa8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x0000000000001d08       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001d30       0x40 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000001d70        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000001d78      0x158
+ *(.rel.plt)
+ .rel.plt       0x0000000000001d78      0x158 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000001ed0        0xa
+ *(.init)
+ .init          0x0000000000001ed0        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000001ed5        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000001ee0      0x2c0
+ *(.plt)
+ .plt           0x0000000000001ee0      0x2c0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x00000000000021a0     0x1ac8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000021a0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000022db        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000022db                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000022df        0x1 90909090
+ .text          0x00000000000022e0      0x53d librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                0x00000000000022e0                rumpns_fdesc_start
+                0x00000000000022f0                rumpns_fdesc_sync
+                0x0000000000002300                rumpns_fdesc_vget
+                0x0000000000002310                rumpns_fdesc_loadvnode
+                0x0000000000002530                rumpns_fdesc_root
+                0x0000000000002580                rumpns_fdesc_unmount
+                0x0000000000002610                rumpns_fdesc_mount
+ *fill*         0x000000000000281d        0x3 90909090
+ .text          0x0000000000002820     0x1402 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                0x0000000000002820                rumpns_fdesc_pathconf
+                0x0000000000002890                rumpns_fdesc_symlink
+                0x00000000000028c0                rumpns_fdesc_link
+                0x0000000000002910                rumpns_fdesc_print
+                0x0000000000002940                rumpns_fdesc_reclaim
+                0x00000000000029b0                rumpns_fdesc_inactive
+                0x0000000000002a10                rumpns_fdesc_setattr
+                0x0000000000002a90                rumpns_fdesc_kqfilter
+                0x0000000000002b60                rumpns_fdesc_write
+                0x0000000000002bf0                rumpns_fdesc_read
+                0x0000000000002c80                rumpns_fdesc_readlink
+                0x0000000000002cf0                rumpns_fdesc_readdir
+                0x00000000000032a0                rumpns_fdesc_getattr
+                0x00000000000036c0                rumpns_fdesc_lookup
+                0x0000000000003a10                rumpns_fdesc_poll
+                0x0000000000003a90                rumpns_fdesc_ioctl
+                0x0000000000003b20                rumpns_fdesc_open
+                0x0000000000003bd0                rumpns_fdesc_init
+                0x0000000000003c20                rumpns_fdesc_done
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000003c22        0x4 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                0x0000000000003c22                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000003c26        0xa 90909090
+ .text          0x0000000000003c30       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000003c68        0x5
+ *(.fini)
+ .fini          0x0000000000003c68        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003c6d                PROVIDE (__etext, .)
+                0x0000000000003c6d                PROVIDE (_etext, .)
+                0x0000000000003c6d                PROVIDE (etext, .)
+
+.rodata         0x0000000000003c70      0x25c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000003c70       0xd4 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .rodata.str1.1
+                0x0000000000003d44       0x45 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ *fill*         0x0000000000003d89        0x3 00
+ .rodata        0x0000000000003d8c       0x20 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .rodata        0x0000000000003dac       0x2c librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .rodata.str1.1
+                0x0000000000003dd8       0x52 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                                         0x62 (size before relaxing)
+ *fill*         0x0000000000003e2a        0x2 00
+ .rodata.str1.4
+                0x0000000000003e2c       0xa0 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                                         0xd4 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000003ecc       0xf4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000003ecc       0xf4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000003fc0      0x43c
+ *(.eh_frame)
+ .eh_frame      0x0000000000003fc0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000003ffc      0x114 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                                        0x140 (size before relaxing)
+ .eh_frame      0x0000000000004110      0x2e8 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                                        0x314 (size before relaxing)
+ .eh_frame      0x00000000000043f8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000043fc                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00000000000053fc                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00000000000053fc        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x00000000000053fc        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000005400        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000005404        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000005404        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000005408        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000005408                __DTOR_END__
+
+.jcr            0x000000000000540c        0x4
+ *(.jcr)
+ .jcr           0x000000000000540c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000540c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000005420      0x198
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000005420       0x14 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000005434        0x8 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                0x0000000000005434                rumpns_fdesc_vnodeopv_descs
+ *fill*         0x000000000000543c        0x4 00
+ .data.rel.ro   0x0000000000005440      0x178 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                0x0000000000005440                rumpns_fdesc_vnodeop_opv_desc
+                0x0000000000005460                rumpns_fdesc_vnodeop_entries
+
+.dynamic        0x00000000000055b8       0xa0
+ *(.dynamic)
+ .dynamic       0x00000000000055b8       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000055b8                _DYNAMIC
+
+.got            0x0000000000005658       0x20
+ *(.got)
+ .got           0x0000000000005658       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000005678                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000005678       0xb8
+ *(.got.plt)
+ .got.plt       0x0000000000005678       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000005678                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000005740       0xf0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000005740        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000005740                __dso_handle
+ .data          0x0000000000005744        0x0 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ *fill*         0x0000000000005744       0x1c 00
+ .data.rel      0x0000000000005760       0x6c librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                0x0000000000005760                rumpns_fdesc_vfsops
+ .data          0x00000000000057cc        0x0 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ *fill*         0x00000000000057cc       0x14 00
+ .data.rel.local
+                0x00000000000057e0       0x50 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                0x00000000000057e0                rumpns_fdesc_targets
+ .data          0x0000000000005830        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000005830        0x0
+ .tm_clone_table
+                0x0000000000005830        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000005830        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x0000000000005830        0x4
+                0x0000000000005830                . = ALIGN (0x4)
+                0x0000000000005830                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000005830        0x4 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                0x0000000000005834                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x0000000000005834                _edata = .
+                0x0000000000005834                PROVIDE (edata, .)
+                0x0000000000005834                __bss_start = .
+
+.bss            0x0000000000005838       0x1c
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000005838        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000005840        0x4 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .bss           0x0000000000005844        0x0 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .bss           0x0000000000005844        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ *fill*         0x0000000000005844        0x4 00
+ COMMON         0x0000000000005848        0xc librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                0x0000000000005848                rumpns_devctty
+                0x0000000000005850                rumpns_fdesc_vnodeop_p
+                0x0000000000005854                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000005854                . = ALIGN (0x4)
+                0x0000000000005854                . = ALIGN (0x4)
+                0x0000000000005854                _end = .
+                0x0000000000005854                PROVIDE (end, .)
+                0x0000000000005854                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x80
+ .ident         0x0000000000000000       0x3e librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .ident         0x000000000000003e       0x42 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xead0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x5e7e librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_info    0x0000000000005e7e     0x8c52 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug_abbrev   0x0000000000000000      0x95a
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x3c2 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_abbrev  0x00000000000003c2      0x598 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug_line     0x0000000000000000     0x1118
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x66b librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_line    0x000000000000066b      0xaad librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x461f
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x30d7 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+                                       0x33b8 (size before relaxing)
+ .debug_str     0x00000000000030d7     0x1548 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+                                       0x4549 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1523
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x30f librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_loc     0x000000000000030f     0x1214 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x98
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpfs_fdesc_pic.a(fdesc_vfsops.pico)
+ .debug_ranges  0x0000000000000030       0x68 librumpfs_fdesc_pic.a(fdesc_vnops.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_fdesc.so.0.0 elf32-i386)

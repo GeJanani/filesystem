@@ -1,0 +1,641 @@
+Archive member included because of file (symbol)
+
+librumpdev_pic.a(subr_autoconf.pico)
+                              (--whole-archive)
+librumpdev_pic.a(rump_dev.pico)
+                              (--whole-archive)
+librumpdev_pic.a(kern_pmf.pico)
+                              (--whole-archive)
+librumpdev_pic.a(autoconf.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_pmf_debug_suspend
+                    0x4               librumpdev_pic.a(kern_pmf.pico)
+rumpns_pmf_debug_event
+                    0x4               librumpdev_pic.a(kern_pmf.pico)
+rumpns_pmf_debug_transition
+                    0x4               librumpdev_pic.a(kern_pmf.pico)
+rumpns_pmf_debug_idle
+                    0x4               librumpdev_pic.a(kern_pmf.pico)
+rumpns_pmf_debug_suspensor
+                    0x4               librumpdev_pic.a(kern_pmf.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(subr_autoconf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(subr_autoconf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_pic.a(subr_autoconf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(rump_dev.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_pic.a(rump_dev.pico)
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(kern_pmf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_pic.a(kern_pmf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(autoconf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_pic.a(autoconf.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpdev_pic.a(autoconf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_pic.a(autoconf.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x6b4
+ *(.hash)
+ .hash          0x00000000000000b4      0x6b4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000768      0xe60
+ *(.dynsym)
+ .dynsym        0x0000000000000768      0xe60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000015c8     0x15d8
+ *(.dynstr)
+ .dynstr        0x00000000000015c8     0x15d8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000002ba0        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000002ba0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000002ba0        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000002ba0      0x230
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000002ba0       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000002c40       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x0000000000002c60       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002cb0      0x118 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000002dc8        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000002dd0      0x488
+ *(.rel.plt)
+ .rel.plt       0x0000000000002dd0      0x488 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000003258        0xa
+ *(.init)
+ .init          0x0000000000003258        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x000000000000325d        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000003270      0x920
+ *(.plt)
+ .plt           0x0000000000003270      0x920 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003b90     0x6ba8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003b90      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000003ccb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003ccb                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000003ccf        0x1 90909090
+ .text          0x0000000000003cd0     0x4772 librumpdev_pic.a(subr_autoconf.pico)
+                0x0000000000003d40                rumpns_config_cfdriver_attach
+                0x0000000000003e60                rumpns_config_twiddle_fn
+                0x00000000000047c0                rumpns_config_init
+                0x0000000000004910                rumpns_config_init_mi
+                0x00000000000049c0                rumpns_config_create_interruptthreads
+                0x0000000000004a40                rumpns_config_create_mountrootthreads
+                0x0000000000004ad0                rumpns_config_cfdriver_lookup
+                0x0000000000004b30                rumpns_config_cfattach_attach
+                0x0000000000004bf0                rumpns_config_cfattach_lookup
+                0x0000000000004c40                rumpns_cfiattr_lookup
+                0x0000000000004ca0                rumpns_config_match
+                0x0000000000004d80                rumpns_config_rootsearch
+                0x0000000000004e30                rumpns_config_mountroot
+                0x0000000000004ef0                rumpns_config_pending_incr
+                0x0000000000004f30                rumpns_config_interrupts
+                0x0000000000004fe0                rumpns_config_defer
+                0x0000000000005090                rumpns_config_pending_decr
+                0x0000000000005190                rumpns_config_deferred
+                0x0000000000005260                rumpns_config_finalize_register
+                0x0000000000005310                rumpns_config_finalize
+                0x00000000000054d0                rumpns_config_twiddle_init
+                0x0000000000005530                rumpns_device_lookup
+                0x0000000000005600                rumpns_device_lookup_private
+                0x0000000000005630                rumpns_device_find_by_driver_unit
+                0x0000000000005670                rumpns_device_pmf_is_registered
+                0x0000000000005680                rumpns_device_pmf_driver_suspend
+                0x00000000000056e0                rumpns_device_pmf_driver_resume
+                0x0000000000005740                rumpns_device_pmf_driver_shutdown
+                0x0000000000005770                rumpns_device_pmf_driver_register
+                0x00000000000057a0                rumpns_device_pmf_driver_child_register
+                0x0000000000005800                rumpns_device_pmf_driver_set_child_register
+                0x0000000000005810                rumpns_device_getlock
+                0x00000000000058d0                rumpns_device_pmf_unlock
+                0x0000000000005990                rumpns_device_pmf_lock
+                0x0000000000005aa0                rumpns_device_pmf_driver_deregister
+                0x0000000000005c90                rumpns_config_detach
+                0x0000000000006060                rumpns_config_cfdriver_detach
+                0x0000000000006140                rumpns_config_cfattach_detach
+                0x00000000000061f0                rumpns_device_pmf_bus_private
+                0x0000000000006200                rumpns_device_pmf_bus_suspend
+                0x0000000000006260                rumpns_device_pmf_bus_resume
+                0x00000000000062b0                rumpns_device_pmf_bus_shutdown
+                0x00000000000062e0                rumpns_device_pmf_bus_register
+                0x0000000000006310                rumpns_device_pmf_bus_deregister
+                0x0000000000006350                rumpns_device_pmf_class_private
+                0x0000000000006360                rumpns_device_pmf_class_suspend
+                0x00000000000063b0                rumpns_device_pmf_class_resume
+                0x0000000000006410                rumpns_device_pmf_class_register
+                0x0000000000006440                rumpns_device_pmf_class_deregister
+                0x0000000000006480                rumpns_device_active
+                0x00000000000064d0                rumpns_device_active_register
+                0x0000000000006640                rumpns_device_active_deregister
+                0x0000000000006730                rumpns_deviter_init
+                0x0000000000006950                rumpns_deviter_next
+                0x0000000000006a00                rumpns_deviter_first
+                0x0000000000006a40                rumpns_shutdown_next
+                0x0000000000006a90                rumpns_shutdown_first
+                0x0000000000006ae0                rumpns_config_detach_all
+                0x0000000000006ba0                rumpns_deviter_release
+                0x0000000000006c20                rumpns_device_find_by_xname
+                0x0000000000006ca0                rumpns_config_deactivate
+                0x0000000000006d90                rumpns_config_detach_children
+                0x0000000000006e20                rumpns_config_cfdata_detach
+                0x0000000000006f40                rumpns_cfdata_ifattr
+                0x00000000000077a0                rumpns_config_attach_pseudo
+                0x0000000000007860                rumpns_config_attach_loc
+                0x0000000000007b00                rumpns_config_attach
+                0x0000000000007b40                rumpns_config_rootfound
+                0x0000000000007bc0                rumpns_config_search_loc
+                0x0000000000007d70                rumpns_config_found_sm_loc
+                0x0000000000007e80                rumpns_config_found
+                0x0000000000007ed0                rumpns_config_found_ia
+                0x0000000000007f20                rumpns_config_search_ia
+                0x0000000000007f60                rumpns_config_cfdata_attach
+                0x0000000000008070                rumpns_config_fini_component
+                0x0000000000008160                rumpns_config_init_component
+                0x0000000000008290                rumpns_config_stdsubmatch
+                0x00000000000083f0                rumpns_ifattr_match
+                0x0000000000008440                rumpns_null_childdetached
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000008442        0x4 librumpdev_pic.a(subr_autoconf.pico)
+                0x0000000000008442                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000008446        0xa 90909090
+ .text          0x0000000000008450      0x142 librumpdev_pic.a(rump_dev.pico)
+                0x0000000000008530                rumpns_buf_syncwait
+                0x0000000000008530                rumpns_nocomponent
+                0x0000000000008540                rumpns_cpu_rootconf
+                0x0000000000008570                rumpns_cpu_bootconf
+                0x0000000000008580                rumpns_device_register
+                0x0000000000008590                rumpns_device_register_post_config
+ *fill*         0x0000000000008592        0xe 90909090
+ .text          0x00000000000085a0     0x1ee8 librumpdev_pic.a(kern_pmf.pico)
+                0x0000000000008de0                rumpns_pmf_system_bus_resume
+                0x0000000000008ec0                rumpns_pmf_system_shutdown
+                0x0000000000008fc0                rumpns_pmf_set_platform
+                0x0000000000009010                rumpns_pmf_get_platform
+                0x0000000000009060                rumpns_pmf_device_register1
+                0x00000000000090e0                rumpns_pmf_device_deregister
+                0x0000000000009120                rumpns_pmf_self_suspensor_init
+                0x0000000000009190                rumpns_pmf_device_suspend_locked
+                0x0000000000009350                rumpns_pmf_device_suspend
+                0x0000000000009640                rumpns_pmf_system_suspend
+                0x00000000000097a0                rumpns_pmf_device_resume_locked
+                0x00000000000098f0                rumpns_pmf_device_resume
+                0x00000000000099b0                rumpns_pmf_system_resume
+                0x0000000000009ad0                rumpns_pmf_qual_recursive_copy
+                0x0000000000009af0                rumpns_pmf_device_recursive_suspend
+                0x0000000000009ba0                rumpns_pmf_device_recursive_resume
+                0x0000000000009c40                rumpns_pmf_device_descendants_release
+                0x0000000000009cd0                rumpns_pmf_device_descendants_resume
+                0x0000000000009db0                rumpns_pmf_device_subtree_release
+                0x0000000000009e10                rumpns_pmf_device_subtree_resume
+                0x0000000000009ea0                rumpns_pmf_class_network_register
+                0x0000000000009ef0                rumpns_pmf_event_inject
+                0x000000000000a040                rumpns_pmf_event_register
+                0x000000000000a0c0                rumpns_pmf_event_deregister
+                0x000000000000a150                rumpns_pmf_class_input_register
+                0x000000000000a1c0                rumpns_pmf_class_display_register
+                0x000000000000a2a0                rumpns_pmf_init
+ *fill*         0x000000000000a488        0x8 90909090
+ .text          0x000000000000a490      0x270 librumpdev_pic.a(autoconf.pico)
+                0x000000000000a570                rump_pdev_add
+                0x000000000000a630                rump_pdev_finalize
+                0x000000000000a660                rump_mainbus_init
+                0x000000000000a6b0                rump_mainbus_attach
+ .text          0x000000000000a700       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000000a738        0x5
+ *(.fini)
+ .fini          0x000000000000a738        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a73d                PROVIDE (__etext, .)
+                0x000000000000a73d                PROVIDE (_etext, .)
+                0x000000000000a73d                PROVIDE (etext, .)
+
+.rodata         0x000000000000a740      0xf00
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000a740      0x54b librumpdev_pic.a(subr_autoconf.pico)
+ .rodata.str1.1
+                0x000000000000ac8b      0x2e6 librumpdev_pic.a(subr_autoconf.pico)
+                                        0x303 (size before relaxing)
+ .rodata        0x000000000000af71       0x80 librumpdev_pic.a(subr_autoconf.pico)
+ .rodata.str1.1
+                0x000000000000aff1       0x24 librumpdev_pic.a(rump_dev.pico)
+                                         0x2c (size before relaxing)
+ .rodata        0x000000000000b015        0xd librumpdev_pic.a(rump_dev.pico)
+ *fill*         0x000000000000b022        0x2 00
+ .rodata.str1.4
+                0x000000000000b024      0x221 librumpdev_pic.a(kern_pmf.pico)
+                                        0x255 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000b245      0x297 librumpdev_pic.a(kern_pmf.pico)
+                                        0x2c8 (size before relaxing)
+ *fill*         0x000000000000b4dc        0x4 00
+ .rodata        0x000000000000b4e0       0xa4 librumpdev_pic.a(kern_pmf.pico)
+ .rodata.str1.1
+                0x000000000000b584       0x25 librumpdev_pic.a(autoconf.pico)
+                                         0x3f (size before relaxing)
+ *fill*         0x000000000000b5a9        0x3 00
+ .rodata.str1.4
+                0x000000000000b5ac       0x84 librumpdev_pic.a(autoconf.pico)
+                                         0xb8 (size before relaxing)
+ .rodata        0x000000000000b630       0x10 librumpdev_pic.a(autoconf.pico)
+                0x000000000000b630                rumpns_cfroots
+                0x000000000000b634                rumpns_cfdriver_list_initial
+                0x000000000000b638                rumpns_cfattachinit
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000b640      0x4dc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000b640      0x4dc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000bb1c     0x1d08
+ *(.eh_frame)
+ .eh_frame      0x000000000000bb1c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000bb58     0x133c librumpdev_pic.a(subr_autoconf.pico)
+                                       0x1368 (size before relaxing)
+ .eh_frame      0x000000000000ce94       0x90 librumpdev_pic.a(rump_dev.pico)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x000000000000cf24      0x828 librumpdev_pic.a(kern_pmf.pico)
+                                        0x854 (size before relaxing)
+ .eh_frame      0x000000000000d74c       0xd4 librumpdev_pic.a(autoconf.pico)
+                                        0x114 (size before relaxing)
+ .eh_frame      0x000000000000d820        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000d824                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000e000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000e000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000e000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000e004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000e008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000e008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000e00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000e00c                __DTOR_END__
+
+.jcr            0x000000000000e010        0x4
+ *(.jcr)
+ .jcr           0x000000000000e010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000e010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000e020       0xa4
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000e020        0xc librumpdev_pic.a(subr_autoconf.pico)
+ .data.rel.ro.local
+                0x000000000000e02c       0x30 librumpdev_pic.a(kern_pmf.pico)
+                0x000000000000e02c                rumpns_PMF_Q_SELF
+                0x000000000000e030                rumpns_PMF_Q_NONE
+                0x000000000000e034                rumpns_PMF_Q_DRVCTL
+                0x000000000000e038                rumpns_device_suspensor_drvctl
+                0x000000000000e03c                rumpns_device_suspensor_system
+                0x000000000000e040                rumpns_device_suspensor_self
+ *fill*         0x000000000000e05c        0x4 00
+ .data.rel.ro.local
+                0x000000000000e060       0x64 librumpdev_pic.a(autoconf.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000000e0c4       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000e0c4       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000e0c4                _DYNAMIC
+
+.got            0x000000000000e164       0x8c
+ *(.got)
+ .got           0x000000000000e164       0x8c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000e1f0                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000e1f0      0x250
+ *(.got.plt)
+ .got.plt       0x000000000000e1f0      0x250 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000e1f0                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000e440       0xe0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000e440        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000e440                __dso_handle
+ *fill*         0x000000000000e444        0x4 00
+ .data          0x000000000000e448       0x10 librumpdev_pic.a(subr_autoconf.pico)
+                0x000000000000e450                rumpns_mountroot_config_threads
+                0x000000000000e454                rumpns_interrupt_config_threads
+ .data.rel      0x000000000000e458       0x20 librumpdev_pic.a(subr_autoconf.pico)
+                0x000000000000e458                rumpns_mountroot_config_queue
+                0x000000000000e460                rumpns_interrupt_config_queue
+                0x000000000000e468                rumpns_deferred_config_queue
+                0x000000000000e470                rumpns_allcftables
+ .data.rel.local
+                0x000000000000e478       0x10 librumpdev_pic.a(subr_autoconf.pico)
+ .data          0x000000000000e488        0x0 librumpdev_pic.a(rump_dev.pico)
+ .data.rel.local
+                0x000000000000e488       0x14 librumpdev_pic.a(rump_dev.pico)
+                0x000000000000e488                rumpns_rootspec
+ .data          0x000000000000e49c        0x0 librumpdev_pic.a(kern_pmf.pico)
+ .data.rel.local
+                0x000000000000e49c        0x8 librumpdev_pic.a(kern_pmf.pico)
+ .data          0x000000000000e4a4        0x0 librumpdev_pic.a(autoconf.pico)
+ *fill*         0x000000000000e4a4       0x1c 00
+ .data.rel.local
+                0x000000000000e4c0       0x60 librumpdev_pic.a(autoconf.pico)
+                0x000000000000e4c0                rumpns_mainbus_ca
+                0x000000000000e500                rumpns_mainbus_cd
+ .data          0x000000000000e520        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000e520        0x0
+ .tm_clone_table
+                0x000000000000e520        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000e520        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000000e520        0x4
+                0x000000000000e520                . = ALIGN (0x4)
+                0x000000000000e520                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000000e520        0x4 librumpdev_pic.a(rump_dev.pico)
+                0x000000000000e524                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x000000000000e524                _edata = .
+                0x000000000000e524                PROVIDE (edata, .)
+                0x000000000000e524                __bss_start = .
+
+.bss            0x000000000000e540      0xa68
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000e540        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *fill*         0x000000000000e548       0x18 00
+ .bss           0x000000000000e560       0xa0 librumpdev_pic.a(subr_autoconf.pico)
+                0x000000000000e560                rumpns_allcfdrivers
+ .bss           0x000000000000e600        0x0 librumpdev_pic.a(rump_dev.pico)
+ .bss           0x000000000000e600      0x14c librumpdev_pic.a(kern_pmf.pico)
+ *fill*         0x000000000000e74c       0x14 00
+ .bss           0x000000000000e760      0x834 librumpdev_pic.a(autoconf.pico)
+                0x000000000000e760                rumpns_pdevinit
+                0x000000000000ef60                rumpns_cfdata
+ .bss           0x000000000000ef94        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000ef94       0x14 librumpdev_pic.a(kern_pmf.pico)
+                0x000000000000ef94                rumpns_pmf_debug_suspend
+                0x000000000000ef98                rumpns_pmf_debug_event
+                0x000000000000ef9c                rumpns_pmf_debug_transition
+                0x000000000000efa0                rumpns_pmf_debug_idle
+                0x000000000000efa4                rumpns_pmf_debug_suspensor
+                0x000000000000efa8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000efa8                . = ALIGN (0x4)
+                0x000000000000efa8                . = ALIGN (0x4)
+                0x000000000000efa8                _end = .
+                0x000000000000efa8                PROVIDE (end, .)
+                0x000000000000efa8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_pic.a(subr_autoconf.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_pic.a(rump_dev.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_pic.a(kern_pmf.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_pic.a(autoconf.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xf2
+ .ident         0x0000000000000000       0x44 librumpdev_pic.a(subr_autoconf.pico)
+ .ident         0x0000000000000044       0x3b librumpdev_pic.a(rump_dev.pico)
+ .ident         0x000000000000007f       0x39 librumpdev_pic.a(kern_pmf.pico)
+ .ident         0x00000000000000b8       0x3a librumpdev_pic.a(autoconf.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_pic.a(subr_autoconf.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_pic.a(rump_dev.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_pic.a(kern_pmf.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_pic.a(autoconf.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1bd46
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0xc129 librumpdev_pic.a(subr_autoconf.pico)
+ .debug_info    0x000000000000c129     0x57f3 librumpdev_pic.a(rump_dev.pico)
+ .debug_info    0x000000000001191c     0x93be librumpdev_pic.a(kern_pmf.pico)
+ .debug_info    0x000000000001acda     0x106c librumpdev_pic.a(autoconf.pico)
+
+.debug_abbrev   0x0000000000000000     0x13a5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x74e librumpdev_pic.a(subr_autoconf.pico)
+ .debug_abbrev  0x000000000000074e      0x373 librumpdev_pic.a(rump_dev.pico)
+ .debug_abbrev  0x0000000000000ac1      0x61a librumpdev_pic.a(kern_pmf.pico)
+ .debug_abbrev  0x00000000000010db      0x2ca librumpdev_pic.a(autoconf.pico)
+
+.debug_line     0x0000000000000000     0x2b8b
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1470 librumpdev_pic.a(subr_autoconf.pico)
+ .debug_line    0x0000000000001470      0x65a librumpdev_pic.a(rump_dev.pico)
+ .debug_line    0x0000000000001aca      0xd5a librumpdev_pic.a(kern_pmf.pico)
+ .debug_line    0x0000000000002824      0x367 librumpdev_pic.a(autoconf.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x627c
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x4564 librumpdev_pic.a(subr_autoconf.pico)
+                                       0x4964 (size before relaxing)
+ .debug_str     0x0000000000004564      0x7ba librumpdev_pic.a(rump_dev.pico)
+                                       0x331a (size before relaxing)
+ .debug_str     0x0000000000004d1e     0x13d4 librumpdev_pic.a(kern_pmf.pico)
+                                       0x451a (size before relaxing)
+ .debug_str     0x00000000000060f2      0x18a librumpdev_pic.a(autoconf.pico)
+                                        0x9fa (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x67c9
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x4b7b librumpdev_pic.a(subr_autoconf.pico)
+ .debug_loc     0x0000000000004b7b       0x7c librumpdev_pic.a(rump_dev.pico)
+ .debug_loc     0x0000000000004bf7     0x1a6b librumpdev_pic.a(kern_pmf.pico)
+ .debug_loc     0x0000000000006662      0x167 librumpdev_pic.a(autoconf.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x560
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x3b8 librumpdev_pic.a(subr_autoconf.pico)
+ .debug_ranges  0x00000000000003b8      0x1a8 librumpdev_pic.a(kern_pmf.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev.so.0.0 elf32-i386)

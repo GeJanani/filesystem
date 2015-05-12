@@ -1,0 +1,471 @@
+Archive member included because of file (symbol)
+
+librumpvfs_layerfs_pic.a(layer_vnops.pico)
+                              (--whole-archive)
+librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                              (--whole-archive)
+librumpvfs_layerfs_pic.a(layer_subr.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpvfs_layerfs_pic.a(layer_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpvfs_layerfs_pic.a(layer_subr.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpvfs_layerfs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x240
+ *(.hash)
+ .hash          0x00000000000000b4      0x240 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000002f4      0x4b0
+ *(.dynsym)
+ .dynsym        0x00000000000002f4      0x4b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000007a4      0x5ed
+ *(.dynstr)
+ .dynstr        0x00000000000007a4      0x5ed /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000d92        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000d94        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000d94        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000d94       0x48
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000000d94       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000da4       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_sysctl_funcs
+                0x0000000000000dcc        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000000dd4        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000ddc      0x110
+ *(.rel.plt)
+ .rel.plt       0x0000000000000ddc      0x110 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000eec        0xa
+ *(.init)
+ .init          0x0000000000000eec        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000ef1        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000f00      0x230
+ *(.plt)
+ .plt           0x0000000000000f00      0x230 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000001130     0x14b8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001130      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000126b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000126b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000126f        0x1 90909090
+ .text          0x0000000000001270      0xbbe librumpvfs_layerfs_pic.a(layer_vnops.pico)
+                0x0000000000001270                rumpns_layer_bypass
+                0x0000000000001450                rumpns_layer_lookup
+                0x00000000000015a0                rumpns_layer_setattr
+                0x0000000000001660                rumpns_layer_getattr
+                0x00000000000016b0                rumpns_layer_access
+                0x0000000000001710                rumpns_layer_open
+                0x0000000000001750                rumpns_layer_fsync
+                0x00000000000017c0                rumpns_layer_inactive
+                0x0000000000001800                rumpns_layer_remove
+                0x0000000000001860                rumpns_layer_rename
+                0x00000000000018f0                rumpns_layer_rmdir
+                0x0000000000001950                rumpns_layer_revoke
+                0x00000000000019c0                rumpns_layer_reclaim
+                0x0000000000001a70                rumpns_layer_lock
+                0x0000000000001bc0                rumpns_layer_bmap
+                0x0000000000001bf0                rumpns_layer_print
+                0x0000000000001c30                rumpns_layer_getpages
+                0x0000000000001d30                rumpns_layer_putpages
+ *fill*         0x0000000000001e2e        0x2 90909090
+ .text          0x0000000000001e30      0x6a9 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                0x0000000000001e30                rumpns_sysctl_vfs_layerfs_setup
+                0x0000000000001f40                rumpns_layerfs_start
+                0x0000000000001f50                rumpns_layerfs_root
+                0x0000000000001fc0                rumpns_layerfs_quotactl
+                0x0000000000001ff0                rumpns_layerfs_statvfs
+                0x0000000000002110                rumpns_layerfs_sync
+                0x0000000000002120                rumpns_layerfs_loadvnode
+                0x0000000000002290                rumpns_layerfs_vget
+                0x0000000000002360                rumpns_layerfs_fhtovp
+                0x0000000000002450                rumpns_layerfs_vptofh
+                0x0000000000002490                rumpns_layerfs_snapshot
+                0x00000000000024a0                rumpns_layerfs_renamelock_enter
+                0x00000000000024c0                rumpns_layerfs_renamelock_exit
+ *fill*         0x00000000000024d9        0x7 90909090
+ .text          0x00000000000024e0       0xc8 librumpvfs_layerfs_pic.a(layer_subr.pico)
+                0x00000000000024e0                rumpns_layerfs_init
+                0x00000000000024f0                rumpns_layerfs_done
+                0x0000000000002500                rumpns_layer_node_create
+ *fill*         0x00000000000025a8        0x8 90909090
+ .text          0x00000000000025b0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000025e8        0x5
+ *(.fini)
+ .fini          0x00000000000025e8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000025ed                PROVIDE (__etext, .)
+                0x00000000000025ed                PROVIDE (_etext, .)
+                0x00000000000025ed                PROVIDE (etext, .)
+
+.rodata         0x00000000000025f0      0x314
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000025f0       0x56 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ *fill*         0x0000000000002646        0x2 00
+ .rodata.str1.4
+                0x0000000000002648      0x125 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .rodata        0x000000000000276d        0xd librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .rodata.str1.1
+                0x000000000000277a        0x8 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                                         0x14 (size before relaxing)
+ *fill*         0x0000000000002782        0x2 00
+ .rodata.str1.4
+                0x0000000000002784       0xc6 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                                         0xfc (size before relaxing)
+ *fill*         0x000000000000284a        0x2 00
+ .rodata.str1.4
+                0x000000000000284c       0xa0 librumpvfs_layerfs_pic.a(layer_subr.pico)
+                                         0xd4 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000028ec       0x18 librumpvfs_layerfs_pic.a(layer_subr.pico)
+                                         0x24 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000002904      0x12c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000002904      0x12c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000002a30      0x54c
+ *(.eh_frame)
+ .eh_frame      0x0000000000002a30       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000002a6c      0x2d8 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+                                        0x304 (size before relaxing)
+ .eh_frame      0x0000000000002d44      0x1dc librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                                        0x208 (size before relaxing)
+ .eh_frame      0x0000000000002f20       0x58 librumpvfs_layerfs_pic.a(layer_subr.pico)
+                                         0x84 (size before relaxing)
+ .eh_frame      0x0000000000002f78        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000002f7c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000003000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000003000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000003000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000003004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000003008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000003008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000300c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000300c                __DTOR_END__
+
+.jcr            0x0000000000003010        0x4
+ *(.jcr)
+ .jcr           0x0000000000003010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000003010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000003014       0x14
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000003014       0x14 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000003028       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000003028       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003028                _DYNAMIC
+
+.got            0x00000000000030c8       0x14
+ *(.got)
+ .got           0x00000000000030c8       0x14 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000030dc                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000030dc       0x94
+ *(.got.plt)
+ .got.plt       0x00000000000030dc       0x94 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000030dc                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000003170        0x4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000003170        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003170                __dso_handle
+ .data          0x0000000000003174        0x0 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .data          0x0000000000003174        0x0 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .data          0x0000000000003174        0x0 librumpvfs_layerfs_pic.a(layer_subr.pico)
+ .data          0x0000000000003174        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000003174        0x0
+ .tm_clone_table
+                0x0000000000003174        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000003174        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_sysctl_funcs
+                0x0000000000003174        0x4
+                0x0000000000003174                . = ALIGN (0x4)
+                0x0000000000003174                PROVIDE (__start_link_set_sysctl_funcs, ABSOLUTE (.))
+ link_set_sysctl_funcs
+                0x0000000000003174        0x4 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                0x0000000000003178                PROVIDE (__stop_link_set_sysctl_funcs, .)
+
+link_set_modules
+                0x0000000000003178        0x4
+                0x0000000000003178                . = ALIGN (0x4)
+                0x0000000000003178                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000003178        0x4 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                0x000000000000317c                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000317c                _edata = .
+                0x000000000000317c                PROVIDE (edata, .)
+                0x000000000000317c                __bss_start = .
+
+.bss            0x000000000000317c        0xc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000317c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000003184        0x0 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .bss           0x0000000000003184        0x4 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .bss           0x0000000000003188        0x0 librumpvfs_layerfs_pic.a(layer_subr.pico)
+ .bss           0x0000000000003188        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000003188                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000003188                . = ALIGN (0x4)
+                0x0000000000003188                . = ALIGN (0x4)
+                0x0000000000003188                _end = .
+                0x0000000000003188                PROVIDE (end, .)
+                0x0000000000003188                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpvfs_layerfs_pic.a(layer_subr.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xba
+ .ident         0x0000000000000000       0x40 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .ident         0x0000000000000040       0x3e librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .ident         0x000000000000007e       0x3c librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe018
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x6869 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .debug_info    0x0000000000006869     0x5ed8 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .debug_info    0x000000000000c741     0x18d7 librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug_abbrev   0x0000000000000000      0x9ec
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x357 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .debug_abbrev  0x0000000000000357      0x44a librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .debug_abbrev  0x00000000000007a1      0x24b librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug_line     0x0000000000000000     0x13c4
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x8aa librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .debug_line    0x00000000000008aa      0x742 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .debug_line    0x0000000000000fec      0x3d8 librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x3868
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3236 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+                                       0x34ec (size before relaxing)
+ .debug_str     0x0000000000003236      0x560 librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+                                       0x33eb (size before relaxing)
+ .debug_str     0x0000000000003796       0xd2 librumpvfs_layerfs_pic.a(layer_subr.pico)
+                                        0xeab (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x143b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xf23 librumpvfs_layerfs_pic.a(layer_vnops.pico)
+ .debug_loc     0x0000000000000f23      0x44f librumpvfs_layerfs_pic.a(layer_vfsops.pico)
+ .debug_loc     0x0000000000001372       0xc9 librumpvfs_layerfs_pic.a(layer_subr.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpvfs_layerfs.so.0.0 elf32-i386)

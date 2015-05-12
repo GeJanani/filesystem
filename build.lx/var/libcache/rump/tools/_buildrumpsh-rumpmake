@@ -1,0 +1,42 @@
+#! /bin/sh
+# Set proper variables to allow easy "make" building of a NetBSD subtree.
+# Generated from:  $NetBSD: build.sh,v 1.305 2014/11/30 15:53:29 uebayasi Exp $
+# with these arguments: -m i386 -u -D /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage -w /home/k/GeDONE/build.lx/var/libcache/rump/tools/_buildrumpsh-rumpmake -T /home/k/GeDONE/build.lx/var/libcache/rump/tools -j 4 -N2 -E -Z S -V EXTERNAL_TOOLCHAIN=/home/k/GeDONE/build.lx/var/libcache/rump/tools -V TOOLCHAIN_MISSING=yes -V TOOLS_BUILDRUMP=yes -V MKGROFF=no -V MKLINT=no -V MKZFS=no -V MKDYNAMICROOT=no -V TOPRUMP=/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump -V MAKECONF=/home/k/GeDONE/build.lx/var/libcache/rump/tools/mk.conf -V MAKEOBJDIR=${.CURDIR:C,^(/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src|/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump),/home/k/GeDONE/build.lx/var/libcache/rump/obj,} -V BUILDRUMP_STAGE=/home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage -V MAKEVERBOSE=0 -V NOGCCERROR=1 -V RUMP_LOCKS_UP=yes -V RUMP_KERNEL_IS_LIBC=1 tools
+#
+
+BSHELL=/bin/sh; export BSHELL
+BUILDRUMP_STAGE=/home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage; export BUILDRUMP_STAGE
+BUILDSEED=NetBSD-8; export BUILDSEED
+CONFIG_SHELL=/bin/sh; export CONFIG_SHELL
+DESTDIR=/home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage; export DESTDIR
+EXTERNAL_TOOLCHAIN=/home/k/GeDONE/build.lx/var/libcache/rump/tools; export EXTERNAL_TOOLCHAIN
+HOST_SH=/bin/sh; export HOST_SH
+unset INFODIR
+LC_ALL=C; export LC_ALL
+unset LESSCHARSET
+MACHINE=i386; export MACHINE
+MACHINE_ARCH=i386; export MACHINE_ARCH
+MAKECONF=/home/k/GeDONE/build.lx/var/libcache/rump/tools/mk.conf; export MAKECONF
+MAKEFLAGS='-de -m /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/share/mk  MKOBJDIRS=yes'; export MAKEFLAGS
+MAKEOBJDIR='${.CURDIR:C,^(/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src|/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump),/home/k/GeDONE/build.lx/var/libcache/rump/obj,}'; export MAKEOBJDIR
+MAKEVERBOSE=0; export MAKEVERBOSE
+MAKEWRAPPERMACHINE=i386; export MAKEWRAPPERMACHINE
+MKARZERO=yes; export MKARZERO
+MKDYNAMICROOT=no; export MKDYNAMICROOT
+MKGROFF=no; export MKGROFF
+MKLINT=no; export MKLINT
+MKUPDATE=yes; export MKUPDATE
+MKZFS=no; export MKZFS
+NETBSDSRCDIR='/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src'; export NETBSDSRCDIR
+NOGCCERROR=1; export NOGCCERROR
+RUMP_KERNEL_IS_LIBC=1; export RUMP_KERNEL_IS_LIBC
+RUMP_LOCKS_UP=yes; export RUMP_LOCKS_UP
+unset S
+unset TERMINFO
+TOOLCHAIN_MISSING=yes; export TOOLCHAIN_MISSING
+TOOLDIR=/home/k/GeDONE/build.lx/var/libcache/rump/tools; export TOOLDIR
+TOOLS_BUILDRUMP=yes; export TOOLS_BUILDRUMP
+TOPRUMP='/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump'; export TOPRUMP
+USETOOLS=yes; export USETOOLS
+
+exec "${TOOLDIR}/bin/nbmake" ${1+"$@"}

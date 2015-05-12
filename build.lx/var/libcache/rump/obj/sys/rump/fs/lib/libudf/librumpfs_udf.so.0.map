@@ -1,0 +1,848 @@
+Archive member included because of file (symbol)
+
+librumpfs_udf_pic.a(udf_vfsops.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_vnops.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_rename.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_strat_direct.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_readwrite.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_allocation.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_subr.pico)
+                              (--whole-archive)
+librumpfs_udf_pic.a(udf_osta.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_udf_vnodeop_p
+                    0x4               librumpfs_udf_pic.a(udf_vnops.pico)
+rumpns_udf_node_pool
+                    0xd8              librumpfs_udf_pic.a(udf_vfsops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_rename.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_rename.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_allocation.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_allocation.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_udf_pic.a(udf_osta.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_udf_pic.a(udf_osta.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_udf_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x9f0
+ *(.hash)
+ .hash          0x00000000000000b4      0x9f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000aa4     0x1730
+ *(.dynsym)
+ .dynsym        0x0000000000000aa4     0x1730 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000021d4     0x1ff1
+ *(.dynstr)
+ .dynstr        0x00000000000021d4     0x1ff1 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000041c6      0x2e6
+ *(.gnu.version)
+ .gnu.version   0x00000000000041c6      0x2e6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000044ac        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000044ac       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000044ac       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x00000000000044cc      0x580
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000044cc      0x2d8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x00000000000047a4       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000004814       0xb0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x00000000000048c4       0xf0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000049b4       0x90 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000004a44        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000004a4c      0x790
+ *(.rel.plt)
+ .rel.plt       0x0000000000004a4c      0x790 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000051dc        0xa
+ *(.init)
+ .init          0x00000000000051dc        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000051e1        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000051f0      0xf30
+ *(.plt)
+ .plt           0x00000000000051f0      0xf30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000006120    0x1e178
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000006120      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000625b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000625b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000625f        0x1 90909090
+ .text          0x0000000000006260     0x105a librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x0000000000006260                rumpns_udf_reinit
+                0x0000000000006270                rumpns_udf_mountroot
+                0x0000000000006280                rumpns_udf_start
+                0x0000000000006290                rumpns_udf_vget
+                0x00000000000062a0                rumpns_udf_fhtovp
+                0x00000000000062b0                rumpns_udf_vptofh
+                0x00000000000062c0                rumpns_udf_snapshot
+                0x00000000000062d0                rumpns_udf_statvfs
+                0x0000000000006410                rumpns_udf_root
+                0x0000000000006720                rumpns_udf_mount
+                0x0000000000006e90                rumpns_udf_done
+                0x0000000000006ec0                rumpns_udf_init
+                0x0000000000007030                rumpns_udf_sync
+                0x0000000000007130                rumpns_udf_unmount
+ *fill*         0x00000000000072ba        0x6 90909090
+ .text          0x00000000000072c0      0x1ed librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ *fill*         0x00000000000074ad        0x3 90909090
+ .text          0x00000000000074b0     0x3443 librumpfs_udf_pic.a(udf_vnops.pico)
+                0x00000000000074b0                rumpns_udf_trivial_bmap
+                0x0000000000007530                rumpns_udf_pathconf
+                0x00000000000075d0                rumpns_udf_open
+                0x00000000000075e0                rumpns_udf_advlock
+                0x0000000000007680                rumpns_udf_fsync
+                0x0000000000007800                rumpns_udf_rmdir
+                0x0000000000007f30                rumpns_udf_readlink
+                0x0000000000008040                rumpns_udf_mkdir
+                0x0000000000008080                rumpns_udf_mknod
+                0x00000000000080c0                rumpns_udf_create
+                0x0000000000008440                rumpns_udf_symlink
+                0x00000000000085d0                rumpns_udf_close
+                0x00000000000086a0                rumpns_udf_inactive
+                0x00000000000087c0                rumpns_udf_getattr
+                0x0000000000008c90                rumpns_udf_lookup
+                0x00000000000090e0                rumpns_udf_readdir
+                0x0000000000009420                rumpns_udf_vfsstrategy
+                0x0000000000009580                rumpns_udf_read
+                0x0000000000009810                rumpns_udf_reclaim
+                0x0000000000009920                rumpns_udf_access
+                0x0000000000009a60                rumpns_udf_link
+                0x0000000000009cc0                rumpns_udf_remove
+                0x0000000000009dd0                rumpns_udf_chsize
+                0x0000000000009f30                rumpns_udf_setattr
+                0x000000000000a380                rumpns_udf_write
+ .text.__x86.get_pc_thunk.cx
+                0x000000000000a8f3        0x4 librumpfs_udf_pic.a(udf_vnops.pico)
+                0x000000000000a8f3                __x86.get_pc_thunk.cx
+ *fill*         0x000000000000a8f7        0x9 90909090
+ .text          0x000000000000a900     0x2aea librumpfs_udf_pic.a(udf_rename.pico)
+                0x000000000000d3c0                rumpns_udf_rename
+ *fill*         0x000000000000d3ea        0x6 90909090
+ .text          0x000000000000d3f0     0x3612 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ *fill*         0x0000000000010a02        0xe 90909090
+ .text          0x0000000000010a10     0x1289 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ *fill*         0x0000000000011c99        0x7 90909090
+ .text          0x0000000000011ca0      0xc99 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ *fill*         0x0000000000012939        0x7 90909090
+ .text          0x0000000000012940     0x1013 librumpfs_udf_pic.a(udf_readwrite.pico)
+                0x0000000000012940                rumpns_udf_fixup_fid_block
+                0x0000000000012a40                rumpns_udf_fixup_internal_extattr
+                0x0000000000012ad0                rumpns_udf_fixup_node_internals
+                0x0000000000012c80                rumpns_udf_create_logvol_dscr
+                0x0000000000012d20                rumpns_udf_free_logvol_dscr
+                0x0000000000012db0                rumpns_udf_read_logvol_dscr
+                0x0000000000012e50                rumpns_udf_write_logvol_dscr
+                0x0000000000012ef0                rumpns_udf_discstrat_queuebuf
+                0x0000000000013150                rumpns_udf_write_phys_dscr_async
+                0x00000000000132b0                rumpns_udf_write_phys_dscr_sync
+                0x00000000000133e0                rumpns_udf_write_phys_sectors
+                0x00000000000134d0                rumpns_udf_read_phys_sectors
+                0x00000000000136f0                rumpns_udf_read_phys_dscr
+                0x00000000000138b0                rumpns_udf_discstrat_init
+                0x0000000000013930                rumpns_udf_discstrat_finish
+ *fill*         0x0000000000013953        0xd 90909090
+ .text          0x0000000000013960     0x5451 librumpfs_udf_pic.a(udf_allocation.pico)
+                0x0000000000014020                rumpns_udf_calc_freespace
+                0x00000000000141f0                rumpns_udf_do_reserve_space
+                0x0000000000014220                rumpns_udf_do_unreserve_space
+                0x0000000000014280                rumpns_udf_cleanup_reservation
+                0x0000000000014320                rumpns_udf_allocate_space
+                0x0000000000014830                rumpns_udf_free_allocated_space
+                0x0000000000014a70                rumpns_udf_get_adslot
+                0x0000000000014e30                rumpns_udf_translate_vtop
+                0x0000000000015240                rumpns_udf_translate_vtop_list
+                0x00000000000152f0                rumpns_udf_translate_file_extent
+                0x0000000000015740                rumpns_udf_shrink_node
+                0x00000000000163b0                rumpns_udf_reserve_space
+                0x0000000000016b30                rumpns_udf_append_adslot
+                0x00000000000172e0                rumpns_udf_grow_node
+                0x0000000000017ed0                rumpns_udf_late_allocate_buf
+                0x0000000000018bd0                rumpns_udf_synchronise_metadatamirror_node
+ *fill*         0x0000000000018db1        0xf 90909090
+ .text          0x0000000000018dc0     0xadc1 librumpfs_udf_pic.a(udf_subr.pico)
+                0x00000000000196e0                rumpns_udf_update_discinfo
+                0x0000000000019870                rumpns_udf_update_trackinfo
+                0x0000000000019920                rumpns_udf_setup_writeparams
+                0x0000000000019a00                rumpns_udf_synchronise_caches
+                0x000000000001a0b0                rumpns_udf_search_tracks
+                0x000000000001a200                rumpns_udf_search_writing_tracks
+                0x000000000001a6f0                rumpns_udf_check_tag
+                0x000000000001a730                rumpns_udf_check_tag_payload
+                0x000000000001a7a0                rumpns_udf_validate_tag_sum
+                0x000000000001a7d0                rumpns_udf_validate_tag_and_crc_sums
+                0x000000000001a820                rumpns_udf_tagsize
+                0x000000000001ab80                rumpns_udf_fidsize
+                0x000000000001abc0                rumpns_udf_lock_node
+                0x000000000001ac60                rumpns_udf_unlock_node
+                0x000000000001acc0                rumpns_udf_read_anchors
+                0x000000000001af60                rumpns_udf_get_c_type
+                0x000000000001afa0                rumpns_udf_get_record_vpart
+                0x000000000001b0f0                rumpns_udf_read_vds_space
+                0x000000000001b1f0                rumpns_udf_write_physical_partition_spacetables
+                0x000000000001b2f0                rumpns_udf_process_vds
+                0x000000000001bb60                rumpns_udf_inittag
+                0x000000000001bc10                rumpns_udf_advance_uniqueid
+                0x000000000001bcb0                rumpns_udf_osta_charset
+                0x000000000001bd70                rumpns_udf_set_regid
+                0x000000000001be20                rumpns_udf_add_domain_regid
+                0x000000000001be40                rumpns_udf_add_udf_regid
+                0x000000000001be60                rumpns_udf_add_impl_regid
+                0x000000000001be70                rumpns_udf_add_app_regid
+                0x000000000001be80                rumpns_udf_extattr_search_intern
+                0x000000000001c050                rumpns_udf_vat_read
+                0x000000000001c0d0                rumpns_udf_vat_write
+                0x000000000001c1b0                rumpns_udf_writeout_vat
+                0x000000000001c820                rumpns_udf_get_node_id
+                0x000000000001c830                rumpns_udf_compare_icb
+                0x000000000001c8f0                rumpns_udf_init_nodes_tree
+                0x000000000001c920                rumpns_udf_write_terminator
+                0x000000000001c9d0                rumpns_udf_to_unix_name
+                0x000000000001cc50                rumpns_unix_to_udf_name
+                0x000000000001ce90                rumpns_udf_timestamp_to_timespec
+                0x000000000001cf90                rumpns_udf_timespec_to_timestamp
+                0x000000000001d560                rumpns_udf_open_logvol
+                0x000000000001d650                rumpns_udf_getaccessmode
+                0x000000000001d800                rumpns_udf_setaccessmode
+                0x000000000001d920                rumpns_udf_getownership
+                0x000000000001da20                rumpns_udf_setownership
+                0x000000000001dae0                rumpns_udf_writeout_node
+                0x000000000001ddc0                rumpns_udf_dispose_node
+                0x000000000001df30                rumpns_udf_get_node
+                0x000000000001e970                rumpns_udf_read_rootdirs
+                0x000000000001ebc0                rumpns_udf_read_vds_tables
+                0x000000000001fb30                rumpns_udf_resize_node
+                0x000000000001fc30                rumpns_udf_delete_node
+                0x000000000001fcf0                rumpns_udf_write_metadata_partition_spacetable
+                0x000000000001feb0                rumpns_udf_close_logvol
+                0x00000000000203e0                rumpns_udf_itimes
+                0x0000000000020690                rumpns_udf_update
+                0x00000000000207e0                rumpns_udf_read_fid_stream
+                0x0000000000020cd0                rumpns_udf_dirhash_fill
+                0x0000000000020f90                rumpns_udf_dir_attach
+                0x00000000000217b0                rumpns_udf_create_node
+                0x00000000000225b0                rumpns_udf_dir_update_rootentry
+                0x0000000000022900                rumpns_udf_dir_detach
+                0x0000000000022da0                rumpns_udf_lookup_name_in_dir
+                0x0000000000022fc0                rumpns_udf_do_sync
+                0x0000000000023100                rumpns_udf_read_filebuf
+                0x0000000000023650                rumpns_udf_write_filebuf
+ *fill*         0x0000000000023b81        0xf 90909090
+ .text          0x0000000000023b90      0x6c8 librumpfs_udf_pic.a(udf_osta.pico)
+                0x0000000000023b90                rumpns_udf_UncompressUnicode
+                0x0000000000023c20                rumpns_udf_CompressUnicode
+                0x0000000000023ca0                rumpns_udf_cksum
+                0x0000000000023cf0                rumpns_udf_unicode_cksum
+                0x0000000000023d50                rumpns_udf_ea_cksum
+                0x0000000000023d70                rumpns_UnicodeLength
+                0x0000000000023d90                rumpns_IsIllegal
+                0x0000000000023db0                rumpns_UDFTransName
+ *fill*         0x0000000000024258        0x8 90909090
+ .text          0x0000000000024260       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000024298        0x5
+ *(.fini)
+ .fini          0x0000000000024298        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002429d                PROVIDE (__etext, .)
+                0x000000000002429d                PROVIDE (_etext, .)
+                0x000000000002429d                PROVIDE (etext, .)
+
+.rodata         0x00000000000242a0     0x34c0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000000000242a0      0x49c librumpfs_udf_pic.a(udf_vfsops.pico)
+ .rodata.str1.1
+                0x000000000002473c       0x7d librumpfs_udf_pic.a(udf_vfsops.pico)
+ *fill*         0x00000000000247b9        0x3 00
+ .rodata.str1.4
+                0x00000000000247bc      0x178 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                                        0x1d0 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000024934       0x1a librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                                         0x2a (size before relaxing)
+ *fill*         0x000000000002494e        0x2 00
+ .rodata        0x0000000000024950       0x68 librumpfs_udf_pic.a(udf_vnops.pico)
+ .rodata.str1.4
+                0x00000000000249b8      0x179 librumpfs_udf_pic.a(udf_vnops.pico)
+                                        0x1ad (size before relaxing)
+ .rodata.str1.1
+                0x0000000000024b31       0xdc librumpfs_udf_pic.a(udf_vnops.pico)
+                                         0xf7 (size before relaxing)
+ *fill*         0x0000000000024c0d        0x3 00
+ .rodata.str1.4
+                0x0000000000024c10      0x1e5 librumpfs_udf_pic.a(udf_rename.pico)
+                                        0x219 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000024df5      0x142 librumpfs_udf_pic.a(udf_rename.pico)
+                                        0x1dd (size before relaxing)
+ *fill*         0x0000000000024f37        0x1 00
+ .rodata.str1.4
+                0x0000000000024f38      0x369 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                                        0x3c1 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000252a1      0x243 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                                        0x25a (size before relaxing)
+ .rodata.str1.4
+                0x00000000000254e4      0x1d0 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                                        0x204 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000256b4       0x68 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                                         0xfc (size before relaxing)
+ .rodata.str1.4
+                0x000000000002571c      0x1ca librumpfs_udf_pic.a(udf_strat_direct.pico)
+                                        0x26c (size before relaxing)
+ .rodata.str1.1
+                0x00000000000258e6       0x1b librumpfs_udf_pic.a(udf_strat_direct.pico)
+                                         0x53 (size before relaxing)
+ *fill*         0x0000000000025901        0x3 00
+ .rodata.str1.4
+                0x0000000000025904       0x98 librumpfs_udf_pic.a(udf_readwrite.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x000000000002599c       0x3f librumpfs_udf_pic.a(udf_readwrite.pico)
+                                         0x4b (size before relaxing)
+ *fill*         0x00000000000259db        0x1 00
+ .rodata        0x00000000000259dc       0x7c librumpfs_udf_pic.a(udf_readwrite.pico)
+ .rodata.str1.4
+                0x0000000000025a58      0x3d8 librumpfs_udf_pic.a(udf_allocation.pico)
+                                        0x40c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000025e30      0x1ff librumpfs_udf_pic.a(udf_allocation.pico)
+                                        0x228 (size before relaxing)
+ *fill*         0x000000000002602f        0x1 00
+ .rodata        0x0000000000026030       0x30 librumpfs_udf_pic.a(udf_allocation.pico)
+ .rodata.str1.4
+                0x0000000000026060      0xe38 librumpfs_udf_pic.a(udf_subr.pico)
+                                        0xe6c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000026e98      0x63b librumpfs_udf_pic.a(udf_subr.pico)
+                                        0x69e (size before relaxing)
+ *fill*         0x00000000000274d3        0xd 00
+ .rodata        0x00000000000274e0       0x80 librumpfs_udf_pic.a(udf_subr.pico)
+ .rodata        0x0000000000027560      0x200 librumpfs_udf_pic.a(udf_osta.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000027760      0x734
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000027760      0x734 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000027e94     0x2cd0
+ *(.eh_frame)
+ .eh_frame      0x0000000000027e94       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000027ed0      0x250 librumpfs_udf_pic.a(udf_vfsops.pico)
+                                        0x27c (size before relaxing)
+ .eh_frame      0x0000000000028120       0xc0 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                                         0xec (size before relaxing)
+ .eh_frame      0x00000000000281e0      0x4ec librumpfs_udf_pic.a(udf_vnops.pico)
+                                        0x518 (size before relaxing)
+ .eh_frame      0x00000000000286cc      0x2a0 librumpfs_udf_pic.a(udf_rename.pico)
+                                        0x2cc (size before relaxing)
+ .eh_frame      0x000000000002896c      0x464 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                                        0x490 (size before relaxing)
+ .eh_frame      0x0000000000028dd0      0x198 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                                        0x1c4 (size before relaxing)
+ .eh_frame      0x0000000000028f68      0x164 librumpfs_udf_pic.a(udf_strat_direct.pico)
+                                        0x190 (size before relaxing)
+ .eh_frame      0x00000000000290cc      0x2d8 librumpfs_udf_pic.a(udf_readwrite.pico)
+                                        0x304 (size before relaxing)
+ .eh_frame      0x00000000000293a4      0x5b0 librumpfs_udf_pic.a(udf_allocation.pico)
+                                        0x5dc (size before relaxing)
+ .eh_frame      0x0000000000029954     0x109c librumpfs_udf_pic.a(udf_subr.pico)
+                                       0x10c8 (size before relaxing)
+ .eh_frame      0x000000000002a9f0      0x170 librumpfs_udf_pic.a(udf_osta.pico)
+                                        0x19c (size before relaxing)
+ .eh_frame      0x000000000002ab60        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000002ab64                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000002b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000002b000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000002b000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000002b004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000002b008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000002b008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000002b00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000002b00c                __DTOR_END__
+
+.jcr            0x000000000002b010        0x4
+ *(.jcr)
+ .jcr           0x000000000002b010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000002b010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000002b020      0x1e8
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000002b020       0x14 librumpfs_udf_pic.a(udf_vfsops.pico)
+ *fill*         0x000000000002b034        0xc 00
+ .data.rel.ro.local
+                0x000000000002b040       0x28 librumpfs_udf_pic.a(udf_rename.pico)
+ .data.rel.ro.local
+                0x000000000002b068       0x10 librumpfs_udf_pic.a(udf_subr.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000002b078        0x8 librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x000000000002b078                rumpns_udf_vnodeopv_descs
+ .data.rel.ro   0x000000000002b080      0x178 librumpfs_udf_pic.a(udf_vnops.pico)
+                0x000000000002b080                rumpns_udf_vnodeop_opv_desc
+                0x000000000002b0a0                rumpns_udf_vnodeop_entries
+ .data.rel.ro   0x000000000002b1f8       0x10 librumpfs_udf_pic.a(udf_subr.pico)
+
+.dynamic        0x000000000002b208       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000002b208       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002b208                _DYNAMIC
+
+.got            0x000000000002b2c0       0x48
+ *(.got)
+ .got           0x000000000002b2c0       0x48 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000002b308                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000002b308      0x3d4
+ *(.got.plt)
+ .got.plt       0x000000000002b308      0x3d4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002b308                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000002b6e0      0x13c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000002b6e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002b6e0                __dso_handle
+ .data          0x000000000002b6e4        0x0 librumpfs_udf_pic.a(udf_vfsops.pico)
+ *fill*         0x000000000002b6e4       0x1c 00
+ .data.rel      0x000000000002b700       0x6c librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x000000000002b700                rumpns_udf_vfsops
+ .data          0x000000000002b76c        0x0 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .data.rel.local
+                0x000000000002b76c       0x1c librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                0x000000000002b76c                rumpns_udf_strat_bootstrap
+ .data          0x000000000002b788        0x0 librumpfs_udf_pic.a(udf_vnops.pico)
+ .data          0x000000000002b788        0x0 librumpfs_udf_pic.a(udf_rename.pico)
+ .data          0x000000000002b788        0x0 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ *fill*         0x000000000002b788       0x18 00
+ .data.rel.local
+                0x000000000002b7a0       0x44 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                0x000000000002b7a0                rumpns_udf_strat_rmw
+ .data          0x000000000002b7e4        0x0 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .data.rel.local
+                0x000000000002b7e4       0x1c librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                0x000000000002b7e4                rumpns_udf_strat_sequential
+ .data          0x000000000002b800        0x0 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .data.rel.local
+                0x000000000002b800       0x1c librumpfs_udf_pic.a(udf_strat_direct.pico)
+                0x000000000002b800                rumpns_udf_strat_direct
+ .data          0x000000000002b81c        0x0 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .data          0x000000000002b81c        0x0 librumpfs_udf_pic.a(udf_allocation.pico)
+ .data          0x000000000002b81c        0x0 librumpfs_udf_pic.a(udf_subr.pico)
+ .data          0x000000000002b81c        0x0 librumpfs_udf_pic.a(udf_osta.pico)
+ .data          0x000000000002b81c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000002b81c        0x0
+ .tm_clone_table
+                0x000000000002b81c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000002b81c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000002b81c        0x4
+                0x000000000002b81c                . = ALIGN (0x4)
+                0x000000000002b81c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000002b81c        0x4 librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x000000000002b820                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000002b820                _edata = .
+                0x000000000002b820                PROVIDE (edata, .)
+                0x000000000002b820                __bss_start = .
+
+.bss            0x000000000002b820       0xfc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000002b820        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000002b828        0x8 librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x000000000002b828                rumpns_udf_verbose
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_vnops.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_rename.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_allocation.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_subr.pico)
+ .bss           0x000000000002b830        0x0 librumpfs_udf_pic.a(udf_osta.pico)
+ .bss           0x000000000002b830        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ *fill*         0x000000000002b830       0x10 00
+ COMMON         0x000000000002b840       0xd8 librumpfs_udf_pic.a(udf_vfsops.pico)
+                0x000000000002b840                rumpns_udf_node_pool
+ COMMON         0x000000000002b918        0x4 librumpfs_udf_pic.a(udf_vnops.pico)
+                0x000000000002b918                rumpns_udf_vnodeop_p
+                0x000000000002b91c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000002b91c                . = ALIGN (0x4)
+                0x000000000002b91c                . = ALIGN (0x4)
+                0x000000000002b91c                _end = .
+                0x000000000002b91c                PROVIDE (end, .)
+                0x000000000002b91c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_rename.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_allocation.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_udf_pic.a(udf_osta.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x2be
+ .ident         0x0000000000000000       0x3c librumpfs_udf_pic.a(udf_vfsops.pico)
+ .ident         0x000000000000003c       0x44 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .ident         0x0000000000000080       0x3e librumpfs_udf_pic.a(udf_vnops.pico)
+ .ident         0x00000000000000be       0x3b librumpfs_udf_pic.a(udf_rename.pico)
+ .ident         0x00000000000000f9       0x3e librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .ident         0x0000000000000137       0x4a librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .ident         0x0000000000000181       0x41 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .ident         0x00000000000001c2       0x40 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .ident         0x0000000000000202       0x43 librumpfs_udf_pic.a(udf_allocation.pico)
+ .ident         0x0000000000000245       0x3e librumpfs_udf_pic.a(udf_subr.pico)
+ .ident         0x0000000000000283       0x3b librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x160
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpfs_udf_pic.a(udf_rename.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x6d342
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0xa15b librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_info    0x000000000000a15b     0x7f5c librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .debug_info    0x00000000000120b7     0xc321 librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_info    0x000000000001e3d8     0x6c39 librumpfs_udf_pic.a(udf_rename.pico)
+ .debug_info    0x0000000000025011     0xbd54 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_info    0x0000000000030d65     0x9e66 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_info    0x000000000003abcb     0x9326 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .debug_info    0x0000000000043ef1     0x9053 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .debug_info    0x000000000004cf44     0xc114 librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_info    0x0000000000059058    0x13df4 librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_info    0x000000000006ce4c      0x4f6 librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug_abbrev   0x0000000000000000     0x327d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x595 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_abbrev  0x0000000000000595      0x327 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .debug_abbrev  0x00000000000008bc      0x56b librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_abbrev  0x0000000000000e27      0x3c8 librumpfs_udf_pic.a(udf_rename.pico)
+ .debug_abbrev  0x00000000000011ef      0x533 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_abbrev  0x0000000000001722      0x4b0 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_abbrev  0x0000000000001bd2      0x419 librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .debug_abbrev  0x0000000000001feb      0x42f librumpfs_udf_pic.a(udf_readwrite.pico)
+ .debug_abbrev  0x000000000000241a      0x5a8 librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_abbrev  0x00000000000029c2      0x6f5 librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_abbrev  0x00000000000030b7      0x1c6 librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug_line     0x0000000000000000     0x9b7e
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0xadb librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_line    0x0000000000000adb      0x757 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .debug_line    0x0000000000001232     0x10f5 librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_line    0x0000000000002327      0xa1d librumpfs_udf_pic.a(udf_rename.pico)
+ .debug_line    0x0000000000002d44     0x103e librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_line    0x0000000000003d82      0xa21 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_line    0x00000000000047a3      0x94a librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .debug_line    0x00000000000050ed      0xa8a librumpfs_udf_pic.a(udf_readwrite.pico)
+ .debug_line    0x0000000000005b77     0x1691 librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_line    0x0000000000007208     0x2677 librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_line    0x000000000000987f      0x2ff librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x8b06
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x5239 librumpfs_udf_pic.a(udf_vfsops.pico)
+                                       0x57ed (size before relaxing)
+ .debug_str     0x0000000000005239      0x17d librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+                                       0x45a1 (size before relaxing)
+ .debug_str     0x00000000000053b6      0xe13 librumpfs_udf_pic.a(udf_vnops.pico)
+                                       0x52cc (size before relaxing)
+ .debug_str     0x00000000000061c9      0x359 librumpfs_udf_pic.a(udf_rename.pico)
+                                       0x244c (size before relaxing)
+ .debug_str     0x0000000000006522      0x6b3 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+                                       0x5095 (size before relaxing)
+ .debug_str     0x0000000000006bd5      0x284 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+                                       0x4e83 (size before relaxing)
+ .debug_str     0x0000000000006e59      0x197 librumpfs_udf_pic.a(udf_strat_direct.pico)
+                                       0x4c83 (size before relaxing)
+ .debug_str     0x0000000000006ff0      0x365 librumpfs_udf_pic.a(udf_readwrite.pico)
+                                       0x493c (size before relaxing)
+ .debug_str     0x0000000000007355      0x65f librumpfs_udf_pic.a(udf_allocation.pico)
+                                       0x4eb9 (size before relaxing)
+ .debug_str     0x00000000000079b4      0xfac librumpfs_udf_pic.a(udf_subr.pico)
+                                       0x66ae (size before relaxing)
+ .debug_str     0x0000000000008960      0x1a6 librumpfs_udf_pic.a(udf_osta.pico)
+                                        0x332 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1f7ab
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x9ee librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_loc     0x00000000000009ee      0x124 librumpfs_udf_pic.a(udf_strat_bootstrap.pico)
+ .debug_loc     0x0000000000000b12     0x38a7 librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_loc     0x00000000000043b9      0xc13 librumpfs_udf_pic.a(udf_rename.pico)
+ .debug_loc     0x0000000000004fcc     0x2fc8 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_loc     0x0000000000007f94     0x1209 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_loc     0x000000000000919d      0xc9f librumpfs_udf_pic.a(udf_strat_direct.pico)
+ .debug_loc     0x0000000000009e3c     0x11c1 librumpfs_udf_pic.a(udf_readwrite.pico)
+ .debug_loc     0x000000000000affd     0x7d0f librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_loc     0x0000000000012d0c     0xc03f librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_loc     0x000000000001ed4b      0xa60 librumpfs_udf_pic.a(udf_osta.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xec8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x70 librumpfs_udf_pic.a(udf_vfsops.pico)
+ .debug_ranges  0x0000000000000070      0x140 librumpfs_udf_pic.a(udf_vnops.pico)
+ .debug_ranges  0x00000000000001b0       0xf8 librumpfs_udf_pic.a(udf_strat_rmw.pico)
+ .debug_ranges  0x00000000000002a8      0x110 librumpfs_udf_pic.a(udf_strat_sequential.pico)
+ .debug_ranges  0x00000000000003b8      0x2e8 librumpfs_udf_pic.a(udf_allocation.pico)
+ .debug_ranges  0x00000000000006a0      0x7e8 librumpfs_udf_pic.a(udf_subr.pico)
+ .debug_ranges  0x0000000000000e88       0x40 librumpfs_udf_pic.a(udf_osta.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_udf.so.0.0 elf32-i386)

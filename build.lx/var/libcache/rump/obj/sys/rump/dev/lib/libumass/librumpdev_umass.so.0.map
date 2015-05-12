@@ -1,0 +1,518 @@
+Archive member included because of file (symbol)
+
+librumpdev_umass_pic.a(umass_component.pico)
+                              (--whole-archive)
+librumpdev_umass_pic.a(umass_isdata.pico)
+                              (--whole-archive)
+librumpdev_umass_pic.a(umass.pico)
+                              (--whole-archive)
+librumpdev_umass_pic.a(umass_scsipi.pico)
+                              (--whole-archive)
+librumpdev_umass_pic.a(umass_quirks.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_umass_pic.a(umass_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_umass_pic.a(umass_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_umass_pic.a(umass_isdata.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_umass_pic.a(umass_isdata.pico)
+ .group         0x0000000000000000        0x8 librumpdev_umass_pic.a(umass.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_umass_pic.a(umass.pico)
+ .group         0x0000000000000000        0x8 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .group         0x0000000000000000        0x8 librumpdev_umass_pic.a(umass_quirks.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_umass_pic.a(umass_quirks.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_umass_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x330
+ *(.hash)
+ .hash          0x00000000000000b4      0x330 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000003e4      0x690
+ *(.dynsym)
+ .dynsym        0x00000000000003e4      0x690 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000a74      0x93b
+ *(.dynstr)
+ .dynstr        0x0000000000000a74      0x93b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000013b0        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000013b0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000013b0        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x00000000000013b0      0x208
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000013b0       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000001420       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000014d8       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000001510       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001540       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x00000000000015b0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000015b8      0x228
+ *(.rel.plt)
+ .rel.plt       0x00000000000015b8      0x228 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000017e0        0xa
+ *(.init)
+ .init          0x00000000000017e0        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000017e5        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000017f0      0x460
+ *(.plt)
+ .plt           0x00000000000017f0      0x460 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000001c50     0x3b58
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001c50      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000001d8b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000001d8b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000001d8f        0x1 90909090
+ .text          0x0000000000001d90       0x36 librumpdev_umass_pic.a(umass_component.pico)
+ *fill*         0x0000000000001dc6        0xa 90909090
+ .text          0x0000000000001dd0      0xa72 librumpdev_umass_pic.a(umass_isdata.pico)
+                0x0000000000001dd0                rumpns_uisdata_reset_channel
+                0x0000000000001de0                rumpns_uisdata_addref
+                0x0000000000001df0                rumpns_uisdata_delref
+                0x0000000000001e00                rumpns_uisdata_kill_pending
+                0x0000000000001e40                rumpns_uwdprint
+                0x0000000000001e80                rumpns_uisdata_exec_command
+                0x0000000000002010                rumpns_uisdata_get_params
+                0x0000000000002280                rumpns_uisdata_exec_cb
+                0x00000000000022e0                rumpns_uisdata_reset_drive
+                0x0000000000002340                rumpns_umass_isdata_attach
+                0x0000000000002430                rumpns_uisdata_bio1
+                0x00000000000026f0                rumpns_uisdata_bio
+                0x0000000000002730                rumpns_uisdata_bio_cb
+ *fill*         0x0000000000002842        0xe 90909090
+ .text          0x0000000000002850     0x22df librumpdev_umass_pic.a(umass.pico)
+                0x00000000000028d0                rumpns_umass_activate
+                0x00000000000029a0                rumpns_umass_detach
+                0x0000000000002c70                rumpns_umass_match
+                0x0000000000004270                rumpns_umass_bbb_get_max_lun
+                0x0000000000004360                rumpns_umass_attach
+ *fill*         0x0000000000004b2f        0x1 90909090
+ .text          0x0000000000004b30      0xb1c librumpdev_umass_pic.a(umass_scsipi.pico)
+                0x00000000000054f0                rumpns_umass_scsi_attach
+                0x00000000000055a0                rumpns_umass_atapi_attach
+ *fill*         0x000000000000564c        0x4 90909090
+ .text          0x0000000000005650      0x114 librumpdev_umass_pic.a(umass_quirks.pico)
+                0x0000000000005720                rumpns_umass_lookup
+ *fill*         0x0000000000005764        0xc 90909090
+ .text          0x0000000000005770       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000057a8        0x5
+ *(.fini)
+ .fini          0x00000000000057a8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000057ad                PROVIDE (__etext, .)
+                0x00000000000057ad                PROVIDE (_etext, .)
+                0x00000000000057ad                PROVIDE (etext, .)
+
+.rodata         0x00000000000057b0      0xd5e
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000057b0       0x36 librumpdev_umass_pic.a(umass_component.pico)
+ .rodata.str1.1
+                0x00000000000057e6       0x6c librumpdev_umass_pic.a(umass_isdata.pico)
+ *fill*         0x0000000000005852        0x2 00
+ .rodata.str1.4
+                0x0000000000005854      0x124 librumpdev_umass_pic.a(umass_isdata.pico)
+ .rodata        0x0000000000005978        0xd librumpdev_umass_pic.a(umass_isdata.pico)
+ *fill*         0x0000000000005985        0x3 00
+ .rodata.str1.4
+                0x0000000000005988      0x86a librumpdev_umass_pic.a(umass.pico)
+ .rodata.str1.1
+                0x00000000000061f2      0x1e1 librumpdev_umass_pic.a(umass.pico)
+                                        0x1f9 (size before relaxing)
+ *fill*         0x00000000000063d3        0x1 00
+ .rodata        0x00000000000063d4       0xa4 librumpdev_umass_pic.a(umass.pico)
+ .rodata.str1.4
+                0x0000000000006478       0x78 librumpdev_umass_pic.a(umass_scsipi.pico)
+                                         0x76 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000064f0       0x1e librumpdev_umass_pic.a(umass_scsipi.pico)
+                                         0x29 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000006510      0x17c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000006510      0x17c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000668c      0x79c
+ *(.eh_frame)
+ .eh_frame      0x000000000000668c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000066c8       0x20 librumpdev_umass_pic.a(umass_component.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x00000000000066e8      0x1b4 librumpdev_umass_pic.a(umass_isdata.pico)
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x000000000000689c      0x370 librumpdev_umass_pic.a(umass.pico)
+                                        0x39c (size before relaxing)
+ .eh_frame      0x0000000000006c0c      0x194 librumpdev_umass_pic.a(umass_scsipi.pico)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000006da0       0x84 librumpdev_umass_pic.a(umass_quirks.pico)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x0000000000006e24        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000006e28                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000007000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000007000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000007000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000007004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000007008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000007008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000700c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000700c                __DTOR_END__
+
+.jcr            0x0000000000007010        0x4
+ *(.jcr)
+ .jcr           0x0000000000007010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000007010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000007020      0x43c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000007020       0x68 librumpdev_umass_pic.a(umass_component.pico)
+ .data.rel.ro.local
+                0x0000000000007088       0x18 librumpdev_umass_pic.a(umass.pico)
+                0x0000000000007088                rumpns_umass_cbi_methods
+                0x0000000000007094                rumpns_umass_bbb_methods
+ .data.rel.ro.local
+                0x00000000000070a0      0x364 librumpdev_umass_pic.a(umass_quirks.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000007404       0x10 librumpdev_umass_pic.a(umass_component.pico)
+ *fill*         0x0000000000007414        0xc 00
+ .data.rel.ro   0x0000000000007420       0x24 librumpdev_umass_pic.a(umass_isdata.pico)
+                0x0000000000007420                rumpns_uisdata_bustype
+ .data.rel.ro   0x0000000000007444       0x18 librumpdev_umass_pic.a(umass_scsipi.pico)
+                0x0000000000007444                rumpns_umass_atapi_bustype
+
+.dynamic        0x000000000000745c       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000745c       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000745c                _DYNAMIC
+
+.got            0x00000000000074fc       0x38
+ *(.got)
+ .got           0x00000000000074fc       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000007534                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000007534      0x120
+ *(.got.plt)
+ .got.plt       0x0000000000007534      0x120 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000007534                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000007660       0xcc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000007660        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000007660                __dso_handle
+ .data          0x0000000000007664       0x18 librumpdev_umass_pic.a(umass_component.pico)
+ *fill*         0x000000000000767c        0x4 00
+ .data.rel.local
+                0x0000000000007680       0x60 librumpdev_umass_pic.a(umass_component.pico)
+                0x0000000000007680                rumpns_umass_cd
+ .data          0x00000000000076e0        0x0 librumpdev_umass_pic.a(umass_isdata.pico)
+ .data          0x00000000000076e0        0x4 librumpdev_umass_pic.a(umass.pico)
+ *fill*         0x00000000000076e4       0x1c 00
+ .data.rel      0x0000000000007700       0x2c librumpdev_umass_pic.a(umass.pico)
+                0x0000000000007700                rumpns_umass_ca
+ .data          0x000000000000772c        0x0 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .data          0x000000000000772c        0x0 librumpdev_umass_pic.a(umass_quirks.pico)
+ .data          0x000000000000772c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000772c        0x0
+ .tm_clone_table
+                0x000000000000772c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000772c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000000772c        0x4
+                0x000000000000772c                . = ALIGN (0x4)
+                0x000000000000772c                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000000772c        0x4 librumpdev_umass_pic.a(umass_component.pico)
+                0x0000000000007730                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000007730                _edata = .
+                0x0000000000007730                PROVIDE (edata, .)
+                0x0000000000007730                __bss_start = .
+
+.bss            0x0000000000007730        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000007730        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000007738        0x0 librumpdev_umass_pic.a(umass_component.pico)
+ .bss           0x0000000000007738        0x0 librumpdev_umass_pic.a(umass_isdata.pico)
+ .bss           0x0000000000007738        0x0 librumpdev_umass_pic.a(umass.pico)
+ .bss           0x0000000000007738        0x0 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .bss           0x0000000000007738        0x0 librumpdev_umass_pic.a(umass_quirks.pico)
+ .bss           0x0000000000007738        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000007738                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000007738                . = ALIGN (0x4)
+                0x0000000000007738                . = ALIGN (0x4)
+                0x0000000000007738                _end = .
+                0x0000000000007738                PROVIDE (end, .)
+                0x0000000000007738                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_umass_pic.a(umass_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_umass_pic.a(umass_isdata.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_umass_pic.a(umass.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_umass_pic.a(umass_quirks.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xf6
+ .ident         0x0000000000000000       0x3f librumpdev_umass_pic.a(umass_isdata.pico)
+ .ident         0x000000000000003f       0x39 librumpdev_umass_pic.a(umass.pico)
+ .ident         0x0000000000000078       0x3f librumpdev_umass_pic.a(umass_scsipi.pico)
+ .ident         0x00000000000000b7       0x3f librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_umass_pic.a(umass_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_umass_pic.a(umass.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1a5f5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x56d3 librumpdev_umass_pic.a(umass_component.pico)
+ .debug_info    0x00000000000056d3     0x721b librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_info    0x000000000000c8ee     0x7907 librumpdev_umass_pic.a(umass.pico)
+ .debug_info    0x00000000000141f5     0x4f7f librumpdev_umass_pic.a(umass_scsipi.pico)
+ .debug_info    0x0000000000019174     0x1481 librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug_abbrev   0x0000000000000000     0x13dd
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x282 librumpdev_umass_pic.a(umass_component.pico)
+ .debug_abbrev  0x0000000000000282      0x552 librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_abbrev  0x00000000000007d4      0x4ec librumpdev_umass_pic.a(umass.pico)
+ .debug_abbrev  0x0000000000000cc0      0x4c7 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .debug_abbrev  0x0000000000001187      0x256 librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug_line     0x0000000000000000     0x2445
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x64a librumpdev_umass_pic.a(umass_component.pico)
+ .debug_line    0x000000000000064a      0x882 librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_line    0x0000000000000ecc      0xbb7 librumpdev_umass_pic.a(umass.pico)
+ .debug_line    0x0000000000001a83      0x6f3 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .debug_line    0x0000000000002176      0x2cf librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x577e
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3011 librumpdev_umass_pic.a(umass_component.pico)
+                                       0x32e9 (size before relaxing)
+ .debug_str     0x0000000000003011     0x1ad8 librumpdev_umass_pic.a(umass_isdata.pico)
+                                       0x4258 (size before relaxing)
+ .debug_str     0x0000000000004ae9      0x80d librumpdev_umass_pic.a(umass.pico)
+                                       0x38b6 (size before relaxing)
+ .debug_str     0x00000000000052f6      0x384 librumpdev_umass_pic.a(umass_scsipi.pico)
+                                       0x2e4f (size before relaxing)
+ .debug_str     0x000000000000567a      0x104 librumpdev_umass_pic.a(umass_quirks.pico)
+                                        0xef7 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x276a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x44 librumpdev_umass_pic.a(umass_component.pico)
+ .debug_loc     0x0000000000000044      0x813 librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_loc     0x0000000000000857     0x177b librumpdev_umass_pic.a(umass.pico)
+ .debug_loc     0x0000000000001fd2      0x6a0 librumpdev_umass_pic.a(umass_scsipi.pico)
+ .debug_loc     0x0000000000002672       0xf8 librumpdev_umass_pic.a(umass_quirks.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x2d8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpdev_umass_pic.a(umass_isdata.pico)
+ .debug_ranges  0x0000000000000030      0x218 librumpdev_umass_pic.a(umass.pico)
+ .debug_ranges  0x0000000000000248       0x90 librumpdev_umass_pic.a(umass_scsipi.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_umass.so.0.0 elf32-i386)

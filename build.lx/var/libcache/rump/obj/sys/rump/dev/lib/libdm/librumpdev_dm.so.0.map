@@ -1,0 +1,705 @@
+Archive member included because of file (symbol)
+
+librumpdev_dm_pic.a(dm_component.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_target_stripe.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_target_linear.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_ioctl.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(device-mapper.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_target.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_pdev.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_dev.pico)
+                              (--whole-archive)
+librumpdev_dm_pic.a(dm_table.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_dm_pdev_mutex
+                    0x4               librumpdev_dm_pic.a(dm_pdev.pico)
+rumpns_dm_target_mutex
+                    0x4               librumpdev_dm_pic.a(dm_target.pico)
+rumpns_dm_dev_counter
+                    0x4               librumpdev_dm_pic.a(dm_ioctl.pico)
+rumpns_dm_dev_mutex
+                    0x4               librumpdev_dm_pic.a(dm_dev.pico)
+rumpns_dm_pdev_list
+                    0x4               librumpdev_dm_pic.a(dm_pdev.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(device-mapper.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(device-mapper.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_target.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_target.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_pdev.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_pdev.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_dev.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_dev.pico)
+ .group         0x0000000000000000        0x8 librumpdev_dm_pic.a(dm_table.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_dm_pic.a(dm_table.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_dm_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x4f0
+ *(.hash)
+ .hash          0x00000000000000b4      0x4f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000005a4      0xb70
+ *(.dynsym)
+ .dynsym        0x00000000000005a4      0xb70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001114     0x10b8
+ *(.dynstr)
+ .dynstr        0x0000000000001114     0x10b8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000021cc      0x16e
+ *(.gnu.version)
+ .gnu.version   0x00000000000021cc      0x16e /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x000000000000233c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x000000000000233c       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000000000000233c       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x000000000000235c      0x2f0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x000000000000235c       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x000000000000237c      0x178 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000024f4       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002544       0xf8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x000000000000263c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000002644        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x000000000000264c      0x408
+ *(.rel.plt)
+ .rel.plt       0x000000000000264c      0x408 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000002a54        0xa
+ *(.init)
+ .init          0x0000000000002a54        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000002a59        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000002a60      0x820
+ *(.plt)
+ .plt           0x0000000000002a60      0x820 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003280     0x5928
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003280      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000033bb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000033bb                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000033bf        0x1 90909090
+ .text          0x00000000000033c0       0xe1 librumpdev_dm_pic.a(dm_component.pico)
+ *fill*         0x00000000000034a1        0xf 90909090
+ .text          0x00000000000034b0      0x803 librumpdev_dm_pic.a(dm_target_stripe.pico)
+                0x0000000000003530                rumpns_dm_target_stripe_init
+                0x0000000000003710                rumpns_dm_target_stripe_status
+                0x0000000000003820                rumpns_dm_target_stripe_strategy
+                0x0000000000003b20                rumpns_dm_target_stripe_sync
+                0x0000000000003ba0                rumpns_dm_target_stripe_destroy
+                0x0000000000003bf0                rumpns_dm_target_stripe_deps
+                0x0000000000003c60                rumpns_dm_target_stripe_upcall
+                0x0000000000003c70                rumpns_dm_target_stripe_secsize
+ *fill*         0x0000000000003cb3        0xd 90909090
+ .text          0x0000000000003cc0      0x3ee librumpdev_dm_pic.a(dm_target_linear.pico)
+                0x0000000000003cc0                rumpns_dm_target_linear_status
+                0x0000000000003d70                rumpns_dm_target_linear_strategy
+                0x0000000000003dc0                rumpns_dm_target_linear_sync
+                0x0000000000003e20                rumpns_dm_target_linear_destroy
+                0x0000000000003e80                rumpns_dm_target_linear_deps
+                0x0000000000003ed0                rumpns_dm_target_linear_upcall
+                0x0000000000003ee0                rumpns_dm_target_linear_secsize
+                0x0000000000003f10                rumpns_atoi
+                0x0000000000003fc0                rumpns_dm_target_linear_init
+ *fill*         0x00000000000040ae        0x2 90909090
+ .text          0x00000000000040b0     0x1de5 librumpdev_dm_pic.a(dm_ioctl.pico)
+                0x0000000000004210                rumpns_dm_get_version_ioctl
+                0x0000000000004220                rumpns_dm_list_versions_ioctl
+                0x00000000000042a0                rumpns_dm_dev_create_ioctl
+                0x0000000000004640                rumpns_dm_dev_list_ioctl
+                0x00000000000046c0                rumpns_dm_dev_rename_ioctl
+                0x00000000000048d0                rumpns_dm_dev_remove_ioctl
+                0x0000000000004a10                rumpns_dm_dev_status_ioctl
+                0x0000000000004cb0                rumpns_dm_dev_suspend_ioctl
+                0x0000000000004e60                rumpns_dm_dev_resume_ioctl
+                0x0000000000005060                rumpns_dm_table_clear_ioctl
+                0x00000000000051e0                rumpns_dm_table_deps_ioctl
+                0x0000000000005400                rumpns_dm_table_load_ioctl
+                0x00000000000058d0                rumpns_dm_table_status_ioctl
+                0x0000000000005d80                rumpns_dm_check_version
+ *fill*         0x0000000000005e95        0xb 90909090
+ .text          0x0000000000005ea0      0xec0 librumpdev_dm_pic.a(device-mapper.pico)
+                0x0000000000006be0                rumpns_dmattach
+                0x0000000000006c60                rumpns_dmgetproperties
+ .text          0x0000000000006d60      0x902 librumpdev_dm_pic.a(dm_target.pico)
+                0x0000000000006de0                rumpns_dm_target_busy
+                0x0000000000006e10                rumpns_dm_target_unbusy
+                0x0000000000006e80                rumpns_dm_target_autoload
+                0x0000000000006f20                rumpns_dm_target_lookup
+                0x0000000000006f90                rumpns_dm_target_insert
+                0x0000000000007230                rumpns_dm_target_rem
+                0x0000000000007340                rumpns_dm_target_destroy
+                0x00000000000073e0                rumpns_dm_target_alloc
+                0x0000000000007410                rumpns_dm_target_prop_list
+                0x0000000000007510                rumpns_dm_target_init
+ *fill*         0x0000000000007662        0xe 90909090
+ .text          0x0000000000007670      0x442 librumpdev_dm_pic.a(dm_pdev.pico)
+                0x0000000000007710                rumpns_dm_pdev_insert
+                0x0000000000007950                rumpns_dm_pdev_init
+                0x0000000000007990                rumpns_dm_pdev_destroy
+                0x00000000000079f0                rumpns_dm_pdev_decr
+ *fill*         0x0000000000007ab2        0xe 90909090
+ .text          0x0000000000007ac0      0xada librumpdev_dm_pic.a(dm_dev.pico)
+                0x0000000000007bc0                rumpns_dm_dev_insert
+                0x0000000000007d10                rumpns_dm_dev_detach
+                0x0000000000007e00                rumpns_dm_dev_rem
+                0x0000000000008070                rumpns_dm_dev_destroy
+                0x00000000000081c0                rumpns_dm_dev_alloc
+                0x0000000000008220                rumpns_dm_dev_free
+                0x00000000000082d0                rumpns_dm_dev_busy
+                0x0000000000008320                rumpns_dm_dev_lookup
+                0x00000000000083f0                rumpns_dm_dev_unbusy
+                0x0000000000008490                rumpns_dm_dev_prop_list
+                0x0000000000008550                rumpns_dm_dev_init
+ *fill*         0x000000000000859a        0x6 90909090
+ .text          0x00000000000085a0      0x5c7 librumpdev_dm_pic.a(dm_table.pico)
+                0x00000000000086a0                rumpns_dm_table_get_entry
+                0x00000000000086d0                rumpns_dm_table_release
+                0x00000000000086e0                rumpns_dm_table_switch_tables
+                0x0000000000008740                rumpns_dm_table_destroy
+                0x0000000000008820                rumpns_dm_table_size
+                0x0000000000008870                rumpns_dm_inactive_table_size
+                0x00000000000088c0                rumpns_dm_table_disksize
+                0x0000000000008980                rumpns_dm_table_get_target_count
+                0x00000000000089d0                rumpns_dm_table_head_init
+                0x0000000000008a50                rumpns_dm_table_head_destroy
+ *fill*         0x0000000000008b67        0x9 90909090
+ .text          0x0000000000008b70       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000008ba8        0x5
+ *(.fini)
+ .fini          0x0000000000008ba8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000008bad                PROVIDE (__etext, .)
+                0x0000000000008bad                PROVIDE (_etext, .)
+                0x0000000000008bad                PROVIDE (etext, .)
+
+.rodata         0x0000000000008bb0      0xd66
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000008bb0       0x38 librumpdev_dm_pic.a(dm_component.pico)
+ .rodata.str1.4
+                0x0000000000008be8       0x2f librumpdev_dm_pic.a(dm_component.pico)
+ .rodata.str1.1
+                0x0000000000008c17       0x49 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .rodata.str1.4
+                0x0000000000008c60      0x158 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .rodata.str1.4
+                0x0000000000008db8       0x55 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .rodata.str1.1
+                0x0000000000000000       0x49 librumpdev_dm_pic.a(dm_target_linear.pico)
+                                          0xb (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008e0d       0x83 librumpdev_dm_pic.a(dm_ioctl.pico)
+                                         0x8b (size before relaxing)
+ .rodata.str1.4
+                0x0000000000008e90      0x2d2 librumpdev_dm_pic.a(dm_ioctl.pico)
+ *fill*         0x0000000000009162        0x2 00
+ .rodata.str1.4
+                0x0000000000009164      0x187 librumpdev_dm_pic.a(device-mapper.pico)
+                                        0x1bb (size before relaxing)
+ .rodata.str1.1
+                0x00000000000092eb      0x15a librumpdev_dm_pic.a(device-mapper.pico)
+                                        0x178 (size before relaxing)
+ *fill*         0x0000000000009445        0x3 00
+ .rodata.str1.4
+                0x0000000000009448       0x94 librumpdev_dm_pic.a(dm_target.pico)
+                                         0xc8 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000094dc      0x119 librumpdev_dm_pic.a(dm_target.pico)
+                                        0x12a (size before relaxing)
+ *fill*         0x00000000000095f5        0x3 00
+ .rodata.str1.4
+                0x00000000000095f8      0x115 librumpdev_dm_pic.a(dm_pdev.pico)
+                                        0x149 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000970d       0x21 librumpdev_dm_pic.a(dm_pdev.pico)
+                                         0x3e (size before relaxing)
+ *fill*         0x000000000000972e        0x2 00
+ .rodata.str1.4
+                0x0000000000009730       0x91 librumpdev_dm_pic.a(dm_dev.pico)
+                                         0xc8 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000097c1       0x2a librumpdev_dm_pic.a(dm_dev.pico)
+                                         0x3f (size before relaxing)
+ *fill*         0x00000000000097eb        0x1 00
+ .rodata.str1.4
+                0x00000000000097ec      0x100 librumpdev_dm_pic.a(dm_table.pico)
+                                        0x131 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000098ec       0x2a librumpdev_dm_pic.a(dm_table.pico)
+                                         0x36 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000009918      0x2dc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000009918      0x2dc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000009bf4     0x1154
+ *(.eh_frame)
+ .eh_frame      0x0000000000009bf4       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000009c30       0x24 librumpdev_dm_pic.a(dm_component.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000009c54      0x1d0 librumpdev_dm_pic.a(dm_target_stripe.pico)
+                                        0x1fc (size before relaxing)
+ .eh_frame      0x0000000000009e24      0x148 librumpdev_dm_pic.a(dm_target_linear.pico)
+                                        0x174 (size before relaxing)
+ .eh_frame      0x0000000000009f6c      0x398 librumpdev_dm_pic.a(dm_ioctl.pico)
+                                        0x3c4 (size before relaxing)
+ .eh_frame      0x000000000000a304      0x220 librumpdev_dm_pic.a(device-mapper.pico)
+                                        0x24c (size before relaxing)
+ .eh_frame      0x000000000000a524      0x230 librumpdev_dm_pic.a(dm_target.pico)
+                                        0x25c (size before relaxing)
+ .eh_frame      0x000000000000a754       0xf8 librumpdev_dm_pic.a(dm_pdev.pico)
+                                        0x124 (size before relaxing)
+ .eh_frame      0x000000000000a84c      0x2e4 librumpdev_dm_pic.a(dm_dev.pico)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x000000000000ab30      0x214 librumpdev_dm_pic.a(dm_table.pico)
+                                        0x240 (size before relaxing)
+ .eh_frame      0x000000000000ad44        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000ad48                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000b000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000b000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000b004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000b008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000b008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000b00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000b00c                __DTOR_END__
+
+.jcr            0x000000000000b010        0x4
+ *(.jcr)
+ .jcr           0x000000000000b010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000b010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000b020      0x140
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000b020       0x1c librumpdev_dm_pic.a(device-mapper.pico)
+                0x000000000000b020                rumpns_dmdkdriver
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x000000000000b03c        0x4 00
+ .data.rel.ro   0x000000000000b040      0x120 librumpdev_dm_pic.a(device-mapper.pico)
+                0x000000000000b040                rumpns_dm_cdevsw
+                0x000000000000b080                rumpns_dm_bdevsw
+
+.dynamic        0x000000000000b160       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000000b160       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b160                _DYNAMIC
+
+.got            0x000000000000b218       0x7c
+ *(.got)
+ .got           0x000000000000b218       0x7c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000b294                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000b294      0x210
+ *(.got.plt)
+ .got.plt       0x000000000000b294      0x210 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b294                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000b4c0       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000b4c0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b4c0                __dso_handle
+ .data          0x000000000000b4c4        0x0 librumpdev_dm_pic.a(dm_component.pico)
+ .data.rel.local
+                0x000000000000b4c4       0x10 librumpdev_dm_pic.a(dm_component.pico)
+ .data          0x000000000000b4d4        0x0 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .data          0x000000000000b4d4        0x0 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .data          0x000000000000b4d4        0x0 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .data.rel.local
+                0x000000000000b4d4       0x18 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .data          0x000000000000b4ec        0x0 librumpdev_dm_pic.a(device-mapper.pico)
+ *fill*         0x000000000000b4ec       0x14 00
+ .data.rel.local
+                0x000000000000b500       0x4c librumpdev_dm_pic.a(device-mapper.pico)
+                0x000000000000b500                rumpns_dm_cd
+                0x000000000000b520                rumpns_dm_ca
+ .data          0x000000000000b54c        0x0 librumpdev_dm_pic.a(dm_target.pico)
+ .data.rel.local
+                0x000000000000b54c        0x8 librumpdev_dm_pic.a(dm_target.pico)
+ .data          0x000000000000b554        0x0 librumpdev_dm_pic.a(dm_pdev.pico)
+ .data          0x000000000000b554        0x0 librumpdev_dm_pic.a(dm_dev.pico)
+ .data.rel.local
+                0x000000000000b554        0x8 librumpdev_dm_pic.a(dm_dev.pico)
+ .data          0x000000000000b55c        0x0 librumpdev_dm_pic.a(dm_table.pico)
+ .data          0x000000000000b55c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000b55c        0x0
+ .tm_clone_table
+                0x000000000000b55c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000b55c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000000b55c        0x4
+                0x000000000000b55c                . = ALIGN (0x4)
+                0x000000000000b55c                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000000b55c        0x4 librumpdev_dm_pic.a(dm_component.pico)
+                0x000000000000b560                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_modules
+                0x000000000000b560        0x4
+                0x000000000000b560                . = ALIGN (0x4)
+                0x000000000000b560                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000b560        0x4 librumpdev_dm_pic.a(device-mapper.pico)
+                0x000000000000b564                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000b564                _edata = .
+                0x000000000000b564                PROVIDE (edata, .)
+                0x000000000000b564                __bss_start = .
+
+.bss            0x000000000000b564       0x20
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000b564        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000b56c        0x0 librumpdev_dm_pic.a(dm_component.pico)
+ .bss           0x000000000000b56c        0x0 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .bss           0x000000000000b56c        0x0 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .bss           0x000000000000b56c        0x4 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .bss           0x000000000000b570        0x0 librumpdev_dm_pic.a(device-mapper.pico)
+ .bss           0x000000000000b570        0x0 librumpdev_dm_pic.a(dm_target.pico)
+ .bss           0x000000000000b570        0x0 librumpdev_dm_pic.a(dm_pdev.pico)
+ .bss           0x000000000000b570        0x0 librumpdev_dm_pic.a(dm_dev.pico)
+ .bss           0x000000000000b570        0x0 librumpdev_dm_pic.a(dm_table.pico)
+ .bss           0x000000000000b570        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000b570        0x4 librumpdev_dm_pic.a(dm_ioctl.pico)
+                0x000000000000b570                rumpns_dm_dev_counter
+ COMMON         0x000000000000b574        0x4 librumpdev_dm_pic.a(dm_target.pico)
+                0x000000000000b574                rumpns_dm_target_mutex
+ COMMON         0x000000000000b578        0x8 librumpdev_dm_pic.a(dm_pdev.pico)
+                0x000000000000b578                rumpns_dm_pdev_mutex
+                0x000000000000b57c                rumpns_dm_pdev_list
+ COMMON         0x000000000000b580        0x4 librumpdev_dm_pic.a(dm_dev.pico)
+                0x000000000000b580                rumpns_dm_dev_mutex
+                0x000000000000b584                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000b584                . = ALIGN (0x4)
+                0x000000000000b584                . = ALIGN (0x4)
+                0x000000000000b584                _end = .
+                0x000000000000b584                PROVIDE (end, .)
+                0x000000000000b584                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(device-mapper.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_target.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_pdev.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_dev.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_dm_pic.a(dm_table.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x3e
+ .ident         0x0000000000000000       0x3e librumpdev_dm_pic.a(dm_component.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x120
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_dm_pic.a(dm_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpdev_dm_pic.a(dm_target.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpdev_dm_pic.a(dm_table.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x3fa47
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x6abc librumpdev_dm_pic.a(dm_component.pico)
+ .debug_info    0x0000000000006abc     0x6f4d librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .debug_info    0x000000000000da09     0x6b43 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_info    0x000000000001454c     0x89b5 librumpdev_dm_pic.a(dm_ioctl.pico)
+ .debug_info    0x000000000001cf01     0x8234 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_info    0x0000000000025135     0x6e47 librumpdev_dm_pic.a(dm_target.pico)
+ .debug_info    0x000000000002bf7c     0x60a8 librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_info    0x0000000000032024     0x6f25 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_info    0x0000000000038f49     0x6afe librumpdev_dm_pic.a(dm_table.pico)
+
+.debug_abbrev   0x0000000000000000     0x21b7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x29b librumpdev_dm_pic.a(dm_component.pico)
+ .debug_abbrev  0x000000000000029b      0x3bc librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .debug_abbrev  0x0000000000000657      0x350 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_abbrev  0x00000000000009a7      0x3ef librumpdev_dm_pic.a(dm_ioctl.pico)
+ .debug_abbrev  0x0000000000000d96      0x4c1 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_abbrev  0x0000000000001257      0x386 librumpdev_dm_pic.a(dm_target.pico)
+ .debug_abbrev  0x00000000000015dd      0x3a8 librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_abbrev  0x0000000000001985      0x431 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_abbrev  0x0000000000001db6      0x401 librumpdev_dm_pic.a(dm_table.pico)
+
+.debug_line     0x0000000000000000     0x4dcd
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x73f librumpdev_dm_pic.a(dm_component.pico)
+ .debug_line    0x000000000000073f      0x8c1 librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .debug_line    0x0000000000001000      0x7d5 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_line    0x00000000000017d5      0xafb librumpdev_dm_pic.a(dm_ioctl.pico)
+ .debug_line    0x00000000000022d0      0x970 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_line    0x0000000000002c40      0x895 librumpdev_dm_pic.a(dm_target.pico)
+ .debug_line    0x00000000000034d5      0x80b librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_line    0x0000000000003ce0      0x8c6 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_line    0x00000000000045a6      0x827 librumpdev_dm_pic.a(dm_table.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5ec6
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x39c2 librumpdev_dm_pic.a(dm_component.pico)
+                                       0x3d21 (size before relaxing)
+ .debug_str     0x00000000000039c2      0xaad librumpdev_dm_pic.a(dm_target_stripe.pico)
+                                       0x3d6c (size before relaxing)
+ .debug_str     0x000000000000446f      0x17c librumpdev_dm_pic.a(dm_target_linear.pico)
+                                       0x3c46 (size before relaxing)
+ .debug_str     0x00000000000045eb      0x686 librumpdev_dm_pic.a(dm_ioctl.pico)
+                                       0x3f54 (size before relaxing)
+ .debug_str     0x0000000000004c71      0xc9e librumpdev_dm_pic.a(device-mapper.pico)
+                                       0x48d2 (size before relaxing)
+ .debug_str     0x000000000000590f      0x194 librumpdev_dm_pic.a(dm_target.pico)
+                                       0x3c3a (size before relaxing)
+ .debug_str     0x0000000000005aa3      0x1bf librumpdev_dm_pic.a(dm_pdev.pico)
+                                       0x35b0 (size before relaxing)
+ .debug_str     0x0000000000005c62      0x154 librumpdev_dm_pic.a(dm_dev.pico)
+                                       0x3ba9 (size before relaxing)
+ .debug_str     0x0000000000005db6      0x110 librumpdev_dm_pic.a(dm_table.pico)
+                                       0x3afe (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x47a7
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x93 librumpdev_dm_pic.a(dm_component.pico)
+ .debug_loc     0x0000000000000093      0x91e librumpdev_dm_pic.a(dm_target_stripe.pico)
+ .debug_loc     0x00000000000009b1      0x415 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_loc     0x0000000000000dc6     0x120c librumpdev_dm_pic.a(dm_ioctl.pico)
+ .debug_loc     0x0000000000001fd2      0xa57 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_loc     0x0000000000002a29      0x72c librumpdev_dm_pic.a(dm_target.pico)
+ .debug_loc     0x0000000000003155      0x3c5 librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_loc     0x000000000000351a      0xac9 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_loc     0x0000000000003fe3      0x7c4 librumpdev_dm_pic.a(dm_table.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x208
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 librumpdev_dm_pic.a(dm_target_linear.pico)
+ .debug_ranges  0x0000000000000018       0xc0 librumpdev_dm_pic.a(device-mapper.pico)
+ .debug_ranges  0x00000000000000d8       0x30 librumpdev_dm_pic.a(dm_pdev.pico)
+ .debug_ranges  0x0000000000000108       0x80 librumpdev_dm_pic.a(dm_dev.pico)
+ .debug_ranges  0x0000000000000188       0x80 librumpdev_dm_pic.a(dm_table.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_dm.so.0.0 elf32-i386)

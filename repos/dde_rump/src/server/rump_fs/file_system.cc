@@ -15,141 +15,130 @@
 
 #include <base/thread.h>
 #include <os/config.h>
-#include <rump_fs/fs.h>
+
 #include <timer_session/connection.h>
 #include <util/string.h>
 #include <util/hard_context.h>
+#include <base/allocator_avl.h>
+#include <base/printf.h>
+#include <block_session/connection.h>
 
-/**
- * We define our own fs arg structure to fit all sizes, we assume that 'fspec'
- * is the only valid argument and all other fields are unused.
- */
-struct fs_args
-{
-	char *fspec;
-	char  pad[150];
+//===========================/
 
-	fs_args() { Genode::memset(pad, 0, sizeof(pad)); }
-};
 
-namespace File_system {
-	class Sync;
-};
+char buff[1025];
 
-static char const *fs_types[] = { RUMP_MOUNT_CD9660, RUMP_MOUNT_EXT2FS,
-                                  RUMP_MOUNT_FFS, RUMP_MOUNT_MSDOS,
-                                  RUMP_MOUNT_NTFS, RUMP_MOUNT_UDF, 0 };
 
-static char _fs_type[10];
 static bool _supports_symlinks;
-
-static bool _check_type(char const *type)
-{
-	for (int i = 0; fs_types[i]; i++)
-		if (!Genode::strcmp(type, fs_types[i]))
-			return true;
-	return false;
-}
+using namespace Genode;
+//=================================
 
 
-static void _print_types()
-{
-	PERR("fs types:");
-	for (int i = 0; fs_types[i]; i++)
-		PERR("\t%s", fs_types[i]);
-}
+
+static bool const verbose = false;
+
+static Genode::Allocator_avl _block_alloc ( Genode::env()->heap() );
+static size_t _blk_size = 0;
+static Block::sector_t _blk_cnt  = 0;
+static Block::Session::Tx::Source * _source;
+static Block::Connection * _block_connection;
+
+
+
 
 
 static bool check_symlinks()
 {
-	if (!Genode::strcmp(_fs_type, RUMP_MOUNT_EXT2FS))
-		return true;
+    return false;
+}
 
-	if (!Genode::strcmp(_fs_type, RUMP_MOUNT_FFS))
-		return true;
+
+/*static bool check_read_only()
+{
+	//if (!Genode::strcmp(_fs_type, RUMP_MOUNT_CD9660))
+		//return true;
 
 	return false;
 }
+*/
 
 
-static bool check_read_only()
+
+
+void File_system::init ( Server::Entrypoint & ep )
 {
-	if (!Genode::strcmp(_fs_type, RUMP_MOUNT_CD9660))
-		return true;
+    PDBG ( "disk_initialize(drv=%u) called.", 0 );
+    _block_connection = new ( Genode::env()->heap() ) Block::Connection ( &_block_alloc );
+    //  Block::Connection _block_connection(&_block_alloc);
+    _source = _block_connection->tx();
+    Block::Session::Operations  ops;
+    _block_connection->info ( &_blk_cnt, &_blk_size, &ops );
 
-	return false;
+    /* check for read- and write-capability */
+    if ( !ops.supported ( Block::Packet_descriptor::READ ) )
+    {
+        PERR ( "Block device not readable!" );
+        //destroy(env()->heap(), _block_connection);
+    }
+
+    if ( !ops.supported ( Block::Packet_descriptor::WRITE ) )
+    {
+        PINF ( "Block device not writeable!" );
+    }
+
+    PDBG ( "We have %llu blocks with a size of %zu bytes",
+           _blk_cnt, _blk_size );
+    /* check support for symlinks */
+    _supports_symlinks = check_symlinks();
+    //new (Genode::env()->heap()) Sync(ep);
 }
 
-
-class File_system::Sync : public Genode::Thread<1024 * sizeof(Genode::addr_t)>
+void  readb ( int count, int sector, char * buff )
 {
-	private:
+    int drv = 0;
+    PDBG ( "disk_read(drv=%u, buff=%p, sector=%u, count=%u) called.",
+           drv, buff, ( unsigned int ) sector, count );
 
-		Timer::Connection               _timer;
-		Genode::Signal_rpc_member<Sync> _sync_dispatcher;
+    for ( int i = 0; i < count; i = i + 2 )
+    {
+        /* allocate packet-descriptor for reading */
+        Block::Packet_descriptor p ( _source->alloc_packet ( 2 * _blk_size ),
+                                     Block::Packet_descriptor::READ, sector + i, 2 );
+        _source->submit_packet ( p );
+        p = _source->get_acked_packet();
 
-		void _process_sync(unsigned)
-		{
-			/* sync through front-end */
-			rump_sys_sync();
-			/* sync Genode back-end */
-			rump_io_backend_sync();
-		}
+        if ( !p.succeeded() )
+        {
+            PERR ( "Could not read block(s)" );
+            _source->release_packet ( p );
+            return ;
+        }
 
-	protected:
+        memcpy ( ( void * ) ( buff + 512 * i ), _source->packet_content ( p ), 1024 );
+        _source->release_packet ( p );
+    }
 
-		void entry()
-		{
-			while (1) {
-				_timer.msleep(1000);
-				/* send sync request, this goes to server entry point thread  */
-				Genode::Signal_transmitter(_sync_dispatcher).submit();
-			}
-		}
-
-	public:
-
-		Sync(Server::Entrypoint &ep)
-		:
-			Thread("rump_fs_sync"),
-			_sync_dispatcher(ep, *this, &Sync::_process_sync)
-		{
-				start(); 
-		}
-};
-
-
-void File_system::init(Server::Entrypoint &ep)
+    PDBG ( "Block Read successful\n" );
+}
+void writeb ( int count, int sector, char * buff )
 {
-	if (!Genode::config()->xml_node().attribute("fs").value(_fs_type, 10) ||
-	    !_check_type(_fs_type)) {
-		PERR("Invalid or no file system given (use \'<config fs=\"<fs type>\"/>)");
-		_print_types();
-		throw Genode::Exception();
-	}
-	PINF("Using %s as file system", _fs_type);
+    PDBG ( "writing back data to block device\n" );
+    /* allocate packet-descriptor for writing */
+    Block::Packet_descriptor p ( _source->alloc_packet ( count * _blk_size ),
+                                 Block::Packet_descriptor::WRITE, sector, count );
+    memcpy ( _source->packet_content ( p ), ( void * ) buff, count * _blk_size );
+    _source->submit_packet ( p );
+    p = _source->get_acked_packet();
 
-	/* start rump kernel */
-	rump_init();
+    if ( !p.succeeded() )
+    {
+        PERR ( "Could not read block(s)" );
+    }
 
-	/* register block device */ 
-	rump_pub_etfs_register(GENODE_DEVICE, GENODE_BLOCK_SESSION, RUMP_ETFS_BLK);
-
-	/* mount into extra-terrestrial-file system */
-	struct fs_args args;
-	int            opts = check_read_only() ? RUMP_MNT_RDONLY : 0;
-
-	args.fspec =  (char *)GENODE_DEVICE;
-	if (rump_sys_mount(_fs_type, "/", opts, &args, sizeof(args)) == -1) {
-		PERR("Mounting '%s' file system failed (errno %u)", _fs_type, errno);
-		throw Genode::Exception();
-	}
-
-	/* check support for symlinks */
-	_supports_symlinks = check_symlinks();
-
-	new (Genode::env()->heap()) Sync(ep);
+    _source->release_packet ( p );
 }
 
-
-bool File_system::supports_symlinks() { return _supports_symlinks; }
+bool File_system::supports_symlinks()
+{
+    return _supports_symlinks;
+}

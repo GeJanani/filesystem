@@ -1,0 +1,428 @@
+Archive member included because of file (symbol)
+
+librumpdev_putter_pic.a(putter_component.pico)
+                              (--whole-archive)
+librumpdev_putter_pic.a(putter.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_putter_pic.a(putter_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_putter_pic.a(putter_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_putter_pic.a(putter.pico)
+ .group         0x0000000000000000        0x8 librumpdev_putter_pic.a(putter.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_putter_pic.a(putter.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_putter_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x158
+ *(.hash)
+ .hash          0x00000000000000b4      0x158 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000000000000020c      0x2f0
+ *(.dynsym)
+ .dynsym        0x000000000000020c      0x2f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000004fc      0x393
+ *(.dynstr)
+ .dynstr        0x00000000000004fc      0x393 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000890        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000890        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000890        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000890      0x108
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000000890       0x98 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000000928       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000000948       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000958       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000000988        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000000990        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000998       0xd8
+ *(.rel.plt)
+ .rel.plt       0x0000000000000998       0xd8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000a70        0xa
+ *(.init)
+ .init          0x0000000000000a70        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000a75        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000a80      0x1c0
+ *(.plt)
+ .plt           0x0000000000000a80      0x1c0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000000c40      0xf68
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000c40      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000d7b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000000d7b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000d7f        0x1 90909090
+ .text          0x0000000000000d80       0x5b librumpdev_putter_pic.a(putter_component.pico)
+ *fill*         0x0000000000000ddb        0x5 90909090
+ .text          0x0000000000000de0      0xd83 librumpdev_putter_pic.a(putter.pico)
+                0x0000000000000e00                rumpns_puttercdclose
+                0x0000000000001670                rumpns_putter_register
+                0x00000000000016c0                rumpns_putterattach
+                0x0000000000001780                rumpns_putter_attach
+                0x00000000000017f0                rumpns_putter_detach
+                0x0000000000001870                rumpns_puttercdopen
+                0x0000000000001b30                rumpns_putter_notify
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000001b63        0x4 librumpdev_putter_pic.a(putter.pico)
+                0x0000000000001b63                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000001b67        0x9 90909090
+ .text          0x0000000000001b70       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000001ba8        0x5
+ *(.fini)
+ .fini          0x0000000000001ba8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000001bad                PROVIDE (__etext, .)
+                0x0000000000001bad                PROVIDE (_etext, .)
+                0x0000000000001bad                PROVIDE (etext, .)
+
+.rodata         0x0000000000001bb0      0x1d8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000001bb0       0x2a librumpdev_putter_pic.a(putter_component.pico)
+ .rodata.str1.1
+                0x0000000000001bda       0x63 librumpdev_putter_pic.a(putter.pico)
+                                         0x6a (size before relaxing)
+ *fill*         0x0000000000001c3d        0x3 00
+ .rodata.str1.4
+                0x0000000000001c40      0x148 librumpdev_putter_pic.a(putter.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000001d88       0xac
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000001d88       0xac /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000001e34      0x348
+ *(.eh_frame)
+ .eh_frame      0x0000000000001e34       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000001e70       0x24 librumpdev_putter_pic.a(putter_component.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000001e94      0x2e4 librumpdev_putter_pic.a(putter.pico)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x0000000000002178        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000217c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000317c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000317c        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000317c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000003180        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000003184        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000003184        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000003188        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000003188                __DTOR_END__
+
+.jcr            0x000000000000318c        0x4
+ *(.jcr)
+ .jcr           0x000000000000318c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000318c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x00000000000031a0       0xac
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00000000000031a0       0x24 librumpdev_putter_pic.a(putter.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x00000000000031c4       0x1c 00
+ .data.rel.ro   0x00000000000031e0       0x6c librumpdev_putter_pic.a(putter.pico)
+                0x00000000000031e0                rumpns_putter_cdevsw
+
+.dynamic        0x000000000000324c       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000324c       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000324c                _DYNAMIC
+
+.got            0x00000000000032ec       0x18
+ *(.got)
+ .got           0x00000000000032ec       0x18 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000003304                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000003304       0x78
+ *(.got.plt)
+ .got.plt       0x0000000000003304       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003304                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000337c       0x1c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000337c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000337c                __dso_handle
+ .data          0x0000000000003380        0x0 librumpdev_putter_pic.a(putter_component.pico)
+ .data.rel.local
+                0x0000000000003380       0x10 librumpdev_putter_pic.a(putter_component.pico)
+ .data          0x0000000000003390        0x0 librumpdev_putter_pic.a(putter.pico)
+ .data.rel.local
+                0x0000000000003390        0x8 librumpdev_putter_pic.a(putter.pico)
+ .data          0x0000000000003398        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000003398        0x0
+ .tm_clone_table
+                0x0000000000003398        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000003398        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x0000000000003398        0x4
+                0x0000000000003398                . = ALIGN (0x4)
+                0x0000000000003398                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000003398        0x4 librumpdev_putter_pic.a(putter_component.pico)
+                0x000000000000339c                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_modules
+                0x000000000000339c        0x4
+                0x000000000000339c                . = ALIGN (0x4)
+                0x000000000000339c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000339c        0x4 librumpdev_putter_pic.a(putter.pico)
+                0x00000000000033a0                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x00000000000033a0                _edata = .
+                0x00000000000033a0                PROVIDE (edata, .)
+                0x00000000000033a0                __bss_start = .
+
+.bss            0x00000000000033a0       0xa4
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000033a0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x00000000000033a8        0x0 librumpdev_putter_pic.a(putter_component.pico)
+ *fill*         0x00000000000033a8       0x18 00
+ .bss           0x00000000000033c0       0x84 librumpdev_putter_pic.a(putter.pico)
+ .bss           0x0000000000003444        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000003444                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000003444                . = ALIGN (0x4)
+                0x0000000000003444                . = ALIGN (0x4)
+                0x0000000000003444                _end = .
+                0x0000000000003444                PROVIDE (end, .)
+                0x0000000000003444                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_putter_pic.a(putter_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_putter_pic.a(putter.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x7e
+ .ident         0x0000000000000000       0x42 librumpdev_putter_pic.a(putter_component.pico)
+ .ident         0x0000000000000042       0x3c librumpdev_putter_pic.a(putter.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_putter_pic.a(putter_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_putter_pic.a(putter.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x6fc0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x748 librumpdev_putter_pic.a(putter_component.pico)
+ .debug_info    0x0000000000000748     0x6878 librumpdev_putter_pic.a(putter.pico)
+
+.debug_abbrev   0x0000000000000000      0x6ea
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x163 librumpdev_putter_pic.a(putter_component.pico)
+ .debug_abbrev  0x0000000000000163      0x587 librumpdev_putter_pic.a(putter.pico)
+
+.debug_line     0x0000000000000000      0xa49
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x35b librumpdev_putter_pic.a(putter_component.pico)
+ .debug_line    0x000000000000035b      0x6ee librumpdev_putter_pic.a(putter.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x34d8
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x643 librumpdev_putter_pic.a(putter_component.pico)
+                                        0x6d6 (size before relaxing)
+ .debug_str     0x0000000000000643     0x2e95 librumpdev_putter_pic.a(putter.pico)
+                                       0x3252 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xa04
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x6f librumpdev_putter_pic.a(putter_component.pico)
+ .debug_loc     0x000000000000006f      0x995 librumpdev_putter_pic.a(putter.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x68
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x68 librumpdev_putter_pic.a(putter.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_putter.so.0.0 elf32-i386)

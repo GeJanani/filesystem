@@ -1,0 +1,44 @@
+
+<config>
+	<parent-provides>
+		<service name="ROM"/>
+		<service name="RAM"/>
+		<service name="IRQ"/>
+		<service name="IO_MEM"/>
+		<service name="IO_PORT"/>
+		<service name="CAP"/>
+		<service name="PD"/>
+		<service name="RM"/>
+		<service name="CPU"/>
+		<service name="LOG"/>
+		<service name="SIGNAL" />
+	</parent-provides>
+	<default-route>
+		<any-service> <parent/> <any-child/> </any-service>
+	</default-route>
+	<start name="timer">
+		<resource name="RAM" quantum="1M"/>
+		<provides><service name="Timer"/></provides>
+	</start>
+	<start name="ram_blk">
+		<resource name="RAM" quantum="20M"/>
+		<provides><service name="Block"/></provides>
+		<config file="ext2.raw" block_size="512"/>
+	</start>
+	<start name="rump_fs">
+		<resource name="RAM" quantum="8M" />
+		<provides><service name="File_system"/></provides>
+		<config fs="ext2fs"><policy label="" root="/" writeable="yes"/></config>
+	</start>
+	<start name="test-libc_vfs">
+		<resource name="RAM" quantum="4M"/>
+		<config>
+			<libc stdout="/dev/log">
+				<vfs>
+					<dir name="dev"> <log/> </dir>
+					<fs/>
+				</vfs>
+			</libc>
+		</config>
+	</start>
+</config>

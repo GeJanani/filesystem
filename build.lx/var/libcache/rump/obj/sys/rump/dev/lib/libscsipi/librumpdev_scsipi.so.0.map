@@ -1,0 +1,805 @@
+Archive member included because of file (symbol)
+
+librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(atapi_base.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsipi_component.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(sd.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(cd.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(atapiconf.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsiconf.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsi_base.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsipi_base.pico)
+                              (--whole-archive)
+librumpdev_scsipi_pic.a(scsipiconf.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(sd.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(sd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(sd.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(cd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(cd.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .group         0x0000000000000000        0x8 librumpdev_scsipi_pic.a(scsipiconf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_scsipi_pic.a(scsipiconf.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_scsipi_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x668
+ *(.hash)
+ .hash          0x00000000000000b4      0x668 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000000000000071c      0xd30
+ *(.dynsym)
+ .dynsym        0x000000000000071c      0xd30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x000000000000144c     0x11f8
+ *(.dynstr)
+ .dynstr        0x000000000000144c     0x11f8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000002644      0x1a6
+ *(.gnu.version)
+ .gnu.version   0x0000000000002644      0x1a6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000027ec        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000027ec       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000027ec       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x000000000000280c     0x2498
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.text.unlikely
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x000000000000280c     0x1ff8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x0000000000004804      0x238 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000004a3c      0x1a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000004bdc       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000004bec       0xa8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000004c94        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000004c9c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000004ca4      0x4d8
+ *(.rel.plt)
+ .rel.plt       0x0000000000004ca4      0x4d8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x000000000000517c        0xa
+ *(.init)
+ .init          0x000000000000517c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000005181        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000005190      0x9c0
+ *(.plt)
+ .plt           0x0000000000005190      0x9c0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000005b50    0x10938
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x0000000000005b50       0xa6 librumpdev_scsipi_pic.a(cd.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000005bf6        0xa 90909090
+ .text          0x0000000000005c00      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000005d3b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000005d3b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000005d3f        0x1 90909090
+ .text          0x0000000000005d40      0x631 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                0x0000000000005d40                rumpns_scsipi_print_sense_real
+                0x0000000000005f00                rumpns_scsipi_print_sense_data_real
+ *fill*         0x0000000000006371        0xf 90909090
+ .text          0x0000000000006380      0x38e librumpdev_scsipi_pic.a(atapi_base.pico)
+                0x0000000000006380                rumpns_atapi_interpret_sense
+                0x0000000000006660                rumpns_atapi_print_addr
+                0x00000000000066f0                rumpns_atapi_scsipi_cmd
+ *fill*         0x000000000000670e        0x2 90909090
+ .text          0x0000000000006710      0x262 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ *fill*         0x0000000000006972        0xe 90909090
+ .text          0x0000000000006980     0x3b34 librumpdev_scsipi_pic.a(sd.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x000000000000a4b4        0x4 librumpdev_scsipi_pic.a(sd.pico)
+                0x000000000000a4b4                __x86.get_pc_thunk.cx
+ *fill*         0x000000000000a4b8        0x8 90909090
+ .text          0x000000000000a4c0     0x68cd librumpdev_scsipi_pic.a(cd.pico)
+ *fill*         0x0000000000010d8d        0x3 90909090
+ .text          0x0000000000010d90      0x571 librumpdev_scsipi_pic.a(atapiconf.pico)
+                0x00000000000111b0                rumpns_atapiprint
+                0x00000000000111f0                rumpns_atapi_probe_device
+ *fill*         0x0000000000011301        0xf 90909090
+ .text          0x0000000000011310     0x1196 librumpdev_scsipi_pic.a(scsiconf.pico)
+                0x00000000000119c0                rumpns_scsiprint
+                0x0000000000011a30                rumpns_scsi_probe_bus
+ *fill*         0x00000000000124a6        0xa 90909090
+ .text          0x00000000000124b0      0x490 librumpdev_scsipi_pic.a(scsi_base.pico)
+                0x00000000000124b0                rumpns_scsi_change_def
+                0x0000000000012540                rumpns_scsi_scsipi_cmd
+                0x0000000000012560                rumpns_scsi_print_addr
+                0x0000000000012600                rumpns_scsi_kill_pending
+                0x0000000000012610                rumpns_scsi_async_event_xfer_mode
+                0x00000000000128a0                rumpns_scsi_fc_sas_async_event_xfer_mode
+ .text          0x0000000000012940      0x80e librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+                0x0000000000012b70                rumpns_scsipi_user_done
+                0x0000000000012d40                rumpns_scsipi_do_ioctl
+ *fill*         0x000000000001314e        0x2 90909090
+ .text          0x0000000000013150     0x2d8b librumpdev_scsipi_pic.a(scsipi_base.pico)
+                0x0000000000013190                rumpns_scsipi_init
+                0x0000000000013240                rumpns_scsipi_channel_init
+                0x0000000000013310                rumpns_scsipi_channel_shutdown
+                0x0000000000013380                rumpns_scsipi_insert_periph
+                0x0000000000013440                rumpns_scsipi_remove_periph
+                0x00000000000134a0                rumpns_scsipi_lookup_periph
+                0x00000000000135f0                rumpns_scsipi_get_xs
+                0x00000000000138b0                rumpns_scsipi_put_xs
+                0x00000000000139e0                rumpns_scsipi_channel_freeze
+                0x0000000000013c90                rumpns_scsipi_channel_thaw
+                0x0000000000013d10                rumpns_scsipi_channel_timed_thaw
+                0x0000000000013d40                rumpns_scsipi_periph_freeze
+                0x0000000000013d90                rumpns_scsipi_periph_thaw
+                0x0000000000013f70                rumpns_scsipi_periph_timed_thaw
+                0x0000000000014000                rumpns_scsipi_wait_drain
+                0x0000000000014080                rumpns_scsipi_kill_pending
+                0x00000000000140c0                rumpns_scsipi_print_cdb
+                0x0000000000014150                rumpns_scsipi_interpret_sense
+                0x00000000000145f0                rumpns_scsipi_test_unit_ready
+                0x0000000000014680                rumpns_scsipi_inquire
+                0x00000000000147c0                rumpns_scsipi_prevent
+                0x0000000000014850                rumpns_scsipi_start
+                0x00000000000148e0                rumpns_scsipi_mode_sense
+                0x0000000000014970                rumpns_scsipi_mode_sense_big
+                0x0000000000014a10                rumpns_scsipi_mode_select
+                0x0000000000014aa0                rumpns_scsipi_mode_select_big
+                0x0000000000014b40                rumpns_scsipi_thread_call_callback
+                0x0000000000014c10                rumpns_scsipi_async_event
+                0x0000000000015350                rumpns_scsipi_execute_xs
+                0x00000000000156c0                rumpns_scsipi_done
+                0x0000000000015b40                rumpns_scsipi_set_xfer_mode
+                0x0000000000015c10                rumpns_scsipi_target_detach
+                0x0000000000015d10                rumpns_scsipi_adapter_addref
+                0x0000000000015d90                rumpns_scsipi_adapter_delref
+                0x0000000000015e00                rumpns_scsipi_sync_period_to_factor
+                0x0000000000015e50                rumpns_scsipi_sync_factor_to_period
+                0x0000000000015e90                rumpns_scsipi_sync_factor_to_freq
+ *fill*         0x0000000000015edb        0x5 90909090
+ .text          0x0000000000015ee0      0x56f librumpdev_scsipi_pic.a(scsipiconf.pico)
+                0x0000000000015ee0                rumpns_scsipi_command
+                0x0000000000015f90                rumpns_scsipi_load_verbose
+                0x0000000000015fd0                rumpns_scsipi_print_sense_data_stub
+                0x0000000000016010                rumpns_scsipi_print_sense_stub
+                0x0000000000016050                rumpns_scsipi_alloc_periph
+                0x0000000000016100                rumpns_scsipi_inqmatch
+                0x0000000000016260                rumpns_scsipi_dtype
+                0x0000000000016350                rumpns_scsipi_strvis
+ *fill*         0x000000000001644f        0x1 90909090
+ .text          0x0000000000016450       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000016488        0x5
+ *(.fini)
+ .fini          0x0000000000016488        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001648d                PROVIDE (__etext, .)
+                0x000000000001648d                PROVIDE (_etext, .)
+                0x000000000001648d                PROVIDE (etext, .)
+
+.rodata         0x00000000000164a0     0x6cf8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000164a0     0x1632 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                                       0x16bb (size before relaxing)
+ *fill*         0x0000000000017ad2        0x2 00
+ .rodata.str1.4
+                0x0000000000017ad4     0x33ff librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ *fill*         0x000000000001aed3        0x1 00
+ .rodata        0x000000000001aed4       0x18 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .rodata.str1.1
+                0x000000000001aeec       0xee librumpdev_scsipi_pic.a(atapi_base.pico)
+                                         0xfe (size before relaxing)
+ *fill*         0x000000000001afda        0x2 00
+ .rodata        0x000000000001afdc       0x30 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .rodata.str1.1
+                0x000000000001b00c       0x68 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .rodata.str1.4
+                0x000000000001b074      0x16d librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .rodata.str1.1
+                0x000000000001b1e1       0xd9 librumpdev_scsipi_pic.a(sd.pico)
+                                         0xe3 (size before relaxing)
+ *fill*         0x000000000001b2ba        0x2 00
+ .rodata.str1.4
+                0x000000000001b2bc      0x1fc librumpdev_scsipi_pic.a(sd.pico)
+ .rodata.str1.4
+                0x000000000001b4b8      0x255 librumpdev_scsipi_pic.a(cd.pico)
+                                        0x2ad (size before relaxing)
+ .rodata.str1.1
+                0x000000000001b70d       0x68 librumpdev_scsipi_pic.a(cd.pico)
+                                         0x94 (size before relaxing)
+ *fill*         0x000000000001b775        0x3 00
+ .rodata        0x000000000001b778      0x254 librumpdev_scsipi_pic.a(cd.pico)
+ .rodata.str1.4
+                0x000000000001b9cc       0xf1 librumpdev_scsipi_pic.a(atapiconf.pico)
+                                        0x149 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001babd      0x17f librumpdev_scsipi_pic.a(atapiconf.pico)
+                                        0x19a (size before relaxing)
+ .rodata        0x000000000001bc3c       0x10 librumpdev_scsipi_pic.a(atapiconf.pico)
+                0x000000000001bc3c                rumpns_atapi_probe_periphsw
+ .rodata.str1.4
+                0x000000000001bc4c      0x16d librumpdev_scsipi_pic.a(scsiconf.pico)
+                                        0x1c5 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001bdb9      0x9c9 librumpdev_scsipi_pic.a(scsiconf.pico)
+                                        0xa19 (size before relaxing)
+ *fill*         0x000000000001c782        0x2 00
+ .rodata        0x000000000001c784       0x10 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .rodata.str1.1
+                0x000000000001c794       0x94 librumpdev_scsipi_pic.a(scsi_base.pico)
+                                         0x9d (size before relaxing)
+ .rodata.str1.4
+                0x000000000001c828       0xb0 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .rodata.str1.1
+                0x000000000001c8d8       0x57 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ *fill*         0x000000000001c92f        0x1 00
+ .rodata        0x000000000001c930       0x20 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .rodata.str1.1
+                0x000000000001c950      0x26b librumpdev_scsipi_pic.a(scsipi_base.pico)
+                                        0x332 (size before relaxing)
+ *fill*         0x000000000001cbbb        0x1 00
+ .rodata.str1.4
+                0x000000000001cbbc      0x33d librumpdev_scsipi_pic.a(scsipi_base.pico)
+                                        0x371 (size before relaxing)
+ *fill*         0x000000000001cef9        0x7 00
+ .rodata        0x000000000001cf00      0x128 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .rodata.str1.1
+                0x000000000001d028       0xc5 librumpdev_scsipi_pic.a(scsipiconf.pico)
+                                         0xd1 (size before relaxing)
+ *fill*         0x000000000001d0ed        0x3 00
+ .rodata.str1.4
+                0x000000000001d0f0       0x28 librumpdev_scsipi_pic.a(scsipiconf.pico)
+                                         0x25 (size before relaxing)
+ .rodata        0x000000000001d118       0x80 librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000001d198      0x4cc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000001d198      0x4cc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000001d664     0x1cb0
+ *(.eh_frame)
+ .eh_frame      0x000000000001d664       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000001d6a0       0xf8 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                                        0x124 (size before relaxing)
+ .eh_frame      0x000000000001d798       0x68 librumpdev_scsipi_pic.a(atapi_base.pico)
+                                         0x94 (size before relaxing)
+ .eh_frame      0x000000000001d800       0x40 librumpdev_scsipi_pic.a(scsipi_component.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x000000000001d840      0x570 librumpdev_scsipi_pic.a(sd.pico)
+                                        0x59c (size before relaxing)
+ .eh_frame      0x000000000001ddb0      0x6bc librumpdev_scsipi_pic.a(cd.pico)
+                                        0x6e8 (size before relaxing)
+ .eh_frame      0x000000000001e46c      0x178 librumpdev_scsipi_pic.a(atapiconf.pico)
+                                        0x1a4 (size before relaxing)
+ .eh_frame      0x000000000001e5e4      0x278 librumpdev_scsipi_pic.a(scsiconf.pico)
+                                        0x2a4 (size before relaxing)
+ .eh_frame      0x000000000001e85c       0xf4 librumpdev_scsipi_pic.a(scsi_base.pico)
+                                        0x120 (size before relaxing)
+ .eh_frame      0x000000000001e950       0xb8 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+                                         0xe4 (size before relaxing)
+ .eh_frame      0x000000000001ea08      0x7ac librumpdev_scsipi_pic.a(scsipi_base.pico)
+                                        0x7ec (size before relaxing)
+ .eh_frame      0x000000000001f1b4      0x15c librumpdev_scsipi_pic.a(scsipiconf.pico)
+                                        0x188 (size before relaxing)
+ .eh_frame      0x000000000001f310        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000001f314                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000020314                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000020314        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000020314        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000020318        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000002031c        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000002031c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000020320        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000020320                __DTOR_END__
+
+.jcr            0x0000000000020324        0x4
+ *(.jcr)
+ .jcr           0x0000000000020324        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000020324        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000020340     0x2110
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000020340     0x107c librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ *fill*         0x00000000000213bc        0x4 00
+ .data.rel.ro.local
+                0x00000000000213c0       0x9c librumpdev_scsipi_pic.a(scsipi_component.pico)
+ *fill*         0x000000000002145c        0x4 00
+ .data.rel.ro.local
+                0x0000000000021460       0x98 librumpdev_scsipi_pic.a(sd.pico)
+ *fill*         0x00000000000214f8        0x8 00
+ .data.rel.ro.local
+                0x0000000000021500       0x5c librumpdev_scsipi_pic.a(cd.pico)
+ *fill*         0x000000000002155c        0x4 00
+ .data.rel.ro.local
+                0x0000000000021560      0x168 librumpdev_scsipi_pic.a(atapiconf.pico)
+ *fill*         0x00000000000216c8       0x18 00
+ .data.rel.ro.local
+                0x00000000000216e0      0xba0 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .data.rel.ro.local
+                0x0000000000022280       0x3c librumpdev_scsipi_pic.a(scsipi_base.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00000000000222bc       0x34 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ *fill*         0x00000000000222f0       0x10 00
+ .data.rel.ro   0x0000000000022300       0x60 librumpdev_scsipi_pic.a(sd.pico)
+                0x0000000000022300                rumpns_sd_cdevsw
+                0x0000000000022340                rumpns_sd_bdevsw
+ .data.rel.ro   0x0000000000022360       0x60 librumpdev_scsipi_pic.a(cd.pico)
+                0x0000000000022360                rumpns_cd_cdevsw
+                0x00000000000223a0                rumpns_cd_bdevsw
+ .data.rel.ro   0x00000000000223c0       0x90 librumpdev_scsipi_pic.a(scsiconf.pico)
+                0x00000000000223c0                rumpns_scsi_usb_bustype
+                0x00000000000223d8                rumpns_scsi_sas_bustype
+                0x00000000000223f0                rumpns_scsi_fc_bustype
+                0x0000000000022408                rumpns_scsi_bustype
+                0x0000000000022420                rumpns_scsibus_cdevsw
+
+.dynamic        0x0000000000022450       0xb8
+ *(.dynamic)
+ .dynamic       0x0000000000022450       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000022450                _DYNAMIC
+
+.got            0x0000000000022508       0x54
+ *(.got)
+ .got           0x0000000000022508       0x54 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000002255c                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000002255c      0x278
+ *(.got.plt)
+ .got.plt       0x000000000002255c      0x278 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002255c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000227e0      0x254
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000227e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000227e0                __dso_handle
+ .data          0x00000000000227e4        0x0 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .data          0x00000000000227e4        0x0 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .data          0x00000000000227e4       0x1c librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .data.rel.local
+                0x0000000000022800      0x138 librumpdev_scsipi_pic.a(scsipi_component.pico)
+                0x0000000000022800                rumpns_sd_cd
+                0x0000000000022820                rumpns_cd_cd
+                0x0000000000022840                rumpns_atapibus_cd
+                0x0000000000022860                rumpns_scsibus_cd
+ .data          0x0000000000022938        0x0 librumpdev_scsipi_pic.a(sd.pico)
+ *fill*         0x0000000000022938        0x8 00
+ .data.rel.local
+                0x0000000000022940       0x34 librumpdev_scsipi_pic.a(sd.pico)
+                0x0000000000022940                rumpns_sd_ca
+ .data          0x0000000000022974        0x0 librumpdev_scsipi_pic.a(cd.pico)
+ *fill*         0x0000000000022974        0xc 00
+ .data.rel.local
+                0x0000000000022980       0x34 librumpdev_scsipi_pic.a(cd.pico)
+                0x0000000000022980                rumpns_cd_ca
+ .data          0x00000000000229b4        0x0 librumpdev_scsipi_pic.a(atapiconf.pico)
+ *fill*         0x00000000000229b4        0xc 00
+ .data.rel.local
+                0x00000000000229c0       0x2c librumpdev_scsipi_pic.a(atapiconf.pico)
+                0x00000000000229c0                rumpns_atapibus_ca
+ .data          0x00000000000229ec        0x0 librumpdev_scsipi_pic.a(scsiconf.pico)
+ *fill*         0x00000000000229ec       0x14 00
+ .data.rel.local
+                0x0000000000022a00       0x2c librumpdev_scsipi_pic.a(scsiconf.pico)
+                0x0000000000022a00                rumpns_scsibus_ca
+ .data          0x0000000000022a2c        0x0 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .data          0x0000000000022a2c        0x0 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .data          0x0000000000022a2c        0x0 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .data          0x0000000000022a2c        0x0 librumpdev_scsipi_pic.a(scsipiconf.pico)
+ .data.rel      0x0000000000022a2c        0x8 librumpdev_scsipi_pic.a(scsipiconf.pico)
+                0x0000000000022a2c                rumpns_scsipi_print_sense_data
+                0x0000000000022a30                rumpns_scsipi_print_sense
+ .data          0x0000000000022a34        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000022a34        0x0
+ .tm_clone_table
+                0x0000000000022a34        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000022a34        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x0000000000022a34        0x4
+                0x0000000000022a34                . = ALIGN (0x4)
+                0x0000000000022a34                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000022a34        0x4 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                0x0000000000022a38                PROVIDE (__stop_link_set_modules, .)
+
+link_set_rump_components
+                0x0000000000022a38        0x4
+                0x0000000000022a38                . = ALIGN (0x4)
+                0x0000000000022a38                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000022a38        0x4 librumpdev_scsipi_pic.a(scsipi_component.pico)
+                0x0000000000022a3c                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000022a3c                _edata = .
+                0x0000000000022a3c                PROVIDE (edata, .)
+                0x0000000000022a3c                __bss_start = .
+
+.bss            0x0000000000022a40      0x2bc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000022a40        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *fill*         0x0000000000022a48       0x18 00
+ .bss           0x0000000000022a60       0x8c librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .bss           0x0000000000022aec        0x0 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .bss           0x0000000000022aec        0x0 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ *fill*         0x0000000000022aec       0x14 00
+ .bss           0x0000000000022b00       0xc4 librumpdev_scsipi_pic.a(sd.pico)
+ .bss           0x0000000000022bc4        0x0 librumpdev_scsipi_pic.a(cd.pico)
+ .bss           0x0000000000022bc4        0x0 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .bss           0x0000000000022bc4       0x20 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .bss           0x0000000000022be4        0x0 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .bss           0x0000000000022be4        0x4 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ *fill*         0x0000000000022be8       0x18 00
+ .bss           0x0000000000022c00       0xf8 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .bss           0x0000000000022cf8        0x4 librumpdev_scsipi_pic.a(scsipiconf.pico)
+                0x0000000000022cf8                rumpns_scsi_verbose_loaded
+ .bss           0x0000000000022cfc        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000022cfc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000022cfc                . = ALIGN (0x4)
+                0x0000000000022cfc                . = ALIGN (0x4)
+                0x0000000000022cfc                _end = .
+                0x0000000000022cfc                PROVIDE (end, .)
+                0x0000000000022cfc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(sd.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(cd.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_scsipi_pic.a(scsipiconf.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x262
+ .ident         0x0000000000000000       0x44 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .ident         0x0000000000000044       0x3b librumpdev_scsipi_pic.a(atapi_base.pico)
+ .ident         0x000000000000007f       0x38 librumpdev_scsipi_pic.a(sd.pico)
+ .ident         0x00000000000000b7       0x34 librumpdev_scsipi_pic.a(cd.pico)
+ .ident         0x00000000000000eb       0x3c librumpdev_scsipi_pic.a(atapiconf.pico)
+ .ident         0x0000000000000127       0x3f librumpdev_scsipi_pic.a(scsiconf.pico)
+ .ident         0x0000000000000166       0x3d librumpdev_scsipi_pic.a(scsi_base.pico)
+ .ident         0x00000000000001a3       0x40 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .ident         0x00000000000001e3       0x3f librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .ident         0x0000000000000222       0x40 librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x170
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_scsipi_pic.a(sd.pico)
+ .debug_aranges
+                0x0000000000000080       0x30 librumpdev_scsipi_pic.a(cd.pico)
+ .debug_aranges
+                0x00000000000000b0       0x20 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_aranges
+                0x00000000000000d0       0x20 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_aranges
+                0x00000000000000f0       0x20 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_aranges
+                0x0000000000000110       0x20 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_aranges
+                0x0000000000000130       0x20 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_aranges
+                0x0000000000000150       0x20 librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x5266f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x54f3 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_info    0x00000000000054f3     0x4f84 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .debug_info    0x000000000000a477     0x6c79 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_info    0x00000000000110f0     0xc022 librumpdev_scsipi_pic.a(sd.pico)
+ .debug_info    0x000000000001d112    0x10166 librumpdev_scsipi_pic.a(cd.pico)
+ .debug_info    0x000000000002d278     0x5b1b librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_info    0x0000000000032d93     0x67c9 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_info    0x000000000003955c     0x53dc librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_info    0x000000000003e938     0x5980 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_info    0x00000000000442b8     0x91c9 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_info    0x000000000004d481     0x51ee librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug_abbrev   0x0000000000000000     0x33ab
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x413 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_abbrev  0x0000000000000413      0x2ff librumpdev_scsipi_pic.a(atapi_base.pico)
+ .debug_abbrev  0x0000000000000712      0x2e8 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_abbrev  0x00000000000009fa      0x672 librumpdev_scsipi_pic.a(sd.pico)
+ .debug_abbrev  0x000000000000106c      0x65f librumpdev_scsipi_pic.a(cd.pico)
+ .debug_abbrev  0x00000000000016cb      0x433 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_abbrev  0x0000000000001afe      0x577 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_abbrev  0x0000000000002075      0x356 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_abbrev  0x00000000000023cb      0x4d0 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_abbrev  0x000000000000289b      0x6d0 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_abbrev  0x0000000000002f6b      0x440 librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug_line     0x0000000000000000     0x7223
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x60b librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_line    0x000000000000060b      0x506 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .debug_line    0x0000000000000b11      0x77e librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_line    0x000000000000128f     0x13ba librumpdev_scsipi_pic.a(sd.pico)
+ .debug_line    0x0000000000002649     0x1bdb librumpdev_scsipi_pic.a(cd.pico)
+ .debug_line    0x0000000000004224      0x609 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_line    0x000000000000482d      0x81d librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_line    0x000000000000504a      0x549 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_line    0x0000000000005593      0x6cc librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_line    0x0000000000005c5f     0x1049 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_line    0x0000000000006ca8      0x57b librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x80a7
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x2d99 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+                                       0x3013 (size before relaxing)
+ .debug_str     0x0000000000002d99      0x252 librumpdev_scsipi_pic.a(atapi_base.pico)
+                                       0x2f2c (size before relaxing)
+ .debug_str     0x0000000000002feb     0x161f librumpdev_scsipi_pic.a(scsipi_component.pico)
+                                       0x3d3a (size before relaxing)
+ .debug_str     0x000000000000460a     0x14ff librumpdev_scsipi_pic.a(sd.pico)
+                                       0x52e3 (size before relaxing)
+ .debug_str     0x0000000000005b09     0x112e librumpdev_scsipi_pic.a(cd.pico)
+                                       0x5d4f (size before relaxing)
+ .debug_str     0x0000000000006c37      0x299 librumpdev_scsipi_pic.a(atapiconf.pico)
+                                       0x32ac (size before relaxing)
+ .debug_str     0x0000000000006ed0      0x3a5 librumpdev_scsipi_pic.a(scsiconf.pico)
+                                       0x3524 (size before relaxing)
+ .debug_str     0x0000000000007275      0x1bd librumpdev_scsipi_pic.a(scsi_base.pico)
+                                       0x3076 (size before relaxing)
+ .debug_str     0x0000000000007432      0x1c0 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+                                       0x313c (size before relaxing)
+ .debug_str     0x00000000000075f2      0x973 librumpdev_scsipi_pic.a(scsipi_base.pico)
+                                       0x3d10 (size before relaxing)
+ .debug_str     0x0000000000007f65      0x142 librumpdev_scsipi_pic.a(scsipiconf.pico)
+                                       0x2fd2 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x11b77
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x8c4 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_loc     0x00000000000008c4      0x2f5 librumpdev_scsipi_pic.a(atapi_base.pico)
+ .debug_loc     0x0000000000000bb9      0x14e librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_loc     0x0000000000000d07     0x3af6 librumpdev_scsipi_pic.a(sd.pico)
+ .debug_loc     0x00000000000047fd     0x8a63 librumpdev_scsipi_pic.a(cd.pico)
+ .debug_loc     0x000000000000d260      0x6ba librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_loc     0x000000000000d91a      0xcdd librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_loc     0x000000000000e5f7      0x505 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_loc     0x000000000000eafc      0x5b5 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_loc     0x000000000000f0b1     0x22ca librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_loc     0x000000000001137b      0x7fc librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1e80
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xb0 librumpdev_scsipi_pic.a(scsipi_verbose.pico)
+ .debug_ranges  0x00000000000000b0       0xb8 librumpdev_scsipi_pic.a(scsipi_component.pico)
+ .debug_ranges  0x0000000000000168      0x700 librumpdev_scsipi_pic.a(sd.pico)
+ .debug_ranges  0x0000000000000868      0xfc0 librumpdev_scsipi_pic.a(cd.pico)
+ .debug_ranges  0x0000000000001828       0x30 librumpdev_scsipi_pic.a(atapiconf.pico)
+ .debug_ranges  0x0000000000001858       0x58 librumpdev_scsipi_pic.a(scsiconf.pico)
+ .debug_ranges  0x00000000000018b0       0x60 librumpdev_scsipi_pic.a(scsi_base.pico)
+ .debug_ranges  0x0000000000001910       0x90 librumpdev_scsipi_pic.a(scsipi_ioctl.pico)
+ .debug_ranges  0x00000000000019a0      0x490 librumpdev_scsipi_pic.a(scsipi_base.pico)
+ .debug_ranges  0x0000000000001e30       0x50 librumpdev_scsipi_pic.a(scsipiconf.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_scsipi.so.0.0 elf32-i386)

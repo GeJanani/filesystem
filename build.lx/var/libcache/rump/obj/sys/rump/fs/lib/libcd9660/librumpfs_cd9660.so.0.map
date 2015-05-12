@@ -1,0 +1,613 @@
+Archive member included because of file (symbol)
+
+librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_util.pico)
+                              (--whole-archive)
+librumpfs_cd9660_pic.a(cd9660_node.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_cd9660_specop_p
+                    0x4               librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+rumpns_cd9660_fifoop_p
+                    0x4               librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+rumpns_cd9660_vnodeop_p
+                    0x4               librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+rumpns_cd9660_node_pool
+                    0xd8              librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .group         0x0000000000000000        0x8 librumpfs_cd9660_pic.a(cd9660_node.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_cd9660_pic.a(cd9660_node.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_cd9660_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x6a0
+ *(.hash)
+ .hash          0x00000000000000b4      0x6a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000754      0xe10
+ *(.dynsym)
+ .dynsym        0x0000000000000754      0xe10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001564     0x1295
+ *(.dynstr)
+ .dynstr        0x0000000000001564     0x1295 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000027fa        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000027fc        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000027fc        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x00000000000027fc      0xa60
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000027fc      0x840 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x000000000000303c       0xc8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000003104       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000031bc       0x98 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000003254        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x000000000000325c      0x2b8
+ *(.rel.plt)
+ .rel.plt       0x000000000000325c      0x2b8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000003514        0xa
+ *(.init)
+ .init          0x0000000000003514        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000003519        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000003520      0x580
+ *(.plt)
+ .plt           0x0000000000003520      0x580 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003aa0     0x5198
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003aa0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000003bdb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003bdb                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000003bdf        0x1 90909090
+ .text          0x0000000000003be0     0x1716 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                0x0000000000003be0                rumpns_cd9660_start
+                0x0000000000003bf0                rumpns_cd9660_sync
+                0x0000000000003c00                rumpns_cd9660_vptofh
+                0x0000000000003c70                rumpns_cd9660_loadvnode
+                0x0000000000004170                rumpns_cd9660_statvfs
+                0x0000000000004c20                rumpns_cd9660_mount
+                0x0000000000004f40                rumpns_cd9660_mountroot
+                0x0000000000005090                rumpns_cd9660_vget
+                0x0000000000005120                rumpns_cd9660_root
+                0x0000000000005170                rumpns_cd9660_fhtovp
+                0x0000000000005230                rumpns_cd9660_unmount
+ *fill*         0x00000000000052f6        0xa 90909090
+ .text          0x0000000000005300     0x14e3 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                0x0000000000005300                rumpns_cd9660_setattr
+                0x00000000000053c0                rumpns_cd9660_print
+                0x00000000000053f0                rumpns_cd9660_strategy
+                0x0000000000005520                rumpns_cd9660_symlink
+                0x0000000000005550                rumpns_cd9660_link
+                0x00000000000055a0                rumpns_cd9660_readlink
+                0x0000000000005830                rumpns_cd9660_read
+                0x0000000000005b50                rumpns_cd9660_getattr
+                0x0000000000005d20                rumpns_cd9660_access
+                0x0000000000005e20                rumpns_cd9660_pathconf
+                0x0000000000005ec0                rumpns_iso_uiodir
+                0x0000000000005fb0                rumpns_iso_shipdir
+                0x00000000000061d0                rumpns_cd9660_readdir
+ .text.__x86.get_pc_thunk.cx
+                0x00000000000067e3        0x4 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                0x00000000000067e3                __x86.get_pc_thunk.cx
+ *fill*         0x00000000000067e7        0x9 90909090
+ .text          0x00000000000067f0       0xc8 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+                0x00000000000067f0                rumpns_cd9660_bmap
+ *fill*         0x00000000000068b8        0x8 90909090
+ .text          0x00000000000068c0      0xd5f librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+                0x00000000000073f0                rumpns_cd9660_rrip_analyze
+                0x0000000000007440                rumpns_cd9660_rrip_getname
+                0x00000000000074f0                rumpns_cd9660_rrip_getsymname
+                0x0000000000007560                rumpns_cd9660_rrip_offset
+ *fill*         0x000000000000761f        0x1 90909090
+ .text          0x0000000000007620      0x95b librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+                0x0000000000007620                rumpns_cd9660_blkatoff
+                0x0000000000007740                rumpns_cd9660_lookup
+ *fill*         0x0000000000007f7b        0x5 90909090
+ .text          0x0000000000007f80      0x597 librumpfs_cd9660_pic.a(cd9660_util.pico)
+                0x0000000000007f80                rumpns_isochar
+                0x0000000000008020                rumpns_isofncmp
+                0x0000000000008350                rumpns_isofntrans
+ *fill*         0x0000000000008517        0x9 90909090
+ .text          0x0000000000008520      0x6df librumpfs_cd9660_pic.a(cd9660_node.pico)
+                0x0000000000008520                rumpns_cd9660_init
+                0x0000000000008580                rumpns_cd9660_reinit
+                0x0000000000008590                rumpns_cd9660_done
+                0x00000000000085c0                rumpns_cd9660_inactive
+                0x0000000000008600                rumpns_cd9660_reclaim
+                0x00000000000086b0                rumpns_cd9660_defattr
+                0x0000000000008820                rumpns_cd9660_tstamp_conv7
+                0x0000000000008970                rumpns_cd9660_tstamp_conv17
+                0x0000000000008a40                rumpns_cd9660_deftstamp
+                0x0000000000008bc0                rumpns_isodirino
+ *fill*         0x0000000000008bff        0x1 90909090
+ .text          0x0000000000008c00       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000008c38        0x5
+ *(.fini)
+ .fini          0x0000000000008c38        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000008c3d                PROVIDE (__etext, .)
+                0x0000000000008c3d                PROVIDE (_etext, .)
+                0x0000000000008c3d                PROVIDE (etext, .)
+
+.rodata         0x0000000000008c40      0x56c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000008c40      0x158 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .rodata.str1.1
+                0x0000000000008d98       0x6c librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .rodata.str1.1
+                0x0000000000008e04       0x3f librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                                         0x4b (size before relaxing)
+ *fill*         0x0000000000008e43        0x1 00
+ .rodata        0x0000000000008e44       0x30 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .rodata.str1.4
+                0x0000000000008e74       0x9d librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                                         0xd4 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008f11       0x5a librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+                                         0x5d (size before relaxing)
+ *fill*         0x0000000000008f6b        0x1 00
+ .rodata        0x0000000000008f6c      0x108 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .rodata.str1.4
+                0x0000000000009074       0x1f librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ *fill*         0x0000000000009093        0x1 00
+ .rodata.str1.4
+                0x0000000000009094       0x9e librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+                                         0xd4 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x17 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ *fill*         0x0000000000009132        0xe 00
+ .rodata        0x0000000000009140       0x40 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .rodata.str1.1
+                0x0000000000009180        0xb librumpfs_cd9660_pic.a(cd9660_node.pico)
+ *fill*         0x000000000000918b        0x1 00
+ .rodata.str1.4
+                0x000000000000918c       0x20 librumpfs_cd9660_pic.a(cd9660_node.pico)
+                                         0x1f (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000091ac      0x20c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000091ac      0x20c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x00000000000093b8      0xa94
+ *(.eh_frame)
+ .eh_frame      0x00000000000093b8       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000093f4      0x248 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                                        0x274 (size before relaxing)
+ .eh_frame      0x000000000000963c      0x238 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                                        0x264 (size before relaxing)
+ .eh_frame      0x0000000000009874       0x28 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000989c      0x2d4 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+                                        0x300 (size before relaxing)
+ .eh_frame      0x0000000000009b70       0x84 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x0000000000009bf4       0xc0 librumpfs_cd9660_pic.a(cd9660_util.pico)
+                                         0xec (size before relaxing)
+ .eh_frame      0x0000000000009cb4      0x194 librumpfs_cd9660_pic.a(cd9660_node.pico)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000009e48        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000009e4c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000a000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000a000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000a000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000a004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000a008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000a008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000a00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000a00c                __DTOR_END__
+
+.jcr            0x000000000000a010        0x4
+ *(.jcr)
+ .jcr           0x000000000000a010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000a010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000a020      0x638
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000a020       0x14 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ *fill*         0x000000000000a034        0xc 00
+ .data.rel.ro.local
+                0x000000000000a040      0x1a0 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000a1e0       0x20 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                0x000000000000a1e0                rumpns_cd9660_vnodeopv_descs
+ .data.rel.ro   0x000000000000a200      0x458 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                0x000000000000a200                rumpns_cd9660_fifoop_opv_desc
+                0x000000000000a220                rumpns_cd9660_fifoop_entries
+                0x000000000000a378                rumpns_cd9660_specop_opv_desc
+                0x000000000000a380                rumpns_cd9660_specop_entries
+                0x000000000000a4e0                rumpns_cd9660_vnodeop_opv_desc
+                0x000000000000a500                rumpns_cd9660_vnodeop_entries
+
+.dynamic        0x000000000000a658       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000a658       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a658                _DYNAMIC
+
+.got            0x000000000000a6f8       0x4c
+ *(.got)
+ .got           0x000000000000a6f8       0x4c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000a744                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000a744      0x168
+ *(.got.plt)
+ .got.plt       0x000000000000a744      0x168 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a744                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000a8c0       0x90
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000a8c0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a8c0                __dso_handle
+ .data          0x000000000000a8c4        0x0 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ *fill*         0x000000000000a8c4       0x1c 00
+ .data.rel      0x000000000000a8e0       0x6c librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                0x000000000000a8e0                rumpns_cd9660_vfsops
+ .data          0x000000000000a94c        0x0 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .data          0x000000000000a94c        0x0 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .data          0x000000000000a94c        0x0 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .data          0x000000000000a94c        0x0 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .data          0x000000000000a94c        0x4 librumpfs_cd9660_pic.a(cd9660_util.pico)
+                0x000000000000a94c                rumpns_cd9660_utf8_joliet
+ .data          0x000000000000a950        0x0 librumpfs_cd9660_pic.a(cd9660_node.pico)
+ .data          0x000000000000a950        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000a950        0x0
+ .tm_clone_table
+                0x000000000000a950        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000a950        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000a950        0x4
+                0x000000000000a950                . = ALIGN (0x4)
+                0x000000000000a950                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000a950        0x4 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                0x000000000000a954                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000a954                _edata = .
+                0x000000000000a954                PROVIDE (edata, .)
+                0x000000000000a954                __bss_start = .
+
+.bss            0x000000000000a960       0xf8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000a960        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000a968        0x4 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .bss           0x000000000000a96c        0x0 librumpfs_cd9660_pic.a(cd9660_node.pico)
+ .bss           0x000000000000a96c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000a96c        0xc librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                0x000000000000a96c                rumpns_cd9660_specop_p
+                0x000000000000a970                rumpns_cd9660_fifoop_p
+                0x000000000000a974                rumpns_cd9660_vnodeop_p
+ *fill*         0x000000000000a978        0x8 00
+ COMMON         0x000000000000a980       0xd8 librumpfs_cd9660_pic.a(cd9660_node.pico)
+                0x000000000000a980                rumpns_cd9660_node_pool
+                0x000000000000aa58                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000aa58                . = ALIGN (0x4)
+                0x000000000000aa58                . = ALIGN (0x4)
+                0x000000000000aa58                _end = .
+                0x000000000000aa58                PROVIDE (end, .)
+                0x000000000000aa58                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_cd9660_pic.a(cd9660_node.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x1bd
+ .ident         0x0000000000000000       0x3f librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .ident         0x000000000000003f       0x42 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .ident         0x0000000000000081       0x3f librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .ident         0x00000000000000c0       0x41 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .ident         0x0000000000000101       0x42 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .ident         0x0000000000000143       0x3d librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .ident         0x0000000000000180       0x3d librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x29caa
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x92dd librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_info    0x00000000000092dd     0x7b67 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_info    0x0000000000010e44     0x5668 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_info    0x00000000000164ac     0x6a45 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_info    0x000000000001cef1     0x5f72 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .debug_info    0x0000000000022e63      0x601 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_info    0x0000000000023464     0x6846 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug_abbrev   0x0000000000000000     0x1b99
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5c5 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_abbrev  0x00000000000005c5      0x491 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_abbrev  0x0000000000000a56      0x22e librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_abbrev  0x0000000000000c84      0x524 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_abbrev  0x00000000000011a8      0x392 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .debug_abbrev  0x000000000000153a      0x21b librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_abbrev  0x0000000000001755      0x444 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug_line     0x0000000000000000     0x384d
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0xc07 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_line    0x0000000000000c07      0xaba librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_line    0x00000000000016c1      0x5c0 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_line    0x0000000000001c81      0x963 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_line    0x00000000000025e4      0x80f librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .debug_line    0x0000000000002df3      0x35a librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_line    0x000000000000314d      0x700 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5e99
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x4c25 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+                                       0x4ff5 (size before relaxing)
+ .debug_str     0x0000000000004c25      0x915 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+                                       0x405c (size before relaxing)
+ .debug_str     0x000000000000553a       0xcd librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+                                       0x313c (size before relaxing)
+ .debug_str     0x0000000000005607      0x41a librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+                                       0x363f (size before relaxing)
+ .debug_str     0x0000000000005a21      0x160 librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+                                       0x3380 (size before relaxing)
+ .debug_str     0x0000000000005b81      0x12a librumpfs_cd9660_pic.a(cd9660_util.pico)
+                                        0x2a0 (size before relaxing)
+ .debug_str     0x0000000000005cab      0x1ee librumpfs_cd9660_pic.a(cd9660_node.pico)
+                                       0x3854 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4eae
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x11af librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_loc     0x00000000000011af     0x11e6 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_loc     0x0000000000002395       0xe2 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_loc     0x0000000000002477      0xc93 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_loc     0x000000000000310a      0x80f librumpfs_cd9660_pic.a(cd9660_lookup.pico)
+ .debug_loc     0x0000000000003919      0x83c librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_loc     0x0000000000004155      0xd59 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x268
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x68 librumpfs_cd9660_pic.a(cd9660_vfsops.pico)
+ .debug_ranges  0x0000000000000068       0x88 librumpfs_cd9660_pic.a(cd9660_vnops.pico)
+ .debug_ranges  0x00000000000000f0       0x18 librumpfs_cd9660_pic.a(cd9660_bmap.pico)
+ .debug_ranges  0x0000000000000108       0x78 librumpfs_cd9660_pic.a(cd9660_rrip.pico)
+ .debug_ranges  0x0000000000000180       0xb8 librumpfs_cd9660_pic.a(cd9660_util.pico)
+ .debug_ranges  0x0000000000000238       0x30 librumpfs_cd9660_pic.a(cd9660_node.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_cd9660.so.0.0 elf32-i386)

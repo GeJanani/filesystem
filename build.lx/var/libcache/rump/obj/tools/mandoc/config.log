@@ -1,0 +1,83 @@
++ CFLAGS= -Wno-unused -Werror
++ cat /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/config.h.pre
++ echo
++ echo #define VERSION ""
++ runtest fgetln FGETLN
++ echo cc -Wno-unused -Werror -o test-fgetln /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-fgetln.c
+cc -Wno-unused -Werror -o test-fgetln /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-fgetln.c
++ cc -Wno-unused -Werror -o test-fgetln /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-fgetln.c
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-fgetln.c: In function 'main':
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-fgetln.c:10:14: error: comparison between pointer and integer [-Werror]
+cc1: all warnings being treated as errors
++ return 0
++ runtest getsubopt GETSUBOPT
++ echo cc -Wno-unused -Werror -o test-getsubopt /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-getsubopt.c
+cc -Wno-unused -Werror -o test-getsubopt /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-getsubopt.c
++ cc -Wno-unused -Werror -o test-getsubopt /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-getsubopt.c
+/tmp/ccyfQn1u.o: In function `main':
+test-getsubopt.c:(.text+0x66): undefined reference to `suboptarg'
+collect2: ld returned 1 exit status
++ return 0
++ runtest mmap MMAP
++ echo cc -Wno-unused -Werror -o test-mmap /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c
+cc -Wno-unused -Werror -o test-mmap /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c
++ cc -Wno-unused -Werror -o test-mmap /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c: In function 'main':
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c:7:28: error: 'NULL' undeclared (first use in this function)
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-mmap.c:7:28: note: each undeclared identifier is reported only once for each function it appears in
++ return 0
++ runtest ohash OHASH
++ echo cc -Wno-unused -Werror -o test-ohash /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-ohash.c
+cc -Wno-unused -Werror -o test-ohash /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-ohash.c
++ cc -Wno-unused -Werror -o test-ohash /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-ohash.c
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-ohash.c:4:19: fatal error: ohash.h: No such file or directory
+compilation terminated.
++ return 0
++ runtest strcasestr STRCASESTR
++ echo cc -Wno-unused -Werror -o test-strcasestr /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strcasestr.c
+cc -Wno-unused -Werror -o test-strcasestr /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strcasestr.c
++ cc -Wno-unused -Werror -o test-strcasestr /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strcasestr.c
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strcasestr.c: In function 'main':
+/home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strcasestr.c:7:13: error: initialization makes pointer from integer without a cast [-Werror]
+cc1: all warnings being treated as errors
++ return 0
++ runtest strlcat STRLCAT
++ echo cc -Wno-unused -Werror -o test-strlcat /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcat.c
+cc -Wno-unused -Werror -o test-strlcat /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcat.c
++ cc -Wno-unused -Werror -o test-strlcat /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcat.c
+/tmp/cckiL10I.o: In function `main':
+test-strlcat.c:(.text+0x2d): undefined reference to `strlcat'
+collect2: ld returned 1 exit status
++ return 0
++ runtest strlcpy STRLCPY
++ echo cc -Wno-unused -Werror -o test-strlcpy /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcpy.c
+cc -Wno-unused -Werror -o test-strlcpy /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcpy.c
++ cc -Wno-unused -Werror -o test-strlcpy /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strlcpy.c
+/tmp/cc8SBsoN.o: In function `main':
+test-strlcpy.c:(.text+0x28): undefined reference to `strlcpy'
+collect2: ld returned 1 exit status
++ return 0
++ runtest strnlen STRNLEN
++ echo cc -Wno-unused -Werror -o test-strnlen /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strnlen.c
+cc -Wno-unused -Werror -o test-strnlen /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strnlen.c
++ cc -Wno-unused -Werror -o test-strnlen /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strnlen.c
++ ./test-strnlen
++ echo #define HAVE_STRNLEN
++ rm test-strnlen
++ runtest strptime STRPTIME
++ echo cc -Wno-unused -Werror -o test-strptime /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strptime.c
+cc -Wno-unused -Werror -o test-strptime /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strptime.c
++ cc -Wno-unused -Werror -o test-strptime /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strptime.c
++ ./test-strptime
++ echo #define HAVE_STRPTIME
++ rm test-strptime
++ runtest strsep STRSEP
++ echo cc -Wno-unused -Werror -o test-strsep /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strsep.c
+cc -Wno-unused -Werror -o test-strsep /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strsep.c
++ cc -Wno-unused -Werror -o test-strsep /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/test-strsep.c
++ ./test-strsep
++ echo #define HAVE_STRSEP
++ rm test-strsep
++ echo
++ cat /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/tools/mandoc/../../external/bsd/mdocml/bin/mandoc/../../dist/config.h.post
++ exit 0

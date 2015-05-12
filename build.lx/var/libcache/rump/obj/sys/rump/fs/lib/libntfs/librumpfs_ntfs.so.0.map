@@ -1,0 +1,567 @@
+Archive member included because of file (symbol)
+
+librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                              (--whole-archive)
+librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                              (--whole-archive)
+librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+                              (--whole-archive)
+librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                              (--whole-archive)
+librumpfs_ntfs_pic.a(ntfs_compr.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_ntfs_hashlock
+                    0x4               librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+rumpns_ntfs_vnodeop_p
+                    0x4               librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_ntfs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x518
+ *(.hash)
+ .hash          0x00000000000000b4      0x518 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000005cc      0xc10
+ *(.dynsym)
+ .dynsym        0x00000000000005cc      0xc10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000011dc      0xfb6
+ *(.dynstr)
+ .dynstr        0x00000000000011dc      0xfb6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000002192      0x182
+ *(.gnu.version)
+ .gnu.version   0x0000000000002192      0x182 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000002314        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000002314       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000002314       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000002334      0x410
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000002334      0x2d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000002604       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000002614       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000026cc       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x000000000000273c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000002744      0x360
+ *(.rel.plt)
+ .rel.plt       0x0000000000002744      0x360 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000002aa4        0xa
+ *(.init)
+ .init          0x0000000000002aa4        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000002aa9        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000002ab0      0x6d0
+ *(.plt)
+ .plt           0x0000000000002ab0      0x6d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003180     0x7148
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003180      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000032bb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000032bb                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000032bf        0x1 90909090
+ .text          0x00000000000032c0     0x1184 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000004444        0x4 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                0x0000000000004444                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000004448        0x8 90909090
+ .text          0x0000000000004450     0x1732 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                0x0000000000004e70                rumpns_ntfs_calccfree
+                0x0000000000005970                rumpns_ntfs_vgetex
+ *fill*         0x0000000000005b82        0xe 90909090
+ .text          0x0000000000005b90     0x3efc librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                0x0000000000005c20                rumpns_ntfs_ntget
+                0x0000000000005c80                rumpns_ntfs_ntlookup
+                0x0000000000005e00                rumpns_ntfs_ntref
+                0x0000000000005e50                rumpns_ntfs_ntrele
+                0x0000000000005ed0                rumpns_ntfs_ntvattrrele
+                0x0000000000005f00                rumpns_ntfs_freentvattr
+                0x0000000000005f60                rumpns_ntfs_ntput
+                0x0000000000006040                rumpns_ntfs_runtovrun
+                0x0000000000006300                rumpns_ntfs_attrtontvattr
+                0x0000000000006500                rumpns_ntfs_isnamepermitted
+                0x0000000000006570                rumpns_ntfs_nttimetounix
+                0x0000000000006600                rumpns_ntfs_writentvattr_plain
+                0x0000000000006b80                rumpns_ntfs_readntvattr_plain
+                0x0000000000007190                rumpns_ntfs_procfixups
+                0x0000000000007330                rumpns_ntfs_loadntnode
+                0x0000000000007890                rumpns_ntfs_ntvattrget
+                0x0000000000007c60                rumpns_ntfs_readattr_plain
+                0x0000000000007f10                rumpns_ntfs_readattr
+                0x00000000000084a0                rumpns_ntfs_writeattr_plain
+                0x00000000000086e0                rumpns_ntfs_ntreaddir
+                0x0000000000008e60                rumpns_ntfs_ntlookupfile
+                0x00000000000098b0                rumpns_ntfs_toupper_init
+                0x0000000000009900                rumpns_ntfs_toupper_use
+                0x0000000000009a10                rumpns_ntfs_toupper_unuse
+ *fill*         0x0000000000009a8c        0x4 90909090
+ .text          0x0000000000009a90      0x3ac librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+                0x0000000000009a90                rumpns_ntfs_nthashinit
+                0x0000000000009b10                rumpns_ntfs_nthashreinit
+                0x0000000000009c40                rumpns_ntfs_nthashdone
+                0x0000000000009c90                rumpns_ntfs_nthashlookup
+                0x0000000000009d40                rumpns_ntfs_nthashins
+                0x0000000000009dd0                rumpns_ntfs_nthashrem
+ *fill*         0x0000000000009e3c        0x4 90909090
+ .text          0x0000000000009e40      0x1fb librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                0x0000000000009e40                rumpns_ntfs_utf8_wget
+                0x0000000000009f90                rumpns_ntfs_utf8_wput
+                0x000000000000a020                rumpns_ntfs_utf8_wcmp
+ *fill*         0x000000000000a03b        0x5 90909090
+ .text          0x000000000000a040      0x24a librumpfs_ntfs_pic.a(ntfs_compr.pico)
+                0x000000000000a040                rumpns_ntfs_uncompblock
+                0x000000000000a200                rumpns_ntfs_uncompunit
+ *fill*         0x000000000000a28a        0x6 90909090
+ .text          0x000000000000a290       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000000a2c8        0x5
+ *(.fini)
+ .fini          0x000000000000a2c8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a2cd                PROVIDE (__etext, .)
+                0x000000000000a2cd                PROVIDE (_etext, .)
+                0x000000000000a2cd                PROVIDE (etext, .)
+
+.rodata         0x000000000000a2e0      0x800
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000a2e0      0x100 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .rodata.str1.1
+                0x000000000000a3e0       0x28 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                                         0x2d (size before relaxing)
+ .rodata        0x000000000000a408       0x30 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .rodata.str1.4
+                0x000000000000a438      0x19c librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .rodata.str1.1
+                0x000000000000a5d4       0x31 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                                         0x32 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000a605      0x125 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                                        0x132 (size before relaxing)
+ *fill*         0x000000000000a72a        0x2 00
+ .rodata.str1.4
+                0x000000000000a72c      0x211 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                                        0x245 (size before relaxing)
+ .rodata        0x000000000000a93d       0xb1 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ *fill*         0x000000000000a9ee        0x2 00
+ .rodata.str1.4
+                0x000000000000a9f0       0x90 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                                         0xc4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000aa80        0x8 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                                         0x14 (size before relaxing)
+ *fill*         0x000000000000aa88       0x18 00
+ .rodata        0x000000000000aaa0       0x40 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000aae0      0x254
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000aae0      0x254 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000ad34      0xe34
+ *(.eh_frame)
+ .eh_frame      0x000000000000ad34       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000ad70      0x27c librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                                        0x2a8 (size before relaxing)
+ .eh_frame      0x000000000000afec      0x31c librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                                        0x348 (size before relaxing)
+ .eh_frame      0x000000000000b308      0x654 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                                        0x680 (size before relaxing)
+ .eh_frame      0x000000000000b95c      0x10c librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000000ba68       0x54 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x000000000000babc       0xa8 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+                                         0xd4 (size before relaxing)
+ .eh_frame      0x000000000000bb64        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000bb68                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000c000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000c000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000c000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000c004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000c008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000c008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000c00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000c00c                __DTOR_END__
+
+.jcr            0x000000000000c010        0x4
+ *(.jcr)
+ .jcr           0x000000000000c010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000c010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000c020      0x1b8
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000c020       0x14 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x000000000000c034        0xc 00
+ .data.rel.ro   0x000000000000c040      0x180 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                0x000000000000c040                rumpns_ntfs_vnodeop_opv_desc
+                0x000000000000c060                rumpns_ntfs_vnodeop_entries
+ .data.rel.ro   0x000000000000c1c0       0x18 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                0x000000000000c1c0                rumpns_ntfs_vnodeopv_descs
+
+.dynamic        0x000000000000c1d8       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000000c1d8       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000c1d8                _DYNAMIC
+
+.got            0x000000000000c290       0x38
+ *(.got)
+ .got           0x000000000000c290       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000c2c8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000c2c8      0x1bc
+ *(.got.plt)
+ .got.plt       0x000000000000c2c8      0x1bc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000c2c8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000c4a0       0x8c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000c4a0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000c4a0                __dso_handle
+ .data          0x000000000000c4a4        0x0 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .data          0x000000000000c4a4        0x0 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ *fill*         0x000000000000c4a4       0x1c 00
+ .data.rel      0x000000000000c4c0       0x6c librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                0x000000000000c4c0                rumpns_ntfs_vfsops
+ .data          0x000000000000c52c        0x0 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .data          0x000000000000c52c        0x0 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .data          0x000000000000c52c        0x0 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .data          0x000000000000c52c        0x0 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+ .data          0x000000000000c52c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000c52c        0x0
+ .tm_clone_table
+                0x000000000000c52c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000c52c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000c52c        0x4
+                0x000000000000c52c                . = ALIGN (0x4)
+                0x000000000000c52c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000c52c        0x4 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                0x000000000000c530                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000c530                _edata = .
+                0x000000000000c530                PROVIDE (edata, .)
+                0x000000000000c530                __bss_start = .
+
+.bss            0x000000000000c530       0x2c
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000c530        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000c538        0x0 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .bss           0x000000000000c538        0x4 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .bss           0x000000000000c53c        0xc librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .bss           0x000000000000c548        0xc librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .bss           0x000000000000c554        0x0 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .bss           0x000000000000c554        0x0 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+ .bss           0x000000000000c554        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000c554        0x4 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                0x000000000000c554                rumpns_ntfs_vnodeop_p
+ COMMON         0x000000000000c558        0x4 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+                0x000000000000c558                rumpns_ntfs_hashlock
+                0x000000000000c55c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000c55c                . = ALIGN (0x4)
+                0x000000000000c55c                . = ALIGN (0x4)
+                0x000000000000c55c                _end = .
+                0x000000000000c55c                PROVIDE (end, .)
+                0x000000000000c55c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x172
+ .ident         0x0000000000000000       0x3f librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .ident         0x000000000000003f       0x40 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .ident         0x000000000000007f       0x3e librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .ident         0x00000000000000bd       0x3c librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .ident         0x00000000000000f9       0x3c librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .ident         0x0000000000000135       0x3d librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x215f7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x7f31 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_info    0x0000000000007f31     0x8a77 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_info    0x00000000000109a8     0x90db librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_info    0x0000000000019a83     0x1fad librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .debug_info    0x000000000001ba30      0x395 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .debug_info    0x000000000001bdc5     0x5832 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug_abbrev   0x0000000000000000     0x15ff
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4c9 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_abbrev  0x00000000000004c9      0x562 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_abbrev  0x0000000000000a2b      0x53c librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_abbrev  0x0000000000000f67      0x28a librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .debug_abbrev  0x00000000000011f1      0x19f librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .debug_abbrev  0x0000000000001390      0x26f librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug_line     0x0000000000000000     0x3469
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0xa45 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_line    0x0000000000000a45      0xbce librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_line    0x0000000000001613     0x1157 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_line    0x000000000000276a      0x3cc librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .debug_line    0x0000000000002b36      0x32a librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .debug_line    0x0000000000002e60      0x609 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5155
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3cea librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+                                       0x403e (size before relaxing)
+ .debug_str     0x0000000000003cea      0xcee librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+                                       0x445a (size before relaxing)
+ .debug_str     0x00000000000049d8      0x49f librumpfs_ntfs_pic.a(ntfs_subr.pico)
+                                       0x3cfb (size before relaxing)
+ .debug_str     0x0000000000004e77      0x11f librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+                                       0x124a (size before relaxing)
+ .debug_str     0x0000000000004f96       0xf6 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+                                        0x26c (size before relaxing)
+ .debug_str     0x000000000000508c       0xc9 librumpfs_ntfs_pic.a(ntfs_compr.pico)
+                                       0x319f (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x5eb2
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x13a3 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_loc     0x00000000000013a3     0x1205 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_loc     0x00000000000025a8     0x30b8 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_loc     0x0000000000005660      0x2e4 librumpfs_ntfs_pic.a(ntfs_ihash.pico)
+ .debug_loc     0x0000000000005944      0x1d4 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+ .debug_loc     0x0000000000005b18      0x39a librumpfs_ntfs_pic.a(ntfs_compr.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x288
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xb0 librumpfs_ntfs_pic.a(ntfs_vnops.pico)
+ .debug_ranges  0x00000000000000b0       0x78 librumpfs_ntfs_pic.a(ntfs_vfsops.pico)
+ .debug_ranges  0x0000000000000128       0xf8 librumpfs_ntfs_pic.a(ntfs_subr.pico)
+ .debug_ranges  0x0000000000000220       0x68 librumpfs_ntfs_pic.a(ntfs_conv.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_ntfs.so.0.0 elf32-i386)

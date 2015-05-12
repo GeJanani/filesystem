@@ -1,0 +1,724 @@
+Archive member included because of file (symbol)
+
+librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_compat.pico)
+                              (--whole-archive)
+librumpfs_syspuffs_pic.a(puffs_node.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_puffs_vapool
+                    0xd8              librumpfs_syspuffs_pic.a(puffs_node.pico)
+rumpns_puffsdebug   0x4               librumpfs_syspuffs_pic.a(puffs_subr.pico)
+rumpns_puffs_specop_p
+                    0x4               librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+rumpns_puffs_pnpool
+                    0xd8              librumpfs_syspuffs_pic.a(puffs_node.pico)
+rumpns_puffs_fifoop_p
+                    0x4               librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+rumpns_puffs_msgop_p
+                    0x4               librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+rumpns_puffs_vnodeop_p
+                    0x4               librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .group         0x0000000000000000        0x8 librumpfs_syspuffs_pic.a(puffs_node.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_syspuffs_pic.a(puffs_node.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_syspuffs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x8e4
+ *(.hash)
+ .hash          0x00000000000000b4      0x8e4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000998     0x1300
+ *(.dynsym)
+ .dynsym        0x0000000000000998     0x1300 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001c98     0x1a97
+ *(.dynstr)
+ .dynstr        0x0000000000001c98     0x1a97 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000003730        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000003730        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000003730        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000003730      0xc58
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000003730      0xa88 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x00000000000041b8       0x18 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000041d0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x00000000000041d8       0xd0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000042a8       0xd0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000004378        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000004380        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000004388      0x410
+ *(.rel.plt)
+ .rel.plt       0x0000000000004388      0x410 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000004798        0xa
+ *(.init)
+ .init          0x0000000000004798        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x000000000000479d        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000047b0      0x830
+ *(.plt)
+ .plt           0x00000000000047b0      0x830 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000004fe0     0xcce8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004fe0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000511b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000511b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000511f        0x1 90909090
+ .text          0x0000000000005120       0x50 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .text          0x0000000000005170      0x453 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+                0x0000000000005480                rump_syspuffs_glueinit
+ *fill*         0x00000000000055c3        0xd 90909090
+ .text          0x00000000000055d0     0x1a8c librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                0x00000000000055d0                rumpns_puffs_vfsop_snapshot
+                0x00000000000055e0                rumpns_puffs_vfsop_done
+                0x0000000000005620                rumpns_puffs_vfsop_init
+                0x00000000000056d0                rumpns_puffs_vfsop_start
+                0x0000000000005750                rumpns_puffs_vfsop_loadvnode
+                0x0000000000005960                rumpns_puffs_vfsop_mount
+                0x0000000000006080                rumpns_puffs_vfsop_root
+                0x0000000000006150                rumpns_puffs_vfsop_statvfs
+                0x0000000000006310                rumpns_puffs_vfsop_extattrctl
+                0x00000000000064f0                rumpns_puffs_vfsop_sync
+                0x0000000000006770                rumpns_puffs_vfsop_fhtovp
+                0x0000000000006990                rumpns_puffs_vfsop_vptofh
+                0x0000000000006c30                rumpns_puffs_vfsop_unmount
+ *fill*         0x000000000000705c        0x4 90909090
+ .text          0x0000000000007060     0x6e7a librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                0x0000000000007060                rumpns_puffs_vnop_bmap
+                0x00000000000070b0                rumpns_puffs_vnop_fifo_write
+                0x0000000000007120                rumpns_puffs_vnop_fifo_read
+                0x0000000000007190                rumpns_puffs_vnop_spec_write
+                0x0000000000007200                rumpns_puffs_vnop_spec_read
+                0x0000000000007330                rumpns_puffs_vnop_close
+                0x0000000000007940                rumpns_puffs_vnop_print
+                0x0000000000007a90                rumpns_puffs_vnop_checkop
+                0x0000000000007d60                rumpns_puffs_vnop_abortop
+                0x0000000000007f10                rumpns_puffs_vnop_rmdir
+                0x00000000000080e0                rumpns_puffs_vnop_poll
+                0x0000000000008280                rumpns_puffs_vnop_reclaim
+                0x0000000000008440                rumpns_puffs_vnop_advlock
+                0x00000000000085d0                rumpns_puffs_vnop_setextattr
+                0x0000000000008860                rumpns_puffs_vnop_read
+                0x0000000000008ee0                rumpns_puffs_vnop_symlink
+                0x00000000000091a0                rumpns_puffs_vnop_deleteextattr
+                0x0000000000009300                rumpns_puffs_vnop_pathconf
+                0x0000000000009430                rumpns_puffs_vnop_fdiscard
+                0x0000000000009560                rumpns_puffs_vnop_seek
+                0x00000000000096b0                rumpns_puffs_vnop_readlink
+                0x0000000000009840                rumpns_puffs_vnop_fallocate
+                0x0000000000009a00                rumpns_puffs_vnop_link
+                0x0000000000009c30                rumpns_puffs_vnop_remove
+                0x0000000000009e70                rumpns_puffs_vnop_mknod
+                0x000000000000a100                rumpns_puffs_vnop_create
+                0x000000000000a3e0                rumpns_puffs_vnop_mkdir
+                0x000000000000a670                rumpns_puffs_vnop_getattr
+                0x000000000000a890                rumpns_puffs_vnop_write
+                0x000000000000aef0                rumpns_puffs_vnop_mmap
+                0x000000000000b060                rumpns_puffs_vnop_access
+                0x000000000000b200                rumpns_puffs_vnop_readdir
+                0x000000000000bb00                rumpns_puffs_vnop_getpages
+                0x000000000000bc20                rumpns_puffs_vnop_setattr
+                0x000000000000bdd0                rumpns_puffs_vnop_open
+                0x000000000000c030                rumpns_puffs_vnop_inactive
+                0x000000000000c3b0                rumpns_puffs_vnop_getextattr
+                0x000000000000c640                rumpns_puffs_vnop_listextattr
+                0x000000000000c8c0                rumpns_puffs_vnop_strategy
+                0x000000000000d010                rumpns_puffs_vnop_fsync
+                0x000000000000d310                rumpns_puffs_vnop_lookup
+                0x000000000000db10                rumpns_puffs_vnop_rename
+ *fill*         0x000000000000deda        0x6 90909090
+ .text          0x000000000000dee0      0x674 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                0x000000000000dee0                rumpns_puffs_credcvt
+                0x000000000000dfc0                rumpns_puffs_makecn
+                0x000000000000e070                rumpns_puffs_mp_reference
+                0x000000000000e0e0                rumpns_puffs_mp_release
+                0x000000000000e160                rumpns_puffs_gop_size
+                0x000000000000e180                rumpns_puffs_gop_markupdate
+                0x000000000000e1d0                rumpns_puffs_senderr
+                0x000000000000e280                rumpns_puffs_parkdone_asyncbioread
+                0x000000000000e390                rumpns_puffs_parkdone_asyncbiowrite
+                0x000000000000e490                rumpns_puffs_parkdone_poll
+ *fill*         0x000000000000e554        0xc 90909090
+ .text          0x000000000000e560     0x2516 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                0x000000000000e8a0                rumpns_puffs_msgif_init
+                0x000000000000e920                rumpns_puffs_msgif_destroy
+                0x000000000000e950                rumpns_puffs_msgmem_alloc
+                0x000000000000ebc0                rumpns_puffs_msgmem_release
+                0x000000000000ec10                rumpns_puffs_msg_setfaf
+                0x000000000000ec80                rumpns_puffs_msg_setdelta
+                0x000000000000ed00                rumpns_puffs_msg_setinfo
+                0x000000000000ed30                rumpns_puffs_msg_setcall
+                0x000000000000edb0                rumpns_puffs_msg_enqueue
+                0x000000000000f130                rumpns_puffs_msg_wait
+                0x000000000000f360                rumpns_puffs_msg_wait2
+                0x000000000000f400                rumpns_puffs_msg_sendresp
+                0x000000000000f4c0                rumpns_puffs_msgif_getout
+                0x000000000000f760                rumpns_puffs_msgif_releaseout
+                0x000000000000f8a0                rumpns_puffs_msgif_waitcount
+                0x000000000000f8f0                rumpns_puffs_msgif_dispatch
+                0x000000000000ffe0                rumpns_puffs_sop_thread
+                0x00000000000105f0                rumpns_puffs_userdead
+                0x0000000000010980                rumpns_puffs_msgif_close
+ *fill*         0x0000000000010a76        0xa 90909090
+ .text          0x0000000000010a80      0x95b librumpfs_syspuffs_pic.a(puffs_compat.pico)
+                0x0000000000010b30                rumpns_puffs_compat_outgoing
+                0x0000000000011000                rumpns_puffs_compat_incoming
+ *fill*         0x00000000000113db        0x5 90909090
+ .text          0x00000000000113e0      0x8ae librumpfs_syspuffs_pic.a(puffs_node.pico)
+                0x0000000000011660                rumpns_puffs_getvnode
+                0x00000000000116c0                rumpns_puffs_cookie2vnode
+                0x0000000000011800                rumpns_puffs_updatenode
+                0x00000000000118d0                rumpns_puffs_newnode
+                0x0000000000011aa0                rumpns_puffs_referencenode
+                0x0000000000011b10                rumpns_puffs_releasenode
+                0x0000000000011bd0                rumpns_puffs_putvnode
+ *fill*         0x0000000000011c8e        0x2 90909090
+ .text          0x0000000000011c90       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000011cc8        0x5
+ *(.fini)
+ .fini          0x0000000000011cc8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000011ccd                PROVIDE (__etext, .)
+                0x0000000000011ccd                PROVIDE (_etext, .)
+                0x0000000000011ccd                PROVIDE (etext, .)
+
+.rodata         0x0000000000011cd0     0x1658
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000011cd0       0x17 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+                                         0x1e (size before relaxing)
+ *fill*         0x0000000000011ce7        0x1 00
+ .rodata.str1.4
+                0x0000000000011ce8       0x35 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .rodata.str1.1
+                0x0000000000011d1d       0x76 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ *fill*         0x0000000000011d93        0x1 00
+ .rodata.str1.4
+                0x0000000000011d94       0xc0 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .rodata.str1.1
+                0x0000000000011e54       0xb9 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                                         0xd2 (size before relaxing)
+ *fill*         0x0000000000011f0d        0x3 00
+ .rodata.str1.4
+                0x0000000000011f10      0x2ba librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                                        0x2ee (size before relaxing)
+ .rodata        0x00000000000121ca       0x76 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .rodata.str1.4
+                0x0000000000012240      0x32f librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                                        0x363 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001256f      0x120 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                                        0x14b (size before relaxing)
+ *fill*         0x000000000001268f        0x1 00
+ .rodata        0x0000000000012690      0x2d6 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ *fill*         0x0000000000012966        0x2 00
+ .rodata.str1.4
+                0x0000000000012968       0x9c librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                                         0xd0 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000012a04       0x20 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                                         0x37 (size before relaxing)
+ .rodata        0x0000000000012a24       0x4d librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ *fill*         0x0000000000012a71        0x3 00
+ .rodata.str1.4
+                0x0000000000012a74      0x586 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                                        0x5ba (size before relaxing)
+ .rodata.str1.1
+                0x0000000000012ffa      0x11e librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                                        0x147 (size before relaxing)
+ .rodata        0x0000000000013118       0xc0 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .rodata.str1.4
+                0x00000000000131d8       0x1f librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .rodata.str1.1
+                0x00000000000131f7       0x4b librumpfs_syspuffs_pic.a(puffs_node.pico)
+                                         0x74 (size before relaxing)
+ *fill*         0x0000000000013242        0x2 00
+ .rodata.str1.4
+                0x0000000000013244       0xe4 librumpfs_syspuffs_pic.a(puffs_node.pico)
+                                        0x118 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000013328      0x39c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000013328      0x39c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x00000000000136c4     0x1544
+ *(.eh_frame)
+ .eh_frame      0x00000000000136c4       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000013700       0x24 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000013724       0x78 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+                                         0xa4 (size before relaxing)
+ .eh_frame      0x000000000001379c      0x29c librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x0000000000013a38      0x9d0 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                                        0x9fc (size before relaxing)
+ .eh_frame      0x0000000000014408      0x174 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                                        0x1a0 (size before relaxing)
+ .eh_frame      0x000000000001457c      0x478 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                                        0x4a4 (size before relaxing)
+ .eh_frame      0x00000000000149f4       0x88 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+                                         0xb4 (size before relaxing)
+ .eh_frame      0x0000000000014a7c      0x188 librumpfs_syspuffs_pic.a(puffs_node.pico)
+                                        0x1b4 (size before relaxing)
+ .eh_frame      0x0000000000014c04        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000014c08                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000015000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000015000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000015000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000015004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000015008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000015008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001500c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001500c                __DTOR_END__
+
+.jcr            0x0000000000015010        0x4
+ *(.jcr)
+ .jcr           0x0000000000015010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000015010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000015020      0x5d0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000015020       0x14 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000015034       0x24 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                0x0000000000015034                rumpns_puffs_vnodeopv_descs
+ *fill*         0x0000000000015058        0x8 00
+ .data.rel.ro   0x0000000000015060      0x590 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                0x0000000000015060                rumpns_puffs_msgop_opv_desc
+                0x0000000000015080                rumpns_puffs_msgop_entries
+                0x0000000000015140                rumpns_puffs_fifoop_opv_desc
+                0x0000000000015160                rumpns_puffs_fifoop_entries
+                0x00000000000152d8                rumpns_puffs_specop_opv_desc
+                0x00000000000152e0                rumpns_puffs_specop_entries
+                0x0000000000015460                rumpns_puffs_vnodeop_opv_desc
+                0x0000000000015480                rumpns_puffs_vnodeop_entries
+
+.dynamic        0x00000000000155f0       0xa0
+ *(.dynamic)
+ .dynamic       0x00000000000155f0       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000155f0                _DYNAMIC
+
+.got            0x0000000000015690       0x68
+ *(.got)
+ .got           0x0000000000015690       0x68 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000156f8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000156f8      0x214
+ *(.got.plt)
+ .got.plt       0x00000000000156f8      0x214 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000156f8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000015920       0xa4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000015920        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000015920                __dso_handle
+ .data          0x0000000000015924        0x0 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .data.rel.local
+                0x0000000000015924       0x10 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .data          0x0000000000015934        0x0 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .data          0x0000000000015934        0x0 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ *fill*         0x0000000000015934        0xc 00
+ .data.rel      0x0000000000015940       0x80 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                0x0000000000015940                rumpns_puffs_vfsops
+ .data          0x00000000000159c0        0x0 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .data          0x00000000000159c0        0x0 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .data          0x00000000000159c0        0x4 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                0x00000000000159c0                rumpns_puffs_sopreq_expire_timeout
+ .data          0x00000000000159c4        0x0 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .data          0x00000000000159c4        0x0 librumpfs_syspuffs_pic.a(puffs_node.pico)
+ .data          0x00000000000159c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x00000000000159c4        0x0
+ .tm_clone_table
+                0x00000000000159c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x00000000000159c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x00000000000159c4        0x4
+                0x00000000000159c4                . = ALIGN (0x4)
+                0x00000000000159c4                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x00000000000159c4        0x4 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+                0x00000000000159c8                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_modules
+                0x00000000000159c8        0x4
+                0x00000000000159c8                . = ALIGN (0x4)
+                0x00000000000159c8                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x00000000000159c8        0x4 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                0x00000000000159cc                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x00000000000159cc                _edata = .
+                0x00000000000159cc                PROVIDE (edata, .)
+                0x00000000000159cc                __bss_start = .
+
+.bss            0x00000000000159e0      0x1f8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000159e0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x00000000000159e8        0x0 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .bss           0x00000000000159e8        0x0 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .bss           0x00000000000159e8        0x0 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .bss           0x00000000000159e8        0x0 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .bss           0x00000000000159e8        0x0 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .bss           0x00000000000159e8        0x8 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .bss           0x00000000000159f0        0x0 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .bss           0x00000000000159f0        0x0 librumpfs_syspuffs_pic.a(puffs_node.pico)
+ .bss           0x00000000000159f0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x00000000000159f0       0x10 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                0x00000000000159f0                rumpns_puffs_specop_p
+                0x00000000000159f4                rumpns_puffs_fifoop_p
+                0x00000000000159f8                rumpns_puffs_msgop_p
+                0x00000000000159fc                rumpns_puffs_vnodeop_p
+ COMMON         0x0000000000015a00        0x4 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                0x0000000000015a00                rumpns_puffsdebug
+ *fill*         0x0000000000015a04       0x1c 00
+ COMMON         0x0000000000015a20      0x1b8 librumpfs_syspuffs_pic.a(puffs_node.pico)
+                0x0000000000015a20                rumpns_puffs_vapool
+                0x0000000000015b00                rumpns_puffs_pnpool
+                0x0000000000015bd8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000015bd8                . = ALIGN (0x4)
+                0x0000000000015bd8                . = ALIGN (0x4)
+                0x0000000000015bd8                _end = .
+                0x0000000000015bd8                PROVIDE (end, .)
+                0x0000000000015bd8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_syspuffs_pic.a(puffs_node.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x1f4
+ .ident         0x0000000000000000       0x44 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .ident         0x0000000000000044       0x41 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .ident         0x0000000000000085       0x3f librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .ident         0x00000000000000c4       0x3e librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .ident         0x0000000000000102       0x3c librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .ident         0x000000000000013e       0x3d librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .ident         0x000000000000017b       0x3d librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .ident         0x00000000000001b8       0x3c librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x3855a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x764 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .debug_info    0x0000000000000764     0x5db4 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_info    0x0000000000006518     0x9438 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_info    0x000000000000f950     0xfe19 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_info    0x000000000001f769     0x6977 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_info    0x00000000000260e0     0x970d librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_info    0x000000000002f7ed     0x14d8 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .debug_info    0x0000000000030cc5     0x7895 librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug_abbrev   0x0000000000000000     0x1f08
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x178 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .debug_abbrev  0x0000000000000178      0x32e librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_abbrev  0x00000000000004a6      0x52a librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_abbrev  0x00000000000009d0      0x539 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_abbrev  0x0000000000000f09      0x398 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_abbrev  0x00000000000012a1      0x5aa librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_abbrev  0x000000000000184b      0x2a1 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .debug_abbrev  0x0000000000001aec      0x41c librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug_line     0x0000000000000000     0x560c
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x2b3 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .debug_line    0x00000000000002b3      0x734 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_line    0x00000000000009e7      0xbf1 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_line    0x00000000000015d8     0x1bfe librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_line    0x00000000000031d6      0x807 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_line    0x00000000000039dd      0xe25 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_line    0x0000000000004802      0x4fc librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .debug_line    0x0000000000004cfe      0x90e librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x72ed
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x623 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+                                        0x6c3 (size before relaxing)
+ .debug_str     0x0000000000000623     0x2ebe librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+                                       0x3293 (size before relaxing)
+ .debug_str     0x00000000000034e1     0x1c08 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+                                       0x4cd7 (size before relaxing)
+ .debug_str     0x00000000000050e9     0x19ba librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+                                       0x5eb4 (size before relaxing)
+ .debug_str     0x0000000000006aa3      0x198 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+                                       0x3c98 (size before relaxing)
+ .debug_str     0x0000000000006c3b      0x3e8 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+                                       0x47a0 (size before relaxing)
+ .debug_str     0x0000000000007023      0x1ad librumpfs_syspuffs_pic.a(puffs_compat.pico)
+                                        0xb99 (size before relaxing)
+ .debug_str     0x00000000000071d0      0x11d librumpfs_syspuffs_pic.a(puffs_node.pico)
+                                       0x44c0 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xa9de
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x63 librumpfs_syspuffs_pic.a(syspuffs_component.pico)
+ .debug_loc     0x0000000000000063      0x261 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_loc     0x00000000000002c4     0x1510 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_loc     0x00000000000017d4     0x6ac0 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_loc     0x0000000000008294      0x544 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_loc     0x00000000000087d8     0x1617 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_loc     0x0000000000009def      0x6c9 librumpfs_syspuffs_pic.a(puffs_compat.pico)
+ .debug_loc     0x000000000000a4b8      0x526 librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x7d8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x88 librumpfs_syspuffs_pic.a(puffs_rumpglue.pico)
+ .debug_ranges  0x0000000000000088      0x120 librumpfs_syspuffs_pic.a(puffs_vfsops.pico)
+ .debug_ranges  0x00000000000001a8      0x3e8 librumpfs_syspuffs_pic.a(puffs_vnops.pico)
+ .debug_ranges  0x0000000000000590       0x48 librumpfs_syspuffs_pic.a(puffs_subr.pico)
+ .debug_ranges  0x00000000000005d8      0x1d0 librumpfs_syspuffs_pic.a(puffs_msgif.pico)
+ .debug_ranges  0x00000000000007a8       0x30 librumpfs_syspuffs_pic.a(puffs_node.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_syspuffs.so.0.0 elf32-i386)

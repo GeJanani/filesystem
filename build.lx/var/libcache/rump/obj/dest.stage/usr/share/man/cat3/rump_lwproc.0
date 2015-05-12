@@ -1,0 +1,108 @@
+RUMP_LWPROC(3)             Library Functions Manual             RUMP_LWPROC(3)
+
+NNAAMMEE
+     rruummpp__llwwpprroocc - rump kernel process/lwp management
+
+LLIIBBRRAARRYY
+     rump kernel (librump, -lrump)
+
+SSYYNNOOPPSSIISS
+     ##iinncclluuddee <<rruummpp//rruummpp..hh>>
+
+     _i_n_t
+     rruummpp__ppuubb__llwwpprroocc__rrffoorrkk(_i_n_t _f_l_a_g_s);
+
+     _i_n_t
+     rruummpp__ppuubb__llwwpprroocc__nneewwllwwpp(_p_i_d___t _p_i_d);
+
+     _v_o_i_d
+     rruummpp__ppuubb__llwwpprroocc__sswwiittcchh(_s_t_r_u_c_t _l_w_p _*_l);
+
+     _v_o_i_d
+     rruummpp__ppuubb__llwwpprroocc__rreelleeaasseellwwpp();
+
+     _s_t_r_u_c_t _l_w_p _*
+     rruummpp__ppuubb__llwwpprroocc__ccuurrllwwpp();
+
+DDEESSCCRRIIPPTTIIOONN
+     In a normal operating system model a process is a resource container and
+     a thread (lwp) is the execution context.  Every lwp is associated with
+     exactly one process, and a process is associated with one or more lwps.
+     The current lwp (curlwp) indicates the current process and determines
+     which resources, such as UID/GID, current working directory, and file
+     descriptor table, are currently used.  These basic principles apply to
+     rump kernels as well, but since a rump kernel uses the host's thread and
+     process context directly, the rules for how thread context is determined
+     are different.
+
+     In the rump kernel model, each host thread (implemented for example with
+     pthreads or green threads) is either bound to a rump kernel lwp or
+     accesses the rump kernel with an implicit thread context associated with
+     pid 1.  An implicit thread context is created every time the rump kernel
+     is entered and disbanded upon exit.  While convenient for occasional
+     calls, creating an implicit thread uses a shared resource which can
+     become highly contended in a multithreaded situation.  It is therefore
+     recommended that dedicated threads are created.
+
+     The association between host threads and the rump kernel curlwp is left
+     to the caller.  It is possible to create a dedicated host thread for
+     every rump kernel lwp or multiplex them on top of a single host thread.
+     After rump kernel lwps have been created, switching curlwp is very cheap.
+     In case multiple lwps/processes are created, it is the caller's
+     responsibility to keep track of them and release them when they are no
+     longer necessary.  A rump kernel lwp will persist until it is explicitly
+     released.  A rump kernel process will persist until all of its lwps have
+     been released, at which point the process is automatically released.
+
+     rruummpp__ppuubb__llwwpprroocc__rrffoorrkk()
+           Create a process, one lwp inside it and set curlwp to the new lwp.
+           The _f_l_a_g_s parameter controls how file descriptors are inherited
+           from the parent.  By default (flags=0) file descriptors are shared.
+           Other options are:
+
+           RUMP_RFFDG     Copy file descriptors from parent.  This is what
+                          fork(2) does.
+
+           RUMP_RFCFDG    File descriptors neither copied nor shared, i.e. new
+                          process does not have access to the parent's file
+                          descriptors.
+
+           This routine returns 0 for success or an errno indicating the
+           reason for failure.  The new process id can be retrieved in the
+           normal fashion by calling rruummpp__ssyyss__ggeettppiidd().
+
+     rruummpp__ppuubb__llwwpprroocc__nneewwllwwpp(_p_i_d)
+           Create a new lwp attached to the process specified by _p_i_d.  Sets
+           curlwp to the new lwp.  This routine returns 0 for success or an
+           errno indicating the reason for failure.
+
+     rruummpp__ppuubb__llwwpprroocc__sswwiittcchh(_l)
+           Sets curlwp to _l.  In case the new thread is associated with a
+           different process than the current one, the process context is also
+           switched.  The special value NULL sets curlwp to implicit context.
+           Switching to an already running lwp, i.e. attempting to use the
+           same curlwp in two host threads simultaneously causes a fatal
+           error.
+
+     rruummpp__ppuubb__llwwpprroocc__rreelleeaasseellwwpp()
+           Release curlwp and set curlwp to context.  In case curlwp was the
+           last thread inside the current process, the process container is
+           also released.  Calling this routine without a dedicated curlwp is
+           a fatal error.
+
+     rruummpp__ppuubb__llwwpprroocc__ccuurrllwwpp()
+           Returns curlwp or NULL if the current context is an implicit
+           context.
+
+RREETTUURRNN VVAALLUUEESS
+     rruummpp__ppuubb__llwwpprroocc__rrffoorrkk() and rruummpp__ppuubb__llwwpprroocc__nneewwllwwpp() return 0 on success
+     or an errno indicating the reason for failure.  rruummpp__ppuubb__llwwpprroocc__ccuurrllwwpp()
+     returns curlwp or NULL if the current context is an implicit context.
+
+SSEEEE AALLSSOO
+     getpid(2), rump(3)
+
+HHIISSTTOORRYY
+     rruummpp__llwwpprroocc first appeared in NetBSD 6.0.
+
+NetBSD 7.99                    October 27, 2014                    NetBSD 7.99

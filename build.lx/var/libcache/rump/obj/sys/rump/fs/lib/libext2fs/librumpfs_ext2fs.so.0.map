@@ -1,0 +1,734 @@
+Archive member included because of file (symbol)
+
+librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+                              (--whole-archive)
+librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_ext2fs_vnodeop_p
+                    0x4               librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+rumpns_ext2fs_dinode_pool
+                    0xd8              librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+rumpns_ext2gennumber
+                    0x4               librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+rumpns_ext2fs_fifoop_p
+                    0x4               librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+rumpns_ext2fs_specop_p
+                    0x4               librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+rumpns_ext2fs_inode_pool
+                    0xd8              librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_ext2fs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x918
+ *(.hash)
+ .hash          0x00000000000000b4      0x918 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000009cc     0x13d0
+ *(.dynsym)
+ .dynsym        0x00000000000009cc     0x13d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001d9c     0x19e7
+ *(.dynstr)
+ .dynstr        0x0000000000001d9c     0x19e7 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000003784      0x27a
+ *(.gnu.version)
+ .gnu.version   0x0000000000003784      0x27a /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000003a00        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000003a00       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000003a00       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000003a20      0xa58
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000003a20      0x880 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x00000000000042a0       0x68 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000004308       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000043c0       0xb0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000004470        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000004478      0x4e8
+ *(.rel.plt)
+ .rel.plt       0x0000000000004478      0x4e8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000004960        0xa
+ *(.init)
+ .init          0x0000000000004960        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000004965        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000004970      0x9e0
+ *(.plt)
+ .plt           0x0000000000004970      0x9e0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000005350     0xee88
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000005350      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000548b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000548b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000548f        0x1 90909090
+ .text          0x0000000000005490        0x0 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .text          0x0000000000005490     0x1db8 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                0x0000000000005490                rumpns_ext2fs_open
+                0x00000000000054c0                rumpns_ext2fs_reclaim
+                0x00000000000055a0                rumpns_ext2fs_fsync
+                0x00000000000056b0                rumpns_ext2fs_advlock
+                0x0000000000005710                rumpns_ext2fs_readlink
+                0x00000000000057d0                rumpns_ext2fs_getattr
+                0x0000000000005980                rumpns_ext2fs_access
+                0x0000000000005ac0                rumpns_ext2fs_setattr
+                0x00000000000060e0                rumpns_ext2fs_remove
+                0x0000000000006230                rumpns_ext2fs_link
+                0x00000000000064e0                rumpns_ext2fs_rmdir
+                0x0000000000006710                rumpns_ext2fs_mkdir
+                0x0000000000006b40                rumpns_ext2fs_vinit
+                0x0000000000006c10                rumpns_ext2fs_makeinode
+                0x0000000000006e80                rumpns_ext2fs_symlink
+                0x0000000000007060                rumpns_ext2fs_mknod
+                0x0000000000007190                rumpns_ext2fs_create
+ *fill*         0x0000000000007248        0x8 90909090
+ .text          0x0000000000007250     0x26dc librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                0x0000000000007250                rumpns_ext2fs_statvfs
+                0x0000000000007450                rumpns_ext2fs_done
+                0x0000000000007490                rumpns_ext2fs_reinit
+                0x00000000000074b0                rumpns_ext2fs_init
+                0x0000000000007670                rumpns_ext2fs_vptofh
+                0x00000000000076e0                rumpns_ext2fs_fhtovp
+                0x00000000000079c0                rumpns_ext2fs_set_inode_guid
+                0x0000000000007a20                rumpns_ext2fs_loadvnode
+                0x0000000000007fc0                rumpns_ext2fs_reload
+                0x0000000000008610                rumpns_ext2fs_mountfs
+                0x0000000000008b40                rumpns_ext2fs_mountroot
+                0x0000000000008dc0                rumpns_ext2fs_flushfiles
+                0x0000000000008e10                rumpns_ext2fs_sbupdate
+                0x0000000000008f10                rumpns_ext2fs_cgupdate
+                0x0000000000009030                rumpns_ext2fs_sync
+                0x0000000000009250                rumpns_ext2fs_unmount
+                0x00000000000093b0                rumpns_ext2fs_mount
+ *fill*         0x000000000000992c        0x4 90909090
+ .text          0x0000000000009930     0x3f5a librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                0x000000000000d860                rumpns_ext2fs_rename
+ *fill*         0x000000000000d88a        0x6 90909090
+ .text          0x000000000000d890      0xde5 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                0x000000000000d890                rumpns_ext2fs_read
+                0x000000000000dd50                rumpns_ext2fs_write
+ *fill*         0x000000000000e675        0xb 90909090
+ .text          0x000000000000e680     0x176b librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                0x000000000000e680                rumpns_ext2fs_readdir
+                0x000000000000eb00                rumpns_ext2fs_lookup
+                0x000000000000f6c0                rumpns_ext2fs_direnter
+                0x000000000000fb10                rumpns_ext2fs_dirremove
+                0x000000000000fc00                rumpns_ext2fs_dirrewrite
+                0x000000000000fce0                rumpns_ext2fs_dirempty
+ *fill*         0x000000000000fdeb        0x5 90909090
+ .text          0x000000000000fdf0      0x69c librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+                0x000000000000fdf0                rumpns_ext2fs_bmap
+ *fill*         0x000000000001048c        0x4 90909090
+ .text          0x0000000000010490      0xd55 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+                0x0000000000010490                rumpns_ext2fs_balloc
+                0x0000000000011050                rumpns_ext2fs_gop_alloc
+ *fill*         0x00000000000111e5        0xb 90909090
+ .text          0x00000000000111f0     0x1928 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                0x0000000000011840                rumpns_ext2fs_size
+                0x0000000000011870                rumpns_ext2fs_setsize
+                0x0000000000011920                rumpns_ext2fs_nblock
+                0x0000000000011970                rumpns_ext2fs_setnblock
+                0x0000000000011ab0                rumpns_ext2fs_update
+                0x0000000000011da0                rumpns_ext2fs_truncate
+                0x00000000000129c0                rumpns_ext2fs_inactive
+ *fill*         0x0000000000012b18        0x8 90909090
+ .text          0x0000000000012b20      0x1d3 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+                0x0000000000012b20                rumpns_ext2fs_blkatoff
+                0x0000000000012c00                rumpns_ext2fs_itimes
+ *fill*         0x0000000000012cf3        0xd 90909090
+ .text          0x0000000000012d00     0x1491 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                0x0000000000013700                rumpns_ext2fs_alloc
+                0x0000000000013930                rumpns_ext2fs_blkpref
+                0x0000000000013a20                rumpns_ext2fs_blkfree
+                0x0000000000013c90                rumpns_ext2fs_vfree
+                0x0000000000013ea0                rumpns_ext2fs_valloc
+ *fill*         0x0000000000014191        0xf 90909090
+ .text          0x00000000000141a0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000141d8        0x5
+ *(.fini)
+ .fini          0x00000000000141d8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000141dd                PROVIDE (__etext, .)
+                0x00000000000141dd                PROVIDE (_etext, .)
+                0x00000000000141dd                PROVIDE (etext, .)
+
+.rodata         0x00000000000141e0     0x14dc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000000000141e0       0xd4 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .rodata.str1.1
+                0x00000000000142b4       0x5b librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .rodata.str1.1
+                0x000000000001430f       0x9a librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                                         0xa6 (size before relaxing)
+ *fill*         0x00000000000143a9        0x3 00
+ .rodata.str1.4
+                0x00000000000143ac      0x2df librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                                        0x313 (size before relaxing)
+ *fill*         0x000000000001468b        0x1 00
+ .rodata.str1.4
+                0x000000000001468c      0x4cd librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                                        0x501 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014b59      0x2fa librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                                        0x3a9 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014e53       0x7d librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                                         0x89 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000014ed0       0xa2 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                                         0xd8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014f72       0xdc librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                                         0xf3 (size before relaxing)
+ *fill*         0x000000000001504e        0x2 00
+ .rodata.str1.4
+                0x0000000000015050      0x14c librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                                        0x180 (size before relaxing)
+ .rodata        0x000000000001519c        0xc librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .rodata.str1.1
+                0x00000000000151a8       0x30 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .rodata.str1.4
+                0x00000000000151d8       0x2d librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ *fill*         0x0000000000015205        0x3 00
+ .rodata.str1.4
+                0x0000000000015208       0x5e librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ *fill*         0x0000000000015266        0x2 00
+ .rodata.str1.4
+                0x0000000000015268      0x148 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                                        0x17c (size before relaxing)
+ .rodata.str1.1
+                0x00000000000153b0       0x33 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                                         0x3f (size before relaxing)
+ *fill*         0x00000000000153e3        0x1 00
+ .rodata.str1.4
+                0x00000000000153e4      0x1fc librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .rodata.str1.1
+                0x00000000000155e0       0xdc librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                                         0xe5 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000156bc      0x294
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000156bc      0x294 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000015950     0x1058
+ *(.eh_frame)
+ .eh_frame      0x0000000000015950       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000001598c      0x2d0 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                                        0x2fc (size before relaxing)
+ .eh_frame      0x0000000000015c5c      0x388 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                                        0x3b4 (size before relaxing)
+ .eh_frame      0x0000000000015fe4      0x2f8 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                                        0x324 (size before relaxing)
+ .eh_frame      0x00000000000162dc       0x6c librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000016348      0x18c librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x00000000000164d4       0x74 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000016548       0x98 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+                                         0xc4 (size before relaxing)
+ .eh_frame      0x00000000000165e0      0x1a4 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                                        0x1d0 (size before relaxing)
+ .eh_frame      0x0000000000016784       0x54 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x00000000000167d8      0x1cc librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x00000000000169a4        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000169a8                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000017000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000017000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000017000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000017004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000017008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000017008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001700c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001700c                __DTOR_END__
+
+.jcr            0x0000000000017010        0x4
+ *(.jcr)
+ .jcr           0x0000000000017010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000017010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000017020      0x4fc
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000017020       0x14 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ *fill*         0x0000000000017034        0xc 00
+ .data.rel.ro.local
+                0x0000000000017040       0x28 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x0000000000017068       0x18 00
+ .data.rel.ro   0x0000000000017080      0x460 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                0x0000000000017080                rumpns_ext2fs_fifoop_opv_desc
+                0x00000000000170a0                rumpns_ext2fs_fifoop_entries
+                0x00000000000171f8                rumpns_ext2fs_specop_opv_desc
+                0x0000000000017200                rumpns_ext2fs_specop_entries
+                0x0000000000017360                rumpns_ext2fs_vnodeop_opv_desc
+                0x0000000000017380                rumpns_ext2fs_vnodeop_entries
+ .data.rel.ro   0x00000000000174e0       0x3c librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                0x00000000000174e0                rumpns_ext2fs_vnodeopv_descs
+
+.dynamic        0x000000000001751c       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000001751c       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001751c                _DYNAMIC
+
+.got            0x00000000000175d4       0x58
+ *(.got)
+ .got           0x00000000000175d4       0x58 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000001762c                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000001762c      0x280
+ *(.got.plt)
+ .got.plt       0x000000000001762c      0x280 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001762c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000178c0       0x8c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000178c0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000178c0                __dso_handle
+ .data          0x00000000000178c4        0x0 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .data          0x00000000000178c4        0x0 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .data          0x00000000000178c4        0x0 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ *fill*         0x00000000000178c4       0x1c 00
+ .data.rel      0x00000000000178e0       0x6c librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                0x00000000000178e0                rumpns_ext2fs_vfsops
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .data          0x000000000001794c        0x0 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .data          0x000000000001794c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000001794c        0x0
+ .tm_clone_table
+                0x000000000001794c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000001794c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000001794c        0x4
+                0x000000000001794c                . = ALIGN (0x4)
+                0x000000000001794c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000001794c        0x4 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                0x0000000000017950                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x0000000000017950                _edata = .
+                0x0000000000017950                PROVIDE (edata, .)
+                0x0000000000017950                __bss_start = .
+
+.bss            0x0000000000017960      0x1dc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000017960        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000017968        0x0 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .bss           0x0000000000017968        0x0 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .bss           0x0000000000017968        0x4 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .bss           0x000000000001796c        0x0 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .bss           0x000000000001796c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000001796c        0xc librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                0x000000000001796c                rumpns_ext2fs_vnodeop_p
+                0x0000000000017970                rumpns_ext2fs_fifoop_p
+                0x0000000000017974                rumpns_ext2fs_specop_p
+ *fill*         0x0000000000017978        0x8 00
+ COMMON         0x0000000000017980      0x1b8 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                0x0000000000017980                rumpns_ext2fs_dinode_pool
+                0x0000000000017a60                rumpns_ext2fs_inode_pool
+ COMMON         0x0000000000017b38        0x4 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                0x0000000000017b38                rumpns_ext2gennumber
+                0x0000000000017b3c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000017b3c                . = ALIGN (0x4)
+                0x0000000000017b3c                . = ALIGN (0x4)
+                0x0000000000017b3c                _end = .
+                0x0000000000017b3c                PROVIDE (end, .)
+                0x0000000000017b3c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x2cd
+ .ident         0x0000000000000000       0x42 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .ident         0x0000000000000042       0x3f librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .ident         0x0000000000000081       0x40 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .ident         0x00000000000000c1       0x41 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .ident         0x0000000000000102       0x42 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .ident         0x0000000000000144       0x40 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .ident         0x0000000000000184       0x41 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .ident         0x00000000000001c5       0x43 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .ident         0x0000000000000208       0x42 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .ident         0x000000000000024a       0x41 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .ident         0x000000000000028b       0x42 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x158
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x18 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .debug_aranges
+                0x0000000000000018       0x20 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_aranges
+                0x0000000000000038       0x20 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_aranges
+                0x0000000000000058       0x20 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_aranges
+                0x0000000000000078       0x20 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_aranges
+                0x0000000000000098       0x20 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_aranges
+                0x00000000000000b8       0x20 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_aranges
+                0x00000000000000d8       0x20 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_aranges
+                0x00000000000000f8       0x20 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_aranges
+                0x0000000000000118       0x20 librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .debug_aranges
+                0x0000000000000138       0x20 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x4e2f0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x72 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .debug_info    0x0000000000000072     0x969d librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_info    0x000000000000970f     0xa0b4 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_info    0x00000000000137c3     0xa5a1 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_info    0x000000000001dd64     0x6e83 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_info    0x0000000000024be7     0x7afd librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_info    0x000000000002c6e4     0x6788 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_info    0x0000000000032e6c     0x72b8 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_info    0x000000000003a124     0x7124 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_info    0x0000000000041248     0x5e6d librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .debug_info    0x00000000000470b5     0x723b librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug_abbrev   0x0000000000000000     0x295c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x26 librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .debug_abbrev  0x0000000000000026      0x55e librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_abbrev  0x0000000000000584      0x55c librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_abbrev  0x0000000000000ae0      0x41c librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_abbrev  0x0000000000000efc      0x322 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_abbrev  0x000000000000121e      0x4b2 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_abbrev  0x00000000000016d0      0x32b librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_abbrev  0x00000000000019fb      0x3b5 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_abbrev  0x0000000000001db0      0x439 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_abbrev  0x00000000000021e9      0x28d librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .debug_abbrev  0x0000000000002476      0x4e6 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug_line     0x0000000000000000     0x6d9e
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x1d librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+ .debug_line    0x000000000000001d      0xd1d librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_line    0x0000000000000d3a      0xef9 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_line    0x0000000000001c33      0xf9e librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_line    0x0000000000002bd1      0x97f librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_line    0x0000000000003550      0xbd8 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_line    0x0000000000004128      0x813 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_line    0x000000000000493b      0x971 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_line    0x00000000000052ac      0xa8c librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_line    0x0000000000005d38      0x66c librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .debug_line    0x00000000000063a4      0x9fa librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x6f71
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x14b librumpfs_ext2fs_pic.a(ext2fs_bswap.pico)
+                                        0x184 (size before relaxing)
+ .debug_str     0x000000000000014b     0x4475 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+                                       0x496a (size before relaxing)
+ .debug_str     0x00000000000045c0     0x1538 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+                                       0x543e (size before relaxing)
+ .debug_str     0x0000000000005af8      0x493 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+                                       0x3fb9 (size before relaxing)
+ .debug_str     0x0000000000005f8b      0x18b librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+                                       0x3abd (size before relaxing)
+ .debug_str     0x0000000000006116      0x303 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+                                       0x3ef0 (size before relaxing)
+ .debug_str     0x0000000000006419      0x13c librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+                                       0x39e3 (size before relaxing)
+ .debug_str     0x0000000000006555      0x6a1 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+                                       0x3cf1 (size before relaxing)
+ .debug_str     0x0000000000006bf6      0x17e librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+                                       0x3adf (size before relaxing)
+ .debug_str     0x0000000000006d74       0xab librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+                                       0x360a (size before relaxing)
+ .debug_str     0x0000000000006e1f      0x152 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+                                       0x40f5 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xa29f
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x16b4 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_loc     0x00000000000016b4     0x1aff librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_loc     0x00000000000031b3      0xfb7 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_loc     0x000000000000416a      0xe1d librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_loc     0x0000000000004f87     0x18ae librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_loc     0x0000000000006835      0x6f0 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_loc     0x0000000000006f25      0xe15 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_loc     0x0000000000007d3a     0x1179 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_loc     0x0000000000008eb3      0x10f librumpfs_ext2fs_pic.a(ext2fs_subr.pico)
+ .debug_loc     0x0000000000008fc2     0x12dd librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x560
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x98 librumpfs_ext2fs_pic.a(ext2fs_vnops.pico)
+ .debug_ranges  0x0000000000000098       0xc0 librumpfs_ext2fs_pic.a(ext2fs_vfsops.pico)
+ .debug_ranges  0x0000000000000158      0x130 librumpfs_ext2fs_pic.a(ext2fs_rename.pico)
+ .debug_ranges  0x0000000000000288       0x40 librumpfs_ext2fs_pic.a(ext2fs_readwrite.pico)
+ .debug_ranges  0x00000000000002c8       0xb0 librumpfs_ext2fs_pic.a(ext2fs_lookup.pico)
+ .debug_ranges  0x0000000000000378       0x80 librumpfs_ext2fs_pic.a(ext2fs_bmap.pico)
+ .debug_ranges  0x00000000000003f8       0x20 librumpfs_ext2fs_pic.a(ext2fs_balloc.pico)
+ .debug_ranges  0x0000000000000418       0x70 librumpfs_ext2fs_pic.a(ext2fs_inode.pico)
+ .debug_ranges  0x0000000000000488       0xd8 librumpfs_ext2fs_pic.a(ext2fs_alloc.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_ext2fs.so.0.0 elf32-i386)

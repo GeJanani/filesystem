@@ -1,0 +1,457 @@
+Archive member included because of file (symbol)
+
+librumpkern_sljit_pic.a(sljit_mod.pico)
+                              (--whole-archive)
+librumpkern_sljit_pic.a(sljitLir.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_sljit_global_mutex
+                    0x4               librumpkern_sljit_pic.a(sljit_mod.pico)
+rumpns_sljit_allocator_mutex
+                    0x4               librumpkern_sljit_pic.a(sljit_mod.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sljit_pic.a(sljitLir.pico)
+ .group         0x0000000000000000        0x8 librumpkern_sljit_pic.a(sljitLir.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_sljit_pic.a(sljitLir.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpkern_sljit_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x190
+ *(.hash)
+ .hash          0x00000000000000b4      0x190 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000244      0x3d0
+ *(.dynsym)
+ .dynsym        0x0000000000000244      0x3d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000614      0x5a4
+ *(.dynstr)
+ .dynstr        0x0000000000000614      0x5a4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000bb8        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000bb8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000bb8        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000bb8       0x50
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000000bb8       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000bc8       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000000c00        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000c08       0x88
+ *(.rel.plt)
+ .rel.plt       0x0000000000000c08       0x88 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000c90        0xa
+ *(.init)
+ .init          0x0000000000000c90        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000c95        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000ca0      0x120
+ *(.plt)
+ .plt           0x0000000000000ca0      0x120 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000000dc0     0xb3c8
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x0000000000000dc0       0x8c librumpkern_sljit_pic.a(sljitLir.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000000e4c        0x4 90909090
+ .text          0x0000000000000e50      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000f8b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000000f8b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000f8f        0x1 90909090
+ .text          0x0000000000000f90       0x75 librumpkern_sljit_pic.a(sljit_mod.pico)
+ *fill*         0x0000000000001005        0xb 90909090
+ .text          0x0000000000001010     0xb12f librumpkern_sljit_pic.a(sljitLir.pico)
+                0x00000000000035c0                rumpns_sljit_grab_lock
+                0x00000000000035f0                rumpns_sljit_release_lock
+                0x0000000000003620                rumpns_sljit_allocate_stack
+                0x0000000000003700                rumpns_sljit_free_stack
+                0x0000000000003760                rumpns_sljit_stack_resize
+                0x00000000000037a0                rumpns_sljit_malloc_exec
+                0x0000000000003980                rumpns_sljit_free_exec
+                0x0000000000003aa0                rumpns_sljit_free_unused_memory_exec
+                0x0000000000003c00                rumpns_sljit_create_compiler
+                0x0000000000003db0                rumpns_sljit_free_compiler
+                0x0000000000003e10                rumpns_sljit_free_code
+                0x0000000000003e30                rumpns_sljit_set_label
+                0x0000000000003e60                rumpns_sljit_set_target
+                0x0000000000003e80                rumpns_sljit_alloc_memory
+                0x0000000000003eb0                rumpns_sljit_get_platform_name
+                0x0000000000003ed0                rumpns_sljit_generate_code
+                0x0000000000004490                rumpns_sljit_emit_enter
+                0x00000000000047d0                rumpns_sljit_set_context
+                0x0000000000004a10                rumpns_sljit_emit_fast_enter
+                0x0000000000004dc0                rumpns_sljit_emit_fast_return
+                0x00000000000051c0                rumpns_sljit_emit_op0
+                0x0000000000005450                rumpns_sljit_emit_op1
+                0x0000000000006800                rumpns_sljit_emit_return
+                0x0000000000006cf0                rumpns_sljit_emit_op2
+                0x0000000000008400                rumpns_sljit_get_register_index
+                0x0000000000008490                rumpns_sljit_get_float_register_index
+                0x00000000000084f0                rumpns_sljit_emit_op_custom
+                0x00000000000085f0                rumpns_sljit_is_fpu_available
+                0x0000000000008600                rumpns_sljit_emit_fop1
+                0x0000000000009060                rumpns_sljit_emit_fop2
+                0x0000000000009c00                rumpns_sljit_emit_label
+                0x0000000000009c90                rumpns_sljit_emit_jump
+                0x0000000000009ee0                rumpns_sljit_emit_ijump
+                0x000000000000a450                rumpns_sljit_emit_op_flags
+                0x000000000000adc0                rumpns_sljit_get_local_base
+                0x000000000000b160                rumpns_sljit_emit_const
+                0x000000000000b510                rumpns_sljit_set_jump_addr
+                0x000000000000b520                rumpns_sljit_set_const
+                0x000000000000b530                rumpns_sljit_emit_cmp
+                0x000000000000bbd0                rumpns_sljit_emit_fcmp
+ .text.__x86.get_pc_thunk.cx
+                0x000000000000c13f        0x4 librumpkern_sljit_pic.a(sljitLir.pico)
+                0x000000000000c13f                __x86.get_pc_thunk.cx
+ *fill*         0x000000000000c143        0xd 90909090
+ .text          0x000000000000c150       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000000c188        0x5
+ *(.fini)
+ .fini          0x000000000000c188        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000c18d                PROVIDE (__etext, .)
+                0x000000000000c18d                PROVIDE (_etext, .)
+                0x000000000000c18d                PROVIDE (etext, .)
+
+.rodata         0x000000000000c190     0x1d5b
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000c190        0x6 librumpkern_sljit_pic.a(sljit_mod.pico)
+ *fill*         0x000000000000c196        0x2 00
+ .rodata.str1.4
+                0x000000000000c198     0x16e4 librumpkern_sljit_pic.a(sljitLir.pico)
+                                       0x16e3 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000d87c      0x3ae librumpkern_sljit_pic.a(sljitLir.pico)
+                                        0x3c7 (size before relaxing)
+ *fill*         0x000000000000dc2a        0x2 00
+ .rodata        0x000000000000dc2c      0x2bf librumpkern_sljit_pic.a(sljitLir.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000deec      0x204
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000deec      0x204 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000e0f0      0xd6c
+ *(.eh_frame)
+ .eh_frame      0x000000000000e0f0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000e12c       0x2c librumpkern_sljit_pic.a(sljit_mod.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000000e158      0xd00 librumpkern_sljit_pic.a(sljitLir.pico)
+                                        0xd2c (size before relaxing)
+ .eh_frame      0x000000000000ee58        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000ee5c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000f000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000f000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000f000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000f004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000f008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000f008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000f00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000f00c                __DTOR_END__
+
+.jcr            0x000000000000f010        0x4
+ *(.jcr)
+ .jcr           0x000000000000f010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000f010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000f014       0x14
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000f014       0x14 librumpkern_sljit_pic.a(sljit_mod.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000000f028       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000f028       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000f028                _DYNAMIC
+
+.got            0x000000000000f0c8       0x1c
+ *(.got)
+ .got           0x000000000000f0c8       0x1c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000f0e4                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000f0e4       0x50
+ *(.got.plt)
+ .got.plt       0x000000000000f0e4       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000f0e4                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000f134        0xc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000f134        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000f134                __dso_handle
+ .data          0x000000000000f138        0x0 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .data          0x000000000000f138        0x8 librumpkern_sljit_pic.a(sljitLir.pico)
+ .data          0x000000000000f140        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000f140        0x0
+ .tm_clone_table
+                0x000000000000f140        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000f140        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000f140        0x4
+                0x000000000000f140                . = ALIGN (0x4)
+                0x000000000000f140                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000f140        0x4 librumpkern_sljit_pic.a(sljit_mod.pico)
+                0x000000000000f144                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000f144                _edata = .
+                0x000000000000f144                PROVIDE (edata, .)
+                0x000000000000f144                __bss_start = .
+
+.bss            0x000000000000f160       0x98
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000f160        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000f168        0x0 librumpkern_sljit_pic.a(sljit_mod.pico)
+ *fill*         0x000000000000f168       0x18 00
+ .bss           0x000000000000f180       0x70 librumpkern_sljit_pic.a(sljitLir.pico)
+ .bss           0x000000000000f1f0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000f1f0        0x8 librumpkern_sljit_pic.a(sljit_mod.pico)
+                0x000000000000f1f0                rumpns_sljit_global_mutex
+                0x000000000000f1f4                rumpns_sljit_allocator_mutex
+                0x000000000000f1f8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000f1f8                . = ALIGN (0x4)
+                0x000000000000f1f8                . = ALIGN (0x4)
+                0x000000000000f1f8                _end = .
+                0x000000000000f1f8                PROVIDE (end, .)
+                0x000000000000f1f8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_sljit_pic.a(sljitLir.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x3b
+ .ident         0x0000000000000000       0x3b librumpkern_sljit_pic.a(sljit_mod.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_aranges
+                0x0000000000000020       0x40 librumpkern_sljit_pic.a(sljitLir.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xdc8b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x326 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_info    0x0000000000000326     0xd965 librumpkern_sljit_pic.a(sljitLir.pico)
+
+.debug_abbrev   0x0000000000000000      0x77f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x178 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_abbrev  0x0000000000000178      0x607 librumpkern_sljit_pic.a(sljitLir.pico)
+
+.debug_line     0x0000000000000000     0x2413
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x1bc librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_line    0x00000000000001bc     0x2257 librumpkern_sljit_pic.a(sljitLir.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x346a
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x351 librumpkern_sljit_pic.a(sljit_mod.pico)
+                                        0x3a7 (size before relaxing)
+ .debug_str     0x0000000000000351     0x3119 librumpkern_sljit_pic.a(sljitLir.pico)
+                                       0x36e4 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x8eb4
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x68 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_loc     0x0000000000000068     0x8e4c librumpkern_sljit_pic.a(sljitLir.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xb98
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpkern_sljit_pic.a(sljit_mod.pico)
+ .debug_ranges  0x0000000000000030      0xb68 librumpkern_sljit_pic.a(sljitLir.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpkern_sljit.so.0.0 elf32-i386)

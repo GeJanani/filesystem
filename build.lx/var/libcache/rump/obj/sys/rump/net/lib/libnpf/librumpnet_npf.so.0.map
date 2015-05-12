@@ -1,0 +1,1356 @@
+Archive member included because of file (symbol)
+
+librumpnet_npf_pic.a(npf_component.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_ext_normalize.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_ext_log.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_alg_icmp.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(if_npflog.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_sendpkt.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_tableset.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_state_tcp.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_rproc.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_conn.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_state.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_ruleset.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_nat.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_mbuf.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_if.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_handler.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_inet.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_worker.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_ctl.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_alg.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_bpf.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_conf.pico)
+                              (--whole-archive)
+librumpnet_npf_pic.a(npf_conndb.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_component.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(if_npflog.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(if_npflog.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_tableset.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_tableset.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_rproc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_rproc.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_conn.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_conn.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_state.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_state.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_nat.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_nat.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_if.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_if.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_handler.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_handler.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_handler.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_inet.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_inet.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_worker.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_worker.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_ctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_ctl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_alg.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_alg.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_bpf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_bpf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_conf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_conf.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_conf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_conf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_npf_pic.a(npf_conndb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf_conndb.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpnet_npf_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x9e0
+ *(.hash)
+ .hash          0x00000000000000b4      0x9e0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000a94     0x16f0
+ *(.dynsym)
+ .dynsym        0x0000000000000a94     0x16f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000002184     0x2101
+ *(.dynstr)
+ .dynstr        0x0000000000002184     0x2101 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000004286        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000004288        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000004288        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000004288      0x240
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.text.unlikely
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000004288      0x120 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x00000000000043a8       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000043f8       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000004418       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000004490        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000004498       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000044c8      0xa90
+ *(.rel.plt)
+ .rel.plt       0x00000000000044c8      0xa90 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000004f58        0xa
+ *(.init)
+ .init          0x0000000000004f58        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000004f5d        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000004f70     0x1530
+ *(.plt)
+ .plt           0x0000000000004f70     0x1530 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x00000000000064a0    0x10688
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x00000000000064a0      0x82a librumpnet_npf_pic.a(npf_ctl.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000006cca        0x6 90909090
+ .text          0x0000000000006cd0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000006e0b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006e0b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000006e0f        0x1 90909090
+ .text          0x0000000000006e10       0xc3 librumpnet_npf_pic.a(npf_component.pico)
+ *fill*         0x0000000000006ed3        0xd 90909090
+ .text          0x0000000000006ee0      0x1dc librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ *fill*         0x00000000000070bc        0x4 90909090
+ .text          0x00000000000070c0      0x44b librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ *fill*         0x000000000000750b        0x5 90909090
+ .text          0x0000000000007510      0x2a3 librumpnet_npf_pic.a(npf_ext_log.pico)
+ *fill*         0x00000000000077b3        0xd 90909090
+ .text          0x00000000000077c0      0xbfb librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ *fill*         0x00000000000083bb        0x5 90909090
+ .text          0x00000000000083c0      0x29f librumpnet_npf_pic.a(if_npflog.pico)
+ *fill*         0x000000000000865f        0x1 90909090
+ .text          0x0000000000008660      0x8bd librumpnet_npf_pic.a(npf_sendpkt.pico)
+                0x0000000000008660                rumpns_npf_return_block
+ *fill*         0x0000000000008f1d        0x3 90909090
+ .text          0x0000000000008f20     0x13c2 librumpnet_npf_pic.a(npf_tableset.pico)
+                0x0000000000009210                rumpns_npf_tableset_sysinit
+                0x0000000000009290                rumpns_npf_tableset_sysfini
+                0x00000000000092c0                rumpns_npf_tableset_create
+                0x0000000000009310                rumpns_npf_tableset_insert
+                0x00000000000093b0                rumpns_npf_tableset_getbyname
+                0x0000000000009410                rumpns_npf_tableset_getbyid
+                0x0000000000009430                rumpns_npf_tableset_export
+                0x0000000000009540                rumpns_npf_table_create
+                0x0000000000009720                rumpns_npf_table_destroy
+                0x0000000000009840                rumpns_npf_tableset_reload
+                0x0000000000009930                rumpns_npf_tableset_destroy
+                0x00000000000099b0                rumpns_npf_table_check
+                0x0000000000009a50                rumpns_npf_table_insert
+                0x0000000000009c90                rumpns_npf_table_remove
+                0x0000000000009e70                rumpns_npf_table_lookup
+                0x000000000000a010                rumpns_npf_table_list
+                0x000000000000a210                rumpns_npf_table_flush
+ *fill*         0x000000000000a2e2        0xe 90909090
+ .text          0x000000000000a2f0      0x551 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ *fill*         0x000000000000a841        0xf 90909090
+ .text          0x000000000000a850      0x51a librumpnet_npf_pic.a(npf_state_tcp.pico)
+                0x000000000000a850                rumpns_npf_state_tcp
+                0x000000000000ad00                rumpns_npf_state_tcp_timeout
+ *fill*         0x000000000000ad6a        0x6 90909090
+ .text          0x000000000000ad70      0xa3b librumpnet_npf_pic.a(npf_rproc.pico)
+                0x000000000000ae80                rumpns_npf_ext_sysinit
+                0x000000000000aec0                rumpns_npf_ext_sysfini
+                0x000000000000af30                rumpns_npf_ext_register
+                0x000000000000b000                rumpns_npf_ext_unregister
+                0x000000000000b100                rumpns_npf_ext_construct
+                0x000000000000b220                rumpns_npf_rprocset_create
+                0x000000000000b250                rumpns_npf_rprocset_lookup
+                0x000000000000b2c0                rumpns_npf_rprocset_insert
+                0x000000000000b2f0                rumpns_npf_rprocset_export
+                0x000000000000b380                rumpns_npf_rproc_create
+                0x000000000000b430                rumpns_npf_rproc_acquire
+                0x000000000000b460                rumpns_npf_rproc_release
+                0x000000000000b530                rumpns_npf_rprocset_destroy
+                0x000000000000b5a0                rumpns_npf_rproc_assign
+                0x000000000000b620                rumpns_npf_rproc_run
+ *fill*         0x000000000000b7ab        0x5 90909090
+ .text          0x000000000000b7b0     0x1b76 librumpnet_npf_pic.a(npf_conn.pico)
+                0x000000000000b830                rumpns_npf_conn_sysinit
+                0x000000000000b8f0                rumpns_npf_conn_sysfini
+                0x000000000000b980                rumpns_npf_conn_tracking
+                0x000000000000ba00                rumpns_npf_conn_conkey
+                0x000000000000bcc0                rumpns_npf_conn_lookup
+                0x000000000000be00                rumpns_npf_conn_establish
+                0x000000000000c130                rumpns_npf_conn_setnat
+                0x000000000000c440                rumpns_npf_conn_expire
+                0x000000000000c470                rumpns_npf_conn_pass
+                0x000000000000c500                rumpns_npf_conn_setpass
+                0x000000000000c600                rumpns_npf_conn_release
+                0x000000000000c690                rumpns_npf_conn_inspect
+                0x000000000000c8d0                rumpns_npf_conn_getnat
+                0x000000000000c950                rumpns_npf_conn_gc
+                0x000000000000cc30                rumpns_npf_conn_load
+                0x000000000000cdc0                rumpns_npf_conn_export
+                0x000000000000cef0                rumpns_npf_conndb_export
+                0x000000000000cfa0                rumpns_npf_conn_import
+ *fill*         0x000000000000d326        0xa 90909090
+ .text          0x000000000000d330      0x332 librumpnet_npf_pic.a(npf_state.pico)
+                0x000000000000d330                rumpns_npf_state_init
+                0x000000000000d530                rumpns_npf_state_destroy
+                0x000000000000d540                rumpns_npf_state_inspect
+                0x000000000000d5d0                rumpns_npf_state_etime
+                0x000000000000d660                rumpns_npf_state_dump
+ *fill*         0x000000000000d662        0xe 90909090
+ .text          0x000000000000d670     0x19da librumpnet_npf_pic.a(npf_ruleset.pico)
+                0x000000000000d990                rumpns_npf_ruleset_create
+                0x000000000000d9f0                rumpns_npf_ruleset_insert
+                0x000000000000db30                rumpns_npf_ruleset_add
+                0x000000000000dc90                rumpns_npf_ruleset_remove
+                0x000000000000dd90                rumpns_npf_ruleset_remkey
+                0x000000000000def0                rumpns_npf_ruleset_list
+                0x000000000000e0b0                rumpns_npf_ruleset_flush
+                0x000000000000e180                rumpns_npf_ruleset_export
+                0x000000000000e280                rumpns_npf_ruleset_sharepm
+                0x000000000000e2f0                rumpns_npf_ruleset_reload
+                0x000000000000e510                rumpns_npf_ruleset_findnat
+                0x000000000000e570                rumpns_npf_ruleset_freealg
+                0x000000000000e5c0                rumpns_npf_rule_alloc
+                0x000000000000e770                rumpns_npf_rule_setcode
+                0x000000000000e810                rumpns_npf_rule_setrproc
+                0x000000000000e850                rumpns_npf_rule_free
+                0x000000000000e900                rumpns_npf_ruleset_gc
+                0x000000000000e960                rumpns_npf_ruleset_destroy
+                0x000000000000ea30                rumpns_npf_rule_getid
+                0x000000000000eaa0                rumpns_npf_rule_getrproc
+                0x000000000000eae0                rumpns_npf_rule_getnat
+                0x000000000000eaf0                rumpns_npf_rule_setnat
+                0x000000000000eb60                rumpns_npf_ruleset_inspect
+                0x000000000000f030                rumpns_npf_rule_conclude
+ *fill*         0x000000000000f04a        0x6 90909090
+ .text          0x000000000000f050     0x1a8d librumpnet_npf_pic.a(npf_nat.pico)
+                0x000000000000f050                rumpns_npf_nat_sysinit
+                0x000000000000f100                rumpns_npf_nat_sysfini
+                0x000000000000f130                rumpns_npf_nat_newpolicy
+                0x000000000000f3b0                rumpns_npf_nat_policyexport
+                0x000000000000f4c0                rumpns_npf_nat_freepolicy
+                0x000000000000f6b0                rumpns_npf_nat_freealg
+                0x000000000000f710                rumpns_npf_nat_cmppolicy
+                0x000000000000f7b0                rumpns_npf_nat_sharepm
+                0x000000000000f970                rumpns_npf_nat_setid
+                0x000000000000f990                rumpns_npf_nat_getid
+                0x000000000000f9a0                rumpns_npf_nat_gettrans
+                0x000000000000f9c0                rumpns_npf_nat_getorig
+                0x000000000000f9e0                rumpns_npf_nat_setalg
+                0x000000000000fa00                rumpns_npf_nat_destroy
+                0x000000000000fbe0                rumpns_npf_do_nat
+                0x0000000000010750                rumpns_npf_nat_export
+                0x0000000000010830                rumpns_npf_nat_import
+ *fill*         0x0000000000010add        0x3 90909090
+ .text          0x0000000000010ae0      0x9a2 librumpnet_npf_pic.a(npf_mbuf.pico)
+                0x0000000000010ae0                rumpns_nbuf_reset
+                0x0000000000010af0                rumpns_nbuf_init
+                0x0000000000010b90                rumpns_nbuf_dataptr
+                0x0000000000010c00                rumpns_nbuf_offset
+                0x0000000000010c70                rumpns_nbuf_head_mbuf
+                0x0000000000010c80                rumpns_nbuf_flag_p
+                0x0000000000010c90                rumpns_nbuf_unset_flag
+                0x0000000000010ca0                rumpns_nbuf_ensure_contig
+                0x0000000000010f30                rumpns_nbuf_advance
+                0x0000000000011080                rumpns_nbuf_ensure_writable
+                0x00000000000112b0                rumpns_nbuf_cksum_barrier
+                0x0000000000011350                rumpns_nbuf_add_tag
+                0x00000000000113f0                rumpns_nbuf_find_tag
+ *fill*         0x0000000000011482        0xe 90909090
+ .text          0x0000000000011490      0x4cc librumpnet_npf_pic.a(npf_if.pico)
+                0x0000000000011550                rumpns_npf_ifmap_register
+                0x00000000000116a0                rumpns_npf_ifmap_flush
+                0x0000000000011770                rumpns_npf_ifmap_getid
+                0x00000000000117f0                rumpns_npf_ifmap_getname
+                0x00000000000118f0                rumpns_npf_ifmap_attach
+                0x0000000000011930                rumpns_npf_ifmap_detach
+ *fill*         0x000000000001195c        0x4 90909090
+ .text          0x0000000000011960      0xa63 librumpnet_npf_pic.a(npf_handler.pico)
+                0x00000000000119c0                rumpns_npf_packet_handler
+                0x0000000000012040                rumpns_npf_pfil_register
+                0x00000000000122b0                rumpns_npf_pfil_unregister
+                0x00000000000123b0                rumpns_npf_pfil_registered_p
+ .text.__x86.get_pc_thunk.cx
+                0x00000000000123c3        0x4 librumpnet_npf_pic.a(npf_handler.pico)
+                0x00000000000123c3                __x86.get_pc_thunk.cx
+ *fill*         0x00000000000123c7        0x9 90909090
+ .text          0x00000000000123d0     0x16ff librumpnet_npf_pic.a(npf_inet.pico)
+                0x00000000000123d0                rumpns_npf_fixup16_cksum
+                0x0000000000012410                rumpns_npf_fixup32_cksum
+                0x0000000000012460                rumpns_npf_addr_cksum
+                0x0000000000012500                rumpns_npf_addr_mix
+                0x00000000000125b0                rumpns_npf_addr_mask
+                0x0000000000012680                rumpns_npf_addr_cmp
+                0x0000000000012730                rumpns_npf_tcpsaw
+                0x00000000000128f0                rumpns_npf_cache_all
+                0x0000000000012c30                rumpns_npf_recache
+                0x0000000000012d10                rumpns_npf_fetch_tcpopts
+                0x0000000000013030                rumpns_npf_rwrip
+                0x0000000000013140                rumpns_npf_rwrport
+                0x0000000000013310                rumpns_npf_rwrcksum
+                0x0000000000013770                rumpns_npf_napt_rwr
+                0x00000000000138d0                rumpns_npf_npt66_rwr
+ *fill*         0x0000000000013acf        0x1 90909090
+ .text          0x0000000000013ad0      0x53b librumpnet_npf_pic.a(npf.pico)
+                0x0000000000013e10                rumpns_npfattach
+                0x0000000000013e20                rumpns_npf_autounload_p
+                0x0000000000013f70                rumpns_npf_stats_inc
+                0x0000000000013fc0                rumpns_npf_stats_dec
+ *fill*         0x000000000001400b        0x5 90909090
+ .text          0x0000000000014010      0x3c0 librumpnet_npf_pic.a(npf_worker.pico)
+                0x00000000000140d0                rumpns_npf_worker_sysinit
+                0x00000000000141a0                rumpns_npf_worker_sysfini
+                0x0000000000014230                rumpns_npf_worker_signal
+                0x0000000000014280                rumpns_npf_worker_register
+                0x00000000000142f0                rumpns_npf_worker_unregister
+ .text          0x00000000000143d0     0x112a librumpnet_npf_pic.a(npf_ctl.pico)
+                0x00000000000149e0                rumpns_npfctl_switch
+                0x0000000000014a20                rumpns_npfctl_load
+                0x0000000000014e60                rumpns_npfctl_save
+                0x00000000000150c0                rumpns_npfctl_rule
+                0x00000000000153a0                rumpns_npfctl_table
+ *fill*         0x00000000000154fa        0x6 90909090
+ .text          0x0000000000015500      0x56a librumpnet_npf_pic.a(npf_alg.pico)
+                0x00000000000155b0                rumpns_npf_alg_sysinit
+                0x0000000000015610                rumpns_npf_alg_sysfini
+                0x0000000000015640                rumpns_npf_alg_construct
+                0x00000000000156f0                rumpns_npf_alg_register
+                0x0000000000015790                rumpns_npf_alg_unregister
+                0x0000000000015810                rumpns_npf_alg_match
+                0x0000000000015890                rumpns_npf_alg_exec
+                0x0000000000015910                rumpns_npf_alg_conn
+                0x0000000000015990                rumpns_npf_alg_export
+ *fill*         0x0000000000015a6a        0x6 90909090
+ .text          0x0000000000015a70      0x35a librumpnet_npf_pic.a(npf_bpf.pico)
+                0x0000000000015bd0                rumpns_npf_bpf_sysinit
+                0x0000000000015c30                rumpns_npf_bpf_sysfini
+                0x0000000000015c60                rumpns_npf_bpf_prepare
+                0x0000000000015d00                rumpns_npf_bpf_filter
+                0x0000000000015d50                rumpns_npf_bpf_compile
+                0x0000000000015d90                rumpns_npf_bpf_validate
+ *fill*         0x0000000000015dca        0x6 90909090
+ .text          0x0000000000015dd0      0x5a6 librumpnet_npf_pic.a(npf_conf.pico)
+                0x0000000000015e30                rumpns_npf_config_fini
+                0x0000000000015ed0                rumpns_npf_config_load
+                0x00000000000160b0                rumpns_npf_config_init
+                0x00000000000161a0                rumpns_npf_config_enter
+                0x00000000000161d0                rumpns_npf_config_exit
+                0x0000000000016200                rumpns_npf_config_locked_p
+                0x0000000000016230                rumpns_npf_config_sync
+                0x00000000000162a0                rumpns_npf_config_read_enter
+                0x00000000000162c0                rumpns_npf_config_read_exit
+                0x00000000000162e0                rumpns_npf_config_ruleset
+                0x0000000000016300                rumpns_npf_config_natset
+                0x0000000000016320                rumpns_npf_config_tableset
+                0x0000000000016340                rumpns_npf_config_rprocs
+                0x0000000000016360                rumpns_npf_default_pass
+ *fill*         0x0000000000016376        0xa 90909090
+ .text          0x0000000000016380      0x769 librumpnet_npf_pic.a(npf_conndb.pico)
+                0x0000000000016480                rumpns_npf_conndb_create
+                0x0000000000016500                rumpns_npf_conndb_destroy
+                0x00000000000166c0                rumpns_npf_conndb_lookup
+                0x0000000000016760                rumpns_npf_conndb_insert
+                0x00000000000167e0                rumpns_npf_conndb_remove
+                0x0000000000016870                rumpns_npf_conndb_enqueue
+                0x00000000000168c0                rumpns_npf_conndb_dequeue
+                0x0000000000016950                rumpns_npf_conndb_getlist
+                0x0000000000016a50                rumpns_npf_conndb_settail
+ *fill*         0x0000000000016ae9        0x7 90909090
+ .text          0x0000000000016af0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000016b28        0x5
+ *(.fini)
+ .fini          0x0000000000016b28        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000016b2d                PROVIDE (__etext, .)
+                0x0000000000016b2d                PROVIDE (_etext, .)
+                0x0000000000016b2d                PROVIDE (etext, .)
+
+.rodata         0x0000000000016b40     0x1b7f
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000016b40       0x1f librumpnet_npf_pic.a(npf_component.pico)
+                                         0x23 (size before relaxing)
+ *fill*         0x0000000000016b5f        0x1 00
+ .rodata.str1.4
+                0x0000000000016b60       0x24 librumpnet_npf_pic.a(npf_component.pico)
+ .rodata.str1.1
+                0x0000000000016b84       0x20 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+                                         0x2d (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016ba4       0x54 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+                                         0x62 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000016bf8       0xc4 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .rodata.str1.1
+                0x0000000000016cbc       0x1a librumpnet_npf_pic.a(npf_ext_log.pico)
+                                         0x44 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000000000       0xc4 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .rodata.str1.1
+                0x0000000000016cd6       0x92 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+                                         0xbd (size before relaxing)
+ .rodata.str1.4
+                0x0000000000016d68       0xbc librumpnet_npf_pic.a(npf_alg_icmp.pico)
+                                        0x180 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016e24        0xa librumpnet_npf_pic.a(if_npflog.pico)
+                                         0x11 (size before relaxing)
+ *fill*         0x0000000000016e2e        0x2 00
+ .rodata.str1.4
+                0x0000000000016e30       0x98 librumpnet_npf_pic.a(npf_sendpkt.pico)
+                                        0x15c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016ec8       0x1b librumpnet_npf_pic.a(npf_sendpkt.pico)
+                                         0x77 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016ee3       0x51 librumpnet_npf_pic.a(npf_tableset.pico)
+                                         0x6a (size before relaxing)
+ .rodata.str1.4
+                0x0000000000016f34       0x99 librumpnet_npf_pic.a(npf_tableset.pico)
+                                         0xd0 (size before relaxing)
+ *fill*         0x0000000000016fcd        0x3 00
+ .rodata.str1.4
+                0x0000000000016fd0       0xf7 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                                        0x12b (size before relaxing)
+ .rodata.str1.1
+                0x00000000000170c7       0x5c librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                                         0x68 (size before relaxing)
+ *fill*         0x0000000000017123        0x1 00
+ .rodata        0x0000000000017124       0x10 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .rodata.str1.4
+                0x0000000000017134       0xeb librumpnet_npf_pic.a(npf_state_tcp.pico)
+                                        0x1af (size before relaxing)
+ .rodata.str1.1
+                0x000000000001721f       0x43 librumpnet_npf_pic.a(npf_state_tcp.pico)
+                                         0x65 (size before relaxing)
+ *fill*         0x0000000000017262       0x1e 00
+ .rodata        0x0000000000017280       0x78 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .rodata.str1.4
+                0x00000000000172f8       0xf4 librumpnet_npf_pic.a(npf_rproc.pico)
+                                        0x128 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000173ec       0x7b librumpnet_npf_pic.a(npf_rproc.pico)
+                                         0x92 (size before relaxing)
+ .rodata        0x0000000000017467        0x9 librumpnet_npf_pic.a(npf_rproc.pico)
+ .rodata.str1.1
+                0x0000000000017470       0x8d librumpnet_npf_pic.a(npf_conn.pico)
+                                        0x106 (size before relaxing)
+ *fill*         0x00000000000174fd        0x3 00
+ .rodata.str1.4
+                0x0000000000017500      0x152 librumpnet_npf_pic.a(npf_conn.pico)
+                                        0x216 (size before relaxing)
+ *fill*         0x0000000000017652        0x2 00
+ .rodata        0x0000000000017654        0xc librumpnet_npf_pic.a(npf_conn.pico)
+ .rodata.str1.4
+                0x0000000000017660       0x96 librumpnet_npf_pic.a(npf_state.pico)
+                                        0x15a (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x62 librumpnet_npf_pic.a(npf_state.pico)
+ .rodata        0x00000000000176f6        0x6 librumpnet_npf_pic.a(npf_state.pico)
+ .rodata.str1.4
+                0x00000000000176fc      0x1f0 librumpnet_npf_pic.a(npf_ruleset.pico)
+                                        0x24c (size before relaxing)
+ .rodata.str1.1
+                0x00000000000178ec       0xca librumpnet_npf_pic.a(npf_ruleset.pico)
+                                        0x11a (size before relaxing)
+ .rodata.str1.1
+                0x00000000000179b6      0x16c librumpnet_npf_pic.a(npf_nat.pico)
+                                        0x1e9 (size before relaxing)
+ *fill*         0x0000000000017b22        0x2 00
+ .rodata.str1.4
+                0x0000000000017b24      0x168 librumpnet_npf_pic.a(npf_nat.pico)
+                                        0x284 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000017c8c       0xdf librumpnet_npf_pic.a(npf_mbuf.pico)
+                                        0x113 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017d6b       0x71 librumpnet_npf_pic.a(npf_mbuf.pico)
+                                         0x7d (size before relaxing)
+ .rodata.str1.4
+                0x0000000000017ddc       0xfa librumpnet_npf_pic.a(npf_if.pico)
+                                        0x12e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017ed6       0x30 librumpnet_npf_pic.a(npf_if.pico)
+                                         0x52 (size before relaxing)
+ *fill*         0x0000000000017f06        0x2 00
+ .rodata.str1.4
+                0x0000000000017f08       0x98 librumpnet_npf_pic.a(npf_handler.pico)
+                                        0x15c (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017fa0       0x22 librumpnet_npf_pic.a(npf_handler.pico)
+                                         0x44 (size before relaxing)
+ *fill*         0x0000000000017fc2        0x2 00
+ .rodata.str1.4
+                0x0000000000017fc4      0x179 librumpnet_npf_pic.a(npf_inet.pico)
+                                        0x23d (size before relaxing)
+ .rodata.str1.1
+                0x000000000001813d       0x80 librumpnet_npf_pic.a(npf_inet.pico)
+                                        0x12e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000        0x4 librumpnet_npf_pic.a(npf.pico)
+ .rodata.str1.1
+                0x00000000000181bd       0x16 librumpnet_npf_pic.a(npf_worker.pico)
+ *fill*         0x00000000000181d3        0x1 00
+ .rodata.str1.4
+                0x00000000000181d4       0xc5 librumpnet_npf_pic.a(npf_ctl.pico)
+                                         0xf9 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000018299       0x8a librumpnet_npf_pic.a(npf_ctl.pico)
+                                         0xda (size before relaxing)
+ *fill*         0x0000000000018323        0x1 00
+ .rodata        0x0000000000018324       0x34 librumpnet_npf_pic.a(npf_ctl.pico)
+ .rodata.str1.4
+                0x0000000000018358       0x94 librumpnet_npf_pic.a(npf_alg.pico)
+                                         0xc8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x2c librumpnet_npf_pic.a(npf_alg.pico)
+ .rodata        0x00000000000183ec        0x9 librumpnet_npf_pic.a(npf_alg.pico)
+ *fill*         0x00000000000183f5        0x3 00
+ .rodata.str1.4
+                0x00000000000183f8       0x94 librumpnet_npf_pic.a(npf_bpf.pico)
+                                        0x158 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x3e librumpnet_npf_pic.a(npf_bpf.pico)
+ .rodata.str1.4
+                0x000000000001848c       0x95 librumpnet_npf_pic.a(npf_conf.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x0000000000018521       0x13 librumpnet_npf_pic.a(npf_conf.pico)
+                                         0x35 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000018534       0xf0 librumpnet_npf_pic.a(npf_conndb.pico)
+                                        0x122 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000018624       0x9b librumpnet_npf_pic.a(npf_conndb.pico)
+                                         0xbb (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000186c0      0x80c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000186c0      0x80c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000018ecc     0x2dd0
+ *(.eh_frame)
+ .eh_frame      0x0000000000018ecc       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000018f08       0x30 librumpnet_npf_pic.a(npf_component.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000018f38       0xac librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000018fe4       0xb0 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+                                         0xdc (size before relaxing)
+ .eh_frame      0x0000000000019094       0xac librumpnet_npf_pic.a(npf_ext_log.pico)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000019140      0x154 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+                                        0x180 (size before relaxing)
+ .eh_frame      0x0000000000019294       0xbc librumpnet_npf_pic.a(if_npflog.pico)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000019350       0x28 librumpnet_npf_pic.a(npf_sendpkt.pico)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000000019378      0x42c librumpnet_npf_pic.a(npf_tableset.pico)
+                                        0x458 (size before relaxing)
+ .eh_frame      0x00000000000197a4       0xd4 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                                        0x100 (size before relaxing)
+ .eh_frame      0x0000000000019878       0x7c librumpnet_npf_pic.a(npf_state_tcp.pico)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x00000000000198f4      0x2f8 librumpnet_npf_pic.a(npf_rproc.pico)
+                                        0x324 (size before relaxing)
+ .eh_frame      0x0000000000019bec      0x3ac librumpnet_npf_pic.a(npf_conn.pico)
+                                        0x3d8 (size before relaxing)
+ .eh_frame      0x0000000000019f98       0xbc librumpnet_npf_pic.a(npf_state.pico)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x000000000001a054      0x5ac librumpnet_npf_pic.a(npf_ruleset.pico)
+                                        0x5d8 (size before relaxing)
+ .eh_frame      0x000000000001a600      0x2d4 librumpnet_npf_pic.a(npf_nat.pico)
+                                        0x300 (size before relaxing)
+ .eh_frame      0x000000000001a8d4      0x21c librumpnet_npf_pic.a(npf_mbuf.pico)
+                                        0x248 (size before relaxing)
+ .eh_frame      0x000000000001aaf0      0x140 librumpnet_npf_pic.a(npf_if.pico)
+                                        0x16c (size before relaxing)
+ .eh_frame      0x000000000001ac30      0x108 librumpnet_npf_pic.a(npf_handler.pico)
+                                        0x134 (size before relaxing)
+ .eh_frame      0x000000000001ad38      0x2f4 librumpnet_npf_pic.a(npf_inet.pico)
+                                        0x320 (size before relaxing)
+ .eh_frame      0x000000000001b02c      0x16c librumpnet_npf_pic.a(npf.pico)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x000000000001b198      0x10c librumpnet_npf_pic.a(npf_worker.pico)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000001b2a4      0x2f8 librumpnet_npf_pic.a(npf_ctl.pico)
+                                        0x324 (size before relaxing)
+ .eh_frame      0x000000000001b59c      0x1fc librumpnet_npf_pic.a(npf_alg.pico)
+                                        0x228 (size before relaxing)
+ .eh_frame      0x000000000001b798      0x11c librumpnet_npf_pic.a(npf_bpf.pico)
+                                        0x148 (size before relaxing)
+ .eh_frame      0x000000000001b8b4      0x1cc librumpnet_npf_pic.a(npf_conf.pico)
+                                        0x20c (size before relaxing)
+ .eh_frame      0x000000000001ba80      0x218 librumpnet_npf_pic.a(npf_conndb.pico)
+                                        0x244 (size before relaxing)
+ .eh_frame      0x000000000001bc98        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000001bc9c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000001c000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000001c000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000001c000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000001c004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000001c008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000001c008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001c00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001c00c                __DTOR_END__
+
+.jcr            0x000000000001c010        0x4
+ *(.jcr)
+ .jcr           0x000000000001c010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000001c010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000001c020      0x130
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000001c020       0x28 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .data.rel.ro.local
+                0x000000000001c048       0x28 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .data.rel.ro.local
+                0x000000000001c070       0x28 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .data.rel.ro.local
+                0x000000000001c098       0x20 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .data.rel.ro.local
+                0x000000000001c0b8       0x14 librumpnet_npf_pic.a(if_npflog.pico)
+ .data.rel.ro.local
+                0x000000000001c0cc       0x10 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                0x000000000001c0cc                rumpns_npf_table_ptree_ops
+ .data.rel.ro.local
+                0x000000000001c0dc       0x14 librumpnet_npf_pic.a(npf.pico)
+ .data.rel.ro.local
+                0x000000000001c0f0        0x8 librumpnet_npf_pic.a(npf_bpf.pico)
+ .data.rel.ro.local
+                0x000000000001c0f8       0x10 librumpnet_npf_pic.a(npf_conndb.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x000000000001c108       0x18 00
+ .data.rel.ro   0x000000000001c120       0x30 librumpnet_npf_pic.a(npf.pico)
+                0x000000000001c120                rumpns_npf_cdevsw
+
+.dynamic        0x000000000001c150       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000001c150       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c150                _DYNAMIC
+
+.got            0x000000000001c1f0       0x3c
+ *(.got)
+ .got           0x000000000001c1f0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000001c22c                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000001c22c      0x554
+ *(.got.plt)
+ .got.plt       0x000000000001c22c      0x554 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c22c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000001c780      0x6c4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000001c780        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c780                __dso_handle
+ .data          0x000000000001c784        0x0 librumpnet_npf_pic.a(npf_component.pico)
+ .data.rel.local
+                0x000000000001c784       0x10 librumpnet_npf_pic.a(npf_component.pico)
+ .data          0x000000000001c794        0x0 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .data          0x000000000001c794        0x0 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .data          0x000000000001c794        0x0 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .data          0x000000000001c794        0x0 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .data.read_mostly
+                0x000000000001c794        0x4 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .data          0x000000000001c798        0x0 librumpnet_npf_pic.a(if_npflog.pico)
+ *fill*         0x000000000001c798       0x28 00
+ .data.cacheline_aligned
+                0x000000000001c7c0        0x4 librumpnet_npf_pic.a(if_npflog.pico)
+ .data.rel.local
+                0x000000000001c7c4       0x18 librumpnet_npf_pic.a(if_npflog.pico)
+ .data          0x000000000001c7dc        0x0 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .data          0x000000000001c7dc        0x0 librumpnet_npf_pic.a(npf_tableset.pico)
+ .data.read_mostly
+                0x000000000001c7dc        0x4 librumpnet_npf_pic.a(npf_tableset.pico)
+ .data          0x000000000001c7e0        0x0 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .data          0x000000000001c7e0        0x0 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .data.read_mostly
+                0x000000000001c7e0       0x50 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .data          0x000000000001c830        0x0 librumpnet_npf_pic.a(npf_rproc.pico)
+ *fill*         0x000000000001c830       0x10 00
+ .data.cacheline_aligned
+                0x000000000001c840       0x44 librumpnet_npf_pic.a(npf_rproc.pico)
+ .data          0x000000000001c884        0x0 librumpnet_npf_pic.a(npf_conn.pico)
+ *fill*         0x000000000001c884       0x3c 00
+ .data.cacheline_aligned
+                0x000000000001c8c0       0x44 librumpnet_npf_pic.a(npf_conn.pico)
+ .data.read_mostly
+                0x000000000001c904        0x8 librumpnet_npf_pic.a(npf_conn.pico)
+ .data          0x000000000001c90c        0x0 librumpnet_npf_pic.a(npf_state.pico)
+ .data.read_mostly
+                0x000000000001c90c        0xc librumpnet_npf_pic.a(npf_state.pico)
+ .data          0x000000000001c918        0x0 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .data          0x000000000001c918        0x0 librumpnet_npf_pic.a(npf_nat.pico)
+ .data.read_mostly
+                0x000000000001c918        0x4 librumpnet_npf_pic.a(npf_nat.pico)
+ .data          0x000000000001c91c        0x0 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .data          0x000000000001c91c        0x0 librumpnet_npf_pic.a(npf_if.pico)
+ *fill*         0x000000000001c91c        0x4 00
+ .data.read_mostly
+                0x000000000001c920      0x404 librumpnet_npf_pic.a(npf_if.pico)
+ .data          0x000000000001cd24        0x0 librumpnet_npf_pic.a(npf_handler.pico)
+ .data          0x000000000001cd24        0x0 librumpnet_npf_pic.a(npf_inet.pico)
+ .data          0x000000000001cd24        0x0 librumpnet_npf_pic.a(npf.pico)
+ .data.read_mostly
+                0x000000000001cd24        0x8 librumpnet_npf_pic.a(npf.pico)
+ .data          0x000000000001cd2c        0x0 librumpnet_npf_pic.a(npf_worker.pico)
+ .data          0x000000000001cd2c        0x0 librumpnet_npf_pic.a(npf_ctl.pico)
+ .data          0x000000000001cd2c        0x0 librumpnet_npf_pic.a(npf_alg.pico)
+ *fill*         0x000000000001cd2c       0x14 00
+ .data.cacheline_aligned
+                0x000000000001cd40        0x4 librumpnet_npf_pic.a(npf_alg.pico)
+ *fill*         0x000000000001cd44       0x1c 00
+ .data.read_mostly
+                0x000000000001cd60       0x54 librumpnet_npf_pic.a(npf_alg.pico)
+ .data          0x000000000001cdb4        0x0 librumpnet_npf_pic.a(npf_bpf.pico)
+ .data.read_mostly
+                0x000000000001cdb4        0x4 librumpnet_npf_pic.a(npf_bpf.pico)
+ .data          0x000000000001cdb8        0x0 librumpnet_npf_pic.a(npf_conf.pico)
+ *fill*         0x000000000001cdb8        0x8 00
+ .data.cacheline_aligned
+                0x000000000001cdc0       0x84 librumpnet_npf_pic.a(npf_conf.pico)
+ .data          0x000000000001ce44        0x0 librumpnet_npf_pic.a(npf_conndb.pico)
+ .data          0x000000000001ce44        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000001ce44        0x0
+ .tm_clone_table
+                0x000000000001ce44        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000001ce44        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000001ce44        0x4
+                0x000000000001ce44                . = ALIGN (0x4)
+                0x000000000001ce44                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000001ce44        0x4 librumpnet_npf_pic.a(npf_component.pico)
+                0x000000000001ce48                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_modules
+                0x000000000001ce48       0x18
+                0x000000000001ce48                . = ALIGN (0x4)
+                0x000000000001ce48                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000001ce48        0x4 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ link_set_modules
+                0x000000000001ce4c        0x4 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ link_set_modules
+                0x000000000001ce50        0x4 librumpnet_npf_pic.a(npf_ext_log.pico)
+ link_set_modules
+                0x000000000001ce54        0x4 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ link_set_modules
+                0x000000000001ce58        0x4 librumpnet_npf_pic.a(if_npflog.pico)
+ link_set_modules
+                0x000000000001ce5c        0x4 librumpnet_npf_pic.a(npf.pico)
+                0x000000000001ce60                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000001ce60                _edata = .
+                0x000000000001ce60                PROVIDE (edata, .)
+                0x000000000001ce60                __bss_start = .
+
+.bss            0x000000000001ce60       0x60
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000001ce60        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000001ce68        0x0 librumpnet_npf_pic.a(npf_component.pico)
+ .bss           0x000000000001ce68        0x4 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .bss           0x000000000001ce6c        0x4 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .bss           0x000000000001ce70        0x4 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(if_npflog.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_tableset.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_rproc.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_conn.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_state.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_nat.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .bss           0x000000000001ce74        0x0 librumpnet_npf_pic.a(npf_if.pico)
+ .bss           0x000000000001ce74       0x10 librumpnet_npf_pic.a(npf_handler.pico)
+ .bss           0x000000000001ce84        0x0 librumpnet_npf_pic.a(npf_inet.pico)
+ .bss           0x000000000001ce84        0x0 librumpnet_npf_pic.a(npf.pico)
+ *fill*         0x000000000001ce84        0x4 00
+ .bss           0x000000000001ce88       0x38 librumpnet_npf_pic.a(npf_worker.pico)
+ .bss           0x000000000001cec0        0x0 librumpnet_npf_pic.a(npf_ctl.pico)
+ .bss           0x000000000001cec0        0x0 librumpnet_npf_pic.a(npf_alg.pico)
+ .bss           0x000000000001cec0        0x0 librumpnet_npf_pic.a(npf_bpf.pico)
+ .bss           0x000000000001cec0        0x0 librumpnet_npf_pic.a(npf_conf.pico)
+ .bss           0x000000000001cec0        0x0 librumpnet_npf_pic.a(npf_conndb.pico)
+ .bss           0x000000000001cec0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x000000000001cec0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000001cec0                . = ALIGN (0x4)
+                0x000000000001cec0                . = ALIGN (0x4)
+                0x000000000001cec0                _end = .
+                0x000000000001cec0                PROVIDE (end, .)
+                0x000000000001cec0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_component.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(if_npflog.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_tableset.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_rproc.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_conn.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_state.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_nat.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_if.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_handler.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_inet.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_worker.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_ctl.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_alg.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_bpf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_conf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_npf_pic.a(npf_conndb.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x5fb
+ .ident         0x0000000000000000       0x3f librumpnet_npf_pic.a(npf_component.pico)
+ .ident         0x000000000000003f       0x42 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .ident         0x0000000000000081       0x43 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .ident         0x00000000000000c4       0x3d librumpnet_npf_pic.a(npf_ext_log.pico)
+ .ident         0x0000000000000101       0x3f librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .ident         0x0000000000000140       0x3e librumpnet_npf_pic.a(if_npflog.pico)
+ .ident         0x000000000000017e       0x3e librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .ident         0x00000000000001bc       0x3f librumpnet_npf_pic.a(npf_tableset.pico)
+ .ident         0x00000000000001fb       0x44 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .ident         0x000000000000023f       0x40 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .ident         0x000000000000027f        0x8 librumpnet_npf_pic.a(npf_rproc.pico)
+ .ident         0x0000000000000287       0x3b librumpnet_npf_pic.a(npf_conn.pico)
+ .ident         0x00000000000002c2       0x3c librumpnet_npf_pic.a(npf_state.pico)
+ .ident         0x00000000000002fe       0x3e librumpnet_npf_pic.a(npf_ruleset.pico)
+ .ident         0x000000000000033c       0x3a librumpnet_npf_pic.a(npf_nat.pico)
+ .ident         0x0000000000000376       0x3b librumpnet_npf_pic.a(npf_mbuf.pico)
+ .ident         0x00000000000003b1       0x38 librumpnet_npf_pic.a(npf_if.pico)
+ .ident         0x00000000000003e9       0x3e librumpnet_npf_pic.a(npf_handler.pico)
+ .ident         0x0000000000000427       0x3b librumpnet_npf_pic.a(npf_inet.pico)
+ .ident         0x0000000000000462       0x39 librumpnet_npf_pic.a(npf.pico)
+ .ident         0x000000000000049b       0x3c librumpnet_npf_pic.a(npf_worker.pico)
+ .ident         0x00000000000004d7       0x3a librumpnet_npf_pic.a(npf_ctl.pico)
+ .ident         0x0000000000000511       0x3a librumpnet_npf_pic.a(npf_alg.pico)
+ .ident         0x000000000000054b       0x3a librumpnet_npf_pic.a(npf_bpf.pico)
+ .ident         0x0000000000000585       0x3a librumpnet_npf_pic.a(npf_conf.pico)
+ .ident         0x00000000000005bf       0x3c librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x370
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpnet_npf_pic.a(npf_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_aranges
+                0x0000000000000160       0x20 librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_aranges
+                0x0000000000000180       0x20 librumpnet_npf_pic.a(npf_state.pico)
+ .debug_aranges
+                0x00000000000001a0       0x20 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_aranges
+                0x00000000000001c0       0x20 librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_aranges
+                0x00000000000001e0       0x20 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_aranges
+                0x0000000000000200       0x20 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_aranges
+                0x0000000000000220       0x20 librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_aranges
+                0x0000000000000240       0x20 librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_aranges
+                0x0000000000000260       0x20 librumpnet_npf_pic.a(npf.pico)
+ .debug_aranges
+                0x0000000000000280       0x20 librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_aranges
+                0x00000000000002a0       0x50 librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_aranges
+                0x00000000000002f0       0x20 librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_aranges
+                0x0000000000000310       0x20 librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_aranges
+                0x0000000000000330       0x20 librumpnet_npf_pic.a(npf_conf.pico)
+ .debug_aranges
+                0x0000000000000350       0x20 librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x4af92
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x67dc librumpnet_npf_pic.a(npf_component.pico)
+ .debug_info    0x00000000000067dc     0x1a55 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_info    0x0000000000008231     0x231b librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_info    0x000000000000a54c     0x20c3 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_info    0x000000000000c60f     0x29bb librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_info    0x000000000000efca     0x1a23 librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_info    0x00000000000109ed     0x296b librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_info    0x0000000000013358     0x3904 librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_info    0x0000000000016c5c     0x14e5 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_info    0x0000000000018141     0x1ccf librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_info    0x0000000000019e10     0x279b librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_info    0x000000000001c5ab     0x46c1 librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_info    0x0000000000020c6c     0x1a65 librumpnet_npf_pic.a(npf_state.pico)
+ .debug_info    0x00000000000226d1     0x3d8c librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_info    0x000000000002645d     0x47be librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_info    0x000000000002ac1b     0x2017 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_info    0x000000000002cc32     0x14d0 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_info    0x000000000002e102     0x2d5e librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_info    0x0000000000030e60     0x346c librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_info    0x00000000000342cc     0x63f4 librumpnet_npf_pic.a(npf.pico)
+ .debug_info    0x000000000003a6c0     0x5522 librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_info    0x000000000003fbe2     0x3d5b librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_info    0x000000000004393d     0x1fcb librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_info    0x0000000000045908     0x214a librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_info    0x0000000000047a52     0x1799 librumpnet_npf_pic.a(npf_conf.pico)
+ .debug_info    0x00000000000491eb     0x1da7 librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug_abbrev   0x0000000000000000     0x62fd
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x29b librumpnet_npf_pic.a(npf_component.pico)
+ .debug_abbrev  0x000000000000029b      0x33f librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_abbrev  0x00000000000005da      0x3a3 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_abbrev  0x000000000000097d      0x3de librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_abbrev  0x0000000000000d5b      0x467 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_abbrev  0x00000000000011c2      0x33a librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_abbrev  0x00000000000014fc      0x35f librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_abbrev  0x000000000000185b      0x51f librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_abbrev  0x0000000000001d7a      0x28c librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_abbrev  0x0000000000002006      0x327 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_abbrev  0x000000000000232d      0x3df librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_abbrev  0x000000000000270c      0x50b librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_abbrev  0x0000000000002c17      0x2c7 librumpnet_npf_pic.a(npf_state.pico)
+ .debug_abbrev  0x0000000000002ede      0x507 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_abbrev  0x00000000000033e5      0x505 librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_abbrev  0x00000000000038ea      0x3f0 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_abbrev  0x0000000000003cda      0x322 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_abbrev  0x0000000000003ffc      0x400 librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_abbrev  0x00000000000043fc      0x4a1 librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_abbrev  0x000000000000489d      0x4cf librumpnet_npf_pic.a(npf.pico)
+ .debug_abbrev  0x0000000000004d6c      0x37a librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_abbrev  0x00000000000050e6      0x476 librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_abbrev  0x000000000000555c      0x349 librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_abbrev  0x00000000000058a5      0x3c4 librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_abbrev  0x0000000000005c69      0x319 librumpnet_npf_pic.a(npf_conf.pico)
+ .debug_abbrev  0x0000000000005f82      0x37b librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug_line     0x0000000000000000     0xbeaa
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x726 librumpnet_npf_pic.a(npf_component.pico)
+ .debug_line    0x0000000000000726      0x661 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_line    0x0000000000000d87      0x719 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_line    0x00000000000014a0      0x6ad librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_line    0x0000000000001b4d      0x7dd librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_line    0x000000000000232a      0x40a librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_line    0x0000000000002734      0x72c librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_line    0x0000000000002e60      0x96c librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_line    0x00000000000037cc      0x592 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_line    0x0000000000003d5e      0x618 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_line    0x0000000000004376      0x848 librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_line    0x0000000000004bbe      0xafe librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_line    0x00000000000056bc      0x5cc librumpnet_npf_pic.a(npf_state.pico)
+ .debug_line    0x0000000000005c88      0xac9 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_line    0x0000000000006751      0xbd2 librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_line    0x0000000000007323      0x690 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_line    0x00000000000079b3      0x492 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_line    0x0000000000007e45      0x773 librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_line    0x00000000000085b8      0xa9b librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_line    0x0000000000009053      0x6ff librumpnet_npf_pic.a(npf.pico)
+ .debug_line    0x0000000000009752      0x66a librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_line    0x0000000000009dbc      0x959 librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_line    0x000000000000a715      0x70f librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_line    0x000000000000ae24      0x5e1 librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_line    0x000000000000b405      0x4a2 librumpnet_npf_pic.a(npf_conf.pico)
+ .debug_line    0x000000000000b8a7      0x603 librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x9596
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3842 librumpnet_npf_pic.a(npf_component.pico)
+                                       0x3b93 (size before relaxing)
+ .debug_str     0x0000000000003842      0xd00 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+                                        0xfb7 (size before relaxing)
+ .debug_str     0x0000000000004542      0x4b4 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+                                       0x1303 (size before relaxing)
+ .debug_str     0x00000000000049f6      0x2d4 librumpnet_npf_pic.a(npf_ext_log.pico)
+                                       0x11b2 (size before relaxing)
+ .debug_str     0x0000000000004cca      0x260 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+                                       0x106e (size before relaxing)
+ .debug_str     0x0000000000004f2a      0x293 librumpnet_npf_pic.a(if_npflog.pico)
+                                        0xe47 (size before relaxing)
+ .debug_str     0x00000000000051bd      0x3ae librumpnet_npf_pic.a(npf_sendpkt.pico)
+                                       0x11fb (size before relaxing)
+ .debug_str     0x000000000000556b      0xbff librumpnet_npf_pic.a(npf_tableset.pico)
+                                       0x15e9 (size before relaxing)
+ .debug_str     0x000000000000616a      0x11e librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+                                        0xa34 (size before relaxing)
+ .debug_str     0x0000000000006288      0x383 librumpnet_npf_pic.a(npf_state_tcp.pico)
+                                       0x1009 (size before relaxing)
+ .debug_str     0x000000000000660b      0x303 librumpnet_npf_pic.a(npf_rproc.pico)
+                                       0x124e (size before relaxing)
+ .debug_str     0x000000000000690e      0x60b librumpnet_npf_pic.a(npf_conn.pico)
+                                       0x1ca2 (size before relaxing)
+ .debug_str     0x0000000000006f19       0xc9 librumpnet_npf_pic.a(npf_state.pico)
+                                        0xdf5 (size before relaxing)
+ .debug_str     0x0000000000006fe2      0x5cf librumpnet_npf_pic.a(npf_ruleset.pico)
+                                       0x16bd (size before relaxing)
+ .debug_str     0x00000000000075b1      0x36d librumpnet_npf_pic.a(npf_nat.pico)
+                                       0x1c12 (size before relaxing)
+ .debug_str     0x000000000000791e      0x1b2 librumpnet_npf_pic.a(npf_mbuf.pico)
+                                        0xe65 (size before relaxing)
+ .debug_str     0x0000000000007ad0      0x12e librumpnet_npf_pic.a(npf_if.pico)
+                                        0xa37 (size before relaxing)
+ .debug_str     0x0000000000007bfe      0x1ae librumpnet_npf_pic.a(npf_handler.pico)
+                                       0x164c (size before relaxing)
+ .debug_str     0x0000000000007dac      0x1b4 librumpnet_npf_pic.a(npf_inet.pico)
+                                       0x1191 (size before relaxing)
+ .debug_str     0x0000000000007f60      0xadf librumpnet_npf_pic.a(npf.pico)
+                                       0x3c64 (size before relaxing)
+ .debug_str     0x0000000000008a3f      0x162 librumpnet_npf_pic.a(npf_worker.pico)
+                                       0x2dea (size before relaxing)
+ .debug_str     0x0000000000008ba1      0x46b librumpnet_npf_pic.a(npf_ctl.pico)
+                                       0x14bb (size before relaxing)
+ .debug_str     0x000000000000900c      0x16c librumpnet_npf_pic.a(npf_alg.pico)
+                                       0x10a0 (size before relaxing)
+ .debug_str     0x0000000000009178      0x136 librumpnet_npf_pic.a(npf_bpf.pico)
+                                       0x10ea (size before relaxing)
+ .debug_str     0x00000000000092ae      0x11a librumpnet_npf_pic.a(npf_conf.pico)
+                                        0xd09 (size before relaxing)
+ .debug_str     0x00000000000093c8      0x1ce librumpnet_npf_pic.a(npf_conndb.pico)
+                                        0xdc3 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xf60e
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xb6 librumpnet_npf_pic.a(npf_component.pico)
+ .debug_loc     0x00000000000000b6      0x1dd librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_loc     0x0000000000000293      0x463 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_loc     0x00000000000006f6      0x220 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_loc     0x0000000000000916      0xac8 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_loc     0x00000000000013de      0x284 librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_loc     0x0000000000001662      0x703 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_loc     0x0000000000001d65     0x14e7 librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_loc     0x000000000000324c      0x755 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_loc     0x00000000000039a1      0x665 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_loc     0x0000000000004006      0x977 librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_loc     0x000000000000497d     0x1629 librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_loc     0x0000000000005fa6      0x286 librumpnet_npf_pic.a(npf_state.pico)
+ .debug_loc     0x000000000000622c     0x1a57 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_loc     0x0000000000007c83     0x1809 librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_loc     0x000000000000948c      0xae4 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_loc     0x0000000000009f70      0x527 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_loc     0x000000000000a497      0x5a8 librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_loc     0x000000000000aa3f     0x131e librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_loc     0x000000000000bd5d      0x38c librumpnet_npf_pic.a(npf.pico)
+ .debug_loc     0x000000000000c0e9      0x2df librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_loc     0x000000000000c3c8     0x1c65 librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_loc     0x000000000000e02d      0x771 librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_loc     0x000000000000e79e      0x416 librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_loc     0x000000000000ebb4      0x3a6 librumpnet_npf_pic.a(npf_conf.pico)
+ .debug_loc     0x000000000000ef5a      0x6b4 librumpnet_npf_pic.a(npf_conndb.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2200
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpnet_npf_pic.a(npf_ext_rndblock.pico)
+ .debug_ranges  0x0000000000000030       0xe8 librumpnet_npf_pic.a(npf_ext_normalize.pico)
+ .debug_ranges  0x0000000000000118       0xa0 librumpnet_npf_pic.a(npf_ext_log.pico)
+ .debug_ranges  0x00000000000001b8      0x3c8 librumpnet_npf_pic.a(npf_alg_icmp.pico)
+ .debug_ranges  0x0000000000000580       0x60 librumpnet_npf_pic.a(if_npflog.pico)
+ .debug_ranges  0x00000000000005e0      0x398 librumpnet_npf_pic.a(npf_sendpkt.pico)
+ .debug_ranges  0x0000000000000978      0x278 librumpnet_npf_pic.a(npf_tableset.pico)
+ .debug_ranges  0x0000000000000bf0       0xd0 librumpnet_npf_pic.a(npf_tableset_ptree.pico)
+ .debug_ranges  0x0000000000000cc0       0xf8 librumpnet_npf_pic.a(npf_state_tcp.pico)
+ .debug_ranges  0x0000000000000db8       0x80 librumpnet_npf_pic.a(npf_rproc.pico)
+ .debug_ranges  0x0000000000000e38      0x2a8 librumpnet_npf_pic.a(npf_conn.pico)
+ .debug_ranges  0x00000000000010e0       0x70 librumpnet_npf_pic.a(npf_state.pico)
+ .debug_ranges  0x0000000000001150      0x158 librumpnet_npf_pic.a(npf_ruleset.pico)
+ .debug_ranges  0x00000000000012a8      0x450 librumpnet_npf_pic.a(npf_nat.pico)
+ .debug_ranges  0x00000000000016f8      0x180 librumpnet_npf_pic.a(npf_mbuf.pico)
+ .debug_ranges  0x0000000000001878       0x80 librumpnet_npf_pic.a(npf_if.pico)
+ .debug_ranges  0x00000000000018f8       0xe0 librumpnet_npf_pic.a(npf_handler.pico)
+ .debug_ranges  0x00000000000019d8      0x4a8 librumpnet_npf_pic.a(npf_inet.pico)
+ .debug_ranges  0x0000000000001e80       0x30 librumpnet_npf_pic.a(npf.pico)
+ .debug_ranges  0x0000000000001eb0       0x70 librumpnet_npf_pic.a(npf_worker.pico)
+ .debug_ranges  0x0000000000001f20      0x170 librumpnet_npf_pic.a(npf_ctl.pico)
+ .debug_ranges  0x0000000000002090       0xa8 librumpnet_npf_pic.a(npf_alg.pico)
+ .debug_ranges  0x0000000000002138       0x60 librumpnet_npf_pic.a(npf_bpf.pico)
+ .debug_ranges  0x0000000000002198       0x68 librumpnet_npf_pic.a(npf_conndb.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpnet_npf.so.0.0 elf32-i386)

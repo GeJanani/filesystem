@@ -1,0 +1,495 @@
+Archive member included because of file (symbol)
+
+librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                              (--whole-archive)
+librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_ptyfs_save_ptm
+                    0x4               librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+rumpns_ptyfs_vnodeop_p
+                    0x4               librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_ptyfs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x4bc
+ *(.hash)
+ .hash          0x00000000000000b4      0x4bc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000570      0xaa0
+ *(.dynsym)
+ .dynsym        0x0000000000000570      0xaa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001010      0xdc0
+ *(.dynstr)
+ .dynstr        0x0000000000001010      0xdc0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000001dd0        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001dd0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001dd0        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001dd0      0x3e0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000001dd0      0x2b8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000002088       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000002098       0xb0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x0000000000002148       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002168       0x40 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x00000000000021a8        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000021b0      0x238
+ *(.rel.plt)
+ .rel.plt       0x00000000000021b0      0x238 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000023e8        0xa
+ *(.init)
+ .init          0x00000000000023e8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000023ed        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000002400      0x480
+ *(.plt)
+ .plt           0x0000000000002400      0x480 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000002880     0x26f8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002880      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000029bb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000029bb                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000029bf        0x1 90909090
+ .text          0x00000000000029c0      0xb06 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x00000000000029c0                rumpns_ptyfs_reinit
+                0x00000000000029d0                rumpns_ptyfs_start
+                0x00000000000029e0                rumpns_ptyfs_sync
+                0x00000000000029f0                rumpns_ptyfs_vget
+                0x0000000000002e20                rumpns_ptyfs_loadvnode
+                0x0000000000002ff0                rumpns_ptyfs_mount
+                0x0000000000003200                rumpns_ptyfs_done
+                0x0000000000003220                rumpns_ptyfs_init
+                0x0000000000003360                rumpns_ptyfs_root
+                0x00000000000033f0                rumpns_ptyfs_unmount
+ *fill*         0x00000000000034c6        0xa 90909090
+ .text          0x00000000000034d0     0x1472 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                0x00000000000034d0                rumpns_ptyfs_pathconf
+                0x0000000000003540                rumpns_ptyfs_kqfilter
+                0x00000000000035a0                rumpns_ptyfs_poll
+                0x0000000000003620                rumpns_ptyfs_ioctl
+                0x00000000000036a0                rumpns_ptyfs_open
+                0x00000000000036f0                rumpns_ptyfs_readdir
+                0x0000000000003b70                rumpns_ptyfs_lookup
+                0x0000000000003d20                rumpns_ptyfs_access
+                0x0000000000003e30                rumpns_ptyfs_advlock
+                0x0000000000003e70                rumpns_ptyfs_print
+                0x0000000000003eb0                rumpns_ptyfs_inactive
+                0x0000000000003f10                rumpns_ptyfs_reclaim
+                0x0000000000003f70                rumpns_ptyfs_itimes
+                0x0000000000004100                rumpns_ptyfs_write
+                0x00000000000041c0                rumpns_ptyfs_read
+                0x0000000000004280                rumpns_ptyfs_setattr
+                0x00000000000046e0                rumpns_ptyfs_close
+                0x0000000000004780                rumpns_ptyfs_getattr
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000004942        0x4 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                0x0000000000004942                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000004946        0xa 90909090
+ .text          0x0000000000004950      0x5ec librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                0x0000000000004950                rumpns_ptyfs_allocvp
+                0x00000000000049a0                rumpns_ptyfs_hashinit
+                0x0000000000004a00                rumpns_ptyfs_hashdone
+                0x0000000000004a50                rumpns_ptyfs_get_node
+                0x0000000000004bd0                rumpns_ptyfs_set_active
+                0x0000000000004d90                rumpns_ptyfs_clr_active
+                0x0000000000004e50                rumpns_ptyfs_next_active
+ *fill*         0x0000000000004f3c        0x4 90909090
+ .text          0x0000000000004f40       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000004f78        0x5
+ *(.fini)
+ .fini          0x0000000000004f78        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000004f7d                PROVIDE (__etext, .)
+                0x0000000000004f7d                PROVIDE (_etext, .)
+                0x0000000000004f7d                PROVIDE (etext, .)
+
+.rodata         0x0000000000004f80      0x325
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000004f80       0x4c librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .rodata.str1.4
+                0x0000000000004fcc      0x104 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .rodata        0x00000000000050d0       0x2c librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .rodata.str1.1
+                0x00000000000050fc        0x8 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                                         0x14 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000005104       0xfb librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                                        0x130 (size before relaxing)
+ *fill*         0x00000000000051ff        0x1 00
+ .rodata.str1.4
+                0x0000000000005200       0x9c librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                                         0xd0 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000529c        0x9 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                                         0x15 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000052a8      0x164
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000052a8      0x164 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000540c      0x750
+ *(.eh_frame)
+ .eh_frame      0x000000000000540c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000005448      0x248 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                                        0x274 (size before relaxing)
+ .eh_frame      0x0000000000005690      0x374 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                                        0x3a0 (size before relaxing)
+ .eh_frame      0x0000000000005a04      0x154 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                                        0x180 (size before relaxing)
+ .eh_frame      0x0000000000005b58        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000005b5c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000006b5c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000006b5c        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000006b5c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000006b60        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000006b64        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000006b64        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000006b68        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000006b68                __DTOR_END__
+
+.jcr            0x0000000000006b6c        0x4
+ *(.jcr)
+ .jcr           0x0000000000006b6c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000006b6c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000006b80      0x198
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000006b80       0x14 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000006b94        0x8 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x0000000000006b94                rumpns_ptyfs_vnodeopv_descs
+ *fill*         0x0000000000006b9c        0x4 00
+ .data.rel.ro   0x0000000000006ba0      0x178 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                0x0000000000006ba0                rumpns_ptyfs_vnodeop_opv_desc
+                0x0000000000006bc0                rumpns_ptyfs_vnodeop_entries
+
+.dynamic        0x0000000000006d18       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000006d18       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006d18                _DYNAMIC
+
+.got            0x0000000000006db8       0x20
+ *(.got)
+ .got           0x0000000000006db8       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000006dd8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000006dd8      0x128
+ *(.got.plt)
+ .got.plt       0x0000000000006dd8      0x128 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006dd8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000006f00       0x9c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000006f00        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006f00                __dso_handle
+ .data          0x0000000000006f04        0x0 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ *fill*         0x0000000000006f04       0x1c 00
+ .data.rel      0x0000000000006f20       0x6c librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x0000000000006f20                rumpns_ptyfs_vfsops
+ .data.rel.local
+                0x0000000000006f8c       0x10 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x0000000000006f8c                rumpns_ptm_ptyfspty
+ .data          0x0000000000006f9c        0x0 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .data          0x0000000000006f9c        0x0 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+ .data          0x0000000000006f9c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000006f9c        0x0
+ .tm_clone_table
+                0x0000000000006f9c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000006f9c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x0000000000006f9c        0x4
+                0x0000000000006f9c                . = ALIGN (0x4)
+                0x0000000000006f9c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000006f9c        0x4 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x0000000000006fa0                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x0000000000006fa0                _edata = .
+                0x0000000000006fa0                PROVIDE (edata, .)
+                0x0000000000006fa0                __bss_start = .
+
+.bss            0x0000000000006fa0       0x2c
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000006fa0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000006fa8       0x10 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .bss           0x0000000000006fb8        0x0 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .bss           0x0000000000006fb8        0xc librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+ .bss           0x0000000000006fc4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000006fc4        0x4 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                0x0000000000006fc4                rumpns_ptyfs_save_ptm
+ COMMON         0x0000000000006fc8        0x4 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                0x0000000000006fc8                rumpns_ptyfs_vnodeop_p
+                0x0000000000006fcc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000006fcc                . = ALIGN (0x4)
+                0x0000000000006fcc                . = ALIGN (0x4)
+                0x0000000000006fcc                _end = .
+                0x0000000000006fcc                PROVIDE (end, .)
+                0x0000000000006fcc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xbf
+ .ident         0x0000000000000000       0x42 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .ident         0x0000000000000042       0x3d librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .ident         0x000000000000007f       0x40 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x11421
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x72d1 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_info    0x00000000000072d1     0x7fe5 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .debug_info    0x000000000000f2b6     0x216b librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug_abbrev   0x0000000000000000      0xd37
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_abbrev  0x00000000000005a2      0x4db librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .debug_abbrev  0x0000000000000a7d      0x2ba librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug_line     0x0000000000000000     0x17d9
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x847 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_line    0x0000000000000847      0xac1 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .debug_line    0x0000000000001308      0x4d1 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x442d
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x37e1 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+                                       0x3b3c (size before relaxing)
+ .debug_str     0x00000000000037e1      0xb16 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+                                       0x3f2c (size before relaxing)
+ .debug_str     0x00000000000042f7      0x136 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+                                       0x11c4 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x24b1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x7e3 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_loc     0x00000000000007e3     0x17c9 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+ .debug_loc     0x0000000000001fac      0x505 librumpfs_ptyfs_pic.a(ptyfs_subr.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x178
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xd8 librumpfs_ptyfs_pic.a(ptyfs_vfsops.pico)
+ .debug_ranges  0x00000000000000d8       0xa0 librumpfs_ptyfs_pic.a(ptyfs_vnops.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_ptyfs.so.0.0 elf32-i386)

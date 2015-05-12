@@ -1,0 +1,962 @@
+Archive member included because of file (symbol)
+
+librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_output.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_node.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_input.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+                              (--whole-archive)
+librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .group         0x0000000000000000        0x8 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpnet_net80211_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x6a4
+ *(.hash)
+ .hash          0x00000000000000b4      0x6a4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000758      0xe20
+ *(.dynsym)
+ .dynsym        0x0000000000000758      0xe20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000001578     0x16fd
+ *(.dynstr)
+ .dynstr        0x0000000000001578     0x16fd /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000002c76        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000002c78        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000002c78        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000002c78      0x3c8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.text.unlikely
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000002c78      0x168 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000002de0      0x188 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002f68       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_ieee80211_funcs
+                0x0000000000003020       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000003040      0x4b8
+ *(.rel.plt)
+ .rel.plt       0x0000000000003040      0x4b8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000034f8        0xa
+ *(.init)
+ .init          0x00000000000034f8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000034fd        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000003510      0x980
+ *(.plt)
+ .plt           0x0000000000003510      0x980 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003e90    0x1c388
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x0000000000003e90      0x24f librumpnet_net80211_pic.a(ieee80211_input.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x00000000000040df        0x1 90909090
+ .text          0x00000000000040e0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000421b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000421b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000421f        0x1 90909090
+ .text          0x0000000000004220       0x48 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ *fill*         0x0000000000004268        0x8 90909090
+ .text          0x0000000000004270     0x4779 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+                0x0000000000005690                rumpns_ieee80211_cfgget
+                0x0000000000005ec0                rumpns_ieee80211_cfgset
+                0x0000000000006a20                rumpns_ieee80211_ioctl
+ *fill*         0x00000000000089e9        0x7 90909090
+ .text          0x00000000000089f0      0x919 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ *fill*         0x0000000000009309        0x7 90909090
+ .text          0x0000000000009310     0x175a librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ *fill*         0x000000000000aa6a        0x6 90909090
+ .text          0x000000000000aa70     0x119c librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ *fill*         0x000000000000bc0c        0x4 90909090
+ .text          0x000000000000bc10      0x1f8 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+                0x000000000000bc10                rumpns_ieee80211_amrr_node_init
+                0x000000000000bc40                rumpns_ieee80211_amrr_choose
+ *fill*         0x000000000000be08        0x8 90909090
+ .text          0x000000000000be10     0x1bed librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                0x000000000000beb0                rumpns_ieee80211_proto_attach
+                0x000000000000bf40                rumpns_ieee80211_proto_detach
+                0x000000000000bfa0                rumpns_ieee80211_authenticator_register
+                0x000000000000bfd0                rumpns_ieee80211_authenticator_get
+                0x000000000000c090                rumpns_ieee80211_authenticator_unregister
+                0x000000000000c0c0                rumpns_ieee80211_aclator_register
+                0x000000000000c100                rumpns_ieee80211_aclator_unregister
+                0x000000000000c150                rumpns_ieee80211_aclator_get
+                0x000000000000c1c0                rumpns_ieee80211_print_essid
+                0x000000000000ca30                rumpns_ieee80211_dump_pkt
+                0x000000000000cd60                rumpns_ieee80211_fix_rate
+                0x000000000000d110                rumpns_ieee80211_set_shortslottime
+                0x000000000000d150                rumpns_ieee80211_reset_erp
+                0x000000000000d210                rumpns_ieee80211_iserp_rateset
+                0x000000000000d2a0                rumpns_ieee80211_set11gbasicrates
+                0x000000000000d350                rumpns_ieee80211_wme_updateparams_locked
+                0x000000000000d600                rumpns_ieee80211_wme_updateparams
+                0x000000000000d660                rumpns_ieee80211_wme_initparams
+                0x000000000000d8f0                rumpns_ieee80211_beacon_miss
+ .text.__x86.get_pc_thunk.cx
+                0x000000000000d9fd        0x4 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                0x000000000000d9fd                __x86.get_pc_thunk.cx
+ *fill*         0x000000000000da01        0xf 90909090
+ .text          0x000000000000da10     0x3389 librumpnet_net80211_pic.a(ieee80211_output.pico)
+                0x000000000000e0b0                rumpns_ieee80211_send_nulldata
+                0x000000000000e270                rumpns_ieee80211_classify
+                0x000000000000e430                rumpns_ieee80211_encap
+                0x000000000000eea0                rumpns_ieee80211_compute_duration
+                0x000000000000f130                rumpns_ieee80211_send_probereq
+                0x000000000000f480                rumpns_ieee80211_send_mgmt
+                0x0000000000010220                rumpns_ieee80211_get_rts
+                0x00000000000102b0                rumpns_ieee80211_get_cts_to_self
+                0x0000000000010330                rumpns_ieee80211_beacon_alloc
+                0x00000000000107d0                rumpns_ieee80211_beacon_update
+                0x0000000000010be0                rumpns_ieee80211_pwrsave
+ *fill*         0x0000000000010d99        0x7 90909090
+ .text          0x0000000000010da0     0x4b5d librumpnet_net80211_pic.a(ieee80211_node.pico)
+                0x0000000000010ff0                rumpns_ieee80211_dump_node
+                0x00000000000120a0                rumpns_ieee80211_node_attach
+                0x0000000000012120                rumpns_ieee80211_node_authorize
+                0x0000000000012140                rumpns_ieee80211_node_unauthorize
+                0x0000000000012150                rumpns_ieee80211_probe_curchan
+                0x00000000000121f0                rumpns_ieee80211_cancel_scan
+                0x0000000000012270                rumpns_ieee80211_sta_leave
+                0x00000000000122c0                rumpns_ieee80211_get_rate
+                0x0000000000012440                rumpns_ieee80211_alloc_node
+                0x0000000000012490                rumpns_ieee80211_tmp_node
+                0x00000000000125e0                rumpns_ieee80211_dup_bss
+                0x00000000000126c0                rumpns_ieee80211_find_node
+                0x0000000000012710                rumpns_ieee80211_fakeup_adhoc_node
+                0x00000000000127b0                rumpns_ieee80211_init_neighbor
+                0x00000000000128f0                rumpns_ieee80211_add_neighbor
+                0x0000000000012970                rumpns_ieee80211_find_rxnode
+                0x0000000000012a40                rumpns_ieee80211_find_rxnode_withkey
+                0x0000000000012c00                rumpns_ieee80211_find_txnode
+                0x0000000000012d20                rumpns_ieee80211_find_node_with_channel
+                0x0000000000012e00                rumpns_ieee80211_refine_node_for_beacon
+                0x0000000000012f60                rumpns_ieee80211_find_node_with_ssid
+                0x00000000000130d0                rumpns_ieee80211_free_node
+                0x0000000000013220                rumpns_ieee80211_add_scan
+                0x0000000000013750                rumpns_ieee80211_sta_join
+                0x00000000000138b0                rumpns_ieee80211_ibss_merge
+                0x0000000000013a20                rumpns_ieee80211_create_ibss
+                0x0000000000013cd0                rumpns_ieee80211_end_scan
+                0x0000000000014100                rumpns_ieee80211_next_scan
+                0x00000000000142b0                rumpns_ieee80211_begin_scan
+                0x00000000000143c0                rumpns_ieee80211_node_detach
+                0x0000000000014450                rumpns_ieee80211_node_delucastkey
+                0x0000000000014710                rumpns_ieee80211_iterate_nodes
+                0x0000000000014820                rumpns_ieee80211_dump_nodes
+                0x0000000000014850                rumpns_ieee80211_node_leave
+                0x0000000000014bb0                rumpns_ieee80211_node_join
+                0x0000000000015470                rumpns_ieee80211_getrssi
+                0x00000000000155a0                rumpns_ieee80211_node_table_reset
+                0x0000000000015630                rumpns_ieee80211_reset_bss
+                0x0000000000015720                rumpns_ieee80211_node_lateattach
+ *fill*         0x00000000000158fd        0x3 90909090
+ .text          0x0000000000015900     0x1904 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                0x00000000000164c0                rumpns_ieee80211_init
+                0x0000000000016500                rumpns_ieee80211_sysctl_attach
+                0x0000000000016a30                rumpns_ieee80211_sysctl_detach
+                0x0000000000016a60                rumpns_ieee80211_node_dectestref
+                0x0000000000016ab0                rumpns_ieee80211_drain_ifq
+                0x0000000000016b60                rumpns_if_printf
+                0x0000000000016bb0                rumpns_ieee80211_getmgtframe
+                0x0000000000016c60                rumpns_get_random_bytes
+                0x0000000000016c90                rumpns_ieee80211_notify_node_join
+                0x0000000000016dd0                rumpns_ieee80211_notify_node_leave
+                0x0000000000016ee0                rumpns_ieee80211_notify_scan_done
+                0x0000000000016f50                rumpns_ieee80211_notify_replay_failure
+                0x0000000000017100                rumpns_ieee80211_notify_michael_failure
+                0x00000000000171d0                rumpns_ieee80211_load_module
+ *fill*         0x0000000000017204        0xc 90909090
+ .text          0x0000000000017210      0xd94 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                0x0000000000017480                rumpns_ieee80211_rssadapt_sysctl_setup
+                0x0000000000017740                rumpns_ieee80211_rssadapt_choose
+                0x0000000000017890                rumpns_ieee80211_rssadapt_updatestats
+                0x0000000000017940                rumpns_ieee80211_rssadapt_input
+                0x0000000000017a20                rumpns_ieee80211_rssadapt_lower_rate
+                0x0000000000017c20                rumpns_ieee80211_rssadapt_raise_rate
+ *fill*         0x0000000000017fa4        0xc 90909090
+ .text          0x0000000000017fb0     0x5811 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                0x0000000000018290                rumpns_ieee80211_saveie
+                0x0000000000018310                rumpns_ieee80211_note
+                0x0000000000018430                rumpns_ieee80211_setup_rates
+                0x0000000000018590                rumpns_ieee80211_recv_mgmt
+                0x000000000001bc30                rumpns_ieee80211_input
+                0x000000000001d680                rumpns_ieee80211_note_frame
+                0x000000000001d730                rumpns_ieee80211_note_mac
+ *fill*         0x000000000001d7c1        0xf 90909090
+ .text          0x000000000001d7d0     0x1b12 librumpnet_net80211_pic.a(ieee80211.pico)
+                0x000000000001d830                rumpns_ieee80211_ifdetach
+                0x000000000001d990                rumpns_ieee80211_mhz2ieee
+                0x000000000001da20                rumpns_ieee80211_chan2ieee
+                0x000000000001dae0                rumpns_ieee80211_ieee2mhz
+                0x000000000001db50                rumpns_ieee80211_find_vap
+                0x000000000001dbc0                rumpns_ieee80211_watchdog
+                0x000000000001dcb0                rumpns_ieee80211_setmode
+                0x000000000001e070                rumpns_ieee80211_ifattach
+                0x000000000001e500                rumpns_ieee80211_chan2mode
+                0x000000000001e570                rumpns_ieee80211_rate2media
+                0x000000000001e610                rumpns_ieee80211_media_status
+                0x000000000001e7f0                rumpns_ieee80211_announce
+                0x000000000001e920                rumpns_ieee80211_media_init
+                0x000000000001ef20                rumpns_ieee80211_media2rate
+                0x000000000001ef50                rumpns_ieee80211_media_change
+ *fill*         0x000000000001f2e2        0xe 90909090
+ .text          0x000000000001f2f0      0xd71 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+                0x000000000001f530                rumpns_ieee80211_crypto_attach
+                0x000000000001f600                rumpns_ieee80211_crypto_register
+                0x000000000001f6a0                rumpns_ieee80211_crypto_unregister
+                0x000000000001f750                rumpns_ieee80211_crypto_available
+                0x000000000001f780                rumpns_ieee80211_crypto_newkey
+                0x000000000001fb80                rumpns_ieee80211_crypto_delkey
+                0x000000000001fbc0                rumpns_ieee80211_crypto_delglobalkeys
+                0x000000000001fc00                rumpns_ieee80211_crypto_detach
+                0x000000000001fc20                rumpns_ieee80211_crypto_setkey
+                0x000000000001fde0                rumpns_ieee80211_crypto_encap
+                0x000000000001fee0                rumpns_ieee80211_crypto_decap
+ *fill*         0x0000000000020061        0xf 90909090
+ .text          0x0000000000020070      0x16c librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ *fill*         0x00000000000201dc        0x4 90909090
+ .text          0x00000000000201e0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000020218        0x5
+ *(.fini)
+ .fini          0x0000000000020218        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002021d                PROVIDE (__etext, .)
+                0x000000000002021d                PROVIDE (_etext, .)
+                0x000000000002021d                PROVIDE (etext, .)
+
+.rodata         0x0000000000020220     0x4191
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000020220        0x9 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ *fill*         0x0000000000020229       0x17 00
+ .rodata        0x0000000000020240      0x2b8 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .rodata.str1.1
+                0x00000000000204f8        0x4 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .rodata.str1.4
+                0x00000000000204fc       0x4e librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .rodata.str1.1
+                0x000000000002054a       0x16 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .rodata        0x0000000000020560      0x412 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ *fill*         0x0000000000020972        0x2 00
+ .rodata.str1.4
+                0x0000000000020974      0x1d4 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .rodata.str1.1
+                0x0000000000020b48       0x11 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+                                         0x25 (size before relaxing)
+ *fill*         0x0000000000020b59        0x7 00
+ .rodata        0x0000000000020b60      0x637 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ *fill*         0x0000000000021197        0x1 00
+ .rodata.str1.4
+                0x0000000000021198       0x8b librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                                         0xb7 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000021223        0x8 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                                         0x1a (size before relaxing)
+ .rodata        0x000000000002122b       0x1e librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ *fill*         0x0000000000021249        0x3 00
+ .rodata.str1.4
+                0x000000000002124c       0x60 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .rodata.str1.4
+                0x00000000000212ac      0x172 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .rodata.str1.1
+                0x000000000002141e      0x271 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                                        0x2a3 (size before relaxing)
+ *fill*         0x000000000002168f       0x11 00
+ .rodata        0x00000000000216a0      0x329 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ *fill*         0x00000000000219c9       0x17 00
+ .rodata        0x00000000000219e0      0x253 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .rodata.str1.1
+                0x0000000000021c33      0x152 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ *fill*         0x0000000000021d85        0x3 00
+ .rodata.str1.4
+                0x0000000000021d88      0x2ec librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .rodata.str1.1
+                0x0000000000022074      0x27f librumpnet_net80211_pic.a(ieee80211_node.pico)
+                                        0x2b9 (size before relaxing)
+ *fill*         0x00000000000222f3        0x1 00
+ .rodata.str1.4
+                0x00000000000222f4      0x69b librumpnet_net80211_pic.a(ieee80211_node.pico)
+ *fill*         0x000000000002298f       0x11 00
+ .rodata        0x00000000000229a0      0x292 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ *fill*         0x0000000000022c32        0x2 00
+ .rodata.str1.4
+                0x0000000000022c34      0x201 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                                        0x235 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000022e35       0xed librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                                         0xfd (size before relaxing)
+ .rodata        0x0000000000022f22       0x5e librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .rodata.str1.1
+                0x0000000000022f80       0x49 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                                         0x60 (size before relaxing)
+ *fill*         0x0000000000022fc9        0x3 00
+ .rodata.str1.4
+                0x0000000000022fcc       0xe7 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                                        0x10f (size before relaxing)
+ *fill*         0x00000000000230b3        0xd 00
+ .rodata        0x00000000000230c0       0x20 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .rodata.str1.1
+                0x00000000000230e0      0x4a2 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                                        0x523 (size before relaxing)
+ *fill*         0x0000000000023582        0x2 00
+ .rodata.str1.4
+                0x0000000000023584      0x5c1 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                                        0x5f1 (size before relaxing)
+ *fill*         0x0000000000023b45        0x3 00
+ .rodata        0x0000000000023b48       0x66 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                0x0000000000023b90                rumpns_ieee80211_merge_print_intvl
+ .rodata.str1.1
+                0x0000000000023bae       0xd0 librumpnet_net80211_pic.a(ieee80211.pico)
+                                         0xd5 (size before relaxing)
+ *fill*         0x0000000000023c7e        0x2 00
+ .rodata.str1.4
+                0x0000000000023c80       0xa1 librumpnet_net80211_pic.a(ieee80211.pico)
+ *fill*         0x0000000000023d21       0x1f 00
+ .rodata        0x0000000000023d40      0x22c librumpnet_net80211_pic.a(ieee80211.pico)
+                0x0000000000023d78                rumpns_ieee80211_std_rateset_11g
+                0x0000000000023d88                rumpns_ieee80211_std_rateset_11b
+                0x0000000000023d98                rumpns_ieee80211_std_rateset_11a
+                0x0000000000023da8                rumpns_ieee80211_channel_anyc
+ .rodata.str1.1
+                0x0000000000023f6c       0x60 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .rodata.str1.4
+                0x0000000000023fcc      0x2e9 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+                                        0x319 (size before relaxing)
+ .rodata        0x00000000000242b5       0xad librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ *fill*         0x0000000000024362        0x2 00
+ .rodata.str1.4
+                0x0000000000024364       0x48 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+                                         0x47 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000243ac        0x5 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000243b4      0x71c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000243b4      0x71c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000024ad0     0x2a04
+ *(.eh_frame)
+ .eh_frame      0x0000000000024ad0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000024b0c       0x20 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000024b2c      0x20c librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+                                        0x238 (size before relaxing)
+ .eh_frame      0x0000000000024d38      0x1ec librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+                                        0x218 (size before relaxing)
+ .eh_frame      0x0000000000024f24      0x294 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+                                        0x2c0 (size before relaxing)
+ .eh_frame      0x00000000000251b8      0x1dc librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                                        0x208 (size before relaxing)
+ .eh_frame      0x0000000000025394       0x40 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x00000000000253d4      0x404 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                                        0x430 (size before relaxing)
+ .eh_frame      0x00000000000257d8      0x3c8 librumpnet_net80211_pic.a(ieee80211_output.pico)
+                                        0x3f4 (size before relaxing)
+ .eh_frame      0x0000000000025ba0      0xb28 librumpnet_net80211_pic.a(ieee80211_node.pico)
+                                        0xb68 (size before relaxing)
+ .eh_frame      0x00000000000266c8      0x33c librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                                        0x368 (size before relaxing)
+ .eh_frame      0x0000000000026a04      0x1ac librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                                        0x1d8 (size before relaxing)
+ .eh_frame      0x0000000000026bb0      0x2a8 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                                        0x2d4 (size before relaxing)
+ .eh_frame      0x0000000000026e58      0x384 librumpnet_net80211_pic.a(ieee80211.pico)
+                                        0x3c4 (size before relaxing)
+ .eh_frame      0x00000000000271dc      0x248 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+                                        0x288 (size before relaxing)
+ .eh_frame      0x0000000000027424       0xac librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x00000000000274d0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000274d4                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00000000000284d4                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x00000000000284d4        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x00000000000284d4        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00000000000284d8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x00000000000284dc        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x00000000000284dc        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00000000000284e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000284e0                __DTOR_END__
+
+.jcr            0x00000000000284e4        0x4
+ *(.jcr)
+ .jcr           0x00000000000284e4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x00000000000284e4        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000028500      0x150
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000028500       0x14 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ *fill*         0x0000000000028514        0xc 00
+ .data.rel.ro.local
+                0x0000000000028520       0x30 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+                0x0000000000028520                rumpns_ieee80211_cipher_wep
+ *fill*         0x0000000000028550       0x10 00
+ .data.rel.ro.local
+                0x0000000000028560       0x30 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+                0x0000000000028560                rumpns_ieee80211_cipher_tkip
+ *fill*         0x0000000000028590       0x10 00
+ .data.rel.ro.local
+                0x00000000000285a0       0x30 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                0x00000000000285a0                rumpns_ieee80211_cipher_ccmp
+ .data.rel.ro.local
+                0x00000000000285d0       0x2c librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .data.rel.ro.local
+                0x00000000000285fc       0x14 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ *fill*         0x0000000000028610       0x10 00
+ .data.rel.ro.local
+                0x0000000000028620       0x30 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+                0x0000000000028620                rumpns_ieee80211_cipher_none
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000028650       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000028650       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000028650                _DYNAMIC
+
+.got            0x00000000000286f0       0x5c
+ *(.got)
+ .got           0x00000000000286f0       0x5c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000002874c                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000002874c      0x268
+ *(.got.plt)
+ .got.plt       0x000000000002874c      0x268 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002874c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000289c0      0x114
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000289c0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000289c0                __dso_handle
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .data          0x00000000000289c4        0x0 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ *fill*         0x00000000000289c4       0x1c 00
+ .data.rel.local
+                0x00000000000289e0       0xc0 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                0x00000000000289e0                rumpns_ieee80211_wme_acnames
+                0x00000000000289f4                rumpns_ieee80211_state_name
+                0x0000000000028a20                rumpns_ieee80211_ctl_subtype_name
+                0x0000000000028a60                rumpns_ieee80211_mgt_subtype_name
+ .data          0x0000000000028aa0        0x0 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .data          0x0000000000028aa0        0x0 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .data          0x0000000000028aa0        0x0 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .data          0x0000000000028aa0       0x18 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .data          0x0000000000028ab8        0x0 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .data          0x0000000000028ab8        0x0 librumpnet_net80211_pic.a(ieee80211.pico)
+ .data.rel.local
+                0x0000000000028ab8       0x1c librumpnet_net80211_pic.a(ieee80211.pico)
+                0x0000000000028ab8                rumpns_ieee80211_phymode_name
+ .data          0x0000000000028ad4        0x0 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .data          0x0000000000028ad4        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ .data          0x0000000000028ad4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000028ad4        0x0
+ .tm_clone_table
+                0x0000000000028ad4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000028ad4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_ieee80211_funcs
+                0x0000000000028ad4       0x10
+                0x0000000000028ad4                . = ALIGN (0x4)
+                0x0000000000028ad4                PROVIDE (__start_link_set_ieee80211_funcs, ABSOLUTE (.))
+ link_set_ieee80211_funcs
+                0x0000000000028ad4        0x4 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ link_set_ieee80211_funcs
+                0x0000000000028ad8        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ link_set_ieee80211_funcs
+                0x0000000000028adc        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ link_set_ieee80211_funcs
+                0x0000000000028ae0        0x4 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                0x0000000000028ae4                PROVIDE (__stop_link_set_ieee80211_funcs, .)
+
+.data1
+ *(.data1)
+                0x0000000000028ae4                _edata = .
+                0x0000000000028ae4                PROVIDE (edata, .)
+                0x0000000000028ae4                __bss_start = .
+
+.bss            0x0000000000028b00       0xc0
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000028b00        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000028b08        0x0 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .bss           0x0000000000028b08        0x6 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ *fill*         0x0000000000028b0e        0x2 00
+ .bss           0x0000000000028b10        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .bss           0x0000000000028b10        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .bss           0x0000000000028b10        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .bss           0x0000000000028b10        0x0 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .bss           0x0000000000028b10       0x20 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .bss           0x0000000000028b30        0x0 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .bss           0x0000000000028b30        0x6 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ *fill*         0x0000000000028b36        0x2 00
+ .bss           0x0000000000028b38       0x10 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                0x0000000000028b38                rumpns_ieee80211_debug
+ .bss           0x0000000000028b48       0x14 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                0x0000000000028b48                rumpns_ieee80211_rssadapt_debug
+ .bss           0x0000000000028b5c        0x0 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ *fill*         0x0000000000028b5c        0x4 00
+ .bss           0x0000000000028b60       0x44 librumpnet_net80211_pic.a(ieee80211.pico)
+                0x0000000000028b60                rumpns_ieee80211com_head
+ .bss           0x0000000000028ba4       0x1c librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .bss           0x0000000000028bc0        0x0 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ .bss           0x0000000000028bc0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000028bc0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000028bc0                . = ALIGN (0x4)
+                0x0000000000028bc0                . = ALIGN (0x4)
+                0x0000000000028bc0                _end = .
+                0x0000000000028bc0                PROVIDE (end, .)
+                0x0000000000028bc0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x3ee
+ .ident         0x0000000000000000       0x42 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .ident         0x0000000000000042       0x45 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .ident         0x0000000000000087       0x47 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .ident         0x00000000000000ce       0x46 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .ident         0x0000000000000114       0x46 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .ident         0x000000000000015a       0x40 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .ident         0x000000000000019a       0x45 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .ident         0x00000000000001df       0x41 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .ident         0x0000000000000220       0x3f librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .ident         0x000000000000025f       0x43 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .ident         0x00000000000002a2       0x45 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .ident         0x00000000000002e7       0x40 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .ident         0x0000000000000327       0x3a librumpnet_net80211_pic.a(ieee80211.pico)
+ .ident         0x0000000000000361       0x43 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .ident         0x00000000000003a4       0x4a librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x208
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .debug_aranges
+                0x0000000000000160       0x48 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_aranges
+                0x00000000000001a8       0x20 librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_aranges
+                0x00000000000001c8       0x20 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .debug_aranges
+                0x00000000000001e8       0x20 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x541df
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x3277 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .debug_info    0x0000000000003277     0xa3bf librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_info    0x000000000000d636     0x37d6 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_info    0x0000000000010e0c     0x51e7 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_info    0x0000000000015ff3     0x45c4 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_info    0x000000000001a5b7     0x2a43 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .debug_info    0x000000000001cffa     0x4d12 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_info    0x0000000000021d0c     0x63c1 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_info    0x00000000000280cd     0x7bb9 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_info    0x000000000002fc86     0x927e librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_info    0x0000000000038f04     0x7b4f librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .debug_info    0x0000000000040a53     0x847a librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_info    0x0000000000048ecd     0x4748 librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_info    0x000000000004d615     0x3c10 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .debug_info    0x0000000000051225     0x2fba librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug_abbrev   0x0000000000000000     0x4634
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x211 librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .debug_abbrev  0x0000000000000211      0x5c8 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_abbrev  0x00000000000007d9      0x477 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_abbrev  0x0000000000000c50      0x5ab librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_abbrev  0x00000000000011fb      0x52e librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_abbrev  0x0000000000001729      0x22f librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .debug_abbrev  0x0000000000001958      0x4fb librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_abbrev  0x0000000000001e53      0x5e2 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_abbrev  0x0000000000002435      0x60d librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_abbrev  0x0000000000002a42      0x59c librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_abbrev  0x0000000000002fde      0x3d1 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .debug_abbrev  0x00000000000033af      0x5e2 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_abbrev  0x0000000000003991      0x5d0 librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_abbrev  0x0000000000003f61      0x45d librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .debug_abbrev  0x00000000000043be      0x276 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug_line     0x0000000000000000     0xa584
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x3fd librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .debug_line    0x00000000000003fd     0x14aa librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_line    0x00000000000018a7      0x7af librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_line    0x0000000000002056      0xc7b librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_line    0x0000000000002cd1      0x9a6 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_line    0x0000000000003677      0x435 librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .debug_line    0x0000000000003aac      0x976 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_line    0x0000000000004422     0x112b librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_line    0x000000000000554d     0x1259 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_line    0x00000000000067a6      0xb77 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_line    0x000000000000731d      0x892 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .debug_line    0x0000000000007baf     0x1512 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_line    0x00000000000090c1      0x92d librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_line    0x00000000000099ee      0x749 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .debug_line    0x000000000000a137      0x44d librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x957a
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x234f librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+                                       0x2438 (size before relaxing)
+ .debug_str     0x000000000000234f     0x3445 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+                                       0x5857 (size before relaxing)
+ .debug_str     0x0000000000005794      0x260 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+                                       0x22d7 (size before relaxing)
+ .debug_str     0x00000000000059f4      0x30b librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+                                       0x24ad (size before relaxing)
+ .debug_str     0x0000000000005cff      0x1e7 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+                                       0x23d1 (size before relaxing)
+ .debug_str     0x0000000000005ee6      0x17b librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+                                       0x1f67 (size before relaxing)
+ .debug_str     0x0000000000006061      0x937 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+                                       0x2e73 (size before relaxing)
+ .debug_str     0x0000000000006998      0xd54 librumpnet_net80211_pic.a(ieee80211_output.pico)
+                                       0x34d1 (size before relaxing)
+ .debug_str     0x00000000000076ec      0x6ae librumpnet_net80211_pic.a(ieee80211_node.pico)
+                                       0x3056 (size before relaxing)
+ .debug_str     0x0000000000007d9a      0x652 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+                                       0x4e3d (size before relaxing)
+ .debug_str     0x00000000000083ec      0x322 librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+                                       0x47ae (size before relaxing)
+ .debug_str     0x000000000000870e      0x856 librumpnet_net80211_pic.a(ieee80211_input.pico)
+                                       0x3760 (size before relaxing)
+ .debug_str     0x0000000000008f64      0x378 librumpnet_net80211_pic.a(ieee80211.pico)
+                                       0x26dd (size before relaxing)
+ .debug_str     0x00000000000092dc      0x1a6 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+                                       0x23b2 (size before relaxing)
+ .debug_str     0x0000000000009482       0xf8 librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+                                       0x2187 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1b5aa
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c librumpnet_net80211_pic.a(ieee80211_xauth.pico)
+ .debug_loc     0x000000000000002c     0x36e8 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_loc     0x0000000000003714      0xe19 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_loc     0x000000000000452d     0x4409 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_loc     0x0000000000008936     0x238f librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_loc     0x000000000000acc5       0x7e librumpnet_net80211_pic.a(ieee80211_amrr.pico)
+ .debug_loc     0x000000000000ad43     0x1148 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_loc     0x000000000000be8b     0x2ec2 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_loc     0x000000000000ed4d     0x337f librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_loc     0x00000000000120cc      0xf6a librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_loc     0x0000000000013036      0x81c librumpnet_net80211_pic.a(ieee80211_rssadapt.pico)
+ .debug_loc     0x0000000000013852     0x58e3 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_loc     0x0000000000019135     0x184b librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_loc     0x000000000001a980      0xafc librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+ .debug_loc     0x000000000001b47c      0x12e librumpnet_net80211_pic.a(ieee80211_crypto_none.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x25f0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x550 librumpnet_net80211_pic.a(ieee80211_ioctl.pico)
+ .debug_ranges  0x0000000000000550       0xd8 librumpnet_net80211_pic.a(ieee80211_crypto_wep.pico)
+ .debug_ranges  0x0000000000000628      0x6b0 librumpnet_net80211_pic.a(ieee80211_crypto_tkip.pico)
+ .debug_ranges  0x0000000000000cd8      0x318 librumpnet_net80211_pic.a(ieee80211_crypto_ccmp.pico)
+ .debug_ranges  0x0000000000000ff0       0x28 librumpnet_net80211_pic.a(ieee80211_proto.pico)
+ .debug_ranges  0x0000000000001018      0x410 librumpnet_net80211_pic.a(ieee80211_output.pico)
+ .debug_ranges  0x0000000000001428      0x2a8 librumpnet_net80211_pic.a(ieee80211_node.pico)
+ .debug_ranges  0x00000000000016d0      0x158 librumpnet_net80211_pic.a(ieee80211_netbsd.pico)
+ .debug_ranges  0x0000000000001828      0xae0 librumpnet_net80211_pic.a(ieee80211_input.pico)
+ .debug_ranges  0x0000000000002308      0x260 librumpnet_net80211_pic.a(ieee80211.pico)
+ .debug_ranges  0x0000000000002568       0x88 librumpnet_net80211_pic.a(ieee80211_crypto.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpnet_net80211.so.0.0 elf32-i386)

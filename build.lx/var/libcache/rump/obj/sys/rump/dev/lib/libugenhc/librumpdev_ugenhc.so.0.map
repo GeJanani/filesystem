@@ -1,0 +1,446 @@
+Archive member included because of file (symbol)
+
+librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+                              (--whole-archive)
+librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+                              (--whole-archive)
+librumpdev_ugenhc_pic.a(ugenhc.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_ugenhc_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x170
+ *(.hash)
+ .hash          0x00000000000000b4      0x170 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000224      0x350
+ *(.dynsym)
+ .dynsym        0x0000000000000224      0x350 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000574      0x411
+ *(.dynstr)
+ .dynstr        0x0000000000000574      0x411 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000986        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000988        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000988        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000988      0x208
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000000988       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000000998      0x130 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000000ac8       0x90 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000b58       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000000b88        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000b90      0x100
+ *(.rel.plt)
+ .rel.plt       0x0000000000000b90      0x100 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000c90        0xa
+ *(.init)
+ .init          0x0000000000000c90        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000c95        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000ca0      0x210
+ *(.plt)
+ .plt           0x0000000000000ca0      0x210 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000000eb0     0x1db8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000eb0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000feb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000000feb                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000fef        0x1 90909090
+ .text          0x0000000000000ff0      0x188 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+                0x0000000000000ff0                rumpns_bus_dmamap_create
+                0x0000000000001000                rumpns_bus_dmamap_destroy
+                0x0000000000001030                rumpns_bus_dmamap_load
+                0x0000000000001040                rumpns_bus_dmamap_unload
+                0x0000000000001070                rumpns_bus_dmamap_sync
+                0x00000000000010a0                rumpns_bus_dmamem_alloc
+                0x00000000000010b0                rumpns_bus_dmamem_free
+                0x00000000000010e0                rumpns_bus_dmamem_map
+                0x0000000000001150                rumpns_bus_dmamem_unmap
+ *fill*         0x0000000000001178        0x8 90909090
+ .text          0x0000000000001180       0x36 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ *fill*         0x00000000000011b6        0xa 90909090
+ .text          0x00000000000011c0     0x1a62 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ *fill*         0x0000000000002c22        0xe 90909090
+ .text          0x0000000000002c30       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000002c68        0x5
+ *(.fini)
+ .fini          0x0000000000002c68        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000002c6d                PROVIDE (__etext, .)
+                0x0000000000002c6d                PROVIDE (_etext, .)
+                0x0000000000002c6d                PROVIDE (etext, .)
+
+.rodata         0x0000000000002c80      0x428
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000002c80       0x28 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .rodata.str1.4
+                0x0000000000002ca8       0xbc librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .rodata        0x0000000000002d64       0x45 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .rodata.str1.1
+                0x0000000000002da9       0x15 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .rodata.str1.1
+                0x0000000000002dbe      0x11a librumpdev_ugenhc_pic.a(ugenhc.pico)
+                                        0x12d (size before relaxing)
+ .rodata.str1.4
+                0x0000000000002ed8      0x14c librumpdev_ugenhc_pic.a(ugenhc.pico)
+                                        0x17d (size before relaxing)
+ *fill*         0x0000000000003024       0x1c 00
+ .rodata        0x0000000000003040       0x68 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000030a8      0x184
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000030a8      0x184 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000000322c      0x618
+ *(.eh_frame)
+ .eh_frame      0x000000000000322c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000003268       0xf0 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+                                        0x11c (size before relaxing)
+ .eh_frame      0x0000000000003358       0x20 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000003378      0x4c8 librumpdev_ugenhc_pic.a(ugenhc.pico)
+                                        0x4f4 (size before relaxing)
+ .eh_frame      0x0000000000003840        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000003844                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000004844                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000004844        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000004844        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000004848        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000484c        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000484c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000004850        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000004850                __DTOR_END__
+
+.jcr            0x0000000000004854        0x4
+ *(.jcr)
+ .jcr           0x0000000000004854        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000004854        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000004860       0xd4
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000004860       0x38 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ *fill*         0x0000000000004898        0x8 00
+ .data.rel.ro.local
+                0x00000000000048a0       0x84 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000004924       0x10 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+
+.dynamic        0x0000000000004934       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000004934       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000004934                _DYNAMIC
+
+.got            0x00000000000049d4       0x18
+ *(.got)
+ .got           0x00000000000049d4       0x18 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000049ec                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000049ec       0x8c
+ *(.got.plt)
+ .got.plt       0x00000000000049ec       0x8c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000049ec                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000004a80      0x10c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000004a80        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000004a80                __dso_handle
+ .data          0x0000000000004a84        0x0 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .data          0x0000000000004a84        0x0 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ *fill*         0x0000000000004a84       0x1c 00
+ .data.rel.local
+                0x0000000000004aa0       0xa8 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+                0x0000000000004aa0                rumpns_ugenhc_cd
+ .data          0x0000000000004b48        0x0 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ *fill*         0x0000000000004b48       0x18 00
+ .data.rel.local
+                0x0000000000004b60       0x2c librumpdev_ugenhc_pic.a(ugenhc.pico)
+                0x0000000000004b60                rumpns_ugenhc_ca
+ .data          0x0000000000004b8c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000004b8c        0x0
+ .tm_clone_table
+                0x0000000000004b8c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000004b8c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x0000000000004b8c        0x4
+                0x0000000000004b8c                . = ALIGN (0x4)
+                0x0000000000004b8c                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000004b8c        0x4 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+                0x0000000000004b90                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000004b90                _edata = .
+                0x0000000000004b90                PROVIDE (edata, .)
+                0x0000000000004b90                __bss_start = .
+
+.bss            0x0000000000004b90        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000004b90        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000004b98        0x0 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .bss           0x0000000000004b98        0x0 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .bss           0x0000000000004b98        0x0 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ .bss           0x0000000000004b98        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000004b98                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000004b98                . = ALIGN (0x4)
+                0x0000000000004b98                . = ALIGN (0x4)
+                0x0000000000004b98                _end = .
+                0x0000000000004b98                PROVIDE (end, .)
+                0x0000000000004b98                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ugenhc_pic.a(ugenhc.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x39
+ .ident         0x0000000000000000       0x39 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe55a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x6e4 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .debug_info    0x00000000000006e4     0x5690 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .debug_info    0x0000000000005d74     0x87e6 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug_abbrev   0x0000000000000000      0x92c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x18b librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .debug_abbrev  0x000000000000018b      0x273 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .debug_abbrev  0x00000000000003fe      0x52e librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug_line     0x0000000000000000     0x1709
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x2cb librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .debug_line    0x00000000000002cb      0x651 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .debug_line    0x000000000000091c      0xded librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x4375
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x309 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+                                        0x372 (size before relaxing)
+ .debug_str     0x0000000000000309     0x2f4b librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+                                       0x32ce (size before relaxing)
+ .debug_str     0x0000000000003254     0x1121 librumpdev_ugenhc_pic.a(ugenhc.pico)
+                                       0x42cb (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1b7b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x144 librumpdev_ugenhc_pic.a(ugenhc_dma.pico)
+ .debug_loc     0x0000000000000144       0x44 librumpdev_ugenhc_pic.a(ugenhc_at_mainbus.pico)
+ .debug_loc     0x0000000000000188     0x19f3 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x220
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x220 librumpdev_ugenhc_pic.a(ugenhc.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_ugenhc.so.0.0 elf32-i386)

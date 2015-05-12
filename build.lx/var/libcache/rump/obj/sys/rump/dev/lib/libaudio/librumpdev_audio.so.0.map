@@ -1,0 +1,602 @@
+Archive member included because of file (symbol)
+
+librumpdev_audio_pic.a(auvolconv.pico)
+                              (--whole-archive)
+librumpdev_audio_pic.a(audio_component.pico)
+                              (--whole-archive)
+librumpdev_audio_pic.a(audio.pico)
+                              (--whole-archive)
+librumpdev_audio_pic.a(mulaw.pico)
+                              (--whole-archive)
+librumpdev_audio_pic.a(aurateconv.pico)
+                              (--whole-archive)
+librumpdev_audio_pic.a(auconv.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_audio_pic.a(audio_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_audio_pic.a(audio_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_audio_pic.a(audio.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_audio_pic.a(audio.pico)
+ .group         0x0000000000000000        0x8 librumpdev_audio_pic.a(mulaw.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_audio_pic.a(mulaw.pico)
+ .group         0x0000000000000000        0x8 librumpdev_audio_pic.a(aurateconv.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_audio_pic.a(aurateconv.pico)
+ .group         0x0000000000000000        0x8 librumpdev_audio_pic.a(auconv.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_audio_pic.a(auconv.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_audio_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x45c
+ *(.hash)
+ .hash          0x00000000000000b4      0x45c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000510      0x920
+ *(.dynsym)
+ .dynsym        0x0000000000000510      0x920 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000e30      0xc38
+ *(.dynstr)
+ .dynstr        0x0000000000000e30      0xc38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000001a68        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001a68        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001a68        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001a68      0x418
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000001a68      0x260 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000001cc8       0xe8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000001db0       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000001dd8       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001e00       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000001e78        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000001e80      0x2d0
+ *(.rel.plt)
+ .rel.plt       0x0000000000001e80      0x2d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000002150        0xa
+ *(.init)
+ .init          0x0000000000002150        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000002155        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000002160      0x5b0
+ *(.plt)
+ .plt           0x0000000000002160      0x5b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000002710     0xe938
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002710      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000284b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000284b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000284f        0x1 90909090
+ .text          0x0000000000002850      0x1e0 librumpdev_audio_pic.a(auvolconv.pico)
+                0x0000000000002850                rumpns_auvolconv_slinear16_le_fetch_to
+                0x0000000000002940                rumpns_auvolconv_slinear16_be_fetch_to
+ .text          0x0000000000002a30      0x1e4 librumpdev_audio_pic.a(audio_component.pico)
+ *fill*         0x0000000000002c14        0xc 90909090
+ .text          0x0000000000002c20     0x82c8 librumpdev_audio_pic.a(audio.pico)
+                0x0000000000002c20                rumpns_audioprobe
+                0x0000000000002c40                rumpns_audioprint
+                0x0000000000003920                rumpns_audioactivate
+                0x0000000000003df0                rumpns_au_portof
+                0x0000000000003e90                rumpns_au_setup_ports
+                0x00000000000040b0                rumpns_audio_attach_mi
+                0x0000000000004120                rumpns_audio_alloc_ring
+                0x0000000000004210                rumpns_audio_free_ring
+                0x0000000000004280                rumpns_audiodetach
+                0x0000000000004530                rumpns_audio_init_ringbuffer
+                0x0000000000004620                rumpns_audio_initbufs
+                0x0000000000004720                rumpns_audio_calcwater
+                0x00000000000047a0                rumpns_audio_init_record
+                0x0000000000004840                rumpns_audio_init_play
+                0x00000000000048e0                rumpns_audio_clear
+                0x00000000000049b0                rumpns_audio_rint
+                0x0000000000004c40                rumpns_audio_clear_intr_unlocked
+                0x0000000000004c90                rumpns_audio_calc_blksize
+                0x0000000000004d10                rumpns_audio_fill_silence
+                0x0000000000004e10                rumpns_audio_pint
+                0x0000000000005350                rumpns_audio_silence_copyout
+                0x0000000000005430                rumpns_audio_poll
+                0x00000000000055d0                rumpns_audiopoll
+                0x00000000000056d0                rumpns_audio_kqfilter
+                0x0000000000005770                rumpns_audiokqfilter
+                0x0000000000005850                rumpns_audiostartr
+                0x00000000000059b0                rumpns_audio_read
+                0x0000000000005ca0                rumpns_audioread
+                0x0000000000005d50                rumpns_audiostartp
+                0x0000000000005ee0                rumpns_audio_mmap
+                0x00000000000060b0                rumpns_audiommap
+                0x0000000000006180                rumpns_audio_write
+                0x0000000000006620                rumpns_audiowrite
+                0x00000000000066d0                rumpns_audio_drain
+                0x00000000000068e0                rumpns_audio_close
+                0x0000000000006a40                rumpns_audio_check_params
+                0x0000000000006b50                rumpns_au_set_lr_value
+                0x0000000000006c30                rumpns_au_set_gain
+                0x0000000000006f30                rumpns_au_get_lr_value
+                0x0000000000007020                rumpns_au_get_gain
+                0x0000000000007610                rumpns_au_set_port
+                0x00000000000077e0                rumpns_au_get_port
+                0x0000000000007940                rumpns_audiosetinfo
+                0x0000000000008f70                rumpns_audio_set_defaults
+                0x00000000000090d0                rumpns_audioattach
+                0x0000000000009be0                rumpns_audio_open
+                0x0000000000009f70                rumpns_audiogetinfo
+                0x000000000000a2f0                rumpns_audio_ioctl
+                0x000000000000a850                rumpns_mixer_open
+                0x000000000000a8d0                rumpns_audioopen
+                0x000000000000a9e0                rumpns_mixer_close
+                0x000000000000aa60                rumpns_audioclose
+                0x000000000000ab50                rumpns_mixer_ioctl
+                0x000000000000ad90                rumpns_audioioctl
+                0x000000000000aee0                rumpns_audio_get_device
+ *fill*         0x000000000000aee8        0x8 90909090
+ .text          0x000000000000aef0     0x1072 librumpdev_audio_pic.a(mulaw.pico)
+                0x000000000000bdf0                rumpns_mulaw_to_linear8
+                0x000000000000be20                rumpns_mulaw_to_linear16
+                0x000000000000be50                rumpns_linear16_to_mulaw
+                0x000000000000be80                rumpns_linear8_to_mulaw
+                0x000000000000beb0                rumpns_alaw_to_linear8
+                0x000000000000bee0                rumpns_alaw_to_linear16
+                0x000000000000bf10                rumpns_linear8_to_alaw
+                0x000000000000bf40                rumpns_linear16_to_alaw
+ *fill*         0x000000000000bf62        0xe 90909090
+ .text          0x000000000000bf70     0x392c librumpdev_audio_pic.a(aurateconv.pico)
+                0x000000000000f690                rumpns_aurateconv
+ *fill*         0x000000000000f89c        0x4 90909090
+ .text          0x000000000000f8a0     0x1769 librumpdev_audio_pic.a(auconv.pico)
+                0x000000000000f8a0                rumpns_stream_filter_set_fetcher
+                0x000000000000f8b0                rumpns_stream_filter_set_inputbuffer
+                0x00000000000102f0                rumpns_auconv_nocontext_filter_dtor
+                0x0000000000010730                rumpns_auconv_nocontext_filter_factory
+                0x0000000000010790                rumpns_linear16_to_linear8
+                0x00000000000107c0                rumpns_linear8_to_linear16
+                0x00000000000107f0                rumpns_swap_bytes_change_sign16
+                0x0000000000010820                rumpns_swap_bytes
+                0x0000000000010850                rumpns_change_sign16
+                0x0000000000010880                rumpns_change_sign8
+                0x00000000000108b0                rumpns_auconv_set_converter
+                0x0000000000010bd0                rumpns_auconv_create_encodings
+                0x0000000000010f50                rumpns_auconv_delete_encodings
+                0x0000000000010f80                rumpns_auconv_query_encoding
+ *fill*         0x0000000000011009        0x7 90909090
+ .text          0x0000000000011010       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000011048        0x5
+ *(.fini)
+ .fini          0x0000000000011048        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001104d                PROVIDE (__etext, .)
+                0x000000000001104d                PROVIDE (_etext, .)
+                0x000000000001104d                PROVIDE (etext, .)
+
+.rodata         0x0000000000011060      0xfb1
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000011060       0x56 librumpdev_audio_pic.a(audio_component.pico)
+                                         0x5c (size before relaxing)
+ *fill*         0x00000000000110b6        0x2 00
+ .rodata.str1.4
+                0x00000000000110b8       0x9d librumpdev_audio_pic.a(audio_component.pico)
+ .rodata.str1.1
+                0x0000000000011155      0x1ef librumpdev_audio_pic.a(audio.pico)
+                                        0x1f7 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000011344      0x270 librumpdev_audio_pic.a(audio.pico)
+ .rodata        0x00000000000115b4       0xf8 librumpdev_audio_pic.a(audio.pico)
+                0x000000000001164c                rumpns_audio_default
+ *fill*         0x00000000000116ac       0x14 00
+ .rodata        0x00000000000116c0      0x600 librumpdev_audio_pic.a(mulaw.pico)
+ .rodata.str1.4
+                0x0000000000011cc0      0x10e librumpdev_audio_pic.a(aurateconv.pico)
+ .rodata.str1.1
+                0x0000000000011dce       0x13 librumpdev_audio_pic.a(aurateconv.pico)
+ *fill*         0x0000000000011de1       0x1f 00
+ .rodata        0x0000000000011e00       0xa4 librumpdev_audio_pic.a(aurateconv.pico)
+ .rodata        0x0000000000011ea4       0x8c librumpdev_audio_pic.a(auconv.pico)
+ .rodata.str1.4
+                0x0000000000011f30       0x34 librumpdev_audio_pic.a(auconv.pico)
+                                         0x31 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000011f64       0xad librumpdev_audio_pic.a(auconv.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000012014      0x41c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000012014      0x41c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000012430     0x193c
+ *(.eh_frame)
+ .eh_frame      0x0000000000012430       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000001246c       0x68 librumpdev_audio_pic.a(auvolconv.pico)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x00000000000124d4       0x30 librumpdev_audio_pic.a(audio_component.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000012504      0xfc4 librumpdev_audio_pic.a(audio.pico)
+                                        0xff0 (size before relaxing)
+ .eh_frame      0x00000000000134c8      0x360 librumpdev_audio_pic.a(mulaw.pico)
+                                        0x38c (size before relaxing)
+ .eh_frame      0x0000000000013828       0xa4 librumpdev_audio_pic.a(aurateconv.pico)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x00000000000138cc      0x49c librumpdev_audio_pic.a(auconv.pico)
+                                        0x4c8 (size before relaxing)
+ .eh_frame      0x0000000000013d68        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000013d6c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000014000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000014000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000014000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000014004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000014008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000014008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001400c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001400c                __DTOR_END__
+
+.jcr            0x0000000000014010        0x4
+ *(.jcr)
+ .jcr           0x0000000000014010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000014010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000014020      0x4b0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000014020       0x1c librumpdev_audio_pic.a(audio_component.pico)
+ *fill*         0x000000000001403c        0x4 00
+ .data.rel.ro.local
+                0x0000000000014040       0x60 librumpdev_audio_pic.a(audio.pico)
+ .data.rel.ro.local
+                0x00000000000140a0       0x4c librumpdev_audio_pic.a(auconv.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00000000000140ec       0x10 librumpdev_audio_pic.a(audio_component.pico)
+ *fill*         0x00000000000140fc        0x4 00
+ .data.rel.ro   0x0000000000014100       0x30 librumpdev_audio_pic.a(audio.pico)
+                0x0000000000014100                rumpns_audio_cdevsw
+ *fill*         0x0000000000014130       0x10 00
+ .data.rel.ro   0x0000000000014140      0x390 librumpdev_audio_pic.a(auconv.pico)
+
+.dynamic        0x00000000000144d0       0xa0
+ *(.dynamic)
+ .dynamic       0x00000000000144d0       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000144d0                _DYNAMIC
+
+.got            0x0000000000014570       0x3c
+ *(.got)
+ .got           0x0000000000014570       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000145ac                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000145ac      0x174
+ *(.got.plt)
+ .got.plt       0x00000000000145ac      0x174 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000145ac                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000014720       0xcc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000014720        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000014720                __dso_handle
+ .data          0x0000000000014724        0x0 librumpdev_audio_pic.a(auvolconv.pico)
+ .data          0x0000000000014724        0x0 librumpdev_audio_pic.a(audio_component.pico)
+ *fill*         0x0000000000014724       0x1c 00
+ .data.rel.local
+                0x0000000000014740       0x60 librumpdev_audio_pic.a(audio_component.pico)
+                0x0000000000014740                rumpns_audio_cd
+ .data          0x00000000000147a0        0x4 librumpdev_audio_pic.a(audio.pico)
+                0x00000000000147a0                rumpns_audio_blk_ms
+ *fill*         0x00000000000147a4       0x1c 00
+ .data.rel      0x00000000000147c0       0x2c librumpdev_audio_pic.a(audio.pico)
+                0x00000000000147c0                rumpns_audio_ca
+ .data          0x00000000000147ec        0x0 librumpdev_audio_pic.a(mulaw.pico)
+ .data          0x00000000000147ec        0x0 librumpdev_audio_pic.a(aurateconv.pico)
+ .data          0x00000000000147ec        0x0 librumpdev_audio_pic.a(auconv.pico)
+ .data          0x00000000000147ec        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x00000000000147ec        0x0
+ .tm_clone_table
+                0x00000000000147ec        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x00000000000147ec        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x00000000000147ec        0x4
+                0x00000000000147ec                . = ALIGN (0x4)
+                0x00000000000147ec                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x00000000000147ec        0x4 librumpdev_audio_pic.a(audio_component.pico)
+                0x00000000000147f0                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x00000000000147f0                _edata = .
+                0x00000000000147f0                PROVIDE (edata, .)
+                0x00000000000147f0                __bss_start = .
+
+.bss            0x00000000000147f0        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000147f0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(auvolconv.pico)
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(audio_component.pico)
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(audio.pico)
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(mulaw.pico)
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(aurateconv.pico)
+ .bss           0x00000000000147f8        0x0 librumpdev_audio_pic.a(auconv.pico)
+ .bss           0x00000000000147f8        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x00000000000147f8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000000147f8                . = ALIGN (0x4)
+                0x00000000000147f8                . = ALIGN (0x4)
+                0x00000000000147f8                _end = .
+                0x00000000000147f8                PROVIDE (end, .)
+                0x00000000000147f8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(auvolconv.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(audio_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(audio.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(mulaw.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(aurateconv.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_audio_pic.a(auconv.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x172
+ .ident         0x0000000000000000       0x3e librumpdev_audio_pic.a(auvolconv.pico)
+ .ident         0x000000000000003e       0x41 librumpdev_audio_pic.a(audio_component.pico)
+ .ident         0x000000000000007f       0x3c librumpdev_audio_pic.a(audio.pico)
+ .ident         0x00000000000000bb       0x3b librumpdev_audio_pic.a(mulaw.pico)
+ .ident         0x00000000000000f6       0x40 librumpdev_audio_pic.a(aurateconv.pico)
+ .ident         0x0000000000000136       0x3c librumpdev_audio_pic.a(auconv.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_audio_pic.a(audio_component.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_audio_pic.a(audio.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpdev_audio_pic.a(auconv.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1f9f1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x234c librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_info    0x000000000000234c     0x6a15 librumpdev_audio_pic.a(audio_component.pico)
+ .debug_info    0x0000000000008d61     0xd553 librumpdev_audio_pic.a(audio.pico)
+ .debug_info    0x00000000000162b4     0x2017 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_info    0x00000000000182cb     0x50b8 librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_info    0x000000000001d383     0x266e librumpdev_audio_pic.a(auconv.pico)
+
+.debug_abbrev   0x0000000000000000     0x1682
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2e6 librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_abbrev  0x00000000000002e6      0x2dd librumpdev_audio_pic.a(audio_component.pico)
+ .debug_abbrev  0x00000000000005c3      0x637 librumpdev_audio_pic.a(audio.pico)
+ .debug_abbrev  0x0000000000000bfa      0x2a8 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_abbrev  0x0000000000000ea2      0x3ea librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_abbrev  0x000000000000128c      0x3f6 librumpdev_audio_pic.a(auconv.pico)
+
+.debug_line     0x0000000000000000     0x4eb0
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x46d librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_line    0x000000000000046d      0x75d librumpdev_audio_pic.a(audio_component.pico)
+ .debug_line    0x0000000000000bca     0x1f71 librumpdev_audio_pic.a(audio.pico)
+ .debug_line    0x0000000000002b3b      0x9a9 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_line    0x00000000000034e4      0xfe0 librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_line    0x00000000000044c4      0x9ec librumpdev_audio_pic.a(auconv.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5550
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xfcf librumpdev_audio_pic.a(auvolconv.pico)
+                                       0x11e2 (size before relaxing)
+ .debug_str     0x0000000000000fcf     0x311a librumpdev_audio_pic.a(audio_component.pico)
+                                       0x3c5c (size before relaxing)
+ .debug_str     0x00000000000040e9      0xc30 librumpdev_audio_pic.a(audio.pico)
+                                       0x47ba (size before relaxing)
+ .debug_str     0x0000000000004d19      0x23b librumpdev_audio_pic.a(mulaw.pico)
+                                        0x4a2 (size before relaxing)
+ .debug_str     0x0000000000004f54      0x1c9 librumpdev_audio_pic.a(aurateconv.pico)
+                                       0x128a (size before relaxing)
+ .debug_str     0x000000000000511d      0x433 librumpdev_audio_pic.a(auconv.pico)
+                                        0x817 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x15a27
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x697 librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_loc     0x0000000000000697      0x111 librumpdev_audio_pic.a(audio_component.pico)
+ .debug_loc     0x00000000000007a8     0x63c2 librumpdev_audio_pic.a(audio.pico)
+ .debug_loc     0x0000000000006b6a     0x2e56 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_loc     0x00000000000099c0     0x9640 librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_loc     0x0000000000013000     0x2a27 librumpdev_audio_pic.a(auconv.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1b70
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x88 librumpdev_audio_pic.a(auvolconv.pico)
+ .debug_ranges  0x0000000000000088      0x588 librumpdev_audio_pic.a(audio.pico)
+ .debug_ranges  0x0000000000000610      0x560 librumpdev_audio_pic.a(mulaw.pico)
+ .debug_ranges  0x0000000000000b70      0xd18 librumpdev_audio_pic.a(aurateconv.pico)
+ .debug_ranges  0x0000000000001888      0x2e8 librumpdev_audio_pic.a(auconv.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_audio.so.0.0 elf32-i386)

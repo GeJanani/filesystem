@@ -1,0 +1,87 @@
+RUMPKERNEL(7)          Miscellaneous Information Manual          RUMPKERNEL(7)
+
+NNAAMMEE
+     rruummpp kkeerrnneell - The Anykernel and Rump Kernels
+
+DDEESSCCRRIIPPTTIIOONN
+     Rump kernels provide portable, componentized, kernel quality drivers such
+     as file systems, POSIX system call handlers, PCI device drivers, a SCSI
+     protocol stack, virtio and a TCP/IP stack.  The fundamental enabling
+     technology is the anykernel architecture of NetBSD, which enables the use
+     of unmodified NetBSD kernel drivers.  The minimalistic rumpuser(3)
+     interface integrates a rump kernel to the host platform.  Suitable and
+     readily supported platforms include for example POSIX userspace (such as
+     NetBSD), hypervisors (such as Xen and KVM), and bare metal hardware.
+
+     Rump kernels are component-oriented, which means that they consist of
+     libraries which are linked together to form runtime images.  If the
+     platform supports it, dynamic linking may be used to load components at
+     runtime, allowing the creation of services where the runtime component
+     configuration is specified when the service is run (see rump_server(1)
+     for an example).
+
+     A rump kernel provides its own set of namespaces, such as a file system
+     hierarchy and TCP ports, that are independent of the ones on the host and
+     of any other rump kernel instances.  It should be noted that the presence
+     of the provided namespaces depends on the components that the rump kernel
+     was constructed with.  For example, networking and file systems are
+     components, and it is possible to construct a rump kernel which supports
+     neither.
+
+     A rump kernel accepts the following bootstrap parameters.  The exact way
+     of specifying the parameters depends on the host platform; for example in
+     POSIX userspace the parameters are environment variables.
+
+     RUMP_NCPU        If set, the value indicates the number of virtual cores
+                      configured into a rump kernel, i.e. the number of
+                      threads which can be concurrently executing code inside
+                      the rump kernel.
+
+                      The special value "host" can be used to specify the
+                      number of of host cores available (note: not available
+                      on all platforms).  If this parameter is unset, two
+                      cores will be configured.
+
+     RUMP_VERBOSE     If set to non-zero, causes bootstrap messages to be
+                      displayed on the console.
+
+     RUMP_MEMLIMIT    If set, indicates the maximum amount of memory that a
+                      rump kernel will attempt to allocate from the host.  If
+                      this parameter is unset, the rump kernel attempt to
+                      allocate host memory until allocation fails.  When the
+                      rump kernel is close to the allocation limit, or when
+                      host allocation fails, the rump kernel will attempt to
+                      make more memory available by invoking its internal
+                      pagedaemon to flush caches.
+
+SSEEEE AALLSSOO
+     hhttttpp::////rruummppkkeerrnneell..oorrgg//
+
+     Antti Kantee and Justin Cormack, "Rump Kernels: No OS? No Problem!",
+     _U_S_E_N_I_X, _;_l_o_g_i_n_:, No. 5, Vol. 39, October 2014.
+
+     Antti Kantee, "Flexible Operating System Internals: The Design and
+     Implementation of the Anykernel and Rump Kernels", _A_a_l_t_o _U_n_i_v_e_r_s_i_t_y
+     _D_o_c_t_o_r_a_l _D_i_s_s_e_r_t_a_t_i_o_n_s, 2012.
+
+     Antti Kantee, "Rump Device Drivers: Shine On You Kernel Diamond",
+     _P_r_o_c_e_e_d_i_n_g_s _o_f _A_s_i_a_B_S_D_C_o_n _2_0_1_0, pp. 75-84, March 2010.
+
+     Arnaud Ysmal and Antti Kantee, "Fs-utils: File Systems Access Tools for
+     Userland", _E_u_r_o_B_S_D_C_o_n _2_0_0_9, September 2009.
+
+     Antti Kantee, "Rump File Systems: Kernel Code Reborn", _P_r_o_c_e_e_d_i_n_g_s _o_f _t_h_e
+     _2_0_0_9 _U_S_E_N_I_X _A_n_n_u_a_l _T_e_c_h_n_i_c_a_l _C_o_n_f_e_r_e_n_c_e, pp. 201-214, June 2009.
+
+     Antti Kantee, "Kernel Development in Userspace - The Rump Approach",
+     _B_S_D_C_a_n _2_0_0_9, May 2009.
+
+     Antti Kantee, "Environmental Independence: BSD Kernel TCP/IP in
+     Userspace", _P_r_o_c_e_e_d_i_n_g_s _o_f _A_s_i_a_B_S_D_C_o_n _2_0_0_9, pp. 71-80, March 2009.
+
+HHIISSTTOORRYY
+     An experimental concept for the anykernel and rump kernels was first seen
+     during the NetBSD 5.0 development cycle.  A stable concept was ready for
+     NetBSD 6.0.
+
+NetBSD 7.99                    December 1, 2014                    NetBSD 7.99

@@ -1,0 +1,513 @@
+Archive member included because of file (symbol)
+
+librumpfs_union_pic.a(union_vfsops.pico)
+                              (--whole-archive)
+librumpfs_union_pic.a(union_vnops.pico)
+                              (--whole-archive)
+librumpfs_union_pic.a(union_subr.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_union_vnodeop_p
+                    0x4               librumpfs_union_pic.a(union_vnops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_union_pic.a(union_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_union_pic.a(union_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_union_pic.a(union_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_union_pic.a(union_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_union_pic.a(union_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_union_pic.a(union_subr.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_union_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x688
+ *(.hash)
+ .hash          0x00000000000000b4      0x688 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000000000000073c      0xdb0
+ *(.dynsym)
+ .dynsym        0x000000000000073c      0xdb0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000014ec     0x1171
+ *(.dynstr)
+ .dynstr        0x00000000000014ec     0x1171 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x000000000000265e      0x1b6
+ *(.gnu.version)
+ .gnu.version   0x000000000000265e      0x1b6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000002814        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000002814       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000002814       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000002834      0x448
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000002834      0x2c8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000002afc       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000002b0c       0xa8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002bb4       0xc0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000002c74        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000002c7c      0x348
+ *(.rel.plt)
+ .rel.plt       0x0000000000002c7c      0x348 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000002fc4        0xa
+ *(.init)
+ .init          0x0000000000002fc4        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000002fc9        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000002fd0      0x6a0
+ *(.plt)
+ .plt           0x0000000000002fd0      0x6a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003670     0x57a8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003670      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000037ab        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000037ab                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000037af        0x1 90909090
+ .text          0x00000000000037b0      0x8cd librumpfs_union_pic.a(union_vfsops.pico)
+                0x00000000000037b0                rumpns_union_start
+                0x00000000000037c0                rumpns_union_sync
+                0x00000000000037d0                rumpns_union_vget
+                0x0000000000003820                rumpns_union_statvfs
+                0x00000000000039d0                rumpns_union_unmount
+                0x0000000000003ab0                rumpns_union_mount
+                0x0000000000003fb0                rumpns_union_root
+ *fill*         0x000000000000407d        0x3 90909090
+ .text          0x0000000000004080     0x2b01 librumpfs_union_pic.a(union_vnops.pico)
+                0x0000000000004080                rumpns_union_ioctl
+                0x00000000000040d0                rumpns_union_poll
+                0x0000000000004120                rumpns_union_mmap
+                0x0000000000004170                rumpns_union_seek
+                0x00000000000041c0                rumpns_union_readdir
+                0x0000000000004210                rumpns_union_advlock
+                0x0000000000004260                rumpns_union_kqfilter
+                0x00000000000042c0                rumpns_union_abortop
+                0x0000000000004350                rumpns_union_putpages
+                0x0000000000004460                rumpns_union_bwrite
+                0x0000000000004570                rumpns_union_strategy
+                0x0000000000004680                rumpns_union_pathconf
+                0x0000000000004720                rumpns_union_bmap
+                0x00000000000047c0                rumpns_union_readlink
+                0x0000000000004860                rumpns_union_access
+                0x0000000000004980                rumpns_union_close
+                0x0000000000004a90                rumpns_union_islocked
+                0x0000000000004b10                rumpns_union_print
+                0x0000000000004bd0                rumpns_union_reclaim
+                0x0000000000004c00                rumpns_union_inactive
+                0x0000000000004c80                rumpns_union_symlink
+                0x0000000000004ce0                rumpns_union_rmdir
+                0x0000000000004e40                rumpns_union_mkdir
+                0x0000000000004f20                rumpns_union_rename
+                0x0000000000005160                rumpns_union_link
+                0x00000000000053e0                rumpns_union_remove
+                0x0000000000005520                rumpns_union_fsync
+                0x0000000000005630                rumpns_union_revoke
+                0x00000000000056b0                rumpns_union_write
+                0x00000000000057f0                rumpns_union_read
+                0x00000000000059a0                rumpns_union_setattr
+                0x0000000000005c10                rumpns_union_getattr
+                0x0000000000005e20                rumpns_union_open
+                0x0000000000005f70                rumpns_union_mknod
+                0x0000000000006040                rumpns_union_whiteout
+                0x00000000000060a0                rumpns_union_create
+                0x0000000000006340                rumpns_union_lookup
+                0x00000000000067b0                rumpns_union_getpages
+                0x0000000000006900                rumpns_union_unlock
+                0x0000000000006930                rumpns_union_lock
+ *fill*         0x0000000000006b81        0xf 90909090
+ .text          0x0000000000006b90     0x224c librumpfs_union_pic.a(union_subr.pico)
+                0x0000000000006d30                rumpns_union_init
+                0x0000000000006da0                rumpns_union_reinit
+                0x0000000000006ec0                rumpns_union_done
+                0x0000000000006f10                rumpns_union_updatevp
+                0x0000000000007170                rumpns_union_newlower
+                0x00000000000071a0                rumpns_union_newupper
+                0x00000000000071d0                rumpns_union_newsize
+                0x0000000000007370                rumpns_union_allocvp
+                0x0000000000007c10                rumpns_union_freevp
+                0x0000000000007d00                rumpns_union_copyfile
+                0x0000000000007e80                rumpns_union_mkshadow
+                0x0000000000008060                rumpns_union_mkwhiteout
+                0x00000000000080d0                rumpns_union_vn_create
+                0x0000000000008260                rumpns_union_vn_close
+                0x00000000000082a0                rumpns_union_copyup
+                0x0000000000008610                rumpns_union_dowhiteout
+                0x0000000000008670                rumpns_union_dircache
+                0x0000000000008800                rumpns_union_diruncache
+                0x00000000000088a0                rumpns_union_removed_upper
+                0x0000000000008940                rumpns_union_check_rmdir
+                0x0000000000008c90                rumpns_union_readdirhook
+ *fill*         0x0000000000008ddc        0x4 90909090
+ .text          0x0000000000008de0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000008e18        0x5
+ *(.fini)
+ .fini          0x0000000000008e18        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000008e1d                PROVIDE (__etext, .)
+                0x0000000000008e1d                PROVIDE (_etext, .)
+                0x0000000000008e1d                PROVIDE (etext, .)
+
+.rodata         0x0000000000008e20      0x46e
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000008e20       0x2f librumpfs_union_pic.a(union_vfsops.pico)
+                                         0x30 (size before relaxing)
+ *fill*         0x0000000000008e4f        0x1 00
+ .rodata.str1.4
+                0x0000000000008e50      0x1cc librumpfs_union_pic.a(union_vnops.pico)
+ .rodata.str1.1
+                0x000000000000901c       0xe4 librumpfs_union_pic.a(union_vnops.pico)
+                                         0xf1 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000009100      0x130 librumpfs_union_pic.a(union_subr.pico)
+                                        0x162 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000009230       0x5e librumpfs_union_pic.a(union_subr.pico)
+                                         0x75 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000009290      0x26c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000009290      0x26c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x00000000000094fc      0xd4c
+ *(.eh_frame)
+ .eh_frame      0x00000000000094fc       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000009538      0x15c librumpfs_union_pic.a(union_vfsops.pico)
+                                        0x188 (size before relaxing)
+ .eh_frame      0x0000000000009694      0x758 librumpfs_union_pic.a(union_vnops.pico)
+                                        0x784 (size before relaxing)
+ .eh_frame      0x0000000000009dec      0x458 librumpfs_union_pic.a(union_subr.pico)
+                                        0x484 (size before relaxing)
+ .eh_frame      0x000000000000a244        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000a248                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000b248                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000b248        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000b248        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000b24c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000b250        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000b250        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000b254        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000b254                __DTOR_END__
+
+.jcr            0x000000000000b258        0x4
+ *(.jcr)
+ .jcr           0x000000000000b258        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000b258        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000b260      0x1a0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000b260       0x14 librumpfs_union_pic.a(union_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000b274        0x8 librumpfs_union_pic.a(union_vfsops.pico)
+                0x000000000000b274                rumpns_union_vnodeopv_descs
+ *fill*         0x000000000000b27c        0x4 00
+ .data.rel.ro   0x000000000000b280      0x180 librumpfs_union_pic.a(union_vnops.pico)
+                0x000000000000b280                rumpns_union_vnodeop_opv_desc
+                0x000000000000b2a0                rumpns_union_vnodeop_entries
+
+.dynamic        0x000000000000b400       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000000b400       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b400                _DYNAMIC
+
+.got            0x000000000000b4b8       0x60
+ *(.got)
+ .got           0x000000000000b4b8       0x60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000b518                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000b518      0x1b0
+ *(.got.plt)
+ .got.plt       0x000000000000b518      0x1b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b518                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000b6e0       0x8c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000b6e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000b6e0                __dso_handle
+ .data          0x000000000000b6e4        0x0 librumpfs_union_pic.a(union_vfsops.pico)
+ *fill*         0x000000000000b6e4       0x1c 00
+ .data.rel      0x000000000000b700       0x6c librumpfs_union_pic.a(union_vfsops.pico)
+                0x000000000000b700                rumpns_union_vfsops
+ .data          0x000000000000b76c        0x0 librumpfs_union_pic.a(union_vnops.pico)
+ .data          0x000000000000b76c        0x0 librumpfs_union_pic.a(union_subr.pico)
+ .data          0x000000000000b76c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000b76c        0x0
+ .tm_clone_table
+                0x000000000000b76c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000b76c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000b76c        0x4
+                0x000000000000b76c                . = ALIGN (0x4)
+                0x000000000000b76c                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000b76c        0x4 librumpfs_union_pic.a(union_vfsops.pico)
+                0x000000000000b770                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000b770                _edata = .
+                0x000000000000b770                PROVIDE (edata, .)
+                0x000000000000b770                __bss_start = .
+
+.bss            0x000000000000b770       0x1c
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000b770        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000b778        0x4 librumpfs_union_pic.a(union_vfsops.pico)
+ .bss           0x000000000000b77c        0x0 librumpfs_union_pic.a(union_vnops.pico)
+ .bss           0x000000000000b77c        0xc librumpfs_union_pic.a(union_subr.pico)
+ .bss           0x000000000000b788        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000000b788        0x4 librumpfs_union_pic.a(union_vnops.pico)
+                0x000000000000b788                rumpns_union_vnodeop_p
+                0x000000000000b78c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000b78c                . = ALIGN (0x4)
+                0x000000000000b78c                . = ALIGN (0x4)
+                0x000000000000b78c                _end = .
+                0x000000000000b78c                PROVIDE (end, .)
+                0x000000000000b78c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_union_pic.a(union_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_union_pic.a(union_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_union_pic.a(union_subr.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0xba
+ .ident         0x0000000000000000       0x3d librumpfs_union_pic.a(union_vfsops.pico)
+ .ident         0x000000000000003d       0x41 librumpfs_union_pic.a(union_vnops.pico)
+ .ident         0x000000000000007e       0x3c librumpfs_union_pic.a(union_subr.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpfs_union_pic.a(union_vnops.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpfs_union_pic.a(union_subr.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x18030
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x6323 librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_info    0x0000000000006323     0x9478 librumpfs_union_pic.a(union_vnops.pico)
+ .debug_info    0x000000000000f79b     0x8895 librumpfs_union_pic.a(union_subr.pico)
+
+.debug_abbrev   0x0000000000000000      0xd93
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4d8 librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_abbrev  0x00000000000004d8      0x47b librumpfs_union_pic.a(union_vnops.pico)
+ .debug_abbrev  0x0000000000000953      0x440 librumpfs_union_pic.a(union_subr.pico)
+
+.debug_line     0x0000000000000000     0x22f7
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x68d librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_line    0x000000000000068d      0xf7a librumpfs_union_pic.a(union_vnops.pico)
+ .debug_line    0x0000000000001607      0xcf0 librumpfs_union_pic.a(union_subr.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x4cf2
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x321a librumpfs_union_pic.a(union_vfsops.pico)
+                                       0x3509 (size before relaxing)
+ .debug_str     0x000000000000321a      0xf90 librumpfs_union_pic.a(union_vnops.pico)
+                                       0x3daa (size before relaxing)
+ .debug_str     0x00000000000041aa      0xb48 librumpfs_union_pic.a(union_subr.pico)
+                                       0x3ef3 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4a60
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x641 librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_loc     0x0000000000000641     0x2e11 librumpfs_union_pic.a(union_vnops.pico)
+ .debug_loc     0x0000000000003452     0x160e librumpfs_union_pic.a(union_subr.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x1e0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpfs_union_pic.a(union_vfsops.pico)
+ .debug_ranges  0x0000000000000030      0x198 librumpfs_union_pic.a(union_vnops.pico)
+ .debug_ranges  0x00000000000001c8       0x18 librumpfs_union_pic.a(union_subr.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_union.so.0.0 elf32-i386)

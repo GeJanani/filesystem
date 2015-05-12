@@ -1,0 +1,516 @@
+#
+# Library dependencies for build 'core init drivers/timer server/ram_blk server/rump_fs test/libc_vfs'
+#
+
+export SPEC_FILES := \
+  /home/k/GeDONE/repos/base-linux/mk/spec-linux_x86_32.mk \
+  /home/k/GeDONE/repos/base-linux/mk/spec-linux.mk \
+  /home/k/GeDONE/repos/base/mk/spec-x86_32.mk \
+  /home/k/GeDONE/repos/base/mk/spec-32bit.mk \
+
+LIB_CACHE_DIR = /home/k/GeDONE/build.lx/var/libcache
+BASE_DIR      = /home/k/GeDONE/repos/base
+VERBOSE      ?= @
+VERBOSE_MK   ?= @
+VERBOSE_DIR  ?= --no-print-directory
+INSTALL_DIR  ?= /home/k/GeDONE/build.lx/bin
+SHELL        ?= /bin/bash
+MKDIR        ?= mkdir
+
+all:
+	@true # prevent nothing-to-be-done message
+
+DEP_core.prg = cxx.lib $(DEP_cxx.lib) base-common.lib $(DEP_base-common.lib) syscall.lib $(DEP_syscall.lib) startup.lib $(DEP_startup.lib)
+
+core.prg: cxx.lib base-common.lib syscall.lib startup.lib
+	@$(MKDIR) -p core
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C core -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base-linux \
+	     PRG_REL_DIR=core \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_core.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+DEP_cxx.lib = platform.lib $(DEP_platform.lib)
+
+cxx.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/cxx
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/cxx -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base \
+	     LIB_MK=/home/k/GeDONE/repos/base/lib/mk/cxx.mk \
+	     LIB=cxx \
+	     DEPS="$(DEP_cxx.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+platform.lib: 
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/platform
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/platform -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base \
+	     LIB_MK=/home/k/GeDONE/repos/base/lib/mk/platform.mk \
+	     LIB=platform \
+	     DEPS="$(DEP_platform.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_base-common.lib = syscall.lib $(DEP_syscall.lib)
+
+base-common.lib: syscall.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/base-common
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/base-common -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base-linux \
+	     LIB_MK=/home/k/GeDONE/repos/base-linux/lib/mk/base-common.mk \
+	     LIB=base-common \
+	     DEPS="$(DEP_base-common.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_syscall.lib = platform.lib $(DEP_platform.lib)
+
+syscall.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/syscall
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/syscall -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base-linux \
+	     LIB_MK=/home/k/GeDONE/repos/base-linux/lib/mk/x86_32/syscall.mk \
+	     LIB=syscall \
+	     DEPS="$(DEP_syscall.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_startup.lib = syscall.lib $(DEP_syscall.lib)
+
+startup.lib: syscall.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/startup
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/startup -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base \
+	     LIB_MK=/home/k/GeDONE/repos/base/lib/mk/x86_32/startup.mk \
+	     LIB=startup \
+	     DEPS="$(DEP_startup.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+
+ifeq ($(filter $(DEP_core.prg:.lib=),$(INVALID_DEPS)),)
+all: core.prg
+endif
+DEP_timer.prg = timer.lib $(DEP_timer.lib)
+
+timer.prg: timer.lib
+	@$(MKDIR) -p drivers/timer
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C drivers/timer -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     PRG_REL_DIR=drivers/timer \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_timer.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+DEP_timer.lib = base.lib $(DEP_base.lib) alarm.lib $(DEP_alarm.lib) server.lib $(DEP_server.lib) syscall.lib $(DEP_syscall.lib)
+
+timer.lib: base.lib alarm.lib server.lib syscall.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/timer
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/timer -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/linux/timer.mk \
+	     LIB=timer \
+	     DEPS="$(DEP_timer.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_base.lib = startup.lib $(DEP_startup.lib) cxx.lib $(DEP_cxx.lib) base-common.lib $(DEP_base-common.lib) syscall.lib $(DEP_syscall.lib) cxx.lib $(DEP_cxx.lib)
+
+base.lib: startup.lib cxx.lib base-common.lib syscall.lib cxx.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/base
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/base -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base-linux \
+	     LIB_MK=/home/k/GeDONE/repos/base-linux/lib/mk/x86/base.mk \
+	     LIB=base \
+	     DEPS="$(DEP_base.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_alarm.lib = platform.lib $(DEP_platform.lib)
+
+alarm.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/alarm
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/alarm -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/alarm.mk \
+	     LIB=alarm \
+	     DEPS="$(DEP_alarm.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_server.lib = platform.lib $(DEP_platform.lib)
+
+server.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/server
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/server -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/server.mk \
+	     LIB=server \
+	     DEPS="$(DEP_server.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+
+ifeq ($(filter $(DEP_timer.prg:.lib=),$(INVALID_DEPS)),)
+all: timer.prg
+endif
+DEP_init.prg = base.lib $(DEP_base.lib) init_pd_args.lib $(DEP_init_pd_args.lib) config.lib $(DEP_config.lib)
+
+init.prg: base.lib init_pd_args.lib config.lib
+	@$(MKDIR) -p init
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C init -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     PRG_REL_DIR=init \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_init.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+DEP_init_pd_args.lib = platform.lib $(DEP_platform.lib)
+
+init_pd_args.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/init_pd_args
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/init_pd_args -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/linux/init_pd_args.mk \
+	     LIB=init_pd_args \
+	     DEPS="$(DEP_init_pd_args.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_config.lib = platform.lib $(DEP_platform.lib)
+
+config.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/config
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/config -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/config.mk \
+	     LIB=config \
+	     DEPS="$(DEP_config.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+
+ifeq ($(filter $(DEP_init.prg:.lib=),$(INVALID_DEPS)),)
+all: init.prg
+endif
+DEP_ram_blk.prg = base.lib $(DEP_base.lib) config.lib $(DEP_config.lib) server.lib $(DEP_server.lib)
+
+ram_blk.prg: base.lib config.lib server.lib
+	@$(MKDIR) -p server/ram_blk
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C server/ram_blk -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     PRG_REL_DIR=server/ram_blk \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_ram_blk.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+
+ifeq ($(filter $(DEP_ram_blk.prg:.lib=),$(INVALID_DEPS)),)
+all: ram_blk.prg
+endif
+DEP_rump_fs.prg = rump.lib $(DEP_rump.lib) rump_fs.lib $(DEP_rump_fs.lib) server.lib $(DEP_server.lib) startup.lib $(DEP_startup.lib)
+
+rump_fs.prg: rump.lib rump_fs.lib server.lib startup.lib
+	@$(MKDIR) -p server/rump_fs
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C server/rump_fs -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/dde_rump \
+	     PRG_REL_DIR=server/rump_fs \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_rump_fs.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+DEP_rump.lib.so = ldso-startup.lib $(DEP_ldso-startup.lib) ld.lib $(DEP_ld.lib)
+
+rump.lib: ldso-startup.lib ld.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/rump
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/rump -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/dde_rump \
+	     LIB_MK=/home/k/GeDONE/repos/dde_rump/lib/mk/x86_32/rump.mk \
+	     LIB=rump \
+	     DEPS="$(DEP_rump.lib.so)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_ldso-startup.lib = platform.lib $(DEP_platform.lib)
+
+ldso-startup.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/ldso-startup
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/ldso-startup -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base \
+	     LIB_MK=/home/k/GeDONE/repos/base/lib/mk/ldso-startup.mk \
+	     LIB=ldso-startup \
+	     DEPS="$(DEP_ldso-startup.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_ld.lib.so = base-common.lib $(DEP_base-common.lib) base.lib $(DEP_base.lib) startup.lib $(DEP_startup.lib) cxx.lib $(DEP_cxx.lib) timed_semaphore.lib $(DEP_timed_semaphore.lib) alarm.lib $(DEP_alarm.lib) config.lib $(DEP_config.lib) syscall.lib $(DEP_syscall.lib) ldso-startup.lib $(DEP_ldso-startup.lib)
+
+ld.lib: base-common.lib base.lib startup.lib cxx.lib timed_semaphore.lib alarm.lib config.lib syscall.lib ldso-startup.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/ld
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/ld -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/base \
+	     LIB_MK=/home/k/GeDONE/repos/base/lib/mk/x86_32/ld.mk \
+	     LIB=ld \
+	     DEPS="$(DEP_ld.lib.so)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_timed_semaphore.lib = alarm.lib $(DEP_alarm.lib)
+
+timed_semaphore.lib: alarm.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/timed_semaphore
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/timed_semaphore -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/os \
+	     LIB_MK=/home/k/GeDONE/repos/os/lib/mk/timed_semaphore.mk \
+	     LIB=timed_semaphore \
+	     DEPS="$(DEP_timed_semaphore.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+SHARED_LIBS += ld
+
+SHARED_LIBS += rump
+
+DEP_rump_fs.lib.so = rump.lib $(DEP_rump.lib) ldso-startup.lib $(DEP_ldso-startup.lib) ld.lib $(DEP_ld.lib)
+
+rump_fs.lib: rump.lib ldso-startup.lib ld.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/rump_fs
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/rump_fs -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/dde_rump \
+	     LIB_MK=/home/k/GeDONE/repos/dde_rump/lib/mk/rump_fs.mk \
+	     LIB=rump_fs \
+	     DEPS="$(DEP_rump_fs.lib.so)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+SHARED_LIBS += rump_fs
+
+
+ifeq ($(filter $(DEP_rump_fs.prg:.lib=),$(INVALID_DEPS)),)
+all: rump_fs.prg
+endif
+DEP_test-libc_vfs.prg = libc.lib $(DEP_libc.lib) base.lib $(DEP_base.lib)
+
+test-libc_vfs.prg: libc.lib base.lib
+	@$(MKDIR) -p test/libc_vfs
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C test/libc_vfs -f $(BASE_DIR)/mk/prg.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     PRG_REL_DIR=test/libc_vfs \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     DEPS="$(DEP_test-libc_vfs.prg)" \
+	     SHELL=/bin/bash \
+	     INSTALL_DIR="$(INSTALL_DIR)"
+
+DEP_libc.lib.so = libc-string.lib $(DEP_libc-string.lib) libc-locale.lib $(DEP_libc-locale.lib) libc-stdlib.lib $(DEP_libc-stdlib.lib) libc-stdio.lib $(DEP_libc-stdio.lib) libc-gen.lib $(DEP_libc-gen.lib) libc-gdtoa.lib $(DEP_libc-gdtoa.lib) libc-inet.lib $(DEP_libc-inet.lib) libc-stdtime.lib $(DEP_libc-stdtime.lib) libc-regex.lib $(DEP_libc-regex.lib) libc-compat.lib $(DEP_libc-compat.lib) libc-setjmp.lib $(DEP_libc-setjmp.lib) base.lib $(DEP_base.lib) config.lib $(DEP_config.lib) ldso-startup.lib $(DEP_ldso-startup.lib) ld.lib $(DEP_ld.lib)
+
+libc.lib: libc-string.lib libc-locale.lib libc-stdlib.lib libc-stdio.lib libc-gen.lib libc-gdtoa.lib libc-inet.lib libc-stdtime.lib libc-regex.lib libc-compat.lib libc-setjmp.lib base.lib config.lib ldso-startup.lib ld.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc.mk \
+	     LIB=libc \
+	     DEPS="$(DEP_libc.lib.so)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-string.lib = platform.lib $(DEP_platform.lib)
+
+libc-string.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-string
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-string -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-string.mk \
+	     LIB=libc-string \
+	     DEPS="$(DEP_libc-string.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-locale.lib = platform.lib $(DEP_platform.lib)
+
+libc-locale.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-locale
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-locale -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-locale.mk \
+	     LIB=libc-locale \
+	     DEPS="$(DEP_libc-locale.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-stdlib.lib = platform.lib $(DEP_platform.lib)
+
+libc-stdlib.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-stdlib
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-stdlib -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-stdlib.mk \
+	     LIB=libc-stdlib \
+	     DEPS="$(DEP_libc-stdlib.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-stdio.lib = platform.lib $(DEP_platform.lib)
+
+libc-stdio.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-stdio
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-stdio -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-stdio.mk \
+	     LIB=libc-stdio \
+	     DEPS="$(DEP_libc-stdio.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-gen.lib = platform.lib $(DEP_platform.lib)
+
+libc-gen.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-gen
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-gen -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/x86_32/libc-gen.mk \
+	     LIB=libc-gen \
+	     DEPS="$(DEP_libc-gen.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-gdtoa.lib = platform.lib $(DEP_platform.lib)
+
+libc-gdtoa.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-gdtoa
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-gdtoa -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-gdtoa.mk \
+	     LIB=libc-gdtoa \
+	     DEPS="$(DEP_libc-gdtoa.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-inet.lib = platform.lib $(DEP_platform.lib)
+
+libc-inet.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-inet
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-inet -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-inet.mk \
+	     LIB=libc-inet \
+	     DEPS="$(DEP_libc-inet.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-stdtime.lib = platform.lib $(DEP_platform.lib)
+
+libc-stdtime.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-stdtime
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-stdtime -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-stdtime.mk \
+	     LIB=libc-stdtime \
+	     DEPS="$(DEP_libc-stdtime.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-regex.lib = platform.lib $(DEP_platform.lib)
+
+libc-regex.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-regex
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-regex -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-regex.mk \
+	     LIB=libc-regex \
+	     DEPS="$(DEP_libc-regex.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-compat.lib = platform.lib $(DEP_platform.lib)
+
+libc-compat.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-compat
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-compat -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/libc-compat.mk \
+	     LIB=libc-compat \
+	     DEPS="$(DEP_libc-compat.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+DEP_libc-setjmp.lib = platform.lib $(DEP_platform.lib)
+
+libc-setjmp.lib: platform.lib
+	@$(MKDIR) -p $(LIB_CACHE_DIR)/libc-setjmp
+	$(VERBOSE_MK)$(MAKE) --no-print-directory -C $(LIB_CACHE_DIR)/libc-setjmp -f $(BASE_DIR)/mk/lib.mk \
+	     REP_DIR=/home/k/GeDONE/repos/libports \
+	     LIB_MK=/home/k/GeDONE/repos/libports/lib/mk/x86_32/libc-setjmp.mk \
+	     LIB=libc-setjmp \
+	     DEPS="$(DEP_libc-setjmp.lib)" \
+	     BUILD_BASE_DIR=/home/k/GeDONE/build.lx \
+	     SHELL=/bin/bash \
+	     SHARED_LIBS="$(SHARED_LIBS)"\
+	     INSTALL_DIR=$(INSTALL_DIR)
+
+SHARED_LIBS += libc
+
+
+ifeq ($(filter $(DEP_test-libc_vfs.prg:.lib=),$(INVALID_DEPS)),)
+all: test-libc_vfs.prg
+endif

@@ -1,0 +1,868 @@
+Archive member included because of file (symbol)
+
+librumpnet_agr_pic.a(agr_component.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023_tlv.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrether.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrether_hash.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrmonitor.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrtimer.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrsubr.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agr.pico)
+                              (--whole-archive)
+librumpnet_agr_pic.a(if_agrsoftc.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(agr_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(agr_component.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrether.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrether.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agr.pico)
+ .group         0x0000000000000000        0x8 librumpnet_agr_pic.a(if_agrsoftc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_agr_pic.a(if_agrsoftc.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpnet_agr_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x394
+ *(.hash)
+ .hash          0x00000000000000b4      0x394 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000448      0x820
+ *(.dynsym)
+ .dynsym        0x0000000000000448      0x820 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000c68      0xaf1
+ *(.dynstr)
+ .dynstr        0x0000000000000c68      0xaf1 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x000000000000175a        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x000000000000175c        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x000000000000175c        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x000000000000175c       0xe8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x000000000000175c       0x68 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000017c4       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000017e4       0x58 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x000000000000183c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000001844      0x348
+ *(.rel.plt)
+ .rel.plt       0x0000000000001844      0x348 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000001b8c        0xa
+ *(.init)
+ .init          0x0000000000001b8c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000001b91        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000001ba0      0x6a0
+ *(.plt)
+ .plt           0x0000000000001ba0      0x6a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000002240     0x5938
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002240      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000237b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000237b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000237f        0x1 90909090
+ .text          0x0000000000002380       0x20 librumpnet_agr_pic.a(agr_component.pico)
+ .text          0x00000000000023a0      0x1e0 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+                0x00000000000023a0                rumpns_ieee8023ad_marker_input
+ .text          0x0000000000002580       0xd9 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+                0x0000000000002580                rumpns_lacp_sm_tx
+                0x0000000000002650                rumpns_lacp_sm_assert_ntt
+ *fill*         0x0000000000002659        0x7 90909090
+ .text          0x0000000000002660      0x494 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                0x0000000000002660                rumpns_lacp_sm_mux
+                0x00000000000029b0                rumpns_lacp_sm_mux_timer
+ *fill*         0x0000000000002af4        0xc 90909090
+ .text          0x0000000000002b00      0x3f1 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+                0x0000000000002b60                rumpns_lacp_sm_rx
+                0x0000000000002de0                rumpns_lacp_sm_rx_set_expired
+                0x0000000000002e00                rumpns_lacp_sm_rx_timer
+ *fill*         0x0000000000002ef1        0xf 90909090
+ .text          0x0000000000002f00     0x15b0 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                0x00000000000034d0                rumpns_ieee8023ad_lacp_input
+                0x0000000000003670                rumpns_lacp_xmit_lacpdu
+                0x0000000000003870                rumpns_ieee8023ad_lacp_portstate
+                0x00000000000039b0                rumpns_ieee8023ad_lacp_porttick
+                0x0000000000003a50                rumpns_lacp_portinit
+                0x0000000000003ad0                rumpns_lacp_disable_collecting
+                0x0000000000003ae0                rumpns_lacp_enable_collecting
+                0x0000000000003af0                rumpns_lacp_disable_distributing
+                0x0000000000003d60                rumpns_lacp_portfini
+                0x0000000000003df0                rumpns_lacp_enable_distributing
+                0x0000000000003fc0                rumpns_ieee8023ad_portinit
+                0x0000000000004050                rumpns_ieee8023ad_portfini
+                0x00000000000040a0                rumpns_ieee8023ad_ctor
+                0x0000000000004110                rumpns_ieee8023ad_dtor
+                0x0000000000004200                rumpns_ieee8023ad_select_tx_port
+                0x0000000000004420                rumpns_lacp_compare_peerinfo
+                0x0000000000004450                rumpns_lacp_compare_systemid
+                0x0000000000004480                rumpns_lacp_compare_portid
+ .text          0x00000000000044b0       0x66 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+                0x00000000000044b0                rumpns_tlv_check
+ *fill*         0x0000000000004516        0xa 90909090
+ .text          0x0000000000004520       0xa6 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                0x0000000000004520                rumpns_lacp_run_timers
+ *fill*         0x00000000000045c6        0xa 90909090
+ .text          0x00000000000045d0      0x6d7 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                0x0000000000004650                rumpns_lacp_select
+                0x0000000000004a80                rumpns_lacp_unselect
+ *fill*         0x0000000000004ca7        0x9 90909090
+ .text          0x0000000000004cb0       0xf0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+                0x0000000000004cb0                rumpns_lacp_sm_ptx_update_timeout
+                0x0000000000004d40                rumpns_lacp_sm_ptx_tx_schedule
+                0x0000000000004d80                rumpns_lacp_sm_ptx_timer
+ .text          0x0000000000004da0      0x4eb librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+                0x0000000000004da0                rumpns_lacp_format_mac
+                0x0000000000004e10                rumpns_lacp_format_systemid
+                0x0000000000004e90                rumpns_lacp_format_portid
+                0x0000000000004f00                rumpns_lacp_format_partner
+                0x0000000000004fb0                rumpns_lacp_format_lagid
+                0x0000000000005050                rumpns_lacp_format_lagid_aggregator
+                0x00000000000050a0                rumpns_lacp_format_state
+                0x0000000000005100                rumpns_lacp_dump_lacpdu
+                0x0000000000005230                rumpns_lacp_dprintf
+ *fill*         0x000000000000528b        0x5 90909090
+ .text          0x0000000000005290      0x497 librumpnet_agr_pic.a(if_agrether.pico)
+ *fill*         0x0000000000005727        0x9 90909090
+ .text          0x0000000000005730      0x316 librumpnet_agr_pic.a(if_agrether_hash.pico)
+                0x00000000000057f0                rumpns_agrether_hashmbuf
+ *fill*         0x0000000000005a46        0xa 90909090
+ .text          0x0000000000005a50       0xb1 librumpnet_agr_pic.a(if_agrmonitor.pico)
+                0x0000000000005a50                rumpns_agrport_monitor
+ *fill*         0x0000000000005b01        0xf 90909090
+ .text          0x0000000000005b10      0x1f3 librumpnet_agr_pic.a(if_agrtimer.pico)
+                0x0000000000005c20                rumpns_agrtimer_init
+                0x0000000000005c80                rumpns_agrtimer_destroy
+                0x0000000000005cb0                rumpns_agrtimer_start
+                0x0000000000005ce0                rumpns_agrtimer_stop
+ *fill*         0x0000000000005d03        0xd 90909090
+ .text          0x0000000000005d10      0x441 librumpnet_agr_pic.a(if_agrsubr.pico)
+                0x0000000000005e00                rumpns_agr_mc_init
+                0x0000000000005e10                rumpns_agr_mc_foreach
+                0x0000000000005e60                rumpns_agr_port_foreach
+                0x0000000000005ec0                rumpns_agr_mc_purgeall
+                0x0000000000005f80                rumpns_agr_configmulti_port
+                0x0000000000005fc0                rumpns_agr_configmulti_ifreq
+                0x00000000000060f0                rumpns_agr_port_getmedia
+ *fill*         0x0000000000006151        0xf 90909090
+ .text          0x0000000000006160     0x198f librumpnet_agr_pic.a(if_agr.pico)
+                0x0000000000006670                rumpns_agrattach
+                0x00000000000066a0                rumpns_agr_input
+                0x0000000000006770                rumpns_agr_lock
+                0x00000000000067a0                rumpns_agr_unlock
+                0x00000000000067d0                rumpns_agr_xmit_frame
+                0x00000000000069d0                rumpns_agrport_ioctl
+ *fill*         0x0000000000007aef        0x1 90909090
+ .text          0x0000000000007af0       0x50 librumpnet_agr_pic.a(if_agrsoftc.pico)
+                0x0000000000007af0                rumpns_agr_alloc_softc
+                0x0000000000007b20                rumpns_agr_free_softc
+ .text          0x0000000000007b40       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000007b78        0x5
+ *(.fini)
+ .fini          0x0000000000007b78        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000007b7d                PROVIDE (__etext, .)
+                0x0000000000007b7d                PROVIDE (_etext, .)
+                0x0000000000007b7d                PROVIDE (etext, .)
+
+.rodata         0x0000000000007b80     0x101c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000007b80      0x10d librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .rodata.str1.1
+                0x0000000000007c8d       0x11 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .rodata        0x0000000000007c9e        0x8 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ *fill*         0x0000000000007ca6        0x2 00
+ .rodata.str1.4
+                0x0000000000007ca8       0x23 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .rodata.str1.1
+                0x0000000000007ccb       0x3c librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                                         0x48 (size before relaxing)
+ *fill*         0x0000000000007d07        0x1 00
+ .rodata.str1.4
+                0x0000000000007d08      0x145 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                                        0x179 (size before relaxing)
+ *fill*         0x0000000000007e4d        0x3 00
+ .rodata        0x0000000000007e50       0x46 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .rodata.str1.1
+                0x0000000000007e96       0x60 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .rodata        0x0000000000007ef6       0x39 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .rodata.str1.1
+                0x0000000000007f2f      0x177 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                                        0x195 (size before relaxing)
+ *fill*         0x00000000000080a6        0x2 00
+ .rodata.str1.4
+                0x00000000000080a8      0x2ca librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                                        0x2fe (size before relaxing)
+ .rodata        0x0000000000008372       0x7f librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ *fill*         0x00000000000083f1        0x3 00
+ .rodata.str1.4
+                0x00000000000083f4       0xa2 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                                         0xd8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000008496       0x15 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                                         0x21 (size before relaxing)
+ *fill*         0x00000000000084ab        0x1 00
+ .rodata.str1.4
+                0x00000000000084ac      0x115 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                                        0x149 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000085c1       0x96 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                                         0xc0 (size before relaxing)
+ .rodata        0x0000000000008657       0x2e librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .rodata.str1.1
+                0x0000000000008685       0x19 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .rodata.str1.1
+                0x000000000000869e       0x96 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ *fill*         0x0000000000008734        0xc 00
+ .rodata        0x0000000000008740       0x5f librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ *fill*         0x000000000000879f        0x1 00
+ .rodata.str1.4
+                0x00000000000087a0       0x9d librumpnet_agr_pic.a(if_agrether_hash.pico)
+                                         0xd4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000883d       0x1d librumpnet_agr_pic.a(if_agrether_hash.pico)
+                                         0x29 (size before relaxing)
+ *fill*         0x000000000000885a        0x2 00
+ .rodata.str1.4
+                0x000000000000885c       0x98 librumpnet_agr_pic.a(if_agrtimer.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x00000000000088f4        0x6 librumpnet_agr_pic.a(if_agrtimer.pico)
+                                         0x12 (size before relaxing)
+ .rodata.str1.1
+                0x00000000000088fa        0xe librumpnet_agr_pic.a(if_agrsubr.pico)
+ .rodata        0x0000000000008908       0x10 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .rodata.str1.1
+                0x0000000000008918      0x113 librumpnet_agr_pic.a(if_agr.pico)
+                                        0x13f (size before relaxing)
+ *fill*         0x0000000000008a2b        0x1 00
+ .rodata.str1.4
+                0x0000000000008a2c      0x148 librumpnet_agr_pic.a(if_agr.pico)
+                                        0x179 (size before relaxing)
+ .rodata        0x0000000000008b74       0x28 librumpnet_agr_pic.a(if_agr.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000008b9c      0x31c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000008b9c      0x31c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000008eb8      0xfbc
+ *(.eh_frame)
+ .eh_frame      0x0000000000008eb8       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000008ef4       0x20 librumpnet_agr_pic.a(agr_component.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000008f14       0x2c librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000008f40       0x40 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x0000000000008f80       0x84 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x0000000000009004       0x90 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x0000000000009094      0x35c librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                                        0x388 (size before relaxing)
+ .eh_frame      0x00000000000093f0       0x3c librumpnet_agr_pic.a(ieee8023_tlv.pico)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x000000000000942c       0x2c librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000009458       0x84 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x00000000000094dc       0x60 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+                                         0x8c (size before relaxing)
+ .eh_frame      0x000000000000953c      0x158 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+                                        0x184 (size before relaxing)
+ .eh_frame      0x0000000000009694      0x100 librumpnet_agr_pic.a(if_agrether.pico)
+                                        0x12c (size before relaxing)
+ .eh_frame      0x0000000000009794       0x74 librumpnet_agr_pic.a(if_agrether_hash.pico)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000009808       0x28 librumpnet_agr_pic.a(if_agrmonitor.pico)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000000009830       0xd0 librumpnet_agr_pic.a(if_agrtimer.pico)
+                                         0xfc (size before relaxing)
+ .eh_frame      0x0000000000009900      0x1ec librumpnet_agr_pic.a(if_agrsubr.pico)
+                                        0x218 (size before relaxing)
+ .eh_frame      0x0000000000009aec      0x344 librumpnet_agr_pic.a(if_agr.pico)
+                                        0x370 (size before relaxing)
+ .eh_frame      0x0000000000009e30       0x40 librumpnet_agr_pic.a(if_agrsoftc.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x0000000000009e70        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000009e74                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000a000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000a000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000a000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000a004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000a008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000a008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000a00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000a00c                __DTOR_END__
+
+.jcr            0x000000000000a010        0x4
+ *(.jcr)
+ .jcr           0x000000000000a010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000a010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000a020       0x4c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000a020        0xc librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ *fill*         0x000000000000a02c       0x14 00
+ .data.rel.ro   0x000000000000a040       0x2c librumpnet_agr_pic.a(if_agrether.pico)
+                0x000000000000a040                rumpns_agrether_ops
+
+.dynamic        0x000000000000a06c       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000a06c       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a06c                _DYNAMIC
+
+.got            0x000000000000a10c       0x2c
+ *(.got)
+ .got           0x000000000000a10c       0x2c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000a138                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000a138      0x1b0
+ *(.got.plt)
+ .got.plt       0x000000000000a138      0x1b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a138                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000a2e8       0x2c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000a2e8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a2e8                __dso_handle
+ .data          0x000000000000a2ec        0x0 librumpnet_agr_pic.a(agr_component.pico)
+ .data.rel.local
+                0x000000000000a2ec       0x10 librumpnet_agr_pic.a(agr_component.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agrether.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .data          0x000000000000a2fc        0x0 librumpnet_agr_pic.a(if_agr.pico)
+ .data.rel.local
+                0x000000000000a2fc       0x18 librumpnet_agr_pic.a(if_agr.pico)
+ .data          0x000000000000a314        0x0 librumpnet_agr_pic.a(if_agrsoftc.pico)
+ .data          0x000000000000a314        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000a314        0x0
+ .tm_clone_table
+                0x000000000000a314        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000a314        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000000a314        0x4
+                0x000000000000a314                . = ALIGN (0x4)
+                0x000000000000a314                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000000a314        0x4 librumpnet_agr_pic.a(agr_component.pico)
+                0x000000000000a318                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x000000000000a318                _edata = .
+                0x000000000000a318                PROVIDE (edata, .)
+                0x000000000000a318                __bss_start = .
+
+.bss            0x000000000000a318        0xc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000a318        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(agr_component.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .bss           0x000000000000a320        0x0 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .bss           0x000000000000a320        0x4 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+                0x000000000000a320                rumpns_lacpdebug
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrether.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agr.pico)
+ .bss           0x000000000000a324        0x0 librumpnet_agr_pic.a(if_agrsoftc.pico)
+ .bss           0x000000000000a324        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x000000000000a324                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000a324                . = ALIGN (0x4)
+                0x000000000000a324                . = ALIGN (0x4)
+                0x000000000000a324                _end = .
+                0x000000000000a324                PROVIDE (end, .)
+                0x000000000000a324                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(agr_component.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrether.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agr.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_agr_pic.a(if_agrsoftc.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x4b8
+ .ident         0x0000000000000000       0x3f librumpnet_agr_pic.a(agr_component.pico)
+ .ident         0x000000000000003f       0x45 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .ident         0x0000000000000084       0x4a librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .ident         0x00000000000000ce       0x4a librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .ident         0x0000000000000118       0x49 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .ident         0x0000000000000161       0x42 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .ident         0x00000000000001a3       0x40 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .ident         0x00000000000001e3       0x4a librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .ident         0x000000000000022d       0x4a librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .ident         0x0000000000000277       0x4b librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .ident         0x00000000000002c2       0x47 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .ident         0x0000000000000309       0x3e librumpnet_agr_pic.a(if_agrether.pico)
+ .ident         0x0000000000000347       0x41 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .ident         0x0000000000000388       0x3e librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .ident         0x00000000000003c6       0x3e librumpnet_agr_pic.a(if_agrtimer.pico)
+ .ident         0x0000000000000404       0x3c librumpnet_agr_pic.a(if_agrsubr.pico)
+ .ident         0x0000000000000440       0x3a librumpnet_agr_pic.a(if_agr.pico)
+ .ident         0x000000000000047a       0x3e librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x240
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpnet_agr_pic.a(agr_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_aranges
+                0x0000000000000160       0x20 librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_aranges
+                0x0000000000000180       0x20 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_aranges
+                0x00000000000001a0       0x20 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .debug_aranges
+                0x00000000000001c0       0x20 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .debug_aranges
+                0x00000000000001e0       0x20 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_aranges
+                0x0000000000000200       0x20 librumpnet_agr_pic.a(if_agr.pico)
+ .debug_aranges
+                0x0000000000000220       0x20 librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x18640
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x6a1 librumpnet_agr_pic.a(agr_component.pico)
+ .debug_info    0x00000000000006a1     0x155d librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .debug_info    0x0000000000001bfe      0x4d4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .debug_info    0x00000000000020d2      0x8a6 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .debug_info    0x0000000000002978      0xb0e librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_info    0x0000000000003486     0x336c librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_info    0x00000000000067f2      0x16f librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .debug_info    0x0000000000006961      0x4af librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .debug_info    0x0000000000006e10     0x20ee librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_info    0x0000000000008efe      0x4f1 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .debug_info    0x00000000000093ef     0x1cfc librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_info    0x000000000000b0eb     0x20ff librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_info    0x000000000000d1ea     0x1948 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_info    0x000000000000eb32     0x123c librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .debug_info    0x000000000000fd6e     0x1541 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .debug_info    0x00000000000112af     0x1aab librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_info    0x0000000000012d5a     0x4194 librumpnet_agr_pic.a(if_agr.pico)
+ .debug_info    0x0000000000016eee     0x1752 librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug_abbrev   0x0000000000000000     0x2dee
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x110 librumpnet_agr_pic.a(agr_component.pico)
+ .debug_abbrev  0x0000000000000110      0x28b librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .debug_abbrev  0x000000000000039b      0x18f librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .debug_abbrev  0x000000000000052a      0x1bc librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .debug_abbrev  0x00000000000006e6      0x27a librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_abbrev  0x0000000000000960      0x521 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_abbrev  0x0000000000000e81       0xb1 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .debug_abbrev  0x0000000000000f32      0x146 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .debug_abbrev  0x0000000000001078      0x381 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_abbrev  0x00000000000013f9      0x178 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .debug_abbrev  0x0000000000001571      0x2e9 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_abbrev  0x000000000000185a      0x309 librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_abbrev  0x0000000000001b63      0x2ef librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_abbrev  0x0000000000001e52      0x1ea librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .debug_abbrev  0x000000000000203c      0x27a librumpnet_agr_pic.a(if_agrtimer.pico)
+ .debug_abbrev  0x00000000000022b6      0x384 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_abbrev  0x000000000000263a      0x597 librumpnet_agr_pic.a(if_agr.pico)
+ .debug_abbrev  0x0000000000002bd1      0x21d librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug_line     0x0000000000000000     0x4e34
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x1ef librumpnet_agr_pic.a(agr_component.pico)
+ .debug_line    0x00000000000001ef      0x485 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .debug_line    0x0000000000000674      0x29b librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .debug_line    0x000000000000090f      0x3fc librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .debug_line    0x0000000000000d0b      0x352 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_line    0x000000000000105d      0x89d librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_line    0x00000000000018fa      0x1a8 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .debug_line    0x0000000000001aa2      0x2f7 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .debug_line    0x0000000000001d99      0x573 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_line    0x000000000000230c      0x2ba librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .debug_line    0x00000000000025c6      0x518 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_line    0x0000000000002ade      0x477 librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_line    0x0000000000002f55      0x613 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_line    0x0000000000003568      0x34e librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .debug_line    0x00000000000038b6      0x414 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .debug_line    0x0000000000003cca      0x450 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_line    0x000000000000411a      0x9b7 librumpnet_agr_pic.a(if_agr.pico)
+ .debug_line    0x0000000000004ad1      0x363 librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x39ee
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x606 librumpnet_agr_pic.a(agr_component.pico)
+                                        0x687 (size before relaxing)
+ .debug_str     0x0000000000000606      0xb10 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+                                        0xc5a (size before relaxing)
+ .debug_str     0x0000000000001116      0x2f9 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+                                        0x47b (size before relaxing)
+ .debug_str     0x000000000000140f      0x178 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+                                        0x53b (size before relaxing)
+ .debug_str     0x0000000000001587      0x29a librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+                                        0x6e6 (size before relaxing)
+ .debug_str     0x0000000000001821      0x665 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+                                       0x1581 (size before relaxing)
+ .debug_str     0x0000000000001e86       0xa9 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x0000000000001f2f       0xc5 librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+                                        0x45e (size before relaxing)
+ .debug_str     0x0000000000001ff4      0x17c librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+                                       0x10cd (size before relaxing)
+ .debug_str     0x0000000000002170       0xb5 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+                                        0x4a1 (size before relaxing)
+ .debug_str     0x0000000000002225      0x150 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+                                        0xf12 (size before relaxing)
+ .debug_str     0x0000000000002375      0x2f0 librumpnet_agr_pic.a(if_agrether.pico)
+                                       0x12f3 (size before relaxing)
+ .debug_str     0x0000000000002665      0x297 librumpnet_agr_pic.a(if_agrether_hash.pico)
+                                        0xcd7 (size before relaxing)
+ .debug_str     0x00000000000028fc       0xbc librumpnet_agr_pic.a(if_agrmonitor.pico)
+                                        0xb5a (size before relaxing)
+ .debug_str     0x00000000000029b8      0x116 librumpnet_agr_pic.a(if_agrtimer.pico)
+                                        0xc1c (size before relaxing)
+ .debug_str     0x0000000000002ace      0x1bd librumpnet_agr_pic.a(if_agrsubr.pico)
+                                        0xd3c (size before relaxing)
+ .debug_str     0x0000000000002c8b      0xcc1 librumpnet_agr_pic.a(if_agr.pico)
+                                       0x1b86 (size before relaxing)
+ .debug_str     0x000000000000394c       0xa2 librumpnet_agr_pic.a(if_agrsoftc.pico)
+                                        0xdea (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x49e1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x44 librumpnet_agr_pic.a(agr_component.pico)
+ .debug_loc     0x0000000000000044      0x127 librumpnet_agr_pic.a(ieee8023ad_marker.pico)
+ .debug_loc     0x000000000000016b       0x80 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_tx.pico)
+ .debug_loc     0x00000000000001eb      0x244 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_mux.pico)
+ .debug_loc     0x000000000000042f      0x2f4 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_loc     0x0000000000000723      0xd84 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_loc     0x00000000000014a7      0x1b1 librumpnet_agr_pic.a(ieee8023_tlv.pico)
+ .debug_loc     0x0000000000001658       0x4e librumpnet_agr_pic.a(ieee8023ad_lacp_timer.pico)
+ .debug_loc     0x00000000000016a6      0x433 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_loc     0x0000000000001ad9       0xc6 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_ptx.pico)
+ .debug_loc     0x0000000000001b9f      0x2dd librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_loc     0x0000000000001e7c      0x345 librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_loc     0x00000000000021c1      0x886 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_loc     0x0000000000002a47       0x56 librumpnet_agr_pic.a(if_agrmonitor.pico)
+ .debug_loc     0x0000000000002a9d      0x1c3 librumpnet_agr_pic.a(if_agrtimer.pico)
+ .debug_loc     0x0000000000002c60      0x655 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_loc     0x00000000000032b5     0x16a4 librumpnet_agr_pic.a(if_agr.pico)
+ .debug_loc     0x0000000000004959       0x88 librumpnet_agr_pic.a(if_agrsoftc.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x668
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x70 librumpnet_agr_pic.a(ieee8023ad_lacp_sm_rx.pico)
+ .debug_ranges  0x0000000000000070       0x70 librumpnet_agr_pic.a(ieee8023ad_lacp.pico)
+ .debug_ranges  0x00000000000000e0      0x138 librumpnet_agr_pic.a(ieee8023ad_lacp_select.pico)
+ .debug_ranges  0x0000000000000218       0x18 librumpnet_agr_pic.a(ieee8023ad_lacp_debug.pico)
+ .debug_ranges  0x0000000000000230       0x18 librumpnet_agr_pic.a(if_agrether.pico)
+ .debug_ranges  0x0000000000000248       0x60 librumpnet_agr_pic.a(if_agrether_hash.pico)
+ .debug_ranges  0x00000000000002a8       0x70 librumpnet_agr_pic.a(if_agrsubr.pico)
+ .debug_ranges  0x0000000000000318      0x350 librumpnet_agr_pic.a(if_agr.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpnet_agr.so.0.0 elf32-i386)

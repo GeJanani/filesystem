@@ -1,0 +1,24 @@
+RUMP(3)                    Library Functions Manual                    RUMP(3)
+
+NNAAMMEE
+     lliibbrruummpp - Rump kernel base
+
+LLIIBBRRAARRYY
+     rump kernel base (librump, -lrump)
+
+SSYYNNOOPPSSIISS
+     ##iinncclluuddee <<rruummpp//rruummpp..hh>>
+     ##iinncclluuddee <<rruummpp//rruummpp__ssyyssccaallllss..hh>>
+
+DDEESSCCRRIIPPTTIIOONN
+     The base of a rumpkernel(7) is provided by the lliibbrruummpp library.  In
+     addition to fundamental routines such as kernel memory allocators and
+     locking, lliibbrruummpp provides system call wrappers.
+
+     Like the rumpuser(3) library, lliibbrruummpp is a mandatory component and is
+     present in every rump kernel.
+
+SSEEEE AALLSSOO
+     rumpuser(3), rumpkernel(7)
+
+NetBSD 7.99                    December 1, 2014                    NetBSD 7.99

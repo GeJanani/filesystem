@@ -1,0 +1,1090 @@
+Archive member included because of file (symbol)
+
+librumpnet_netbt_pic.a(netbt_component.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(bt_sysctl.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(bt_proto.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(sco_socket.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(l2cap_socket.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(sco_upper.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(rfcomm_session.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(l2cap_upper.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(l2cap_signal.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(l2cap_misc.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(l2cap_lower.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_unit.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_socket.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_ioctl.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_event.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_link.pico)
+                              (--whole-archive)
+librumpnet_netbt_pic.a(hci_misc.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_l2cap_req_pool
+                    0xd8              librumpnet_netbt_pic.a(l2cap_misc.pico)
+rumpns_l2cap_pdu_pool
+                    0xd8              librumpnet_netbt_pic.a(l2cap_misc.pico)
+rumpns_bt_lock      0x4               librumpnet_netbt_pic.a(bt_proto.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(netbt_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(netbt_component.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(bt_proto.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(bt_proto.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(sco_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(sco_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(sco_upper.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(sco_upper.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_unit.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_unit.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_event.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_event.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_link.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_link.pico)
+ .group         0x0000000000000000        0x8 librumpnet_netbt_pic.a(hci_misc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_netbt_pic.a(hci_misc.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpnet_netbt_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x6bc
+ *(.hash)
+ .hash          0x00000000000000b4      0x6bc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000770      0xe80
+ *(.dynsym)
+ .dynsym        0x0000000000000770      0xe80 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000015f0     0x13d9
+ *(.dynstr)
+ .dynstr        0x00000000000015f0     0x13d9 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000029ca        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x00000000000029cc        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x00000000000029cc        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x00000000000029cc      0x548
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000029cc       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000002a44      0x360 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000002da4       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000002dcc        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000002dd4      0x128 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000002efc        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_sysctl_funcs
+                0x0000000000002f04        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_domains
+                0x0000000000002f0c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000002f14      0x588
+ *(.rel.plt)
+ .rel.plt       0x0000000000002f14      0x588 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x000000000000349c        0xa
+ *(.init)
+ .init          0x000000000000349c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000034a1        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000034b0      0xb20
+ *(.plt)
+ .plt           0x00000000000034b0      0xb20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000003fd0    0x129e8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003fd0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000410b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000410b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000410f        0x1 90909090
+ .text          0x0000000000004110       0x22 librumpnet_netbt_pic.a(netbt_component.pico)
+ *fill*         0x0000000000004132        0xe 90909090
+ .text          0x0000000000004140      0xd0c librumpnet_netbt_pic.a(bt_sysctl.pico)
+                0x0000000000004140                rumpns_sysctl_net_bluetooth_setup
+ *fill*         0x0000000000004e4c        0x4 90909090
+ .text          0x0000000000004e50      0x1f0 librumpnet_netbt_pic.a(bt_proto.pico)
+ .text          0x0000000000005040     0x16f9 librumpnet_netbt_pic.a(sco_socket.pico)
+                0x00000000000066d0                rumpns_sco_ctloutput
+ *fill*         0x0000000000006739        0x7 90909090
+ .text          0x0000000000006740     0x1a39 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                0x0000000000008110                rumpns_rfcomm_ctloutput
+ *fill*         0x0000000000008179        0x7 90909090
+ .text          0x0000000000008180     0x1809 librumpnet_netbt_pic.a(l2cap_socket.pico)
+                0x0000000000009920                rumpns_l2cap_ctloutput
+ *fill*         0x0000000000009989        0x7 90909090
+ .text          0x0000000000009990      0xae1 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                0x0000000000009990                rumpns_rfcomm_attach_pcb
+                0x0000000000009b20                rumpns_rfcomm_bind_pcb
+                0x0000000000009b60                rumpns_rfcomm_sockaddr_pcb
+                0x0000000000009b90                rumpns_rfcomm_connect_pcb
+                0x0000000000009d80                rumpns_rfcomm_peeraddr_pcb
+                0x0000000000009db0                rumpns_rfcomm_disconnect_pcb
+                0x0000000000009ee0                rumpns_rfcomm_detach_pcb
+                0x0000000000009f90                rumpns_rfcomm_listen_pcb
+                0x000000000000a160                rumpns_rfcomm_send_pcb
+                0x000000000000a1d0                rumpns_rfcomm_rcvd_pcb
+                0x000000000000a270                rumpns_rfcomm_setopt
+                0x000000000000a360                rumpns_rfcomm_getopt
+ *fill*         0x000000000000a471        0xf 90909090
+ .text          0x000000000000a480      0x7fb librumpnet_netbt_pic.a(sco_upper.pico)
+                0x000000000000a480                rumpns_sco_attach_pcb
+                0x000000000000a5c0                rumpns_sco_bind_pcb
+                0x000000000000a610                rumpns_sco_sockaddr_pcb
+                0x000000000000a670                rumpns_sco_connect_pcb
+                0x000000000000a8a0                rumpns_sco_peeraddr_pcb
+                0x000000000000a900                rumpns_sco_disconnect_pcb
+                0x000000000000a9b0                rumpns_sco_detach_pcb
+                0x000000000000aa70                rumpns_sco_listen_pcb
+                0x000000000000aa90                rumpns_sco_send_pcb
+                0x000000000000abf0                rumpns_sco_setopt
+                0x000000000000ac00                rumpns_sco_getopt
+ *fill*         0x000000000000ac7b        0x5 90909090
+ .text          0x000000000000ac80     0x2008 librumpnet_netbt_pic.a(rfcomm_session.pico)
+                0x000000000000ac90                rumpns_rfcomm_init
+                0x000000000000acf0                rumpns_rfcomm_session_alloc
+                0x000000000000ae50                rumpns_rfcomm_session_free
+                0x000000000000b0d0                rumpns_rfcomm_session_lookup
+                0x000000000000b2d0                rumpns_rfcomm_session_send_frame
+                0x000000000000b8c0                rumpns_rfcomm_session_send_uih
+                0x000000000000bb70                rumpns_rfcomm_session_send_mcc
+ *fill*         0x000000000000cc88        0x8 90909090
+ .text          0x000000000000cc90      0xa57 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                0x000000000000cc90                rumpns_rfcomm_dlc_lookup
+                0x000000000000ccd0                rumpns_rfcomm_dlc_newconn
+                0x000000000000cf30                rumpns_rfcomm_dlc_close
+                0x000000000000d040                rumpns_rfcomm_dlc_timeout
+                0x000000000000d0e0                rumpns_rfcomm_dlc_setmode
+                0x000000000000d1f0                rumpns_rfcomm_dlc_connect
+                0x000000000000d380                rumpns_rfcomm_dlc_open
+                0x000000000000d4b0                rumpns_rfcomm_dlc_start
+ *fill*         0x000000000000d6e7        0x9 90909090
+ .text          0x000000000000d6f0      0xa00 librumpnet_netbt_pic.a(l2cap_upper.pico)
+                0x000000000000d6f0                rumpns_l2cap_attach_pcb
+                0x000000000000d8b0                rumpns_l2cap_bind_pcb
+                0x000000000000d8f0                rumpns_l2cap_sockaddr_pcb
+                0x000000000000d920                rumpns_l2cap_connect_pcb
+                0x000000000000dab0                rumpns_l2cap_peeraddr_pcb
+                0x000000000000dae0                rumpns_l2cap_disconnect_pcb
+                0x000000000000db80                rumpns_l2cap_detach_pcb
+                0x000000000000dc20                rumpns_l2cap_listen_pcb
+                0x000000000000ddd0                rumpns_l2cap_send_pcb
+                0x000000000000df10                rumpns_l2cap_setopt
+                0x000000000000e000                rumpns_l2cap_getopt
+ .text          0x000000000000e0f0     0x1849 librumpnet_netbt_pic.a(l2cap_signal.pico)
+                0x000000000000e380                rumpns_l2cap_send_connect_req
+                0x000000000000e3f0                rumpns_l2cap_send_config_req
+                0x000000000000e490                rumpns_l2cap_send_disconnect_req
+                0x000000000000e500                rumpns_l2cap_send_connect_rsp
+                0x000000000000e550                rumpns_l2cap_recv_signal
+ *fill*         0x000000000000f939        0x7 90909090
+ .text          0x000000000000f940      0x57c librumpnet_netbt_pic.a(l2cap_misc.pico)
+                0x000000000000f940                rumpns_l2cap_init
+                0x000000000000f9f0                rumpns_l2cap_setmode
+                0x000000000000fac0                rumpns_l2cap_request_alloc
+                0x000000000000fbe0                rumpns_l2cap_request_lookup
+                0x000000000000fc20                rumpns_l2cap_request_free
+                0x000000000000fcb0                rumpns_l2cap_rtx
+                0x000000000000fd40                rumpns_l2cap_cid_alloc
+                0x000000000000fe70                rumpns_l2cap_cid_lookup
+ *fill*         0x000000000000febc        0x4 90909090
+ .text          0x000000000000fec0      0x27b librumpnet_netbt_pic.a(l2cap_lower.pico)
+                0x000000000000fec0                rumpns_l2cap_close
+                0x000000000000ff70                rumpns_l2cap_recv_frame
+                0x0000000000010040                rumpns_l2cap_start
+ *fill*         0x000000000001013b        0x5 90909090
+ .text          0x0000000000010140     0x1214 librumpnet_netbt_pic.a(hci_unit.pico)
+                0x00000000000104e0                rumpns_hci_attach_pcb
+                0x0000000000010840                rumpns_hci_disable
+                0x0000000000010a40                rumpns_hci_detach_pcb
+                0x0000000000010af0                rumpns_hci_unit_lookup
+                0x0000000000010b60                rumpns_hci_input_event
+                0x0000000000010c20                rumpns_hci_input_acl
+                0x0000000000010ce0                rumpns_hci_input_sco
+                0x0000000000010da0                rumpns_hci_output_cmd
+                0x0000000000010e10                rumpns_hci_send_cmd
+                0x0000000000010fa0                rumpns_hci_enable
+                0x0000000000011180                rumpns_hci_num_cmds
+                0x0000000000011200                rumpns_hci_output_acl
+                0x0000000000011260                rumpns_hci_output_sco
+                0x00000000000112c0                rumpns_hci_complete_sco
+ *fill*         0x0000000000011354        0xc 90909090
+ .text          0x0000000000011360     0x1f6e librumpnet_netbt_pic.a(hci_socket.pico)
+                0x0000000000012b20                rumpns_hci_init
+                0x0000000000012b70                rumpns_hci_drop
+                0x0000000000012c60                rumpns_hci_ctloutput
+                0x0000000000012dc0                rumpns_hci_mtap
+ *fill*         0x00000000000132ce        0x2 90909090
+ .text          0x00000000000132d0      0x4e3 librumpnet_netbt_pic.a(hci_ioctl.pico)
+                0x00000000000132d0                rumpns_hci_ioctl_pcb
+ *fill*         0x00000000000137b3        0xd 90909090
+ .text          0x00000000000137c0     0x146e librumpnet_netbt_pic.a(hci_event.pico)
+                0x0000000000013870                rumpns_hci_event
+ *fill*         0x0000000000014c2e        0x2 90909090
+ .text          0x0000000000014c30     0x1a5f librumpnet_netbt_pic.a(hci_link.pico)
+                0x0000000000014c30                rumpns_hci_acl_setmode
+                0x0000000000014db0                rumpns_hci_acl_start
+                0x00000000000150c0                rumpns_hci_acl_send
+                0x0000000000015360                rumpns_hci_acl_linkmode
+                0x0000000000015510                rumpns_hci_acl_complete
+                0x0000000000015620                rumpns_hci_sco_start
+                0x0000000000015630                rumpns_hci_sco_complete
+                0x0000000000015660                rumpns_hci_link_alloc
+                0x00000000000157c0                rumpns_hci_link_free
+                0x0000000000015a30                rumpns_hci_acl_timeout
+                0x0000000000015ae0                rumpns_hci_acl_close
+                0x0000000000015ba0                rumpns_hci_link_lookup_bdaddr
+                0x0000000000015cc0                rumpns_hci_acl_newconn
+                0x0000000000015dd0                rumpns_hci_acl_open
+                0x0000000000015fd0                rumpns_hci_sco_newconn
+                0x00000000000161e0                rumpns_hci_link_lookup_handle
+                0x0000000000016260                rumpns_hci_sco_recv
+                0x00000000000163e0                rumpns_hci_acl_recv
+ *fill*         0x000000000001668f        0x1 90909090
+ .text          0x0000000000016690      0x2e9 librumpnet_netbt_pic.a(hci_misc.pico)
+                0x0000000000016690                rumpns_hci_memo_free
+                0x00000000000166d0                rumpns_hci_memo_find
+                0x0000000000016780                rumpns_hci_memo_new
+                0x0000000000016850                rumpns_hci_route_lookup
+ *fill*         0x0000000000016979        0x7 90909090
+ .text          0x0000000000016980       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000169b8        0x5
+ *(.fini)
+ .fini          0x00000000000169b8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000169bd                PROVIDE (__etext, .)
+                0x00000000000169bd                PROVIDE (_etext, .)
+                0x00000000000169bd                PROVIDE (etext, .)
+
+.rodata         0x00000000000169c0     0x1798
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000169c0       0x94 librumpnet_netbt_pic.a(bt_sysctl.pico)
+                                         0x98 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000        0xa librumpnet_netbt_pic.a(bt_proto.pico)
+ .rodata.str1.4
+                0x0000000000016a54      0x160 librumpnet_netbt_pic.a(sco_socket.pico)
+ .rodata.str1.1
+                0x0000000000016bb4      0x1bd librumpnet_netbt_pic.a(sco_socket.pico)
+                                        0x1d3 (size before relaxing)
+ *fill*         0x0000000000016d71        0x3 00
+ .rodata.str1.4
+                0x0000000000016d74       0xc7 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                                        0x18f (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016e3b       0x17 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                                        0x1ea (size before relaxing)
+ .rodata        0x0000000000016e52        0xd librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ *fill*         0x0000000000016e5f        0x1 00
+ .rodata.str1.4
+                0x0000000000016e60       0xd0 librumpnet_netbt_pic.a(l2cap_socket.pico)
+                                        0x198 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000      0x1d3 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .rodata        0x0000000000016f30        0xc librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .rodata.str1.4
+                0x0000000000016f3c       0x99 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                                         0xd0 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000016fd5       0x37 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                                         0x43 (size before relaxing)
+ .rodata        0x000000000001700c       0x24 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .rodata.str1.4
+                0x0000000000017030       0x96 librumpnet_netbt_pic.a(sco_upper.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x00000000000170c6       0x14 librumpnet_netbt_pic.a(sco_upper.pico)
+                                         0x4b (size before relaxing)
+ .rodata.str1.1
+                0x00000000000170da       0x4e librumpnet_netbt_pic.a(rfcomm_session.pico)
+                                         0x64 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000017128       0xbd librumpnet_netbt_pic.a(rfcomm_session.pico)
+                                         0xf1 (size before relaxing)
+ *fill*         0x00000000000171e5       0x1b 00
+ .rodata        0x0000000000017200      0x118 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .rodata.str1.4
+                0x0000000000017318      0x161 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                                        0x195 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017479       0x36 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                                         0x4d (size before relaxing)
+ .rodata        0x00000000000174af       0x11 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .rodata.str1.4
+                0x00000000000174c0       0x98 librumpnet_netbt_pic.a(l2cap_upper.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x37 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .rodata        0x0000000000017558       0x1c librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .rodata.str1.4
+                0x0000000000017574       0xcd librumpnet_netbt_pic.a(l2cap_signal.pico)
+                                        0x101 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017641       0x15 librumpnet_netbt_pic.a(l2cap_signal.pico)
+                                         0x2e (size before relaxing)
+ *fill*         0x0000000000017656        0x2 00
+ .rodata        0x0000000000017658       0x30 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .rodata.str1.1
+                0x0000000000017688       0x4c librumpnet_netbt_pic.a(l2cap_misc.pico)
+                                         0x58 (size before relaxing)
+ .rodata.str1.4
+                0x00000000000176d4       0x97 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                                         0xcc (size before relaxing)
+ .rodata        0x000000000001776b       0x16 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                0x000000000001776b                rumpns_l2cap_default_qos
+ *fill*         0x0000000000017781        0x3 00
+ .rodata.str1.4
+                0x0000000000017784       0x98 librumpnet_netbt_pic.a(l2cap_lower.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000       0x22 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .rodata.str1.4
+                0x000000000001781c       0x95 librumpnet_netbt_pic.a(hci_unit.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x00000000000178b1       0xc1 librumpnet_netbt_pic.a(hci_unit.pico)
+                                         0xe4 (size before relaxing)
+ *fill*         0x0000000000017972        0xe 00
+ .rodata        0x0000000000017980       0x40 librumpnet_netbt_pic.a(hci_unit.pico)
+ .rodata.str1.4
+                0x00000000000179c0      0x15e librumpnet_netbt_pic.a(hci_socket.pico)
+                                        0x226 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017b1e       0x31 librumpnet_netbt_pic.a(hci_socket.pico)
+                                        0x1fe (size before relaxing)
+ *fill*         0x0000000000017b4f       0x11 00
+ .rodata        0x0000000000017b60      0x138 librumpnet_netbt_pic.a(hci_socket.pico)
+ .rodata        0x0000000000017c98       0x38 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .rodata.str1.1
+                0x0000000000017cd0       0x30 librumpnet_netbt_pic.a(hci_event.pico)
+                                         0x3f (size before relaxing)
+ .rodata.str1.4
+                0x0000000000017d00      0x19a librumpnet_netbt_pic.a(hci_event.pico)
+                                        0x1ce (size before relaxing)
+ *fill*         0x0000000000017e9a        0x6 00
+ .rodata        0x0000000000017ea0      0x10c librumpnet_netbt_pic.a(hci_event.pico)
+ .rodata.str1.4
+                0x0000000000017fac       0xf0 librumpnet_netbt_pic.a(hci_link.pico)
+                                        0x123 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001809c       0xa4 librumpnet_netbt_pic.a(hci_link.pico)
+                                         0xfe (size before relaxing)
+ .rodata        0x0000000000018140       0x18 librumpnet_netbt_pic.a(hci_link.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000018158      0x76c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000018158      0x76c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x00000000000188c4     0x287c
+ *(.eh_frame)
+ .eh_frame      0x00000000000188c4       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000018900       0x20 librumpnet_netbt_pic.a(netbt_component.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000018920       0x40 librumpnet_netbt_pic.a(bt_sysctl.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x0000000000018960       0xa0 librumpnet_netbt_pic.a(bt_proto.pico)
+                                         0xcc (size before relaxing)
+ .eh_frame      0x0000000000018a00      0x490 librumpnet_netbt_pic.a(sco_socket.pico)
+                                        0x4bc (size before relaxing)
+ .eh_frame      0x0000000000018e90      0x498 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                                        0x4c4 (size before relaxing)
+ .eh_frame      0x0000000000019328      0x494 librumpnet_netbt_pic.a(l2cap_socket.pico)
+                                        0x4c0 (size before relaxing)
+ .eh_frame      0x00000000000197bc      0x204 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                                        0x230 (size before relaxing)
+ .eh_frame      0x00000000000199c0      0x16c librumpnet_netbt_pic.a(sco_upper.pico)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x0000000000019b2c      0x310 librumpnet_netbt_pic.a(rfcomm_session.pico)
+                                        0x33c (size before relaxing)
+ .eh_frame      0x0000000000019e3c      0x1cc librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x000000000001a008      0x1e0 librumpnet_netbt_pic.a(l2cap_upper.pico)
+                                        0x20c (size before relaxing)
+ .eh_frame      0x000000000001a1e8      0x110 librumpnet_netbt_pic.a(l2cap_signal.pico)
+                                        0x13c (size before relaxing)
+ .eh_frame      0x000000000001a2f8      0x12c librumpnet_netbt_pic.a(l2cap_misc.pico)
+                                        0x158 (size before relaxing)
+ .eh_frame      0x000000000001a424       0xa0 librumpnet_netbt_pic.a(l2cap_lower.pico)
+                                         0xcc (size before relaxing)
+ .eh_frame      0x000000000001a4c4      0x2d0 librumpnet_netbt_pic.a(hci_unit.pico)
+                                        0x2fc (size before relaxing)
+ .eh_frame      0x000000000001a794      0x434 librumpnet_netbt_pic.a(hci_socket.pico)
+                                        0x460 (size before relaxing)
+ .eh_frame      0x000000000001abc8       0x6c librumpnet_netbt_pic.a(hci_ioctl.pico)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000001ac34       0x54 librumpnet_netbt_pic.a(hci_event.pico)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x000000000001ac88      0x3e8 librumpnet_netbt_pic.a(hci_link.pico)
+                                        0x414 (size before relaxing)
+ .eh_frame      0x000000000001b070       0xcc librumpnet_netbt_pic.a(hci_misc.pico)
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x000000000001b13c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000001b140                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000001c140                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000001c140        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000001c140        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000001c144        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000001c148        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000001c148        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001c14c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001c14c                __DTOR_END__
+
+.jcr            0x000000000001c150        0x4
+ *(.jcr)
+ .jcr           0x000000000001c150        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000001c150        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000001c160      0x2c0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000001c160       0x6c librumpnet_netbt_pic.a(sco_socket.pico)
+                0x000000000001c160                rumpns_sco_usrreqs
+ *fill*         0x000000000001c1cc       0x14 00
+ .data.rel.ro.local
+                0x000000000001c1e0       0x6c librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                0x000000000001c1e0                rumpns_rfcomm_usrreqs
+ *fill*         0x000000000001c24c       0x14 00
+ .data.rel.ro.local
+                0x000000000001c260       0x6c librumpnet_netbt_pic.a(l2cap_socket.pico)
+                0x000000000001c260                rumpns_l2cap_usrreqs
+ .data.rel.ro.local
+                0x000000000001c2cc       0x1c librumpnet_netbt_pic.a(rfcomm_session.pico)
+ *fill*         0x000000000001c2e8       0x18 00
+ .data.rel.ro.local
+                0x000000000001c300       0x50 librumpnet_netbt_pic.a(hci_socket.pico)
+                0x000000000001c300                rumpns_hci_usrreqs
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x000000000001c350       0x10 00
+ .data.rel.ro   0x000000000001c360       0xc0 librumpnet_netbt_pic.a(bt_proto.pico)
+
+.dynamic        0x000000000001c420       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000001c420       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c420                _DYNAMIC
+
+.got            0x000000000001c4c0       0x94
+ *(.got)
+ .got           0x000000000001c4c0       0x94 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000001c554                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000001c554      0x2d0
+ *(.got.plt)
+ .got.plt       0x000000000001c554      0x2d0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c554                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000001c840       0xf8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000001c840        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001c840                __dso_handle
+ .data          0x000000000001c844        0x0 librumpnet_netbt_pic.a(netbt_component.pico)
+ .data.rel.local
+                0x000000000001c844       0x10 librumpnet_netbt_pic.a(netbt_component.pico)
+ .data          0x000000000001c854        0x0 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .data          0x000000000001c854        0x0 librumpnet_netbt_pic.a(bt_proto.pico)
+ *fill*         0x000000000001c854        0xc 00
+ .data.rel.local
+                0x000000000001c860       0x88 librumpnet_netbt_pic.a(bt_proto.pico)
+                0x000000000001c860                rumpns_btdomain
+ .data          0x000000000001c8e8        0x8 librumpnet_netbt_pic.a(sco_socket.pico)
+                0x000000000001c8e8                rumpns_sco_recvspace
+                0x000000000001c8ec                rumpns_sco_sendspace
+ .data          0x000000000001c8f0        0x8 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                0x000000000001c8f0                rumpns_rfcomm_recvspace
+                0x000000000001c8f4                rumpns_rfcomm_sendspace
+ .data          0x000000000001c8f8        0x8 librumpnet_netbt_pic.a(l2cap_socket.pico)
+                0x000000000001c8f8                rumpns_l2cap_recvspace
+                0x000000000001c8fc                rumpns_l2cap_sendspace
+ .data          0x000000000001c900        0x0 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .data          0x000000000001c900        0x0 librumpnet_netbt_pic.a(sco_upper.pico)
+ .data          0x000000000001c900        0xc librumpnet_netbt_pic.a(rfcomm_session.pico)
+                0x000000000001c900                rumpns_rfcomm_mcc_timeout
+                0x000000000001c904                rumpns_rfcomm_ack_timeout
+                0x000000000001c908                rumpns_rfcomm_mtu_default
+ .data          0x000000000001c90c        0x0 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .data          0x000000000001c90c        0x0 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .data          0x000000000001c90c        0x0 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .data          0x000000000001c90c        0x8 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                0x000000000001c90c                rumpns_l2cap_response_extended_timeout
+                0x000000000001c910                rumpns_l2cap_response_timeout
+ .data          0x000000000001c914        0x0 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .data          0x000000000001c914        0xc librumpnet_netbt_pic.a(hci_unit.pico)
+                0x000000000001c914                rumpns_hci_scorxq_max
+                0x000000000001c918                rumpns_hci_aclrxq_max
+                0x000000000001c91c                rumpns_hci_eventq_max
+ .data.rel      0x000000000001c920        0x8 librumpnet_netbt_pic.a(hci_unit.pico)
+                0x000000000001c920                rumpns_hci_unit_list
+ .data          0x000000000001c928        0x8 librumpnet_netbt_pic.a(hci_socket.pico)
+                0x000000000001c928                rumpns_hci_recvspace
+                0x000000000001c92c                rumpns_hci_sendspace
+ .data          0x000000000001c930        0x0 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .data          0x000000000001c930        0x0 librumpnet_netbt_pic.a(hci_event.pico)
+ .data          0x000000000001c930        0x4 librumpnet_netbt_pic.a(hci_link.pico)
+                0x000000000001c930                rumpns_hci_acl_expiry
+ .data          0x000000000001c934        0x4 librumpnet_netbt_pic.a(hci_misc.pico)
+                0x000000000001c934                rumpns_hci_memo_expiry
+ .data          0x000000000001c938        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000001c938        0x0
+ .tm_clone_table
+                0x000000000001c938        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000001c938        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x000000000001c938        0x4
+                0x000000000001c938                . = ALIGN (0x4)
+                0x000000000001c938                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000001c938        0x4 librumpnet_netbt_pic.a(netbt_component.pico)
+                0x000000000001c93c                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_sysctl_funcs
+                0x000000000001c93c        0x4
+                0x000000000001c93c                . = ALIGN (0x4)
+                0x000000000001c93c                PROVIDE (__start_link_set_sysctl_funcs, ABSOLUTE (.))
+ link_set_sysctl_funcs
+                0x000000000001c93c        0x4 librumpnet_netbt_pic.a(bt_sysctl.pico)
+                0x000000000001c940                PROVIDE (__stop_link_set_sysctl_funcs, .)
+
+link_set_domains
+                0x000000000001c940        0x4
+                0x000000000001c940                . = ALIGN (0x4)
+                0x000000000001c940                PROVIDE (__start_link_set_domains, ABSOLUTE (.))
+ link_set_domains
+                0x000000000001c940        0x4 librumpnet_netbt_pic.a(bt_proto.pico)
+                0x000000000001c944                PROVIDE (__stop_link_set_domains, .)
+
+.data1
+ *(.data1)
+                0x000000000001c944                _edata = .
+                0x000000000001c944                PROVIDE (edata, .)
+                0x000000000001c944                __bss_start = .
+
+.bss            0x000000000001c960      0x2f8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000001c960        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(netbt_component.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(bt_proto.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(sco_socket.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .bss           0x000000000001c968        0x0 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .bss           0x000000000001c968        0x4 librumpnet_netbt_pic.a(sco_upper.pico)
+                0x000000000001c968                rumpns_sco_pcb
+ *fill*         0x000000000001c96c       0x14 00
+ .bss           0x000000000001c980       0xf8 librumpnet_netbt_pic.a(rfcomm_session.pico)
+                0x000000000001c980                rumpns_rfcomm_session_listen
+                0x000000000001c984                rumpns_rfcomm_session_active
+ .bss           0x000000000001ca78        0x0 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .bss           0x000000000001ca78        0x0 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .bss           0x000000000001ca78        0x0 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .bss           0x000000000001ca78        0x8 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                0x000000000001ca78                rumpns_l2cap_listen_list
+                0x000000000001ca7c                rumpns_l2cap_active_list
+ .bss           0x000000000001ca80        0x0 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .bss           0x000000000001ca80        0x0 librumpnet_netbt_pic.a(hci_unit.pico)
+ .bss           0x000000000001ca80        0x4 librumpnet_netbt_pic.a(hci_socket.pico)
+                0x000000000001ca80                rumpns_hci_pcb
+ .bss           0x000000000001ca84        0x0 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .bss           0x000000000001ca84        0x0 librumpnet_netbt_pic.a(hci_event.pico)
+ .bss           0x000000000001ca84        0x0 librumpnet_netbt_pic.a(hci_link.pico)
+ .bss           0x000000000001ca84        0x0 librumpnet_netbt_pic.a(hci_misc.pico)
+ .bss           0x000000000001ca84        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000001ca84        0x4 librumpnet_netbt_pic.a(bt_proto.pico)
+                0x000000000001ca84                rumpns_bt_lock
+ *fill*         0x000000000001ca88       0x18 00
+ COMMON         0x000000000001caa0      0x1b8 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                0x000000000001caa0                rumpns_l2cap_req_pool
+                0x000000000001cb80                rumpns_l2cap_pdu_pool
+                0x000000000001cc58                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000001cc58                . = ALIGN (0x4)
+                0x000000000001cc58                . = ALIGN (0x4)
+                0x000000000001cc58                _end = .
+                0x000000000001cc58                PROVIDE (end, .)
+                0x000000000001cc58                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(netbt_component.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(bt_proto.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(sco_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(sco_upper.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_unit.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_event.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_link.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_netbt_pic.a(hci_misc.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x4b9
+ .ident         0x0000000000000000       0x41 librumpnet_netbt_pic.a(netbt_component.pico)
+ .ident         0x0000000000000041       0x3b librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .ident         0x000000000000007c       0x3b librumpnet_netbt_pic.a(bt_proto.pico)
+ .ident         0x00000000000000b7       0x3b librumpnet_netbt_pic.a(sco_socket.pico)
+ .ident         0x00000000000000f2       0x3e librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .ident         0x0000000000000130       0x3d librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .ident         0x000000000000016d       0x40 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .ident         0x00000000000001ad       0x3a librumpnet_netbt_pic.a(sco_upper.pico)
+ .ident         0x00000000000001e7       0x3f librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .ident         0x0000000000000226       0x3a librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .ident         0x0000000000000260       0x3c librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .ident         0x000000000000029c       0x42 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .ident         0x00000000000002de       0x3c librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .ident         0x000000000000031a       0x3c librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .ident         0x0000000000000356       0x3b librumpnet_netbt_pic.a(hci_unit.pico)
+ .ident         0x0000000000000391       0x3b librumpnet_netbt_pic.a(hci_socket.pico)
+ .ident         0x00000000000003cc       0x3a librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .ident         0x0000000000000406       0x3d librumpnet_netbt_pic.a(hci_event.pico)
+ .ident         0x0000000000000443       0x3b librumpnet_netbt_pic.a(hci_link.pico)
+ .ident         0x000000000000047e       0x3b librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x280
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpnet_netbt_pic.a(netbt_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpnet_netbt_pic.a(bt_proto.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_aranges
+                0x0000000000000160       0x20 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_aranges
+                0x0000000000000180       0x20 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .debug_aranges
+                0x00000000000001a0       0x20 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .debug_aranges
+                0x00000000000001c0       0x20 librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_aranges
+                0x00000000000001e0       0x20 librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_aranges
+                0x0000000000000200       0x20 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .debug_aranges
+                0x0000000000000220       0x20 librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_aranges
+                0x0000000000000240       0x20 librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_aranges
+                0x0000000000000260       0x20 librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x8784c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x74b5 librumpnet_netbt_pic.a(netbt_component.pico)
+ .debug_info    0x00000000000074b5     0x5717 librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .debug_info    0x000000000000cbcc     0x6b6a librumpnet_netbt_pic.a(bt_proto.pico)
+ .debug_info    0x0000000000013736     0x9cba librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_info    0x000000000001d3f0     0x9393 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_info    0x0000000000026783     0x903a librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_info    0x000000000002f7bd     0x2999 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_info    0x0000000000032156     0x5750 librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_info    0x00000000000378a6     0x827e librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_info    0x000000000003fb24     0x5efc librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_info    0x0000000000045a20     0x5999 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_info    0x000000000004b3b9     0x6eb7 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_info    0x0000000000052270     0x5d65 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .debug_info    0x0000000000057fd5     0x52f4 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .debug_info    0x000000000005d2c9     0x5d44 librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_info    0x000000000006300d     0xa804 librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_info    0x000000000006d811     0x6fbb librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .debug_info    0x00000000000747cc     0x6e26 librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_info    0x000000000007b5f2     0x73df librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_info    0x00000000000829d1     0x4e7b librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug_abbrev   0x0000000000000000     0x52f8
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x280 librumpnet_netbt_pic.a(netbt_component.pico)
+ .debug_abbrev  0x0000000000000280      0x2ab librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .debug_abbrev  0x000000000000052b      0x309 librumpnet_netbt_pic.a(bt_proto.pico)
+ .debug_abbrev  0x0000000000000834      0x4d0 librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_abbrev  0x0000000000000d04      0x4c8 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_abbrev  0x00000000000011cc      0x4b7 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_abbrev  0x0000000000001683      0x3f2 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_abbrev  0x0000000000001a75      0x451 librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_abbrev  0x0000000000001ec6      0x581 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_abbrev  0x0000000000002447      0x4c0 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_abbrev  0x0000000000002907      0x422 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_abbrev  0x0000000000002d29      0x4e5 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_abbrev  0x000000000000320e      0x38b librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .debug_abbrev  0x0000000000003599      0x31d librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .debug_abbrev  0x00000000000038b6      0x4ad librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_abbrev  0x0000000000003d63      0x55e librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_abbrev  0x00000000000042c1      0x354 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .debug_abbrev  0x0000000000004615      0x43b librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_abbrev  0x0000000000004a50      0x527 librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_abbrev  0x0000000000004f77      0x381 librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug_line     0x0000000000000000     0xa392
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x7d5 librumpnet_netbt_pic.a(netbt_component.pico)
+ .debug_line    0x00000000000007d5      0x61d librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .debug_line    0x0000000000000df2      0x72a librumpnet_netbt_pic.a(bt_proto.pico)
+ .debug_line    0x000000000000151c      0xb0d librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_line    0x0000000000002029      0xadd librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_line    0x0000000000002b06      0xa76 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_line    0x000000000000357c      0x5ac librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_line    0x0000000000003b28      0x6de librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_line    0x0000000000004206      0xabc librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_line    0x0000000000004cc2      0x6f6 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_line    0x00000000000053b8      0x775 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_line    0x0000000000005b2d      0x8e7 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_line    0x0000000000006414      0x5f7 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .debug_line    0x0000000000006a0b      0x556 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .debug_line    0x0000000000006f61      0x7e8 librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_line    0x0000000000007749      0xcde librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_line    0x0000000000008427      0x855 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .debug_line    0x0000000000008c7c      0x7dc librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_line    0x0000000000009458      0xa53 librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_line    0x0000000000009eab      0x4e7 librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x81c0
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3d0f librumpnet_netbt_pic.a(netbt_component.pico)
+                                       0x40b5 (size before relaxing)
+ .debug_str     0x0000000000003d0f      0x264 librumpnet_netbt_pic.a(bt_sysctl.pico)
+                                       0x2d58 (size before relaxing)
+ .debug_str     0x0000000000003f73      0x216 librumpnet_netbt_pic.a(bt_proto.pico)
+                                       0x3a73 (size before relaxing)
+ .debug_str     0x0000000000004189      0xc03 librumpnet_netbt_pic.a(sco_socket.pico)
+                                       0x4583 (size before relaxing)
+ .debug_str     0x0000000000004d8c      0x67a librumpnet_netbt_pic.a(rfcomm_socket.pico)
+                                       0x3ead (size before relaxing)
+ .debug_str     0x0000000000005406      0x57c librumpnet_netbt_pic.a(l2cap_socket.pico)
+                                       0x3e28 (size before relaxing)
+ .debug_str     0x0000000000005982      0x2bd librumpnet_netbt_pic.a(rfcomm_upper.pico)
+                                       0x1483 (size before relaxing)
+ .debug_str     0x0000000000005c3f      0x194 librumpnet_netbt_pic.a(sco_upper.pico)
+                                       0x2eaa (size before relaxing)
+ .debug_str     0x0000000000005dd3      0x8df librumpnet_netbt_pic.a(rfcomm_session.pico)
+                                       0x3a6c (size before relaxing)
+ .debug_str     0x00000000000066b2       0xb7 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+                                       0x31d0 (size before relaxing)
+ .debug_str     0x0000000000006769      0x15a librumpnet_netbt_pic.a(l2cap_upper.pico)
+                                       0x3019 (size before relaxing)
+ .debug_str     0x00000000000068c3      0x3a2 librumpnet_netbt_pic.a(l2cap_signal.pico)
+                                       0x31ed (size before relaxing)
+ .debug_str     0x0000000000006c65       0xf4 librumpnet_netbt_pic.a(l2cap_misc.pico)
+                                       0x33ef (size before relaxing)
+ .debug_str     0x0000000000006d59       0xb0 librumpnet_netbt_pic.a(l2cap_lower.pico)
+                                       0x2e51 (size before relaxing)
+ .debug_str     0x0000000000006e09      0x26f librumpnet_netbt_pic.a(hci_unit.pico)
+                                       0x2eb0 (size before relaxing)
+ .debug_str     0x0000000000007078      0x796 librumpnet_netbt_pic.a(hci_socket.pico)
+                                       0x496a (size before relaxing)
+ .debug_str     0x000000000000780e      0x180 librumpnet_netbt_pic.a(hci_ioctl.pico)
+                                       0x3e02 (size before relaxing)
+ .debug_str     0x000000000000798e      0x670 librumpnet_netbt_pic.a(hci_event.pico)
+                                       0x33c2 (size before relaxing)
+ .debug_str     0x0000000000007ffe      0x127 librumpnet_netbt_pic.a(hci_link.pico)
+                                       0x36b1 (size before relaxing)
+ .debug_str     0x0000000000008125       0x9b librumpnet_netbt_pic.a(hci_misc.pico)
+                                       0x2c33 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xc83f
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x44 librumpnet_netbt_pic.a(netbt_component.pico)
+ .debug_loc     0x0000000000000044       0x8d librumpnet_netbt_pic.a(bt_sysctl.pico)
+ .debug_loc     0x00000000000000d1      0x198 librumpnet_netbt_pic.a(bt_proto.pico)
+ .debug_loc     0x0000000000000269     0x111c librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_loc     0x0000000000001385     0x126e librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_loc     0x00000000000025f3     0x1154 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_loc     0x0000000000003747      0x6a4 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_loc     0x0000000000003deb      0x3ac librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_loc     0x0000000000004197     0x1e59 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_loc     0x0000000000005ff0      0x838 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_loc     0x0000000000006828      0x794 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_loc     0x0000000000006fbc     0x1103 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_loc     0x00000000000080bf      0x3a5 librumpnet_netbt_pic.a(l2cap_misc.pico)
+ .debug_loc     0x0000000000008464      0x236 librumpnet_netbt_pic.a(l2cap_lower.pico)
+ .debug_loc     0x000000000000869a      0x8f9 librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_loc     0x0000000000008f93     0x15da librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_loc     0x000000000000a56d      0x337 librumpnet_netbt_pic.a(hci_ioctl.pico)
+ .debug_loc     0x000000000000a8a4      0x902 librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_loc     0x000000000000b1a6     0x1330 librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_loc     0x000000000000c4d6      0x369 librumpnet_netbt_pic.a(hci_misc.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1ba0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x3d0 librumpnet_netbt_pic.a(sco_socket.pico)
+ .debug_ranges  0x00000000000003d0      0x410 librumpnet_netbt_pic.a(rfcomm_socket.pico)
+ .debug_ranges  0x00000000000007e0      0x3e8 librumpnet_netbt_pic.a(l2cap_socket.pico)
+ .debug_ranges  0x0000000000000bc8       0x18 librumpnet_netbt_pic.a(rfcomm_upper.pico)
+ .debug_ranges  0x0000000000000be0       0x50 librumpnet_netbt_pic.a(sco_upper.pico)
+ .debug_ranges  0x0000000000000c30      0x2d0 librumpnet_netbt_pic.a(rfcomm_session.pico)
+ .debug_ranges  0x0000000000000f00       0x30 librumpnet_netbt_pic.a(rfcomm_dlc.pico)
+ .debug_ranges  0x0000000000000f30       0x68 librumpnet_netbt_pic.a(l2cap_upper.pico)
+ .debug_ranges  0x0000000000000f98      0x2c8 librumpnet_netbt_pic.a(l2cap_signal.pico)
+ .debug_ranges  0x0000000000001260       0x78 librumpnet_netbt_pic.a(hci_unit.pico)
+ .debug_ranges  0x00000000000012d8      0x4f0 librumpnet_netbt_pic.a(hci_socket.pico)
+ .debug_ranges  0x00000000000017c8      0x308 librumpnet_netbt_pic.a(hci_event.pico)
+ .debug_ranges  0x0000000000001ad0       0xb8 librumpnet_netbt_pic.a(hci_link.pico)
+ .debug_ranges  0x0000000000001b88       0x18 librumpnet_netbt_pic.a(hci_misc.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpnet_netbt.so.0.0 elf32-i386)

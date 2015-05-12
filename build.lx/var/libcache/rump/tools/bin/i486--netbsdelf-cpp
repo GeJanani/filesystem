@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /usr/local/genode-gcc/bin/genode-x86-gcc -E -x c "${@}"

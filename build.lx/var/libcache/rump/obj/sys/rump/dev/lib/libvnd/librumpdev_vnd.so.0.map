@@ -1,0 +1,427 @@
+Archive member included because of file (symbol)
+
+librumpdev_vnd_pic.a(vnd_component.pico)
+                              (--whole-archive)
+librumpdev_vnd_pic.a(vnd.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_vnd_pic.a(vnd_component.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_vnd_pic.a(vnd_component.pico)
+ .group         0x0000000000000000        0x8 librumpdev_vnd_pic.a(vnd.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_vnd_pic.a(vnd.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_vnd_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x35c
+ *(.hash)
+ .hash          0x00000000000000b4      0x35c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000410      0x740
+ *(.dynsym)
+ .dynsym        0x0000000000000410      0x740 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000000b50      0x8f6
+ *(.dynstr)
+ .dynstr        0x0000000000000b50      0x8f6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000001446       0xe8
+ *(.gnu.version)
+ .gnu.version   0x0000000000001446       0xe8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000001530        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000001530       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001530       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000001550      0x160
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000001550       0x88 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x00000000000015d8       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000015e8       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000001618       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000001628       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x00000000000016a0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x00000000000016a8        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000016b0      0x2e8
+ *(.rel.plt)
+ .rel.plt       0x00000000000016b0      0x2e8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000001998        0xa
+ *(.init)
+ .init          0x0000000000001998        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x000000000000199d        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000019b0      0x5e0
+ *(.plt)
+ .plt           0x00000000000019b0      0x5e0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000001f90     0x2ee8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001f90      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000000020cb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000020cb                __x86.get_pc_thunk.bx
+ *fill*         0x00000000000020cf        0x1 90909090
+ .text          0x00000000000020d0      0x128 librumpdev_vnd_pic.a(vnd_component.pico)
+ *fill*         0x00000000000021f8        0x8 90909090
+ .text          0x0000000000002200     0x2c37 librumpdev_vnd_pic.a(vnd.pico)
+                0x0000000000004b20                rumpns_vndattach
+                0x0000000000004b80                rumpns_vnd_destroy
+ *fill*         0x0000000000004e37        0x9 90909090
+ .text          0x0000000000004e40       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000004e78        0x5
+ *(.fini)
+ .fini          0x0000000000004e78        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000004e7d                PROVIDE (__etext, .)
+                0x0000000000004e7d                PROVIDE (_etext, .)
+                0x0000000000004e7d                PROVIDE (etext, .)
+
+.rodata         0x0000000000004e80      0x2b9
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000004e80       0x2b librumpdev_vnd_pic.a(vnd_component.pico)
+ *fill*         0x0000000000004eab        0x1 00
+ .rodata.str1.4
+                0x0000000000004eac       0x4c librumpdev_vnd_pic.a(vnd_component.pico)
+ .rodata.str1.4
+                0x0000000000004ef8      0x188 librumpdev_vnd_pic.a(vnd.pico)
+                                        0x186 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000005080       0xb9 librumpdev_vnd_pic.a(vnd.pico)
+                                         0xbb (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000513c       0xcc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000513c       0xcc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000005208      0x410
+ *(.eh_frame)
+ .eh_frame      0x0000000000005208       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000005244       0x28 librumpdev_vnd_pic.a(vnd_component.pico)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x000000000000526c      0x3a8 librumpdev_vnd_pic.a(vnd.pico)
+                                        0x3d4 (size before relaxing)
+ .eh_frame      0x0000000000005614        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000005618                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000006618                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000006618        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000006618        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000661c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000006620        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000006620        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000006624        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000006624                __DTOR_END__
+
+.jcr            0x0000000000006628        0x4
+ *(.jcr)
+ .jcr           0x0000000000006628        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000006628        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000006640       0x80
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000006640       0x14 librumpdev_vnd_pic.a(vnd.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x0000000000006654        0xc 00
+ .data.rel.ro   0x0000000000006660       0x60 librumpdev_vnd_pic.a(vnd.pico)
+                0x0000000000006660                rumpns_vnd_cdevsw
+                0x00000000000066a0                rumpns_vnd_bdevsw
+
+.dynamic        0x00000000000066c0       0xb8
+ *(.dynamic)
+ .dynamic       0x00000000000066c0       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000066c0                _DYNAMIC
+
+.got            0x0000000000006778       0x3c
+ *(.got)
+ .got           0x0000000000006778       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000067b4                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000067b4      0x180
+ *(.got.plt)
+ .got.plt       0x00000000000067b4      0x180 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000067b4                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000006940       0x74
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000006940        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000006940                __dso_handle
+ .data          0x0000000000006944        0x0 librumpdev_vnd_pic.a(vnd_component.pico)
+ .data.rel.local
+                0x0000000000006944       0x10 librumpdev_vnd_pic.a(vnd_component.pico)
+ .data          0x0000000000006954        0x0 librumpdev_vnd_pic.a(vnd.pico)
+ *fill*         0x0000000000006954        0xc 00
+ .data.rel.local
+                0x0000000000006960       0x4c librumpdev_vnd_pic.a(vnd.pico)
+                0x0000000000006960                rumpns_vnd_cd
+                0x0000000000006980                rumpns_vnd_ca
+ .data.rel      0x00000000000069ac        0x8 librumpdev_vnd_pic.a(vnd.pico)
+ .data          0x00000000000069b4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x00000000000069b4        0x0
+ .tm_clone_table
+                0x00000000000069b4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x00000000000069b4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x00000000000069b4        0x4
+                0x00000000000069b4                . = ALIGN (0x4)
+                0x00000000000069b4                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x00000000000069b4        0x4 librumpdev_vnd_pic.a(vnd_component.pico)
+                0x00000000000069b8                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_modules
+                0x00000000000069b8        0x4
+                0x00000000000069b8                . = ALIGN (0x4)
+                0x00000000000069b8                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x00000000000069b8        0x4 librumpdev_vnd_pic.a(vnd.pico)
+                0x00000000000069bc                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x00000000000069bc                _edata = .
+                0x00000000000069bc                PROVIDE (edata, .)
+                0x00000000000069bc                __bss_start = .
+
+.bss            0x00000000000069bc        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000069bc        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x00000000000069c4        0x0 librumpdev_vnd_pic.a(vnd_component.pico)
+ .bss           0x00000000000069c4        0x0 librumpdev_vnd_pic.a(vnd.pico)
+ .bss           0x00000000000069c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x00000000000069c4                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000000069c4                . = ALIGN (0x4)
+                0x00000000000069c4                . = ALIGN (0x4)
+                0x00000000000069c4                _end = .
+                0x00000000000069c4                PROVIDE (end, .)
+                0x00000000000069c4                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_vnd_pic.a(vnd_component.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_vnd_pic.a(vnd.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x78
+ .ident         0x0000000000000000       0x3f librumpdev_vnd_pic.a(vnd_component.pico)
+ .ident         0x000000000000003f       0x39 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_vnd_pic.a(vnd_component.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x11061
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x680e librumpdev_vnd_pic.a(vnd_component.pico)
+ .debug_info    0x000000000000680e     0xa853 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug_abbrev   0x0000000000000000      0x83d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x29b librumpdev_vnd_pic.a(vnd_component.pico)
+ .debug_abbrev  0x000000000000029b      0x5a2 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug_line     0x0000000000000000     0x16b7
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x732 librumpdev_vnd_pic.a(vnd_component.pico)
+ .debug_line    0x0000000000000732      0xf85 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x5229
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3843 librumpdev_vnd_pic.a(vnd_component.pico)
+                                       0x3b8b (size before relaxing)
+ .debug_str     0x0000000000003843     0x19e6 librumpdev_vnd_pic.a(vnd.pico)
+                                       0x4df4 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1fc6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x9d librumpdev_vnd_pic.a(vnd_component.pico)
+ .debug_loc     0x000000000000009d     0x1f29 librumpdev_vnd_pic.a(vnd.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x338
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x338 librumpdev_vnd_pic.a(vnd.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_vnd.so.0.0 elf32-i386)

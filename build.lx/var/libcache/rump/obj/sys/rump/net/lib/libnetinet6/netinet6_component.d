@@ -1,0 +1,169 @@
+netinet6_component.o: \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/netinet6_component.c \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/cdefs.h \
+ machine/cdefs.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/cdefs_elf.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/param.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/null.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/inttypes.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/stdint.h \
+ machine/int_types.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/common_int_types.h \
+ machine/int_mwgwtypes.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/common_int_mwgwtypes.h \
+ machine/int_limits.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/common_int_limits.h \
+ machine/int_const.h machine/wchar_limits.h machine/int_fmtio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/types.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/featuretest.h \
+ machine/types.h machine/ansi.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ansi.h \
+ machine/endian.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/endian.h \
+ machine/endian_machdep.h machine/bswap.h machine/byte_swap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/bswap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/fd_set.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/syslimits.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/errno.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/time.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/timevar.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/callout.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/queue.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/signal.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/sigtypes.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/siginfo.h \
+ machine/signal.h machine/trap.h x86/trap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ucontext.h \
+ machine/mcontext.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/systm.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/stdarg.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/device_if.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../lib/libkern/libkern.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/resource.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ucred.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/uio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_param.h \
+ machine/vmparam.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/tree.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/mutex.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/intr.h \
+ machine/intr.h x86/intr.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/evcnt.h \
+ machine/intrdefs.h x86/intrdefs.h machine/pic.h x86/pic.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/spl.h \
+ machine/mutex.h x86/mutex.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/resourcevar.h \
+ machine/param.h machine/cpu.h x86/cpu.h machine/frame.h machine/pte.h \
+ x86/pte.h machine/segments.h machine/tss.h x86/cacheinfo.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/cpu_data.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/sched.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/condvar.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/pcu.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/percpu_types.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/kcpuset.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ipi.h \
+ machine/psl.h x86/psl.h machine/limits.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/domain.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/mbuf.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/malloc.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/mallocvar.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/pool.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/callback.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/socket.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/route.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/if.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/dlt.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/pfil.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/pktqueue.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/sysctl.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/proc.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/lwp.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/signalvar.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/specificdata.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/syncobj.h \
+ machine/proc.h machine/pcb.h x86/cpu_extended_state.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/aio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/rwlock.h \
+ machine/rwlock.h x86/rwlock.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/mqueue.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/selinfo.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/event.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ioctl.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ttycom.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ioccom.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/dkio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/plistref.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/filio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/sockio.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ioctl_compat.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ttychars.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/ttydev.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_extern.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/vmmeter.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/lock.h \
+ machine/lock.h x86/lock.h machine/cpufunc.h x86/cpufunc.h \
+ machine/specialreg.h x86/specialreg.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/vmem.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_prot.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_pmap.h \
+ machine/pmap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/atomic.h \
+ i386/pte.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_object.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/rbtree.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_pglist.h \
+ x86/pmap.h x86/pmap_pv.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_map.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_anon.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_pager.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../altq/if_altq.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/percpu.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/if_arp.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/radix.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/protosw.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/socketvar.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/select.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/uidinfo.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../net/netisr.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../netinet/in.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../netinet6/in6.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../netinet/ip_var.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../netinet/ip6.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../netinet6/ip6_var.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../librump/rumpkern/rump_private.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/cpu.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/device.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/pmf.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/proplib.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_array.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_object.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_bool.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_data.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_dictionary.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_number.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_string.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../../common/include/prop/prop_ingest.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_stat.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/kernhist.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_amap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_aobj.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_fault.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_glue.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_km.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_loan.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_page.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_pdaemon.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_swap.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/rnd.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/sha1.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../sys/rngtest.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../../uvm/uvm_fault_i.h \
+ /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage/usr/include/rump/rump.h \
+ /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage/usr/include/rump/rumpvnode_if.h \
+ /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage/usr/include/rump/rumpdefs.h \
+ /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage/usr/include/rump/rump_namei.h \
+ /home/k/GeDONE/build.lx/var/libcache/rump/obj/dest.stage/usr/include/rump/rumpuser.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../librump/rumpkern/rumpkern_if_priv.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../librump/rumpnet/rump_net_private.h \
+ /home/k/GeDONE/contrib/dde_rump-fe90aa7ca739eb69c0e0e422756f1d36f3d744ec/src/lib/dde_rump/src/sys/rump/net/lib/libnetinet6/../../../librump/rumpnet/rumpnet_if_priv.h

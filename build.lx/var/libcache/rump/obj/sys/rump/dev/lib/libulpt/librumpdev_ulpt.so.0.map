@@ -1,0 +1,432 @@
+Archive member included because of file (symbol)
+
+librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                              (--whole-archive)
+librumpdev_ulpt_pic.a(ulpt.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .group         0x0000000000000000        0x8 librumpdev_ulpt_pic.a(ulpt.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_ulpt_pic.a(ulpt.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_ulpt_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x24c
+ *(.hash)
+ .hash          0x00000000000000b4      0x24c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000300      0x4e0
+ *(.dynsym)
+ .dynsym        0x0000000000000300      0x4e0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000007e0      0x662
+ *(.dynstr)
+ .dynstr        0x00000000000007e0      0x662 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000e42        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000e44        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000e44        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000e44      0x130
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000000e44       0x60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000000ea4       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000000ec4       0x30 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000000ef4       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000f1c       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000000f6c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000f74      0x198
+ *(.rel.plt)
+ .rel.plt       0x0000000000000f74      0x198 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x000000000000110c        0xa
+ *(.init)
+ .init          0x000000000000110c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000001111        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000001120      0x340
+ *(.plt)
+ .plt           0x0000000000001120      0x340 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000001460     0x1168
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001460      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000159b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000159b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000159f        0x1 90909090
+ .text          0x00000000000015a0       0xef librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ *fill*         0x000000000000168f        0x1 90909090
+ .text          0x0000000000001690      0xef6 librumpdev_ulpt_pic.a(ulpt.pico)
+                0x0000000000001690                rumpns_ulpt_match
+                0x00000000000016c0                rumpns_ulptioctl
+                0x00000000000016e0                rumpns_ulpt_read_cb
+                0x0000000000001780                rumpns_ulptclose
+                0x0000000000001880                rumpns_ulpt_activate
+                0x00000000000018c0                rumpns_ulpt_detach
+                0x00000000000019b0                rumpns_ulpt_attach
+                0x0000000000001c90                rumpns_ulpt_tick
+                0x0000000000001d10                rumpns_ulpt_status
+                0x0000000000001d80                rumpns_ulpt_reset
+                0x0000000000001e20                rumpns_ulptopen
+                0x0000000000002130                rumpns_ulpt_statusmsg
+                0x0000000000002220                rumpns_ulpt_do_write
+                0x00000000000022f0                rumpns_ulptwrite
+                0x0000000000002380                rumpns_ulpt_do_read
+                0x0000000000002500                rumpns_ulptread
+ *fill*         0x0000000000002586        0xa 90909090
+ .text          0x0000000000002590       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x00000000000025c8        0x5
+ *(.fini)
+ .fini          0x00000000000025c8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000025cd                PROVIDE (__etext, .)
+                0x00000000000025cd                PROVIDE (_etext, .)
+                0x00000000000025cd                PROVIDE (etext, .)
+
+.rodata         0x00000000000025d0      0x194
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000025d0       0x23 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                                         0x28 (size before relaxing)
+ *fill*         0x00000000000025f3        0x1 00
+ .rodata.str1.4
+                0x00000000000025f4       0x75 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .rodata.str1.1
+                0x0000000000002669       0x8e librumpdev_ulpt_pic.a(ulpt.pico)
+                                         0x95 (size before relaxing)
+ *fill*         0x00000000000026f7        0x1 00
+ .rodata.str1.4
+                0x00000000000026f8       0x6c librumpdev_ulpt_pic.a(ulpt.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000002764       0x9c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000002764       0x9c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000002800      0x334
+ *(.eh_frame)
+ .eh_frame      0x0000000000002800       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000283c       0x24 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000002860      0x2d0 librumpdev_ulpt_pic.a(ulpt.pico)
+                                        0x2fc (size before relaxing)
+ .eh_frame      0x0000000000002b30        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000002b34                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000003b34                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000003b34        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000003b34        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000003b38        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000003b3c        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000003b3c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000003b40        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000003b40                __DTOR_END__
+
+.jcr            0x0000000000003b44        0x4
+ *(.jcr)
+ .jcr           0x0000000000003b44        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000003b44        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000003b60       0x70
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000003b60       0x1c librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000003b7c       0x10 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ *fill*         0x0000000000003b8c       0x14 00
+ .data.rel.ro   0x0000000000003ba0       0x30 librumpdev_ulpt_pic.a(ulpt.pico)
+                0x0000000000003ba0                rumpns_ulpt_cdevsw
+
+.dynamic        0x0000000000003bd0       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000003bd0       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003bd0                _DYNAMIC
+
+.got            0x0000000000003c70       0x28
+ *(.got)
+ .got           0x0000000000003c70       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000003c98                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000003c98       0xd8
+ *(.got.plt)
+ .got.plt       0x0000000000003c98       0xd8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003c98                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000003d80       0xcc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000003d80        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000003d80                __dso_handle
+ .data          0x0000000000003d84       0x18 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ *fill*         0x0000000000003d9c        0x4 00
+ .data.rel.local
+                0x0000000000003da0       0x60 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                0x0000000000003da0                rumpns_ulpt_cd
+ .data          0x0000000000003e00        0x4 librumpdev_ulpt_pic.a(ulpt.pico)
+                0x0000000000003e00                rumpns_ulptusein
+ *fill*         0x0000000000003e04       0x1c 00
+ .data.rel      0x0000000000003e20       0x2c librumpdev_ulpt_pic.a(ulpt.pico)
+                0x0000000000003e20                rumpns_ulpt_ca
+ .data          0x0000000000003e4c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000003e4c        0x0
+ .tm_clone_table
+                0x0000000000003e4c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000003e4c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x0000000000003e4c        0x4
+                0x0000000000003e4c                . = ALIGN (0x4)
+                0x0000000000003e4c                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x0000000000003e4c        0x4 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                0x0000000000003e50                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x0000000000003e50                _edata = .
+                0x0000000000003e50                PROVIDE (edata, .)
+                0x0000000000003e50                __bss_start = .
+
+.bss            0x0000000000003e50        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000003e50        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000003e58        0x0 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .bss           0x0000000000003e58        0x0 librumpdev_ulpt_pic.a(ulpt.pico)
+ .bss           0x0000000000003e58        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000003e58                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000003e58                . = ALIGN (0x4)
+                0x0000000000003e58                . = ALIGN (0x4)
+                0x0000000000003e58                _end = .
+                0x0000000000003e58                PROVIDE (end, .)
+                0x0000000000003e58                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_ulpt_pic.a(ulpt.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x3a
+ .ident         0x0000000000000000       0x3a librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xdd72
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x69f7 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_info    0x00000000000069f7     0x737b librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug_abbrev   0x0000000000000000      0x875
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x31f librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_abbrev  0x000000000000031f      0x556 librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug_line     0x0000000000000000     0x10d4
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x739 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_line    0x0000000000000739      0x99b librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x4283
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x392d librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+                                       0x3c4b (size before relaxing)
+ .debug_str     0x000000000000392d      0x956 librumpdev_ulpt_pic.a(ulpt.pico)
+                                       0x3c9a (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xcdc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x8e librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_loc     0x000000000000008e      0xc4e librumpdev_ulpt_pic.a(ulpt.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x60
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x30 librumpdev_ulpt_pic.a(ulpt_at_usb.pico)
+ .debug_ranges  0x0000000000000030       0x30 librumpdev_ulpt_pic.a(ulpt.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_ulpt.so.0.0 elf32-i386)

@@ -1,0 +1,139 @@
+RUMP_ETFS(3)               Library Functions Manual               RUMP_ETFS(3)
+
+NNAAMMEE
+     rruummpp__eettffss - rump host file system interface
+
+LLIIBBRRAARRYY
+     rump kernel (librump, -lrump)
+
+SSYYNNOOPPSSIISS
+     ##iinncclluuddee <<rruummpp//rruummpp..hh>>
+
+     _i_n_t
+     rruummpp__ppuubb__eettffss__rreeggiisstteerr(_c_o_n_s_t _c_h_a_r _*_k_e_y, _c_o_n_s_t _c_h_a_r _*_h_o_s_t_p_a_t_h,
+         _e_n_u_m _r_u_m_p___e_t_f_s___t_y_p_e _f_t_y_p_e);
+
+     _i_n_t
+     rruummpp__ppuubb__eettffss__rreeggiisstteerr__wwiitthhssiizzee(_c_o_n_s_t _c_h_a_r _*_k_e_y, _c_o_n_s_t _c_h_a_r _*_h_o_s_t_p_a_t_h,
+         _e_n_u_m _r_u_m_p___e_t_f_s___t_y_p_e _f_t_y_p_e, _u_i_n_t_6_4___t _b_e_g_i_n, _u_i_n_t_6_4___t _s_i_z_e);
+
+     _v_o_i_d
+     rruummpp__bboooott__eettffss__rreeggiisstteerr(_s_t_r_u_c_t _r_u_m_p___b_o_o_t___e_t_f_s _*_e_b);
+
+     _i_n_t
+     rruummpp__ppuubb__eettffss__rreemmoovvee(_c_o_n_s_t _c_h_a_r _*_k_e_y);
+
+DDEESSCCRRIIPPTTIIOONN
+     The rump ExtraTerrestrial File System (rruummpp__eettffss) is used to provide
+     access to the host file system namespace within a rump kernel.
+
+     The operation is based on registered _k_e_y values which each map to a
+     _h_o_s_t_p_a_t_h.  A key must be an absolute path (i.e. begin with ``/'').
+     Multiple leading slashes are collapsed to one (i.e.  ``/key'' is the same
+     as ``//key'').  The rest of the path, including slashes, is compared
+     verbatim (i.e.  ``/key/path'' does not match ``/key//path'').
+
+     The _h_o_s_t_p_a_t_h is interpreted in host system context for the current
+     working directory and can be either absolute or relative.
+
+     The _k_e_y is accessible from all rump kernel clients, both local and
+     remote.  Note, the keys are not be visible via readdir, so you will not
+     see them in directory listings.
+
+     The _f_t_y_p_e parameter specifies how etfs file will be presented and does
+     not have to match the host type, although some limitations apply.
+     Possible values are:
+
+     RUMP_ETFS_REG             regular file.
+
+     RUMP_ETFS_BLK             block device.  This is often used when mapping
+                               file system images.
+
+     RUMP_ETFS_CHR             character device.
+
+     RUMP_ETFS_DIR             directory.  This option is valid only when
+                               _h_o_s_t_p_a_t_h is a directory.  The immediate
+                               children of the host directory will be
+                               accessible inside a rump kernel.
+
+     RUMP_ETFS_DIR_SUBDIRS     directory.  This option is valid only when
+                               _h_o_s_t_p_a_t_h is a directory.  This option
+                               recursively applies to all subdirectories, and
+                               allows a rump kernel to access an entire
+                               directory tree.
+
+     The interfaces are:
+
+     rruummpp__ppuubb__eettffss__rreeggiisstteerr(_k_e_y, _h_o_s_t_p_a_t_h, _f_t_y_p_e)
+           Map _k_e_y to a file of type _f_t_y_p_e with the contents of _h_o_s_t_p_a_t_h.
+
+     rruummpp__ppuubb__eettffss__rreeggiisstteerr__wwiitthhssiizzee(_k_e_y, _h_o_s_t_p_a_t_h, _f_t_y_p_e, _b_e_g_i_n, _s_i_z_e)
+           Like the above, but map only [_b_e_g_i_n, _b_e_g_i_n_+_s_i_z_e] from _h_o_s_t_p_a_t_h.
+           This is useful when mapping disk images where only one partition is
+           relevant to the application.  If _s_i_z_e is given the special value
+           RUMP_ETFS_SIZE_ENDOFF, the underlying file is mapped from _b_e_g_i_n to
+           the end of the file.
+
+     rruummpp__bboooott__eettffss__rreeggiisstteerr(_e_b)
+           Unlike the above interfaces, rruummpp__bboooott__eettffss__rreeggiisstteerr() can and must
+           be called before rruummpp__iinniitt().  It causes an etfs key to be
+           available immediately when the root file system is mounted as part
+           of rruummpp__iinniitt().  The intended use is for example for firmware
+           images to be available immediately when device driver
+           autoconfiguration is run as part of rruummpp__iinniitt().
+
+           To use rruummpp__bboooott__eettffss__rreeggiisstteerr(), the client fills out _e_b.  The
+           layout of _e_b is as follows:
+
+           struct rump_boot_etfs {
+                   /* client initializes */
+                   const char *eb_key;
+                   const char *eb_hostpath;
+                   enum rump_etfs_type eb_type;
+                   uint64_t eb_begin;
+                   uint64_t eb_size;
+
+                   /* rump kernel initializes */
+                   struct rump_boot_etfs *_eb_next;
+                   int eb_status;
+           };
+
+           All of the client fields must be initialized before the call.  See
+           rruummpp__ppuubb__eettffss__rreeggiisstteerr__wwiitthhssiizzee() for descriptions of the fields.
+           After the function has been called, the client may not touch the
+           structure memory or the pathname pointers.  After rruummpp__iinniitt()
+           returns, the client may check the status of the registration from
+           _e_b___s_t_a_t_u_s and free the structure.  A value of -1 designates that
+           the etfs registration was not performed, 0 designates success and a
+           value larger than 0 designates an errno.  The client must serialize
+           calls to rruummpp__bboooott__eettffss__rreeggiisstteerr().
+
+     rruummpp__ppuubb__eettffss__rreemmoovvee(_k_e_y)
+           Remove etfs mapping for _k_e_y.  This routine may be called only if
+           the file related to the mapping is not in use.
+
+RREETTUURRNN VVAALLUUEESS
+     rruummpp__eettffss routines return 0 on success or an errno indicating the reason
+     for failure.
+
+EEXXAAMMPPLLEESS
+     Map a host image file to a mountable _/_d_e_v_/_h_a_r_d_d_i_s_k path using window
+     offsets from the disklabel.
+
+           rump_pub_etfs_register_withsize("/dev/harddisk", "disk.img",
+               RUMP_ETFS_BLK,
+               pp->p_offset << DEV_BSHIFT, pp->p_size << DEV_BSHIFT);
+
+     Make the host kernel module directory hierarchy available within the rump
+     kernel.
+
+           rump_pub_etfs_register("/stand/i386/5.99.41",
+               "/stand/i386/5.99.41", RUMP_ETFS_DIR_SUBDIRS);
+
+SSEEEE AALLSSOO
+     rump(3)
+
+HHIISSTTOORRYY
+     rruummpp__eettffss first appeared in NetBSD 6.0.
+
+NetBSD 7.99                    October 27, 2014                    NetBSD 7.99

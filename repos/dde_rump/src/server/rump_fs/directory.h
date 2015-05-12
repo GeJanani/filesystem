@@ -18,237 +18,112 @@
 
 /* Genode include */
 #include <os/path.h>
-#include <file_system/util.h>
 
 /* local includes */
 #include "node.h"
+#include "util.h"
 #include "file.h"
 #include "symlink.h"
 
 namespace File_system {
-	class Directory;
+    class Directory;
 }
 
-class File_system::Directory : public Node
-{
-	private:
+class File_system::Directory : public Node {
+    public:
 
-		enum { BUFFER_SIZE = 4096 };
+        enum { BUFFER_SIZE = 4096 };
 
-		typedef Genode::Path<MAX_PATH_LEN> Path;
+        typedef Genode::Path<MAX_PATH_LEN> Path;
 
-		int        _fd;
-		Path       _path;
-		Allocator &_alloc;
+        int        _fd;
+        Path       _path;
+        Allocator & _alloc;
 
-		unsigned long _inode(char const *path, bool create)
-		{
-			int ret;
+        unsigned long _inode ( char const * path, bool create ) {
+            return 5;
+        }
 
-			if (create) {
-				mode_t ugo = S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH;
-				ret = rump_sys_mkdir(path, ugo);
-				if (ret == -1)
-					throw No_space();
-			}
+        int _open ( char const * path ) {
+            /*struct stat s;
+            int ret = rump_sys_lstat(path, &s);
+            if (ret == -1 || !S_ISDIR(s.st_mode))
+            	throw Lookup_failed();
 
-			struct stat s;
+            int fd = rump_sys_open(path, O_RDONLY);
+            if (fd == -1)
+            	throw Lookup_failed();
 
-			ret = rump_sys_lstat(path, &s);
-			if (ret == -1)
-				throw Lookup_failed();
-			return s.st_ino;
-		}
+            return fd;*/
+            return 23;
+        }
 
-		int _open(char const *path)
-		{
-			struct stat s;
-			int ret = rump_sys_lstat(path, &s);
-			if (ret == -1 || !S_ISDIR(s.st_mode))
-				throw Lookup_failed();
+        static char * _buffer() {
+            /* buffer for directory entries */
+            static char buf[BUFFER_SIZE];
+            return buf;
+        }
 
-			int fd = rump_sys_open(path, O_RDONLY);
-			if (fd == -1)
-				throw Lookup_failed();
+    public:
 
-			return fd;
-		}
+        Directory ( Allocator & alloc, char const * path, bool create )
+            :
+            Node ( _inode ( path, create ) ),
+            _fd ( _open ( path ) ),
+            _path ( path, "./" ),
+            _alloc ( alloc ) {
+            //PERR("dir start\n");
+            Node::name ( basename ( path ) );
+            //PERR("dir conss\n");
+        }
 
-		static char *_buffer()
-		{
-			/* buffer for directory entries */
-			static char buf[BUFFER_SIZE];
-			return buf;
-		}
+        virtual ~Directory() {
+        }
 
-	public:
+        File * file ( char const * name, Mode mode, bool create ) {
+            //PERR("READ3\n");
+            return new ( &_alloc ) File ( _fd, name, mode, create );
+        }
 
-		Directory(Allocator &alloc, char const *path, bool create)
-		:
-			Node(_inode(path, create)),
-			_fd(_open(path)),
-			_path(path, "./"),
-			_alloc(alloc)
-		{
-			Node::name(basename(path));
-		}
+        Symlink * symlink ( char const * name, bool create ) {
+            return new ( &_alloc ) Symlink ( _path.base(), name, create );
+        }
 
-		virtual ~Directory()
-		{
-			rump_sys_close(_fd);
-		}
+        Directory * subdir ( char const * path, bool create ) {
+            //PERR("i am in \n");
+            Path dir_path ( path, _path.base() );
+            //PERR("subdir start\n");
+            Directory * dir = new ( &_alloc ) Directory ( _alloc, dir_path.base(), create );
+            //PERR("done\n");
+            return dir;
+        }
 
-		File * file(char const *name, Mode mode, bool create)
-		{
-			return new (&_alloc) File(_fd, name, mode, create);
-		}
+        Node * node ( char const * path ) {
+            Path node_path ( path, _path.base() );
+            //	struct stat s;
+            Node * node = 0;
+            node = new ( &_alloc ) Directory ( _alloc, node_path.base(), false );
+            return node;
+        }
 
-		Symlink * symlink(char const *name, bool create)
-		{
-			return new (&_alloc) Symlink(_path.base(), name, create);
-		}
+        size_t read ( char * dst, size_t len, seek_off_t seek_offset ) {
+            //PERR("READ\n");
+            return 0;
+        }
 
-		Directory * subdir(char const *path, bool create)
-		{
-			Path dir_path(path, _path.base());
-			Directory *dir = new (&_alloc) Directory(_alloc, dir_path.base(), create);
-			return dir;
-		}
+        size_t write ( char const * src, size_t len, seek_off_t seek_offset ) {
+            /* writing to directory nodes is not supported */
+            //PERR("READ2\n");
+            return 0;
+        }
 
-		Node * node(char const *path)
-		{
-			Path node_path(path, _path.base());
+        size_t num_entries() const {
+            return 0;
+        }
 
-			struct stat s;
-			int ret = rump_sys_lstat(node_path.base(), &s);
-			if (ret == -1)
-				throw Lookup_failed();
-
-			Node *node = 0;
-
-			if (S_ISDIR(s.st_mode))
-				node = new (&_alloc) Directory(_alloc, node_path.base(), false);
-			else if (S_ISREG(s.st_mode))
-				node = new (&_alloc) File(node_path.base(), STAT_ONLY);
-			else if (S_ISLNK(s.st_mode))
-				node = new (&_alloc)Symlink(node_path.base());
-			else
-				throw Lookup_failed();
-
-			return node;
-		}
-
-		size_t read(char *dst, size_t len, seek_off_t seek_offset)
-		{
-			if (len < sizeof(Directory_entry)) {
-				PERR("read buffer too small for directory entry");
-				return 0;
-			}
-
-			if (seek_offset % sizeof(Directory_entry)) {
-				PERR("seek offset not aligned to sizeof(Directory_entry)");
-				return 0;
-			}
-
-			seek_off_t index = seek_offset / sizeof(Directory_entry);
-
-			int bytes;
-			rump_sys_lseek(_fd, 0, SEEK_SET);
-
-			struct dirent *dent = 0;
-			seek_off_t        i = 0;
-			char *buf = _buffer();
-			do {
-				bytes = rump_sys_getdents(_fd, buf, BUFFER_SIZE);
-				void *current, *end;
-				for (current = buf, end = &buf[bytes];
-				     current < end;
-				     current = _DIRENT_NEXT((dirent *)current), i++)
-					if (i == index) {
-						dent = (dirent *)current;
-						break;
-					}
-			} while(bytes && !dent);
-
-			if (!dent)
-				return 0;
-
-			/*
-			 * Build absolute path, this becomes necessary as our 'Path' class strips
-			 * trailing dots, which will not work for '.' and  '..' directories.
-			 */
-			size_t base_len = strlen(_path.base());
-			char   path[dent->d_namlen + base_len + 2];
-
-			memcpy(path, _path.base(), base_len);
-			path[base_len] = '/';
-			strncpy(path + base_len + 1, dent->d_name, dent->d_namlen + 1);
-
-			/*
-			 * We cannot use 'd_type' member of 'dirent' here since the EXT2
-			 * implementation sets the type to unkown. Hence we use stat.
-			 */
-			struct stat s;
-			rump_sys_lstat(path, &s);
-
-			Directory_entry *e = (Directory_entry *)(dst);
-			if (S_ISDIR(s.st_mode))
-				e->type = Directory_entry::TYPE_DIRECTORY;
-			else if (S_ISREG(s.st_mode))
-				e->type = Directory_entry::TYPE_FILE;
-			else if (S_ISLNK(s.st_mode))
-				e->type = Directory_entry::TYPE_SYMLINK;
-			else
-				return 0;
-
-			strncpy(e->name, dent->d_name, dent->d_namlen + 1);
-			return sizeof(Directory_entry);
-		}
-
-		size_t write(char const *src, size_t len, seek_off_t seek_offset)
-		{
-			/* writing to directory nodes is not supported */
-			return 0;
-		}
-
-		size_t num_entries() const
-		{
-			int bytes = 0;
-			int count = 0;
-
-			rump_sys_lseek(_fd, 0, SEEK_SET);
-
-			char *buf = _buffer();
-			do {
-				bytes = rump_sys_getdents(_fd, buf, BUFFER_SIZE);
-				void *current, *end;
-				for (current = buf, end = &buf[bytes];
-				     current < end;
-				     current = _DIRENT_NEXT((dirent *)current), count++) { }
-			} while(bytes);
-
-			return count;
-		}
-
-		void unlink(char const *path)
-		{
-			Path node_path(path, _path.base());
-
-			struct stat s;
-			int ret = rump_sys_lstat(node_path.base(), &s);
-			if (ret == -1)
-				throw Lookup_failed();
-
-			if (S_ISDIR(s.st_mode))
-				ret = rump_sys_rmdir(node_path.base());
-			else if (S_ISREG(s.st_mode) || S_ISLNK(s.st_mode))
-				ret = rump_sys_unlink(node_path.base());
-			else
-				throw Lookup_failed();
-
-			if (ret == -1)
-				PERR("Error during unlink of %s", node_path.base());
-		}
+        void unlink ( char const * path ) {
+            //PERR("Error during unlink of %s", node_path.base());
+        }
 };
 
 #endif /* _DIRECTORY_H_ */

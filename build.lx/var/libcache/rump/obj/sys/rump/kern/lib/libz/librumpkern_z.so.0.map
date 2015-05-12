@@ -1,0 +1,417 @@
+Archive member included because of file (symbol)
+
+librumpkern_z_pic.a(zlib.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpkern_z_pic.a(zlib.pico)
+ .group         0x0000000000000000        0x8 librumpkern_z_pic.a(zlib.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_z_pic.a(zlib.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpkern_z_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x14c
+ *(.hash)
+ .hash          0x00000000000000b4      0x14c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000200      0x2c0
+ *(.dynsym)
+ .dynsym        0x0000000000000200      0x2c0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000004c0      0x3a0
+ *(.dynstr)
+ .dynstr        0x00000000000004c0      0x3a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000860        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000860        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000860        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000860      0x120
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000000860       0x60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000008c0       0x78 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000938       0x40 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000000978        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000980       0xd0
+ *(.rel.plt)
+ .rel.plt       0x0000000000000980       0xd0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000a50        0xa
+ *(.init)
+ .init          0x0000000000000a50        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000a55        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000a60      0x1b0
+ *(.plt)
+ .plt           0x0000000000000a60      0x1b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000000c10     0x6d58
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000c10      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000d4b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000000d4b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000d4f        0x1 90909090
+ .text          0x0000000000000d50     0x6bd2 librumpkern_z_pic.a(zlib.pico)
+                0x0000000000002960                rumpns_adler32
+                0x0000000000002e90                rumpns_deflateEnd
+                0x0000000000002f50                rumpns__tr_init
+                0x0000000000003040                rumpns_deflateReset
+                0x0000000000003190                rumpns_deflateInit2_
+                0x0000000000003410                rumpns__tr_stored_block
+                0x0000000000003540                rumpns__tr_stored_type_only
+                0x00000000000035a0                rumpns__tr_align
+                0x0000000000003780                rumpns_deflate
+                0x0000000000003b40                rumpns__tr_flush_block
+                0x0000000000004a60                rumpns_inflate_addhistory
+                0x0000000000004b90                rumpns_inflateIncomp
+                0x0000000000004bd0                rumpns_inflate_packet_flush
+                0x0000000000004bf0                rumpns_inflate_trees_bits
+                0x0000000000004cf0                rumpns_inflate_trees_dynamic
+                0x0000000000004ed0                rumpns_inflate_trees_fixed
+                0x0000000000004f10                rumpns_inflate_codes_new
+                0x0000000000004f60                rumpns_inflate_codes_free
+                0x0000000000004f80                rumpns_inflate_blocks_reset
+                0x0000000000005050                rumpns_inflate_blocks_free
+                0x00000000000050d0                rumpns_inflateEnd
+                0x0000000000005140                rumpns_inflate_blocks_new
+                0x0000000000005230                rumpns_inflateReset
+                0x00000000000052a0                rumpns_inflateInit2_
+                0x00000000000053d0                rumpns_inflate_flush
+                0x0000000000005560                rumpns_inflate_fast
+                0x0000000000005ad0                rumpns_inflate_codes
+                0x00000000000064b0                rumpns_inflate_blocks
+                0x0000000000007470                rumpns_inflate
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000007922        0x4 librumpkern_z_pic.a(zlib.pico)
+                0x0000000000007922                __x86.get_pc_thunk.cx
+ *fill*         0x0000000000007926        0xa 90909090
+ .text          0x0000000000007930       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000007968        0x5
+ *(.fini)
+ .fini          0x0000000000007968        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000796d                PROVIDE (__etext, .)
+                0x000000000000796d                PROVIDE (_etext, .)
+                0x000000000000796d                PROVIDE (etext, .)
+
+.rodata         0x0000000000007980     0x106c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000007980       0xd8 librumpkern_z_pic.a(zlib.pico)
+ .rodata.str1.1
+                0x0000000000007a58      0x1a1 librumpkern_z_pic.a(zlib.pico)
+                                        0x1a2 (size before relaxing)
+ *fill*         0x0000000000007bf9        0x7 00
+ .rodata        0x0000000000007c00      0xdec librumpkern_z_pic.a(zlib.pico)
+                0x0000000000007ca0                rumpns_inflate_copyright
+                0x0000000000007ce0                rumpns__length_code
+                0x0000000000007de0                rumpns__dist_code
+                0x0000000000007fe0                rumpns_deflate_copyright
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000089ec      0x17c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000089ec      0x17c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000008b68      0xaa0
+ *(.eh_frame)
+ .eh_frame      0x0000000000008b68       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000008ba4      0xa60 librumpkern_z_pic.a(zlib.pico)
+                                        0xa8c (size before relaxing)
+ .eh_frame      0x0000000000009604        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000009608                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000000a608                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000000a608        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000000a608        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000000a60c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000000a610        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000000a610        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000000a614        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000000a614                __DTOR_END__
+
+.jcr            0x000000000000a618        0x4
+ *(.jcr)
+ .jcr           0x000000000000a618        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000000a618        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000000a620       0x8c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000a620       0x8c librumpkern_z_pic.a(zlib.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000000a6ac       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000000a6ac       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a6ac                _DYNAMIC
+
+.got            0x000000000000a74c       0x20
+ *(.got)
+ .got           0x000000000000a74c       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000000a76c                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000000a76c       0x74
+ *(.got.plt)
+ .got.plt       0x000000000000a76c       0x74 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a76c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000a7e0     0x11e4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000a7e0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000a7e0                __dso_handle
+ *fill*         0x000000000000a7e4       0x1c 00
+ .data          0x000000000000a800     0x1160 librumpkern_z_pic.a(zlib.pico)
+                0x000000000000a800                rumpns_inflate_mask
+ .data.rel.local
+                0x000000000000b960       0x64 librumpkern_z_pic.a(zlib.pico)
+                0x000000000000b960                rumpns_z_errmsg
+ .data          0x000000000000b9c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000000b9c4        0x0
+ .tm_clone_table
+                0x000000000000b9c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000000b9c4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000000b9c4        0x4
+                0x000000000000b9c4                . = ALIGN (0x4)
+                0x000000000000b9c4                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000000b9c4        0x4 librumpkern_z_pic.a(zlib.pico)
+                0x000000000000b9c8                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x000000000000b9c8                _edata = .
+                0x000000000000b9c8                PROVIDE (edata, .)
+                0x000000000000b9c8                __bss_start = .
+
+.bss            0x000000000000b9c8        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000b9c8        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000000b9d0        0x0 librumpkern_z_pic.a(zlib.pico)
+ .bss           0x000000000000b9d0        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x000000000000b9d0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000000b9d0                . = ALIGN (0x4)
+                0x000000000000b9d0                . = ALIGN (0x4)
+                0x000000000000b9d0                _end = .
+                0x000000000000b9d0                PROVIDE (end, .)
+                0x000000000000b9d0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpkern_z_pic.a(zlib.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000       0x3a
+ .ident         0x0000000000000000       0x3a librumpkern_z_pic.a(zlib.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpkern_z_pic.a(zlib.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x4251
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x4251 librumpkern_z_pic.a(zlib.pico)
+
+.debug_abbrev   0x0000000000000000      0x4b5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4b5 librumpkern_z_pic.a(zlib.pico)
+
+.debug_line     0x0000000000000000     0x1926
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1926 librumpkern_z_pic.a(zlib.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0xdc4
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xdc4 librumpkern_z_pic.a(zlib.pico)
+                                        0xf28 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x809a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x809a librumpkern_z_pic.a(zlib.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x800
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x800 librumpkern_z_pic.a(zlib.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpkern_z.so.0.0 elf32-i386)

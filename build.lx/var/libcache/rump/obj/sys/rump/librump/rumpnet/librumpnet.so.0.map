@@ -1,0 +1,1252 @@
+Archive member included because of file (symbol)
+
+librumpnet_pic.a(rtbl.pico)   (--whole-archive)
+librumpnet_pic.a(radix.pico)  (--whole-archive)
+librumpnet_pic.a(pktqueue.pico)
+                              (--whole-archive)
+librumpnet_pic.a(rumpnet_syscalls.pico)
+                              (--whole-archive)
+librumpnet_pic.a(rumpnet_if_wrappers.pico)
+                              (--whole-archive)
+librumpnet_pic.a(rump_net.pico)
+                              (--whole-archive)
+librumpnet_pic.a(netisr.pico)
+                              (--whole-archive)
+librumpnet_pic.a(net_stub.pico)
+                              (--whole-archive)
+librumpnet_pic.a(bpf_stub.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_syscalls.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_socket2.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_socket.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_accf.pico)
+                              (--whole-archive)
+librumpnet_pic.a(sys_socket.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_mbuf2.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_mbuf.pico)
+                              (--whole-archive)
+librumpnet_pic.a(uipc_domain.pico)
+                              (--whole-archive)
+librumpnet_pic.a(in6_print.pico)
+                              (--whole-archive)
+librumpnet_pic.a(in_print.pico)
+                              (--whole-archive)
+librumpnet_pic.a(dl_print.pico)
+                              (--whole-archive)
+librumpnet_pic.a(at_print.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_ifnet_list   0x8               librumpnet_pic.a(net_stub.pico)
+rumpns_MCFail       0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_mask_rnhead  0x4               librumpnet_pic.a(radix.pico)
+rumpns_mb_cache     0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_rn_mkfreelist
+                    0x4               librumpnet_pic.a(radix.pico)
+rumpns_bpf_ops      0x4               librumpnet_pic.a(bpf_stub.pico)
+rumpns_max_hdr      0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_max_keylen   0x4               librumpnet_pic.a(radix.pico)
+rumpns_softnet_lock
+                    0x4               librumpnet_pic.a(uipc_socket.pico)
+rumpns_max_datalen  0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_pfslowtimo_ch
+                    0x28              librumpnet_pic.a(uipc_domain.pico)
+rumpns_pfslowtimo_now
+                    0x4               librumpnet_pic.a(uipc_domain.pico)
+rumpns_mbstat       0x21c             librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_max_protohdr
+                    0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_pffasttimo_now
+                    0x4               librumpnet_pic.a(uipc_domain.pico)
+rumpns_mcl_cache    0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_MSFail       0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_max_linkhdr  0x4               librumpnet_pic.a(uipc_mbuf.pico)
+rumpns_pffasttimo_ch
+                    0x28              librumpnet_pic.a(uipc_domain.pico)
+rumpns_MPFail       0x4               librumpnet_pic.a(uipc_mbuf.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(rtbl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(rtbl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(rtbl.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(radix.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(radix.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(pktqueue.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(pktqueue.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(rump_net.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(rump_net.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(netisr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(netisr.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(net_stub.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(net_stub.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(bpf_stub.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(bpf_stub.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_syscalls.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_syscalls.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_socket2.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_socket2.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_accf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_accf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(sys_socket.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(sys_socket.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_mbuf2.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_mbuf2.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_mbuf.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_mbuf.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_domain.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(uipc_domain.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_domain.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(uipc_domain.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(in6_print.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(in6_print.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(in_print.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(in_print.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(dl_print.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(dl_print.pico)
+ .group         0x0000000000000000        0x8 librumpnet_pic.a(at_print.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpnet_pic.a(at_print.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpnet_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0xb0c
+ *(.hash)
+ .hash          0x00000000000000b4      0xb0c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000bc0     0x1ba0
+ *(.dynsym)
+ .dynsym        0x0000000000000bc0     0x1ba0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000002760     0x20d8
+ *(.dynstr)
+ .dynstr        0x0000000000002760     0x20d8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000004838      0x374
+ *(.gnu.version)
+ .gnu.version   0x0000000000004838      0x374 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000004bac        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000004bac       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000004bac       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000004bcc      0x3b8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x0000000000004bcc       0xd8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro.local
+                0x0000000000004ca4       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000004d14       0x60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000004d74       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000004d84      0x1e8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000004f6c       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_domains
+                0x0000000000004f7c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000004f84      0x840
+ *(.rel.plt)
+ .rel.plt       0x0000000000004f84      0x840 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x00000000000057c4        0xa
+ *(.init)
+ .init          0x00000000000057c4        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x00000000000057c9        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x00000000000057d0     0x1090
+ *(.plt)
+ .plt           0x00000000000057d0     0x1090 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000006860    0x153d8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000006860      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000699b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000699b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000699f        0x1 90909090
+ .text          0x00000000000069a0      0x28c librumpnet_pic.a(rtbl.pico)
+                0x00000000000069c0                rumpns_rt_inithead
+                0x0000000000006a30                rumpns_rt_matchaddr
+                0x0000000000006a60                rumpns_rt_addaddr
+                0x0000000000006aa0                rumpns_rt_lookup
+                0x0000000000006ae0                rumpns_rt_deladdr
+                0x0000000000006b30                rumpns_rt_walktree
+                0x0000000000006b80                rumpns_rt_gettable
+                0x0000000000006bb0                rumpns_rtbl_init
+                0x0000000000006c00                rumpns_rt_assert_inactive
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000006c2c        0x4 librumpnet_pic.a(rtbl.pico)
+                0x0000000000006c2c                __x86.get_pc_thunk.cx
+ .text          0x0000000000006c30     0x174d librumpnet_pic.a(radix.pico)
+                0x0000000000006d70                rumpns_rn_search
+                0x0000000000006db0                rumpns_rn_search_m
+                0x0000000000006e00                rumpns_rn_match
+                0x0000000000007040                rumpns_rn_refines
+                0x0000000000007150                rumpns_rn_newpair
+                0x00000000000071b0                rumpns_rn_insert
+                0x0000000000007310                rumpns_rn_addmask
+                0x0000000000007600                rumpns_rn_addroute
+                0x0000000000007a50                rumpns_rn_lookup
+                0x0000000000007ae0                rumpns_rn_delete1
+                0x0000000000007ee0                rumpns_rn_delete
+                0x0000000000007f20                rumpns_rn_walktree
+                0x0000000000007fd0                rumpns_rn_delayedinit
+                0x0000000000008060                rumpns_rn_inithead0
+                0x0000000000008190                rumpns_rn_inithead
+                0x0000000000008200                rumpns_rn_init
+ *fill*         0x000000000000837d        0x3 90909090
+ .text          0x0000000000008380      0x9ee librumpnet_pic.a(pktqueue.pico)
+                0x00000000000083c0                rumpns_pktq_create
+                0x00000000000084c0                rumpns_pktq_destroy
+                0x00000000000085b0                rumpns_pktq_get_count
+                0x0000000000008660                rumpns_pktq_rps_hash
+                0x0000000000008670                rumpns_pktq_enqueue
+                0x0000000000008760                rumpns_pktq_dequeue
+                0x00000000000087e0                rumpns_pktq_barrier
+                0x0000000000008960                rumpns_pktq_flush
+                0x00000000000089e0                rumpns_pktq_set_maxlen
+                0x0000000000008b80                rumpns_sysctl_pktq_maxlen
+                0x0000000000008c90                rumpns_sysctl_pktq_count
+ *fill*         0x0000000000008d6e        0x2 90909090
+ .text          0x0000000000008d70       0x2a librumpnet_pic.a(rumpnet_syscalls.pico)
+ *fill*         0x0000000000008d9a        0x6 90909090
+ .text          0x0000000000008da0       0x64 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+                0x0000000000008da0                rump_shmif_create
+                0x0000000000008da0                rump_net_unavailable
+                0x0000000000008dc0                rump_pub_shmif_create
+ *fill*         0x0000000000008e04        0xc 90909090
+ .text          0x0000000000008e10       0x5f librumpnet_pic.a(rump_net.pico)
+ *fill*         0x0000000000008e6f        0x1 90909090
+ .text          0x0000000000008e70      0x143 librumpnet_pic.a(netisr.pico)
+                0x0000000000008e70                rumpns_schednetisr
+                0x0000000000008f10                rump_netisr_register
+ *fill*         0x0000000000008fb3        0xd 90909090
+ .text          0x0000000000008fc0       0x26 librumpnet_pic.a(net_stub.pico)
+                0x0000000000008fc0                rumpns_ieee8023ad_lacp_input
+                0x0000000000008fc0                rumpns_agr_input
+                0x0000000000008fc0                rumpns_ieee8023ad_marker_input
+                0x0000000000008fc0                rumpns_bridge_ifdetach
+                0x0000000000008fc0                rumpnet_stub
+                0x0000000000008fc0                rumpns_bridge_output
+                0x0000000000008fe0                rumpns_compat_ifconf
+ *fill*         0x0000000000008fe6        0xa 90909090
+ .text          0x0000000000008ff0      0x46d librumpnet_pic.a(bpf_stub.pico)
+                0x00000000000092f0                rumpns_bpf_setops
+                0x0000000000009350                rumpns_bpf_ops_handover_enter
+                0x0000000000009410                rumpns_bpf_ops_handover_exit
+ *fill*         0x000000000000945d        0x3 90909090
+ .text          0x0000000000009460     0x2ba6 librumpnet_pic.a(uipc_syscalls.pico)
+                0x0000000000009570                rumpns_sys___socket30
+                0x00000000000095c0                rumpns_do_sys_bind
+                0x0000000000009650                rumpns_sys_listen
+                0x00000000000096c0                rumpns_do_sys_accept
+                0x0000000000009ae0                rumpns_do_sys_connect
+                0x0000000000009c60                rumpns_sys_socketpair
+                0x0000000000009ed0                rumpns_free_control_mbuf
+                0x000000000000a480                rumpns_copyout_msg_control
+                0x000000000000a5f0                rumpns_do_sys_recvmsg
+                0x000000000000a670                rumpns_sys_shutdown
+                0x000000000000a720                rumpns_sys_setsockopt
+                0x000000000000a860                rumpns_sys_getsockopt
+                0x000000000000a9b0                rumpns_do_sys_getpeername
+                0x000000000000aaa0                rumpns_do_sys_getsockname
+                0x000000000000ab70                rumpns_copyout_sockname
+                0x000000000000acc0                rumpns_sys_recvmmsg
+                0x000000000000b080                rumpns_sys_recvmsg
+                0x000000000000b1e0                rumpns_sys_recvfrom
+                0x000000000000b2c0                rumpns_sys_paccept
+                0x000000000000b3c0                rumpns_sys_accept
+                0x000000000000b490                rumpns_sys_getsockname
+                0x000000000000b510                rumpns_sys_getpeername
+                0x000000000000b590                rumpns_sockargs
+                0x000000000000bbe0                rumpns_sys_sendmmsg
+                0x000000000000bda0                rumpns_do_sys_sendmsg
+                0x000000000000be30                rumpns_sys_sendmsg
+                0x000000000000beb0                rumpns_sys_sendto
+                0x000000000000bf30                rumpns_sys_connect
+                0x000000000000bfa0                rumpns_sys_bind
+ *fill*         0x000000000000c006        0xa 90909090
+ .text          0x000000000000c010     0x3b03 librumpnet_pic.a(uipc_socket2.pico)
+                0x000000000000c010                rumpns_soinit2
+                0x000000000000c080                rumpns_soget
+                0x000000000000c1c0                rumpns_soput
+                0x000000000000c340                rumpns_sb_max_set
+                0x000000000000c3e0                rumpns_sbcreatecontrol1
+                0x000000000000c5a0                rumpns_sbcreatecontrol
+                0x000000000000c620                rumpns_solockretry
+                0x000000000000c660                rumpns_solocked
+                0x000000000000c690                rumpns_sbdroprecord
+                0x000000000000c8b0                rumpns_sbreserve
+                0x000000000000ca50                rumpns_solockreset
+                0x000000000000caf0                rumpns_sowakeup
+                0x000000000000cc50                rumpns_sbwait
+                0x000000000000cd30                rumpns_soisconnecting
+                0x000000000000cdb0                rumpns_sbappendaddrchain
+                0x000000000000d190                rumpns_sbdrop
+                0x000000000000d590                rumpns_sbflush
+                0x000000000000d760                rumpns_sbrelease
+                0x000000000000d810                rumpns_soreserve
+                0x000000000000d970                rumpns_sbcompress
+                0x000000000000dbf0                rumpns_sbappendstream
+                0x000000000000dcc0                rumpns_sbappendaddr
+                0x000000000000e010                rumpns_sbinsertoob
+                0x000000000000e190                rumpns_sbappendrecord
+                0x000000000000e2d0                rumpns_sbappend
+                0x000000000000e380                rumpns_sbappendcontrol
+                0x000000000000e5b0                rumpns_socantsendmore
+                0x000000000000e6d0                rumpns_socantrcvmore
+                0x000000000000e7f0                rumpns_soisdisconnected
+                0x000000000000e9e0                rumpns_soisdisconnecting
+                0x000000000000ebd0                rumpns_solocked2
+                0x000000000000ec10                rumpns_soqremque
+                0x000000000000ee10                rumpns_soqinsque
+                0x000000000000efb0                rumpns_sonewconn
+                0x000000000000f3a0                rumpns_soisconnected
+                0x000000000000f790                rumpns_sosetlock
+                0x000000000000f830                rumpns_sblock
+                0x000000000000f920                rumpns_sbunlock
+                0x000000000000f9f0                rumpns_sowait
+ *fill*         0x000000000000fb13        0xd 90909090
+ .text          0x000000000000fb20     0x511f librumpnet_pic.a(uipc_socket.pico)
+                0x0000000000010050                rumpns_soloanfree
+                0x00000000000105e0                rumpns_soreceive
+                0x00000000000117f0                rumpns_sokvaalloc
+                0x00000000000118d0                rumpns_sokvafree
+                0x0000000000011920                rumpns_sosend
+                0x00000000000124c0                rumpns_getsombuf
+                0x00000000000124f0                rumpns_soinit
+                0x0000000000012720                rumpns_soinit1
+                0x0000000000012790                rumpns_sofamily
+                0x00000000000127b0                rumpns_sobind
+                0x0000000000012830                rumpns_solisten
+                0x0000000000012900                rumpns_soaccept
+                0x00000000000129e0                rumpns_soconnect2
+                0x0000000000012a70                rumpns_sodisconnect
+                0x0000000000012b00                rumpns_soconnect
+                0x0000000000012bd0                rumpns_sorestart
+                0x0000000000012c60                rumpns_sorflush
+                0x0000000000012e30                rumpns_soshutdown
+                0x0000000000012ef0                rumpns_sofree
+                0x0000000000013170                rumpns_soabort
+                0x0000000000013270                rumpns_soclose
+                0x0000000000013500                rumpns_socreate
+                0x00000000000137a0                rumpns_fsocreate
+                0x0000000000013920                rumpns_sockopt_init
+                0x0000000000013960                rumpns_sockopt_destroy
+                0x00000000000139d0                rumpns_sockopt_set
+                0x0000000000013a80                rumpns_sockopt_setint
+                0x0000000000013ab0                rumpns_sogetopt
+                0x0000000000013e20                rumpns_sockopt_get
+                0x0000000000013e70                rumpns_sockopt_getint
+                0x0000000000013ea0                rumpns_sosetopt
+                0x00000000000145b0                rumpns_so_setsockopt
+                0x0000000000014680                rumpns_sockopt_setmbuf
+                0x0000000000014770                rumpns_sockopt_getmbuf
+                0x0000000000014880                rumpns_sohasoutofband
+                0x00000000000148f0                rumpns_soo_kqfilter
+                0x00000000000149c0                rumpns_sopoll
+ *fill*         0x0000000000014c3f        0x1 90909090
+ .text          0x0000000000014c40      0x882 librumpnet_pic.a(uipc_accf.pico)
+                0x0000000000014d80                rumpns_accept_filt_del
+                0x0000000000014e20                rumpns_accept_filt_get
+                0x0000000000014f00                rumpns_accept_filter_init
+                0x0000000000014f40                rumpns_accept_filt_add
+                0x0000000000014ff0                rumpns_accept_filt_getopt
+                0x0000000000015100                rumpns_accept_filt_clear
+                0x0000000000015250                rumpns_accept_filt_setopt
+ *fill*         0x00000000000154c2        0xe 90909090
+ .text          0x00000000000154d0      0x5d3 librumpnet_pic.a(sys_socket.pico)
+                0x00000000000154d0                rumpns_soo_read
+                0x0000000000015510                rumpns_soo_fcntl
+                0x0000000000015520                rumpns_soo_restart
+                0x0000000000015550                rumpns_soo_close
+                0x0000000000015590                rumpns_soo_poll
+                0x00000000000155c0                rumpns_soo_write
+                0x0000000000015630                rumpns_soo_stat
+                0x0000000000015720                rumpns_soo_ioctl
+ *fill*         0x0000000000015aa3        0xd 90909090
+ .text          0x0000000000015ab0      0x897 librumpnet_pic.a(uipc_mbuf2.pico)
+                0x0000000000015ab0                rumpns_m_pulldown
+                0x0000000000015f50                rumpns_m_getcl
+                0x0000000000016030                rumpns_m_tag_get
+                0x0000000000016090                rumpns_m_tag_free
+                0x00000000000160b0                rumpns_m_tag_prepend
+                0x00000000000160d0                rumpns_m_tag_unlink
+                0x0000000000016100                rumpns_m_tag_delete
+                0x0000000000016140                rumpns_m_tag_delete_chain
+                0x00000000000161a0                rumpns_m_tag_delete_nonpersistent
+                0x00000000000161d0                rumpns_m_tag_find
+                0x0000000000016210                rumpns_m_tag_copy
+                0x0000000000016280                rumpns_m_tag_copy_chain
+                0x0000000000016320                rumpns_m_tag_init
+                0x0000000000016330                rumpns_m_tag_first
+                0x0000000000016340                rumpns_m_tag_next
+ *fill*         0x0000000000016347        0x9 90909090
+ .text          0x0000000000016350     0x3b24 librumpnet_pic.a(uipc_mbuf.pico)
+                0x0000000000016380                rumpns_m_reclaim
+                0x0000000000016770                rumpns_mbinit
+                0x0000000000016de0                rumpns_m_add
+                0x0000000000016e10                rumpns_m_align
+                0x0000000000016ec0                rumpns_m_clget
+                0x0000000000016f60                rumpns_m_copydata
+                0x0000000000017160                rumpns_m_adj
+                0x0000000000017240                rumpns_m_move_pkthdr
+                0x0000000000017390                rumpns_m_apply
+                0x00000000000175a0                rumpns_m_getptr
+                0x0000000000017600                rumpns_m_ext_free
+                0x0000000000017850                rumpns_mbstat_type_add
+                0x00000000000178c0                rumpns_m_freem
+                0x00000000000179a0                rumpns_m_free
+                0x0000000000017a80                rumpns_m_cat
+                0x0000000000017b70                rumpns_m_get
+                0x0000000000017c50                rumpns_m_copyup
+                0x0000000000017de0                rumpns_m_ensure_contig
+                0x0000000000017fa0                rumpns_m_pullup
+                0x0000000000018080                rumpns_m_copypacket
+                0x00000000000188f0                rumpns_m_dup
+                0x0000000000018920                rumpns_m_copym
+                0x0000000000018950                rumpns_m_prepend
+                0x0000000000018a30                rumpns_m_getclr
+                0x0000000000018ae0                rumpns_m_gethdr
+                0x0000000000018b40                rumpns_m_defrag
+                0x0000000000019000                rumpns_m_split
+                0x0000000000019970                rumpns_m_makewritable
+                0x00000000000199a0                rumpns_m_copyback_cow
+                0x0000000000019a50                rumpns_m_copyback
+                0x0000000000019a90                rumpns_m_devget
+                0x0000000000019cf0                rumpns_m_append
+ *fill*         0x0000000000019e74        0xc 90909090
+ .text          0x0000000000019e80     0x1613 librumpnet_pic.a(uipc_domain.pico)
+                0x0000000000019e80                rumpns_pffasttimo
+                0x0000000000019f00                rumpns_pfslowtimo
+                0x000000000001a500                rumpns_domain_attach
+                0x000000000001a5a0                rumpns_domaininit
+                0x000000000001aab0                rumpns_pffinddomain
+                0x000000000001ab10                rumpns_pffindtype
+                0x000000000001ab60                rumpns_pffindproto
+                0x000000000001ac20                rumpns_sockaddr_addr
+                0x000000000001ac80                rumpns_sockaddr_const_addr
+                0x000000000001ace0                rumpns_sockaddr_any_by_family
+                0x000000000001ad10                rumpns_sockaddr_any
+                0x000000000001ad40                rumpns_sockaddr_anyaddr
+                0x000000000001ad80                rumpns_sockaddr_cmp
+                0x000000000001aec0                rumpns_sockaddr_free
+                0x000000000001aee0                rumpns_sockaddr_format
+                0x000000000001b1e0                rumpns_sockaddr_copy
+                0x000000000001b260                rumpns_sockaddr_externalize
+                0x000000000001b2e0                rumpns_sockaddr_alloc
+                0x000000000001b350                rumpns_sockaddr_dup
+                0x000000000001b3b0                rumpns_pfctlinput
+                0x000000000001b420                rumpns_pfctlinput2
+ *fill*         0x000000000001b493        0xd 90909090
+ .text          0x000000000001b4a0      0x36c librumpnet_pic.a(in6_print.pico)
+                0x000000000001b4a0                rumpns_in6_print
+                0x000000000001b760                rumpns_sin6_print
+ *fill*         0x000000000001b80c        0x4 90909090
+ .text          0x000000000001b810      0x10c librumpnet_pic.a(in_print.pico)
+                0x000000000001b810                rumpns_in_print
+                0x000000000001b870                rumpns_sin_print
+ *fill*         0x000000000001b91c        0x4 90909090
+ .text          0x000000000001b920      0x1d4 librumpnet_pic.a(dl_print.pico)
+                0x000000000001b920                rumpns_dl_print
+                0x000000000001ba60                rumpns_sdl_print
+ *fill*         0x000000000001baf4        0xc 90909090
+ .text          0x000000000001bb00       0xf4 librumpnet_pic.a(at_print.pico)
+                0x000000000001bb00                rumpns_at_print
+                0x000000000001bb50                rumpns_sat_print
+ *fill*         0x000000000001bbf4        0xc 90909090
+ .text          0x000000000001bc00       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000001bc38        0x5
+ *(.fini)
+ .fini          0x000000000001bc38        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001bc3d                PROVIDE (__etext, .)
+                0x000000000001bc3d                PROVIDE (_etext, .)
+                0x000000000001bc3d                PROVIDE (etext, .)
+
+.rodata         0x000000000001bc40     0x1758
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000001bc40        0x9 librumpnet_pic.a(rtbl.pico)
+                                          0xc (size before relaxing)
+ .rodata        0x000000000001bc49        0xb librumpnet_pic.a(rtbl.pico)
+ .rodata.str1.1
+                0x000000000001bc54       0xa3 librumpnet_pic.a(radix.pico)
+ *fill*         0x000000000001bcf7        0x1 00
+ .rodata.str1.4
+                0x000000000001bcf8      0x1c4 librumpnet_pic.a(radix.pico)
+ .rodata        0x000000000001bebc        0x9 librumpnet_pic.a(radix.pico)
+ *fill*         0x000000000001bec5        0x3 00
+ .rodata.str1.4
+                0x000000000001bec8       0x8f librumpnet_pic.a(pktqueue.pico)
+                                         0xc4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001bf57       0x4e librumpnet_pic.a(pktqueue.pico)
+                                         0x5a (size before relaxing)
+ .rodata.str1.1
+                0x000000000001bfa5       0x1a librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ *fill*         0x000000000001bfbf        0x1 00
+ .rodata.str1.4
+                0x000000000001bfc0       0x80 librumpnet_pic.a(netisr.pico)
+                                         0xb4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c040       0x4c librumpnet_pic.a(netisr.pico)
+                                         0x58 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c08c       0x18 librumpnet_pic.a(net_stub.pico)
+ .rodata.str1.4
+                0x000000000001c0a4       0xbb librumpnet_pic.a(bpf_stub.pico)
+                                         0xf0 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c15f       0x20 librumpnet_pic.a(bpf_stub.pico)
+                                         0x2c (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c17f       0x9b librumpnet_pic.a(uipc_syscalls.pico)
+                                         0xa7 (size before relaxing)
+ *fill*         0x000000000001c21a        0x2 00
+ .rodata.str1.4
+                0x000000000001c21c       0xc0 librumpnet_pic.a(uipc_syscalls.pico)
+                                         0xf4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c2dc      0x279 librumpnet_pic.a(uipc_socket2.pico)
+                                        0x285 (size before relaxing)
+ *fill*         0x000000000001c555        0x3 00
+ .rodata.str1.4
+                0x000000000001c558      0x1d4 librumpnet_pic.a(uipc_socket2.pico)
+                                        0x208 (size before relaxing)
+ .rodata        0x000000000001c72c       0x11 librumpnet_pic.a(uipc_socket2.pico)
+ *fill*         0x000000000001c73d        0x3 00
+ .rodata.str1.4
+                0x000000000001c740      0x125 librumpnet_pic.a(uipc_socket.pico)
+                                        0x231 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c865      0x18b librumpnet_pic.a(uipc_socket.pico)
+                                        0x1ff (size before relaxing)
+ .rodata.str1.1
+                0x000000000001c9f0        0xa librumpnet_pic.a(uipc_accf.pico)
+                                         0x23 (size before relaxing)
+ *fill*         0x000000000001c9fa        0x2 00
+ .rodata.str1.4
+                0x000000000001c9fc       0x91 librumpnet_pic.a(uipc_accf.pico)
+                                         0xc8 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000000000       0xc4 librumpnet_pic.a(sys_socket.pico)
+ .rodata.str1.1
+                0x0000000000000000       0x20 librumpnet_pic.a(sys_socket.pico)
+ .rodata.str1.1
+                0x000000000001ca8d       0x2a librumpnet_pic.a(uipc_mbuf2.pico)
+                                         0x36 (size before relaxing)
+ *fill*         0x000000000001cab7        0x1 00
+ .rodata.str1.4
+                0x000000000001cab8       0x92 librumpnet_pic.a(uipc_mbuf2.pico)
+                                         0xc8 (size before relaxing)
+ *fill*         0x000000000001cb4a        0x2 00
+ .rodata.str1.4
+                0x000000000001cb4c      0x2d6 librumpnet_pic.a(uipc_mbuf.pico)
+                                        0x30a (size before relaxing)
+ .rodata.str1.1
+                0x000000000001ce22      0x1e8 librumpnet_pic.a(uipc_mbuf.pico)
+                                        0x231 (size before relaxing)
+ *fill*         0x000000000001d00a       0x16 00
+ .rodata        0x000000000001d020       0x3f librumpnet_pic.a(uipc_mbuf.pico)
+ *fill*         0x000000000001d05f        0x1 00
+ .rodata.str1.4
+                0x000000000001d060      0x110 librumpnet_pic.a(uipc_domain.pico)
+                                        0x143 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001d170       0x95 librumpnet_pic.a(uipc_domain.pico)
+                                         0xa4 (size before relaxing)
+ *fill*         0x000000000001d205        0x3 00
+ .rodata        0x000000000001d208      0x14c librumpnet_pic.a(uipc_domain.pico)
+ .rodata.str1.1
+                0x000000000001d354       0x13 librumpnet_pic.a(in6_print.pico)
+ .rodata.str1.1
+                0x000000000001d367       0x13 librumpnet_pic.a(in_print.pico)
+ .rodata.str1.1
+                0x000000000001d37a        0xd librumpnet_pic.a(dl_print.pico)
+                                         0x16 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001d387       0x11 librumpnet_pic.a(at_print.pico)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000001d398      0x8cc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000001d398      0x8cc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000001dc64     0x3380
+ *(.eh_frame)
+ .eh_frame      0x000000000001dc64       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000001dca0      0x148 librumpnet_pic.a(rtbl.pico)
+                                        0x174 (size before relaxing)
+ .eh_frame      0x000000000001dde8      0x458 librumpnet_pic.a(radix.pico)
+                                        0x484 (size before relaxing)
+ .eh_frame      0x000000000001e240      0x258 librumpnet_pic.a(pktqueue.pico)
+                                        0x284 (size before relaxing)
+ .eh_frame      0x000000000001e498       0x20 librumpnet_pic.a(rumpnet_syscalls.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x000000000001e4b8       0x3c librumpnet_pic.a(rumpnet_if_wrappers.pico)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x000000000001e4f4       0x24 librumpnet_pic.a(rump_net.pico)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000001e518       0x48 librumpnet_pic.a(netisr.pico)
+                                         0x74 (size before relaxing)
+ .eh_frame      0x000000000001e560       0x30 librumpnet_pic.a(net_stub.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x000000000001e590      0x134 librumpnet_pic.a(bpf_stub.pico)
+                                        0x160 (size before relaxing)
+ .eh_frame      0x000000000001e6c4      0x5e0 librumpnet_pic.a(uipc_syscalls.pico)
+                                        0x60c (size before relaxing)
+ .eh_frame      0x000000000001eca4      0x7d8 librumpnet_pic.a(uipc_socket2.pico)
+                                        0x804 (size before relaxing)
+ .eh_frame      0x000000000001f47c      0x890 librumpnet_pic.a(uipc_socket.pico)
+                                        0x8bc (size before relaxing)
+ .eh_frame      0x000000000001fd0c      0x1b0 librumpnet_pic.a(uipc_accf.pico)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x000000000001febc      0x104 librumpnet_pic.a(sys_socket.pico)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x000000000001ffc0      0x23c librumpnet_pic.a(uipc_mbuf2.pico)
+                                        0x268 (size before relaxing)
+ .eh_frame      0x00000000000201fc      0x828 librumpnet_pic.a(uipc_mbuf.pico)
+                                        0x854 (size before relaxing)
+ .eh_frame      0x0000000000020a24      0x448 librumpnet_pic.a(uipc_domain.pico)
+                                        0x488 (size before relaxing)
+ .eh_frame      0x0000000000020e6c       0x6c librumpnet_pic.a(in6_print.pico)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000020ed8       0x50 librumpnet_pic.a(in_print.pico)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x0000000000020f28       0x68 librumpnet_pic.a(dl_print.pico)
+                                         0x94 (size before relaxing)
+ .eh_frame      0x0000000000020f90       0x50 librumpnet_pic.a(at_print.pico)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x0000000000020fe0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000020fe4                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000021000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000021000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000021000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000021004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000021008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000021008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000002100c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000002100c                __DTOR_END__
+
+.jcr            0x0000000000021010        0x4
+ *(.jcr)
+ .jcr           0x0000000000021010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000021010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000021020      0x12c
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000021020       0x20 librumpnet_pic.a(uipc_syscalls.pico)
+ .data.rel.ro.local
+                0x0000000000021040       0x30 librumpnet_pic.a(uipc_socket.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x0000000000021070       0x10 00
+ .data.rel.ro   0x0000000000021080       0x90 librumpnet_pic.a(rumpnet_syscalls.pico)
+ *fill*         0x0000000000021110       0x10 00
+ .data.rel.ro   0x0000000000021120       0x2c librumpnet_pic.a(sys_socket.pico)
+                0x0000000000021120                rumpns_socketops
+
+.dynamic        0x000000000002114c       0xb8
+ *(.dynamic)
+ .dynamic       0x000000000002114c       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000002114c                _DYNAMIC
+
+.got            0x0000000000021204       0xf4
+ *(.got)
+ .got           0x0000000000021204       0xf4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x00000000000212f8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x00000000000212f8      0x42c
+ *(.got.plt)
+ .got.plt       0x00000000000212f8      0x42c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000212f8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000021740       0x88
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000021740        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000021740                __dso_handle
+ .data          0x0000000000021744        0x0 librumpnet_pic.a(rtbl.pico)
+ .data          0x0000000000021744        0x0 librumpnet_pic.a(radix.pico)
+ .data          0x0000000000021744        0x0 librumpnet_pic.a(pktqueue.pico)
+ .data          0x0000000000021744        0x0 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .data.rel.local
+                0x0000000000021744       0x10 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .data          0x0000000000021754        0x0 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .data          0x0000000000021754        0x0 librumpnet_pic.a(rump_net.pico)
+ .data.rel.local
+                0x0000000000021754       0x10 librumpnet_pic.a(rump_net.pico)
+ .data          0x0000000000021764        0x0 librumpnet_pic.a(netisr.pico)
+ .data          0x0000000000021764        0x0 librumpnet_pic.a(net_stub.pico)
+ .data          0x0000000000021764        0x0 librumpnet_pic.a(bpf_stub.pico)
+ *fill*         0x0000000000021764       0x1c 00
+ .data.rel.local
+                0x0000000000021780       0x2c librumpnet_pic.a(bpf_stub.pico)
+                0x0000000000021780                rumpns_bpf_ops_stub
+ .data          0x00000000000217ac        0x0 librumpnet_pic.a(uipc_syscalls.pico)
+ .data          0x00000000000217ac        0x4 librumpnet_pic.a(uipc_socket2.pico)
+                0x00000000000217ac                rumpns_sb_max
+ .data          0x00000000000217b0        0xc librumpnet_pic.a(uipc_socket.pico)
+                0x00000000000217b0                rumpns_somaxkva
+                0x00000000000217b4                rumpns_sock_loan_thresh
+                0x00000000000217b8                rumpns_somaxconn
+ .data          0x00000000000217bc        0x0 librumpnet_pic.a(uipc_accf.pico)
+ .data          0x00000000000217bc        0x0 librumpnet_pic.a(sys_socket.pico)
+ .data.rel      0x00000000000217bc        0x4 librumpnet_pic.a(sys_socket.pico)
+                0x00000000000217bc                rumpns_ifioctl
+ .data          0x00000000000217c0        0x0 librumpnet_pic.a(uipc_mbuf2.pico)
+ .data          0x00000000000217c0        0x0 librumpnet_pic.a(uipc_mbuf.pico)
+ .data          0x00000000000217c0        0x0 librumpnet_pic.a(uipc_domain.pico)
+ .data.rel      0x00000000000217c0        0x8 librumpnet_pic.a(uipc_domain.pico)
+                0x00000000000217c0                rumpns_domains
+ .data          0x00000000000217c8        0x0 librumpnet_pic.a(in6_print.pico)
+ .data          0x00000000000217c8        0x0 librumpnet_pic.a(in_print.pico)
+ .data          0x00000000000217c8        0x0 librumpnet_pic.a(dl_print.pico)
+ .data          0x00000000000217c8        0x0 librumpnet_pic.a(at_print.pico)
+ .data          0x00000000000217c8        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x00000000000217c8        0x0
+ .tm_clone_table
+                0x00000000000217c8        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x00000000000217c8        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_rump_components
+                0x00000000000217c8        0x8
+                0x00000000000217c8                . = ALIGN (0x4)
+                0x00000000000217c8                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x00000000000217c8        0x4 librumpnet_pic.a(rumpnet_syscalls.pico)
+ link_set_rump_components
+                0x00000000000217cc        0x4 librumpnet_pic.a(rump_net.pico)
+                0x00000000000217d0                PROVIDE (__stop_link_set_rump_components, .)
+
+link_set_domains
+                0x00000000000217d0        0x4
+                0x00000000000217d0                . = ALIGN (0x4)
+                0x00000000000217d0                PROVIDE (__start_link_set_domains, ABSOLUTE (.))
+ link_set_domains
+                0x00000000000217d0        0x4 librumpnet_pic.a(uipc_domain.pico)
+                0x00000000000217d4                PROVIDE (__stop_link_set_domains, .)
+
+.data1
+ *(.data1)
+                0x00000000000217d4                _edata = .
+                0x00000000000217d4                PROVIDE (edata, .)
+                0x00000000000217d4                __bss_start = .
+
+.bss            0x00000000000217e0      0x608
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000217e0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *fill*         0x00000000000217e8       0x18 00
+ .bss           0x0000000000021800       0x90 librumpnet_pic.a(rtbl.pico)
+ .bss           0x0000000000021890       0x18 librumpnet_pic.a(radix.pico)
+ .bss           0x00000000000218a8        0x0 librumpnet_pic.a(pktqueue.pico)
+ .bss           0x00000000000218a8        0x0 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .bss           0x00000000000218a8        0x0 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .bss           0x00000000000218a8        0x0 librumpnet_pic.a(rump_net.pico)
+ *fill*         0x00000000000218a8       0x18 00
+ .bss           0x00000000000218c0       0x8c librumpnet_pic.a(netisr.pico)
+ .bss           0x000000000002194c        0x0 librumpnet_pic.a(net_stub.pico)
+ .bss           0x000000000002194c       0x11 librumpnet_pic.a(bpf_stub.pico)
+ *fill*         0x000000000002195d        0x3 00
+ .bss           0x0000000000021960        0x0 librumpnet_pic.a(uipc_syscalls.pico)
+ .bss           0x0000000000021960        0x8 librumpnet_pic.a(uipc_socket2.pico)
+ .bss           0x0000000000021968       0x30 librumpnet_pic.a(uipc_socket.pico)
+ .bss           0x0000000000021998       0x14 librumpnet_pic.a(uipc_accf.pico)
+ .bss           0x00000000000219ac        0x0 librumpnet_pic.a(sys_socket.pico)
+ .bss           0x00000000000219ac        0x0 librumpnet_pic.a(uipc_mbuf2.pico)
+ .bss           0x00000000000219ac        0x8 librumpnet_pic.a(uipc_mbuf.pico)
+ *fill*         0x00000000000219b4        0xc 00
+ .bss           0x00000000000219c0      0x12c librumpnet_pic.a(uipc_domain.pico)
+ .bss           0x0000000000021aec        0x0 librumpnet_pic.a(in6_print.pico)
+ .bss           0x0000000000021aec        0x0 librumpnet_pic.a(in_print.pico)
+ .bss           0x0000000000021aec        0x0 librumpnet_pic.a(dl_print.pico)
+ .bss           0x0000000000021aec        0x0 librumpnet_pic.a(at_print.pico)
+ .bss           0x0000000000021aec        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000021aec        0xc librumpnet_pic.a(radix.pico)
+                0x0000000000021aec                rumpns_mask_rnhead
+                0x0000000000021af0                rumpns_rn_mkfreelist
+                0x0000000000021af4                rumpns_max_keylen
+ COMMON         0x0000000000021af8        0x8 librumpnet_pic.a(net_stub.pico)
+                0x0000000000021af8                rumpns_ifnet_list
+ COMMON         0x0000000000021b00        0x4 librumpnet_pic.a(bpf_stub.pico)
+                0x0000000000021b00                rumpns_bpf_ops
+ COMMON         0x0000000000021b04        0x4 librumpnet_pic.a(uipc_socket.pico)
+                0x0000000000021b04                rumpns_softnet_lock
+ *fill*         0x0000000000021b08       0x18 00
+ COMMON         0x0000000000021b20      0x250 librumpnet_pic.a(uipc_mbuf.pico)
+                0x0000000000021b20                rumpns_MCFail
+                0x0000000000021b24                rumpns_mb_cache
+                0x0000000000021b28                rumpns_max_hdr
+                0x0000000000021b2c                rumpns_max_datalen
+                0x0000000000021b40                rumpns_mbstat
+                0x0000000000021d5c                rumpns_max_protohdr
+                0x0000000000021d60                rumpns_mcl_cache
+                0x0000000000021d64                rumpns_MSFail
+                0x0000000000021d68                rumpns_max_linkhdr
+                0x0000000000021d6c                rumpns_MPFail
+ *fill*         0x0000000000021d70       0x10 00
+ COMMON         0x0000000000021d80       0x68 librumpnet_pic.a(uipc_domain.pico)
+                0x0000000000021d80                rumpns_pfslowtimo_ch
+                0x0000000000021da8                rumpns_pfslowtimo_now
+                0x0000000000021dac                rumpns_pffasttimo_now
+                0x0000000000021dc0                rumpns_pffasttimo_ch
+                0x0000000000021de8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000021de8                . = ALIGN (0x4)
+                0x0000000000021de8                . = ALIGN (0x4)
+                0x0000000000021de8                _end = .
+                0x0000000000021de8                PROVIDE (end, .)
+                0x0000000000021de8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(rtbl.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(radix.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(pktqueue.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(rump_net.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(netisr.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(net_stub.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(bpf_stub.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_syscalls.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_socket2.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_accf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(sys_socket.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_mbuf2.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_mbuf.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(uipc_domain.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(in6_print.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(in_print.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(dl_print.pico)
+ .comment       0x0000000000000000       0x12 librumpnet_pic.a(at_print.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x4c0
+ .ident         0x0000000000000000       0x37 librumpnet_pic.a(rtbl.pico)
+ .ident         0x0000000000000037       0x38 librumpnet_pic.a(radix.pico)
+ .ident         0x000000000000006f       0x3c librumpnet_pic.a(pktqueue.pico)
+ .ident         0x00000000000000ab       0x42 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .ident         0x00000000000000ed       0x3b librumpnet_pic.a(rump_net.pico)
+ .ident         0x0000000000000128       0x38 librumpnet_pic.a(netisr.pico)
+ .ident         0x0000000000000160       0x3d librumpnet_pic.a(net_stub.pico)
+ .ident         0x000000000000019d       0x39 librumpnet_pic.a(bpf_stub.pico)
+ .ident         0x00000000000001d6       0x40 librumpnet_pic.a(uipc_syscalls.pico)
+ .ident         0x0000000000000216       0x3f librumpnet_pic.a(uipc_socket2.pico)
+ .ident         0x0000000000000255       0x3e librumpnet_pic.a(uipc_socket.pico)
+ .ident         0x0000000000000293       0x3c librumpnet_pic.a(uipc_accf.pico)
+ .ident         0x00000000000002cf       0x3c librumpnet_pic.a(sys_socket.pico)
+ .ident         0x000000000000030b       0x40 librumpnet_pic.a(uipc_mbuf2.pico)
+ .ident         0x000000000000034b       0x3f librumpnet_pic.a(uipc_mbuf.pico)
+ .ident         0x000000000000038a       0x41 librumpnet_pic.a(uipc_domain.pico)
+ .ident         0x00000000000003cb       0x3e librumpnet_pic.a(in6_print.pico)
+ .ident         0x0000000000000409       0x3d librumpnet_pic.a(in_print.pico)
+ .ident         0x0000000000000446       0x3d librumpnet_pic.a(dl_print.pico)
+ .ident         0x0000000000000483       0x3d librumpnet_pic.a(at_print.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpnet_pic.a(rtbl.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpnet_pic.a(radix.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpnet_pic.a(pktqueue.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpnet_pic.a(rump_net.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpnet_pic.a(netisr.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpnet_pic.a(net_stub.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpnet_pic.a(bpf_stub.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpnet_pic.a(uipc_socket2.pico)
+ .debug_aranges
+                0x0000000000000160       0x20 librumpnet_pic.a(uipc_socket.pico)
+ .debug_aranges
+                0x0000000000000180       0x20 librumpnet_pic.a(uipc_accf.pico)
+ .debug_aranges
+                0x00000000000001a0       0x20 librumpnet_pic.a(sys_socket.pico)
+ .debug_aranges
+                0x00000000000001c0       0x20 librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_aranges
+                0x00000000000001e0       0x20 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_aranges
+                0x0000000000000200       0x20 librumpnet_pic.a(uipc_domain.pico)
+ .debug_aranges
+                0x0000000000000220       0x20 librumpnet_pic.a(in6_print.pico)
+ .debug_aranges
+                0x0000000000000240       0x20 librumpnet_pic.a(in_print.pico)
+ .debug_aranges
+                0x0000000000000260       0x20 librumpnet_pic.a(dl_print.pico)
+ .debug_aranges
+                0x0000000000000280       0x20 librumpnet_pic.a(at_print.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x69b87
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x6c52 librumpnet_pic.a(rtbl.pico)
+ .debug_info    0x0000000000006c52     0x7176 librumpnet_pic.a(radix.pico)
+ .debug_info    0x000000000000ddc8     0x57bf librumpnet_pic.a(pktqueue.pico)
+ .debug_info    0x0000000000013587     0x5575 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .debug_info    0x0000000000018afc      0x65d librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .debug_info    0x0000000000019159     0x6dbc librumpnet_pic.a(rump_net.pico)
+ .debug_info    0x000000000001ff15      0x22a librumpnet_pic.a(netisr.pico)
+ .debug_info    0x000000000002013f     0x15f4 librumpnet_pic.a(net_stub.pico)
+ .debug_info    0x0000000000021733     0x1859 librumpnet_pic.a(bpf_stub.pico)
+ .debug_info    0x0000000000022f8c     0xaeb2 librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_info    0x000000000002de3e     0xafb4 librumpnet_pic.a(uipc_socket2.pico)
+ .debug_info    0x0000000000038df2     0xd989 librumpnet_pic.a(uipc_socket.pico)
+ .debug_info    0x000000000004677b     0x71e0 librumpnet_pic.a(uipc_accf.pico)
+ .debug_info    0x000000000004d95b     0x6fcd librumpnet_pic.a(sys_socket.pico)
+ .debug_info    0x0000000000054928     0x15ae librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_info    0x0000000000055ed6     0x9e21 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_info    0x000000000005fcf7     0x8ebc librumpnet_pic.a(uipc_domain.pico)
+ .debug_info    0x0000000000068bb3      0x53c librumpnet_pic.a(in6_print.pico)
+ .debug_info    0x00000000000690ef      0x37d librumpnet_pic.a(in_print.pico)
+ .debug_info    0x000000000006946c      0x3b0 librumpnet_pic.a(dl_print.pico)
+ .debug_info    0x000000000006981c      0x36b librumpnet_pic.a(at_print.pico)
+
+.debug_abbrev   0x0000000000000000     0x4aa3
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x370 librumpnet_pic.a(rtbl.pico)
+ .debug_abbrev  0x0000000000000370      0x578 librumpnet_pic.a(radix.pico)
+ .debug_abbrev  0x00000000000008e8      0x4d7 librumpnet_pic.a(pktqueue.pico)
+ .debug_abbrev  0x0000000000000dbf      0x242 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .debug_abbrev  0x0000000000001001      0x131 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .debug_abbrev  0x0000000000001132      0x2b2 librumpnet_pic.a(rump_net.pico)
+ .debug_abbrev  0x00000000000013e4      0x143 librumpnet_pic.a(netisr.pico)
+ .debug_abbrev  0x0000000000001527      0x1ff librumpnet_pic.a(net_stub.pico)
+ .debug_abbrev  0x0000000000001726      0x2c1 librumpnet_pic.a(bpf_stub.pico)
+ .debug_abbrev  0x00000000000019e7      0x57d librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_abbrev  0x0000000000001f64      0x5a6 librumpnet_pic.a(uipc_socket2.pico)
+ .debug_abbrev  0x000000000000250a      0x6dc librumpnet_pic.a(uipc_socket.pico)
+ .debug_abbrev  0x0000000000002be6      0x4da librumpnet_pic.a(uipc_accf.pico)
+ .debug_abbrev  0x00000000000030c0      0x424 librumpnet_pic.a(sys_socket.pico)
+ .debug_abbrev  0x00000000000034e4      0x375 librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_abbrev  0x0000000000003859      0x605 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_abbrev  0x0000000000003e5e      0x661 librumpnet_pic.a(uipc_domain.pico)
+ .debug_abbrev  0x00000000000044bf      0x1d1 librumpnet_pic.a(in6_print.pico)
+ .debug_abbrev  0x0000000000004690      0x162 librumpnet_pic.a(in_print.pico)
+ .debug_abbrev  0x00000000000047f2      0x146 librumpnet_pic.a(dl_print.pico)
+ .debug_abbrev  0x0000000000004938      0x16b librumpnet_pic.a(at_print.pico)
+
+.debug_line     0x0000000000000000     0xa845
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x619 librumpnet_pic.a(rtbl.pico)
+ .debug_line    0x0000000000000619      0xb40 librumpnet_pic.a(radix.pico)
+ .debug_line    0x0000000000001159      0x72c librumpnet_pic.a(pktqueue.pico)
+ .debug_line    0x0000000000001885      0x62b librumpnet_pic.a(rumpnet_syscalls.pico)
+ .debug_line    0x0000000000001eb0      0x29d librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .debug_line    0x000000000000214d      0x7ad librumpnet_pic.a(rump_net.pico)
+ .debug_line    0x00000000000028fa      0x2a3 librumpnet_pic.a(netisr.pico)
+ .debug_line    0x0000000000002b9d      0x338 librumpnet_pic.a(net_stub.pico)
+ .debug_line    0x0000000000002ed5      0x459 librumpnet_pic.a(bpf_stub.pico)
+ .debug_line    0x000000000000332e      0xda2 librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_line    0x00000000000040d0     0x12b5 librumpnet_pic.a(uipc_socket2.pico)
+ .debug_line    0x0000000000005385     0x18f8 librumpnet_pic.a(uipc_socket.pico)
+ .debug_line    0x0000000000006c7d      0x896 librumpnet_pic.a(uipc_accf.pico)
+ .debug_line    0x0000000000007513      0x7e6 librumpnet_pic.a(sys_socket.pico)
+ .debug_line    0x0000000000007cf9      0x473 librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_line    0x000000000000816c     0x1242 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_line    0x00000000000093ae      0xc22 librumpnet_pic.a(uipc_domain.pico)
+ .debug_line    0x0000000000009fd0      0x319 librumpnet_pic.a(in6_print.pico)
+ .debug_line    0x000000000000a2e9      0x1c5 librumpnet_pic.a(in_print.pico)
+ .debug_line    0x000000000000a4ae      0x1db librumpnet_pic.a(dl_print.pico)
+ .debug_line    0x000000000000a689      0x1bc librumpnet_pic.a(at_print.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x84b0
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x3561 librumpnet_pic.a(rtbl.pico)
+                                       0x38bd (size before relaxing)
+ .debug_str     0x0000000000003561      0x347 librumpnet_pic.a(radix.pico)
+                                       0x353b (size before relaxing)
+ .debug_str     0x00000000000038a8      0x403 librumpnet_pic.a(pktqueue.pico)
+                                       0x2b49 (size before relaxing)
+ .debug_str     0x0000000000003cab      0xd6c librumpnet_pic.a(rumpnet_syscalls.pico)
+                                       0x322c (size before relaxing)
+ .debug_str     0x0000000000004a17       0xf2 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+                                        0x4e0 (size before relaxing)
+ .debug_str     0x0000000000004b09      0x185 librumpnet_pic.a(rump_net.pico)
+                                       0x3d7a (size before relaxing)
+ .debug_str     0x0000000000004c8e       0xba librumpnet_pic.a(netisr.pico)
+                                        0x210 (size before relaxing)
+ .debug_str     0x0000000000004d48       0xb3 librumpnet_pic.a(net_stub.pico)
+                                        0xcc2 (size before relaxing)
+ .debug_str     0x0000000000004dfb      0x1ab librumpnet_pic.a(bpf_stub.pico)
+                                        0xc73 (size before relaxing)
+ .debug_str     0x0000000000004fa6      0xc11 librumpnet_pic.a(uipc_syscalls.pico)
+                                       0x3577 (size before relaxing)
+ .debug_str     0x0000000000005bb7      0x8eb librumpnet_pic.a(uipc_socket2.pico)
+                                       0x41f9 (size before relaxing)
+ .debug_str     0x00000000000064a2      0xdb2 librumpnet_pic.a(uipc_socket.pico)
+                                       0x5584 (size before relaxing)
+ .debug_str     0x0000000000007254      0x2a0 librumpnet_pic.a(uipc_accf.pico)
+                                       0x39bd (size before relaxing)
+ .debug_str     0x00000000000074f4       0xf9 librumpnet_pic.a(sys_socket.pico)
+                                       0x38a0 (size before relaxing)
+ .debug_str     0x00000000000075ed      0x16b librumpnet_pic.a(uipc_mbuf2.pico)
+                                        0xa62 (size before relaxing)
+ .debug_str     0x0000000000007758      0x44b librumpnet_pic.a(uipc_mbuf.pico)
+                                       0x3e77 (size before relaxing)
+ .debug_str     0x0000000000007ba3      0x52a librumpnet_pic.a(uipc_domain.pico)
+                                       0x492b (size before relaxing)
+ .debug_str     0x00000000000080cd      0x160 librumpnet_pic.a(in6_print.pico)
+                                        0x2cb (size before relaxing)
+ .debug_str     0x000000000000822d       0xe6 librumpnet_pic.a(in_print.pico)
+                                        0x26a (size before relaxing)
+ .debug_str     0x0000000000008313       0x8f librumpnet_pic.a(dl_print.pico)
+                                        0x231 (size before relaxing)
+ .debug_str     0x00000000000083a2      0x10e librumpnet_pic.a(at_print.pico)
+                                        0x268 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x13df4
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x36b librumpnet_pic.a(rtbl.pico)
+ .debug_loc     0x000000000000036b     0x29f8 librumpnet_pic.a(radix.pico)
+ .debug_loc     0x0000000000002d63      0x983 librumpnet_pic.a(pktqueue.pico)
+ .debug_loc     0x00000000000036e6       0x44 librumpnet_pic.a(rumpnet_syscalls.pico)
+ .debug_loc     0x000000000000372a       0x81 librumpnet_pic.a(rumpnet_if_wrappers.pico)
+ .debug_loc     0x00000000000037ab       0x44 librumpnet_pic.a(rump_net.pico)
+ .debug_loc     0x00000000000037ef       0x70 librumpnet_pic.a(netisr.pico)
+ .debug_loc     0x000000000000385f       0x2c librumpnet_pic.a(net_stub.pico)
+ .debug_loc     0x000000000000388b      0x3c2 librumpnet_pic.a(bpf_stub.pico)
+ .debug_loc     0x0000000000003c4d     0x2b89 librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_loc     0x00000000000067d6     0x266c librumpnet_pic.a(uipc_socket2.pico)
+ .debug_loc     0x0000000000008e42     0x4c33 librumpnet_pic.a(uipc_socket.pico)
+ .debug_loc     0x000000000000da75      0x656 librumpnet_pic.a(uipc_accf.pico)
+ .debug_loc     0x000000000000e0cb      0x4d3 librumpnet_pic.a(sys_socket.pico)
+ .debug_loc     0x000000000000e59e      0x846 librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_loc     0x000000000000ede4     0x3373 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_loc     0x0000000000012157     0x1373 librumpnet_pic.a(uipc_domain.pico)
+ .debug_loc     0x00000000000134ca      0x48b librumpnet_pic.a(in6_print.pico)
+ .debug_loc     0x0000000000013955      0x198 librumpnet_pic.a(in_print.pico)
+ .debug_loc     0x0000000000013aed      0x1b8 librumpnet_pic.a(dl_print.pico)
+ .debug_loc     0x0000000000013ca5      0x14f librumpnet_pic.a(at_print.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1968
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x150 librumpnet_pic.a(radix.pico)
+ .debug_ranges  0x0000000000000150       0xf8 librumpnet_pic.a(pktqueue.pico)
+ .debug_ranges  0x0000000000000248      0x310 librumpnet_pic.a(uipc_syscalls.pico)
+ .debug_ranges  0x0000000000000558      0x578 librumpnet_pic.a(uipc_socket2.pico)
+ .debug_ranges  0x0000000000000ad0      0xa50 librumpnet_pic.a(uipc_socket.pico)
+ .debug_ranges  0x0000000000001520       0xa8 librumpnet_pic.a(uipc_accf.pico)
+ .debug_ranges  0x00000000000015c8       0xd8 librumpnet_pic.a(sys_socket.pico)
+ .debug_ranges  0x00000000000016a0       0x18 librumpnet_pic.a(uipc_mbuf2.pico)
+ .debug_ranges  0x00000000000016b8      0x180 librumpnet_pic.a(uipc_mbuf.pico)
+ .debug_ranges  0x0000000000001838       0xa8 librumpnet_pic.a(uipc_domain.pico)
+ .debug_ranges  0x00000000000018e0       0x18 librumpnet_pic.a(in6_print.pico)
+ .debug_ranges  0x00000000000018f8       0x18 librumpnet_pic.a(in_print.pico)
+ .debug_ranges  0x0000000000001910       0x58 librumpnet_pic.a(dl_print.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpnet.so.0.0 elf32-i386)

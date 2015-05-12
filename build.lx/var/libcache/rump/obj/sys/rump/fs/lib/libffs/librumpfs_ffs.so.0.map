@@ -1,0 +1,1282 @@
+Archive member included because of file (symbol)
+
+librumpfs_ffs_pic.a(ufs_wapbl.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_quota2.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(quota2_subr.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_vnops.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_lookup.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_appleufs.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_quota2.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_vnops.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_rename.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_inode.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_balloc.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_alloc.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_inode.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_extattr.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_bmap.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_subr.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_bswap.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ufs_quota.pico)
+                              (--whole-archive)
+librumpfs_ffs_pic.a(ffs_tables.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_ffs_dinode2_cache
+                    0x4               librumpfs_ffs_pic.a(ffs_vfsops.pico)
+rumpns_dqcv         0xc               librumpfs_ffs_pic.a(ufs_quota.pico)
+rumpns_ufs_direct_cache
+                    0x4               librumpfs_ffs_pic.a(ufs_vfsops.pico)
+rumpns_ffs_dinode1_cache
+                    0x4               librumpfs_ffs_pic.a(ffs_vfsops.pico)
+rumpns_ffs_vnodeop_p
+                    0x4               librumpfs_ffs_pic.a(ffs_vnops.pico)
+rumpns_ffs_fifoop_p
+                    0x4               librumpfs_ffs_pic.a(ffs_vnops.pico)
+rumpns_dqlock       0x4               librumpfs_ffs_pic.a(ufs_quota.pico)
+rumpns_ffs_specop_p
+                    0x4               librumpfs_ffs_pic.a(ffs_vnops.pico)
+rumpns_ffs_inode_cache
+                    0x4               librumpfs_ffs_pic.a(ffs_vfsops.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .group         0x0000000000000000        0x8 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpfs_ffs_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4     0x10cc
+ *(.hash)
+ .hash          0x00000000000000b4     0x10cc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000001180     0x2280
+ *(.dynsym)
+ .dynsym        0x0000000000001180     0x2280 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x0000000000003400     0x2dc6
+ *(.dynstr)
+ .dynstr        0x0000000000003400     0x2dc6 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x00000000000061c6      0x450
+ *(.gnu.version)
+ .gnu.version   0x00000000000061c6      0x450 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000006618        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000006618       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000006618       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000006638      0xcc0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.text.unlikely
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000006638       0x20 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x0000000000006658      0xa40 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000000007098       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.local
+                0x0000000000007150       0x10 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000007160      0x190 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x00000000000072f0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x00000000000072f8      0xa88
+ *(.rel.plt)
+ .rel.plt       0x00000000000072f8      0xa88 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000007d80        0xa
+ *(.init)
+ .init          0x0000000000007d80        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000007d85        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000007d90     0x1520
+ *(.plt)
+ .plt           0x0000000000007d90     0x1520 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x00000000000092b0    0x34238
+ *(.text.unlikely .text.*_unlikely)
+ .text.unlikely
+                0x00000000000092b0      0x7fc librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000009aac        0x4 90909090
+ .text          0x0000000000009ab0      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000009beb        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000009beb                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000009bef        0x1 90909090
+ .text          0x0000000000009bf0        0x0 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .text          0x0000000000009bf0     0x31c3 librumpfs_ffs_pic.a(ufs_quota2.pico)
+                0x000000000000b4e0                rumpns_quota2_umount
+                0x000000000000b590                rumpns_chkdq2
+                0x000000000000b5c0                rumpns_chkiq2
+                0x000000000000b5e0                rumpns_quota2_handle_cmd_put
+                0x000000000000baa0                rumpns_quota2_handle_cmd_del
+                0x000000000000be80                rumpns_quota2_handle_cmd_get
+                0x000000000000c170                rumpns_quota2_handle_cmd_cursorget
+                0x000000000000cb30                rumpns_quota2_handle_cmd_cursoropen
+                0x000000000000cb70                rumpns_quota2_handle_cmd_cursorclose
+                0x000000000000cb80                rumpns_quota2_handle_cmd_cursorskipidtype
+                0x000000000000cbd0                rumpns_quota2_handle_cmd_cursoratend
+                0x000000000000cc00                rumpns_quota2_handle_cmd_cursorrewind
+                0x000000000000cc50                rumpns_q2sync
+                0x000000000000cc60                rumpns_dq2get
+                0x000000000000cdb0                rumpns_dq2sync
+ *fill*         0x000000000000cdb3        0xd 90909090
+ .text          0x000000000000cdc0      0x4ec librumpfs_ffs_pic.a(quota2_subr.pico)
+                0x000000000000cdc0                rumpns_quota2_addfreeq2e
+                0x000000000000ce90                rumpns_quota2_create_blk0
+                0x000000000000d020                rumpns_quota2_ufs_rwq2v
+                0x000000000000d110                rumpns_quota2_ufs_rwq2e
+                0x000000000000d180                rumpns_quota_check_limit
+ *fill*         0x000000000000d2ac        0x4 90909090
+ .text          0x000000000000d2b0     0x3f1b librumpfs_ffs_pic.a(ufs_vnops.pico)
+                0x000000000000d310                rumpns_ufs_open
+                0x000000000000d340                rumpns_ufs_close
+                0x000000000000d3d0                rumpns_ufs_access
+                0x000000000000d5b0                rumpns_ufs_getattr
+                0x000000000000d850                rumpns_ufs_setattr
+                0x000000000000e3d0                rumpns_ufs_remove
+                0x000000000000e5a0                rumpns_ufs_link
+                0x000000000000e980                rumpns_ufs_whiteout
+                0x000000000000ebe0                rumpns_ufs_mkdir
+                0x000000000000f450                rumpns_ufs_rmdir
+                0x000000000000f790                rumpns_ufs_readdir
+                0x000000000000fcb0                rumpns_ufs_readlink
+                0x000000000000fd90                rumpns_ufs_strategy
+                0x0000000000010000                rumpns_ufs_print
+                0x0000000000010120                rumpns_ufsspec_read
+                0x0000000000010170                rumpns_ufsspec_write
+                0x00000000000101c0                rumpns_ufsspec_close
+                0x0000000000010240                rumpns_ufsfifo_read
+                0x0000000000010280                rumpns_ufsfifo_write
+                0x00000000000102c0                rumpns_ufsfifo_close
+                0x0000000000010340                rumpns_ufs_pathconf
+                0x00000000000103d0                rumpns_ufs_advlock
+                0x0000000000010430                rumpns_ufs_vinit
+                0x0000000000010540                rumpns_ufs_makeinode
+                0x0000000000010950                rumpns_ufs_symlink
+                0x0000000000010c30                rumpns_ufs_mknod
+                0x0000000000010e70                rumpns_ufs_create
+                0x0000000000010f80                rumpns_ufs_gop_alloc
+                0x0000000000011190                rumpns_ufs_gop_markupdate
+ .text.__x86.get_pc_thunk.cx
+                0x00000000000111cb        0x4 librumpfs_ffs_pic.a(ufs_vnops.pico)
+                0x00000000000111cb                __x86.get_pc_thunk.cx
+ *fill*         0x00000000000111cf        0x1 90909090
+ .text          0x00000000000111d0     0x258d librumpfs_ffs_pic.a(ufs_lookup.pico)
+                0x00000000000111d0                rumpns_ufs_dirbad
+                0x0000000000011250                rumpns_ufs_dirbadentry
+                0x0000000000011480                rumpns_ufs_makedirentry
+                0x0000000000011510                rumpns_ufs_dirempty
+                0x00000000000116a0                rumpns_ufs_blkatoff
+                0x0000000000011ae0                rumpns_ufs_dirrewrite
+                0x0000000000011c80                rumpns_ufs_dirremove
+                0x0000000000011f50                rumpns_ufs_direnter
+                0x00000000000127e0                rumpns_ufs_lookup
+ *fill*         0x000000000001375d        0x3 90909090
+ .text          0x0000000000013760     0x1aef librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                0x0000000000013760                rumpns_ffs_wapbl_abort_sync_metadata
+                0x00000000000137f0                rumpns_ffs_wapbl_sync_metadata
+                0x0000000000014820                rumpns_ffs_wapbl_replay_finish
+                0x00000000000149e0                rumpns_ffs_wapbl_stop
+                0x0000000000014c30                rumpns_ffs_wapbl_start
+                0x0000000000015190                rumpns_ffs_wapbl_replay_start
+ *fill*         0x000000000001524f        0x1 90909090
+ .text          0x0000000000015250     0x43af librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x0000000000015450                rumpns_ffs_extattrctl
+                0x00000000000154b0                rumpns_ffs_reinit
+                0x00000000000154d0                rumpns_ffs_loadvnode
+                0x00000000000159c0                rumpns_ffs_statvfs
+                0x0000000000016010                rumpns_ffs_done
+                0x0000000000016080                rumpns_ffs_init
+                0x00000000000161d0                rumpns_ffs_vptofh
+                0x0000000000016250                rumpns_ffs_fhtovp
+                0x00000000000166c0                rumpns_ffs_reload
+                0x0000000000017150                rumpns_ffs_mountfs
+                0x0000000000017ed0                rumpns_ffs_mountroot
+                0x00000000000180d0                rumpns_ffs_flushfiles
+                0x0000000000018280                rumpns_ffs_sbupdate
+                0x0000000000018520                rumpns_ffs_cgupdate
+                0x00000000000186c0                rumpns_ffs_sync
+                0x0000000000018a40                rumpns_ffs_suspendctl
+                0x0000000000018b60                rumpns_ffs_unmount
+                0x0000000000018e60                rumpns_ffs_mount
+ *fill*         0x00000000000195ff        0x1 90909090
+ .text          0x0000000000019600      0x3b7 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+                0x0000000000019600                rumpns_ffs_appleufs_cksum
+                0x0000000000019640                rumpns_ffs_appleufs_validate
+                0x0000000000019820                rumpns_ffs_appleufs_set
+ *fill*         0x00000000000199b7        0x9 90909090
+ .text          0x00000000000199c0      0x38c librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                0x00000000000199c0                rumpns_ufs_start
+                0x00000000000199d0                rumpns_ufs_root
+                0x0000000000019a10                rumpns_ufs_vget
+                0x0000000000019aa0                rumpns_ufs_quotactl
+                0x0000000000019b40                rumpns_ufs_fhtovp
+                0x0000000000019c40                rumpns_ufs_init
+                0x0000000000019ce0                rumpns_ufs_reinit
+                0x0000000000019d00                rumpns_ufs_done
+ *fill*         0x0000000000019d4c        0x4 90909090
+ .text          0x0000000000019d50      0x2cb librumpfs_ffs_pic.a(ffs_quota2.pico)
+                0x0000000000019d50                rumpns_ffs_quota2_mount
+ *fill*         0x000000000001a01b        0x5 90909090
+ .text          0x000000000001a020     0x2658 librumpfs_ffs_pic.a(ffs_vnops.pico)
+                0x000000000001a020                rumpns_ffs_openextattr
+                0x000000000001a030                rumpns_ffs_closeextattr
+                0x000000000001a040                rumpns_ffs_deleteextattr
+                0x000000000001a0d0                rumpns_ffs_listextattr
+                0x000000000001a160                rumpns_ffs_setextattr
+                0x000000000001a1f0                rumpns_ffs_getextattr
+                0x000000000001a280                rumpns_ffs_reclaim
+                0x000000000001a440                rumpns_ffs_write
+                0x000000000001b470                rumpns_ffs_spec_fsync
+                0x000000000001b5b0                rumpns_ffs_read
+                0x000000000001bd50                rumpns_ffs_full_fsync
+                0x000000000001c0f0                rumpns_ffs_fsync
+                0x000000000001c5a0                rumpns_ffs_gop_size
+ *fill*         0x000000000001c678        0x8 90909090
+ .text          0x000000000001c680     0x41aa librumpfs_ffs_pic.a(ufs_rename.pico)
+                0x000000000001c980                rumpns_ufs_gro_lock_directory
+                0x000000000001caa0                rumpns_ufs_gro_lookup
+                0x000000000001cd00                rumpns_ufs_gro_remove_check_permitted
+                0x000000000001d030                rumpns_ufs_gro_remove_check_possible
+                0x000000000001d350                rumpns_ufs_gro_rename_check_permitted
+                0x000000000001d970                rumpns_ufs_gro_rename_check_possible
+                0x000000000001df90                rumpns_ufs_gro_directory_empty_p
+                0x000000000001e290                rumpns_ufs_gro_rename
+                0x000000000001fbe0                rumpns_ufs_gro_genealogy
+                0x0000000000020330                rumpns_ufs_gro_remove
+                0x0000000000020800                rumpns_ufs_rename
+ *fill*         0x000000000002082a        0x6 90909090
+ .text          0x0000000000020830     0x6dd5 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                0x00000000000231c0                rumpns_ffs_snapshot_init
+                0x0000000000023270                rumpns_ffs_snapshot_fini
+                0x0000000000023350                rumpns_ffs_snapshot
+                0x0000000000025a10                rumpns_ffs_snapgone
+                0x0000000000025b40                rumpns_ffs_snapblkfree
+                0x0000000000026330                rumpns_ffs_snapremove
+                0x0000000000026bc0                rumpns_ffs_snapshot_mount
+                0x0000000000027130                rumpns_ffs_snapshot_unmount
+                0x0000000000027220                rumpns_ffs_snapshot_read
+ *fill*         0x0000000000027605        0xb 90909090
+ .text          0x0000000000027610     0x294f librumpfs_ffs_pic.a(ffs_inode.pico)
+                0x0000000000027f90                rumpns_ffs_itimes
+                0x00000000000281a0                rumpns_ffs_update
+                0x0000000000028730                rumpns_ffs_truncate
+ *fill*         0x0000000000029f5f        0x1 90909090
+ .text          0x0000000000029f60     0x2b2e librumpfs_ffs_pic.a(ffs_balloc.pico)
+                0x0000000000029f90                rumpns_ffs_balloc
+ *fill*         0x000000000002ca8e        0x2 90909090
+ .text          0x000000000002ca90     0x7e31 librumpfs_ffs_pic.a(ffs_alloc.pico)
+                0x0000000000030070                rumpns_ffs_alloc
+                0x00000000000304d0                rumpns_ffs_blkpref_ufs1
+                0x0000000000030840                rumpns_ffs_blkpref_ufs2
+                0x0000000000030c10                rumpns_ffs_blkalloc_ump
+                0x0000000000031440                rumpns_ffs_blkalloc
+                0x00000000000314e0                rumpns_ffs_discard_init
+                0x00000000000315d0                rumpns_ffs_discard_finish
+                0x0000000000031720                rumpns_ffs_blkfree
+                0x0000000000031a10                rumpns_ffs_realloccg
+                0x0000000000033290                rumpns_ffs_blkfree_snap
+                0x0000000000033530                rumpns_ffs_freefile
+                0x0000000000033760                rumpns_ffs_vfree
+                0x00000000000337a0                rumpns_ffs_valloc
+                0x0000000000034360                rumpns_ffs_freefile_snap
+                0x00000000000345e0                rumpns_ffs_checkfreefile
+ *fill*         0x00000000000348c1        0xf 90909090
+ .text          0x00000000000348d0      0x9c9 librumpfs_ffs_pic.a(ufs_inode.pico)
+                0x00000000000348d0                rumpns_ufs_reclaim
+                0x0000000000034a10                rumpns_ufs_balloc_range
+                0x0000000000034de0                rumpns_ufs_truncate
+                0x0000000000035050                rumpns_ufs_inactive
+ *fill*         0x0000000000035299        0x7 90909090
+ .text          0x00000000000352a0     0x26d2 librumpfs_ffs_pic.a(ufs_extattr.pico)
+                0x0000000000036150                rumpns_ufs_extattr_uepm_init
+                0x00000000000361b0                rumpns_ufs_extattr_uepm_destroy
+                0x0000000000036200                rumpns_ufs_extattr_start
+                0x0000000000036290                rumpns_ufs_extattr_autostart
+                0x0000000000036870                rumpns_ufs_extattr_stop
+                0x0000000000036900                rumpns_ufs_extattrctl
+                0x0000000000036ae0                rumpns_ufs_getextattr
+                0x0000000000036ce0                rumpns_ufs_listextattr
+                0x0000000000036ee0                rumpns_ufs_deleteextattr
+                0x0000000000036f50                rumpns_ufs_setextattr
+                0x00000000000378b0                rumpns_ufs_extattr_vnode_inactive
+                0x0000000000037960                rumpns_ufs_extattr_init
+                0x0000000000037970                rumpns_ufs_extattr_done
+ *fill*         0x0000000000037972        0xe 90909090
+ .text          0x0000000000037980     0x255c librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                0x0000000000037cc0                rumpns_ufsdirhash_free
+                0x0000000000037e20                rumpns_ufsdirhash_build
+                0x00000000000387b0                rumpns_ufsdirhash_lookup
+                0x0000000000038d70                rumpns_ufsdirhash_findfree
+                0x0000000000039090                rumpns_ufsdirhash_enduseful
+                0x0000000000039150                rumpns_ufsdirhash_add
+                0x00000000000392d0                rumpns_ufsdirhash_remove
+                0x00000000000394f0                rumpns_ufsdirhash_move
+                0x0000000000039600                rumpns_ufsdirhash_newblk
+                0x0000000000039700                rumpns_ufsdirhash_dirtrunc
+                0x0000000000039870                rumpns_ufsdirhash_checkblock
+                0x0000000000039a80                rumpns_ufsdirhash_init
+                0x0000000000039e50                rumpns_ufsdirhash_done
+ *fill*         0x0000000000039edc        0x4 90909090
+ .text          0x0000000000039ee0     0x102d librumpfs_ffs_pic.a(ufs_bmap.pico)
+                0x0000000000039f30                rumpns_ufs_getlbns
+                0x000000000003a290                rumpns_ufs_bmaparray
+                0x000000000003ae50                rumpns_ufs_bmap
+ *fill*         0x000000000003af0d        0x3 90909090
+ .text          0x000000000003af10      0xac5 librumpfs_ffs_pic.a(ffs_subr.pico)
+                0x000000000003af10                rumpns_ffs_load_inode
+                0x000000000003b0b0                rumpns_ffs_getblk
+                0x000000000003b280                rumpns_ffs_fragacct
+                0x000000000003b370                rumpns_ffs_isblock
+                0x000000000003b440                rumpns_ffs_isfreeblock
+                0x000000000003b540                rumpns_ffs_clrblock
+                0x000000000003b610                rumpns_ffs_setblock
+                0x000000000003b6d0                rumpns_ffs_clusteracct
+ *fill*         0x000000000003b9d5        0xb 90909090
+ .text          0x000000000003b9e0      0x94f librumpfs_ffs_pic.a(ffs_bswap.pico)
+                0x000000000003b9e0                rumpns_ffs_dinode1_swap
+                0x000000000003bb00                rumpns_ffs_dinode2_swap
+                0x000000000003bca0                rumpns_ffs_csum_swap
+                0x000000000003bcd0                rumpns_ffs_csumtotal_swap
+                0x000000000003bd60                rumpns_ffs_sb_swap
+                0x000000000003c070                rumpns_ffs_cg_swap
+ *fill*         0x000000000003c32f        0x1 90909090
+ .text          0x000000000003c330     0x117e librumpfs_ffs_pic.a(ufs_quota.pico)
+                0x000000000003c330                rumpns_ufsquota_init
+                0x000000000003c350                rumpns_chkdq
+                0x000000000003c3d0                rumpns_chkiq
+                0x000000000003c430                rumpns_quota_handle_cmd
+                0x000000000003c9f0                rumpns_dqinit
+                0x000000000003cad0                rumpns_dqreinit
+                0x000000000003cbf0                rumpns_dqdone
+                0x000000000003cc50                rumpns_dqref
+                0x000000000003cd00                rumpns_dqrele
+                0x000000000003ce30                rumpns_dqget
+                0x000000000003d290                rumpns_getinoquota
+                0x000000000003d370                rumpns_ufsquota_free
+                0x000000000003d3d0                rumpns_qsync
+                0x000000000003d400                rumpns_dqflush
+ *fill*         0x000000000003d4ae        0x2 90909090
+ .text          0x000000000003d4b0        0x0 librumpfs_ffs_pic.a(ffs_tables.pico)
+ .text          0x000000000003d4b0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000003d4e8        0x5
+ *(.fini)
+ .fini          0x000000000003d4e8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000003d4ed                PROVIDE (__etext, .)
+                0x000000000003d4ed                PROVIDE (_etext, .)
+                0x000000000003d4ed                PROVIDE (etext, .)
+
+.rodata         0x000000000003d500     0x3bc4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000003d500      0x2c5 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .rodata.str1.1
+                0x000000000003d7c5       0xc0 librumpfs_ffs_pic.a(ufs_quota2.pico)
+                                         0xc6 (size before relaxing)
+ .rodata        0x000000000003d885       0x2c librumpfs_ffs_pic.a(ufs_quota2.pico)
+ *fill*         0x000000000003d8b1        0x3 00
+ .rodata        0x000000000003d8b4       0xa3 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ *fill*         0x000000000003d957        0x1 00
+ .rodata.str1.4
+                0x000000000003d958      0x12c librumpfs_ffs_pic.a(ufs_vnops.pico)
+                                        0x160 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003da84       0x8e librumpfs_ffs_pic.a(ufs_vnops.pico)
+                                         0x9c (size before relaxing)
+ *fill*         0x000000000003db12        0x2 00
+ .rodata.str1.4
+                0x000000000003db14      0x15e librumpfs_ffs_pic.a(ufs_lookup.pico)
+                                        0x192 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003dc72       0xb0 librumpfs_ffs_pic.a(ufs_lookup.pico)
+                                         0xbc (size before relaxing)
+ *fill*         0x000000000003dd22        0x2 00
+ .rodata.str1.4
+                0x000000000003dd24      0x244 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                                        0x278 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003df68       0x9a librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                                         0xa6 (size before relaxing)
+ .rodata        0x000000000003e002       0x64 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ *fill*         0x000000000003e066        0x2 00
+ .rodata.str1.4
+                0x000000000003e068      0x200 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                                        0x234 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003e268      0x13e librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                                        0x154 (size before relaxing)
+ *fill*         0x000000000003e3a6        0x2 00
+ .rodata        0x000000000003e3a8       0x35 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ *fill*         0x000000000003e3dd        0x3 00
+ .rodata.str1.4
+                0x000000000003e3e0       0x6b librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .rodata.str1.1
+                0x000000000003e44b        0x9 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .rodata.str1.4
+                0x000000000003e454       0x96 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                                         0xcc (size before relaxing)
+ .rodata.str1.1
+                0x000000000003e4ea       0x12 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                                         0x1e (size before relaxing)
+ .rodata.str1.4
+                0x000000000003e4fc       0x70 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .rodata.str1.1
+                0x000000000003e56c       0x33 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ *fill*         0x000000000003e59f        0x1 00
+ .rodata.str1.4
+                0x000000000003e5a0      0x15d librumpfs_ffs_pic.a(ffs_vnops.pico)
+                                        0x191 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003e6fd       0x91 librumpfs_ffs_pic.a(ffs_vnops.pico)
+                                         0xb6 (size before relaxing)
+ .rodata        0x000000000003e78e       0x47 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ *fill*         0x000000000003e7d5        0x3 00
+ .rodata.str1.4
+                0x000000000003e7d8      0x4b0 librumpfs_ffs_pic.a(ufs_rename.pico)
+                                        0x4e4 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003ec88      0x287 librumpfs_ffs_pic.a(ufs_rename.pico)
+                                        0x35e (size before relaxing)
+ .rodata        0x000000000003ef0f       0x1e librumpfs_ffs_pic.a(ufs_rename.pico)
+ *fill*         0x000000000003ef2d        0x3 00
+ .rodata.str1.4
+                0x000000000003ef30      0x259 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                                        0x28d (size before relaxing)
+ .rodata.str1.1
+                0x000000000003f189       0xe9 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                                        0x100 (size before relaxing)
+ .rodata        0x000000000003f272       0x86 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .rodata.str1.4
+                0x000000000003f2f8       0xea librumpfs_ffs_pic.a(ffs_inode.pico)
+                                        0x11e (size before relaxing)
+ .rodata.str1.1
+                0x000000000003f3e2       0x55 librumpfs_ffs_pic.a(ffs_inode.pico)
+                                         0x61 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003f437       0x24 librumpfs_ffs_pic.a(ffs_balloc.pico)
+                                         0x30 (size before relaxing)
+ *fill*         0x000000000003f45b        0x1 00
+ .rodata.str1.4
+                0x000000000003f45c       0xc2 librumpfs_ffs_pic.a(ffs_balloc.pico)
+                                         0xf6 (size before relaxing)
+ *fill*         0x000000000003f51e        0x2 00
+ .rodata.str1.4
+                0x000000000003f520      0x5f4 librumpfs_ffs_pic.a(ffs_alloc.pico)
+                                        0x628 (size before relaxing)
+ .rodata.str1.1
+                0x000000000003fb14      0x31f librumpfs_ffs_pic.a(ffs_alloc.pico)
+                                        0x350 (size before relaxing)
+ .rodata        0x000000000003fe33       0x35 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .rodata.str1.1
+                0x000000000003fe68       0x1c librumpfs_ffs_pic.a(ufs_inode.pico)
+                                         0x28 (size before relaxing)
+ .rodata.str1.4
+                0x000000000003fe84       0xbb librumpfs_ffs_pic.a(ufs_inode.pico)
+                                         0xf0 (size before relaxing)
+ .rodata        0x000000000003ff3f       0x39 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .rodata.str1.1
+                0x000000000003ff78       0xad librumpfs_ffs_pic.a(ufs_extattr.pico)
+                                         0xc1 (size before relaxing)
+ *fill*         0x0000000000040025        0x3 00
+ .rodata.str1.4
+                0x0000000000040028      0x559 librumpfs_ffs_pic.a(ufs_extattr.pico)
+                                        0x5b1 (size before relaxing)
+ .rodata        0x0000000000040581       0x33 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .rodata.str1.4
+                0x00000000000405b4      0x3a4 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                                        0x3d8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000040958       0xd3 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                                         0xe3 (size before relaxing)
+ *fill*         0x0000000000040a2b        0x1 00
+ .rodata.str1.4
+                0x0000000000040a2c       0xe3 librumpfs_ffs_pic.a(ufs_bmap.pico)
+                                        0x117 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000040b0f       0x11 librumpfs_ffs_pic.a(ufs_bmap.pico)
+                                         0x1d (size before relaxing)
+ .rodata.str1.4
+                0x0000000000040b20      0x15a librumpfs_ffs_pic.a(ffs_subr.pico)
+                                        0x18e (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000000        0xc librumpfs_ffs_pic.a(ffs_subr.pico)
+ .rodata.str1.1
+                0x0000000000040c7a       0x2c librumpfs_ffs_pic.a(ufs_quota.pico)
+                                         0x5d (size before relaxing)
+ *fill*         0x0000000000040ca6        0x2 00
+ .rodata.str1.4
+                0x0000000000040ca8      0x164 librumpfs_ffs_pic.a(ufs_quota.pico)
+                                        0x195 (size before relaxing)
+ .rodata        0x0000000000040e0c       0x38 librumpfs_ffs_pic.a(ufs_quota.pico)
+ *fill*         0x0000000000040e44       0x1c 00
+ .rodata        0x0000000000040e60      0x264 librumpfs_ffs_pic.a(ffs_tables.pico)
+                0x0000000000040e60                rumpns_fragtbl8
+                0x0000000000040f60                rumpns_fragtbl124
+                0x0000000000041060                rumpns_inside
+                0x00000000000410a0                rumpns_around
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000410c4      0x8dc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000410c4      0x8dc /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x00000000000419a0     0x394c
+ *(.eh_frame)
+ .eh_frame      0x00000000000419a0       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000419dc      0x4e0 librumpfs_ffs_pic.a(ufs_quota2.pico)
+                                        0x50c (size before relaxing)
+ .eh_frame      0x0000000000041ebc       0xfc librumpfs_ffs_pic.a(quota2_subr.pico)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x0000000000041fb8      0x4d0 librumpfs_ffs_pic.a(ufs_vnops.pico)
+                                        0x4fc (size before relaxing)
+ .eh_frame      0x0000000000042488      0x224 librumpfs_ffs_pic.a(ufs_lookup.pico)
+                                        0x250 (size before relaxing)
+ .eh_frame      0x00000000000426ac      0x1cc librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x0000000000042878      0x454 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                                        0x480 (size before relaxing)
+ .eh_frame      0x0000000000042ccc       0x74 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000042d40      0x134 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                                        0x160 (size before relaxing)
+ .eh_frame      0x0000000000042e74       0x2c librumpfs_ffs_pic.a(ffs_quota2.pico)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000042ea0      0x234 librumpfs_ffs_pic.a(ffs_vnops.pico)
+                                        0x260 (size before relaxing)
+ .eh_frame      0x00000000000430d4      0x310 librumpfs_ffs_pic.a(ufs_rename.pico)
+                                        0x33c (size before relaxing)
+ .eh_frame      0x00000000000433e4      0x678 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                                        0x6a4 (size before relaxing)
+ .eh_frame      0x0000000000043a5c      0x108 librumpfs_ffs_pic.a(ffs_inode.pico)
+                                        0x134 (size before relaxing)
+ .eh_frame      0x0000000000043b64       0x90 librumpfs_ffs_pic.a(ffs_balloc.pico)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x0000000000043bf4      0x6e8 librumpfs_ffs_pic.a(ffs_alloc.pico)
+                                        0x714 (size before relaxing)
+ .eh_frame      0x00000000000442dc       0xfc librumpfs_ffs_pic.a(ufs_inode.pico)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x00000000000443d8      0x3f8 librumpfs_ffs_pic.a(ufs_extattr.pico)
+                                        0x424 (size before relaxing)
+ .eh_frame      0x00000000000447d0      0x45c librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                                        0x488 (size before relaxing)
+ .eh_frame      0x0000000000044c2c      0x110 librumpfs_ffs_pic.a(ufs_bmap.pico)
+                                        0x13c (size before relaxing)
+ .eh_frame      0x0000000000044d3c      0x1a0 librumpfs_ffs_pic.a(ffs_subr.pico)
+                                        0x1cc (size before relaxing)
+ .eh_frame      0x0000000000044edc      0x144 librumpfs_ffs_pic.a(ffs_bswap.pico)
+                                        0x170 (size before relaxing)
+ .eh_frame      0x0000000000045020      0x2c8 librumpfs_ffs_pic.a(ufs_quota.pico)
+                                        0x2f4 (size before relaxing)
+ .eh_frame      0x00000000000452e8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000452ec                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000046000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000046000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000046000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000046004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000046008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000046008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000004600c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000004600c                __DTOR_END__
+
+.jcr            0x0000000000046010        0x4
+ *(.jcr)
+ .jcr           0x0000000000046010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000046010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000046020      0x5c4
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000046020        0x8 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .data.rel.ro.local
+                0x0000000000046028       0x14 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000004603c       0x3c librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x000000000004603c                rumpns_ffs_vnodeopv_descs
+ *fill*         0x0000000000046078        0x8 00
+ .data.rel.ro   0x0000000000046080      0x4f8 librumpfs_ffs_pic.a(ffs_vnops.pico)
+                0x0000000000046080                rumpns_ffs_fifoop_opv_desc
+                0x00000000000460a0                rumpns_ffs_fifoop_entries
+                0x0000000000046228                rumpns_ffs_specop_opv_desc
+                0x0000000000046240                rumpns_ffs_specop_entries
+                0x00000000000463d0                rumpns_ffs_vnodeop_opv_desc
+                0x00000000000463e0                rumpns_ffs_vnodeop_entries
+ *fill*         0x0000000000046578        0x8 00
+ .data.rel.ro   0x0000000000046580       0x28 librumpfs_ffs_pic.a(ufs_rename.pico)
+ *fill*         0x00000000000465a8       0x18 00
+ .data.rel.ro   0x00000000000465c0       0x24 librumpfs_ffs_pic.a(ffs_tables.pico)
+                0x00000000000465c0                rumpns_fragtbl
+
+.dynamic        0x00000000000465e4       0xb8
+ *(.dynamic)
+ .dynamic       0x00000000000465e4       0xb8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x00000000000465e4                _DYNAMIC
+
+.got            0x000000000004669c       0xc8
+ *(.got)
+ .got           0x000000000004669c       0xc8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000046764                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000046764      0x550
+ *(.got.plt)
+ .got.plt       0x0000000000046764      0x550 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000046764                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000046cc0       0xa4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000046cc0        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000046cc0                __dso_handle
+ .data          0x0000000000046cc4        0x0 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .data          0x0000000000046cc4        0x0 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .data          0x0000000000046cc4        0x0 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .data          0x0000000000046cc4        0x0 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .data          0x0000000000046cc4        0x4 librumpfs_ffs_pic.a(ufs_lookup.pico)
+                0x0000000000046cc4                rumpns_dirchk
+ .data          0x0000000000046cc8        0x0 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .data          0x0000000000046cc8        0x0 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ *fill*         0x0000000000046cc8       0x18 00
+ .data.rel      0x0000000000046ce0       0x6c librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x0000000000046ce0                rumpns_ffs_vfsops
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .data          0x0000000000046d4c        0x0 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .data          0x0000000000046d4c        0x8 librumpfs_ffs_pic.a(ufs_extattr.pico)
+                0x0000000000046d4c                rumpns_ufs_extattr_autocreate
+                0x0000000000046d50                rumpns_ufs_extattr_sync
+ .data          0x0000000000046d54        0x8 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .data          0x0000000000046d5c        0x0 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .data          0x0000000000046d5c        0x0 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .data          0x0000000000046d5c        0x0 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .data          0x0000000000046d5c        0x0 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .data.rel.local
+                0x0000000000046d5c        0x8 librumpfs_ffs_pic.a(ufs_quota.pico)
+                0x0000000000046d5c                rumpns_quotatypes
+ .data          0x0000000000046d64        0x0 librumpfs_ffs_pic.a(ffs_tables.pico)
+ .data          0x0000000000046d64        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000046d64        0x0
+ .tm_clone_table
+                0x0000000000046d64        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000046d64        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x0000000000046d64        0x4
+                0x0000000000046d64                . = ALIGN (0x4)
+                0x0000000000046d64                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000046d64        0x4 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x0000000000046d68                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x0000000000046d68                _edata = .
+                0x0000000000046d68                PROVIDE (edata, .)
+                0x0000000000046d68                __bss_start = .
+
+.bss            0x0000000000046d68       0x78
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000046d68        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000046d70        0x0 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .bss           0x0000000000046d70        0x0 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .bss           0x0000000000046d70        0x0 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .bss           0x0000000000046d70        0x0 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .bss           0x0000000000046d70        0x4 librumpfs_ffs_pic.a(ufs_lookup.pico)
+                0x0000000000046d70                rumpns_ufs_dirrablks
+ .bss           0x0000000000046d74        0x0 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .bss           0x0000000000046d74        0xc librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x0000000000046d74                rumpns_ffs_initcount
+ .bss           0x0000000000046d80        0x0 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .bss           0x0000000000046d80        0x4 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .bss           0x0000000000046d84        0x0 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .bss           0x0000000000046d84        0x4 librumpfs_ffs_pic.a(ffs_alloc.pico)
+                0x0000000000046d84                rumpns_ffs_log_changeopt
+ .bss           0x0000000000046d88        0x0 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .bss           0x0000000000046d88        0x0 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .bss           0x0000000000046d88       0x20 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .bss           0x0000000000046da8        0x0 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .bss           0x0000000000046da8        0x0 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .bss           0x0000000000046da8        0x0 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .bss           0x0000000000046da8        0xc librumpfs_ffs_pic.a(ufs_quota.pico)
+ .bss           0x0000000000046db4        0x0 librumpfs_ffs_pic.a(ffs_tables.pico)
+ .bss           0x0000000000046db4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000046db4        0xc librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                0x0000000000046db4                rumpns_ffs_dinode2_cache
+                0x0000000000046db8                rumpns_ffs_dinode1_cache
+                0x0000000000046dbc                rumpns_ffs_inode_cache
+ COMMON         0x0000000000046dc0        0x4 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                0x0000000000046dc0                rumpns_ufs_direct_cache
+ COMMON         0x0000000000046dc4        0xc librumpfs_ffs_pic.a(ffs_vnops.pico)
+                0x0000000000046dc4                rumpns_ffs_vnodeop_p
+                0x0000000000046dc8                rumpns_ffs_fifoop_p
+                0x0000000000046dcc                rumpns_ffs_specop_p
+ COMMON         0x0000000000046dd0       0x10 librumpfs_ffs_pic.a(ufs_quota.pico)
+                0x0000000000046dd0                rumpns_dqcv
+                0x0000000000046ddc                rumpns_dqlock
+                0x0000000000046de0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000046de0                . = ALIGN (0x4)
+                0x0000000000046de0                . = ALIGN (0x4)
+                0x0000000000046de0                _end = .
+                0x0000000000046de0                PROVIDE (end, .)
+                0x0000000000046de0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .comment       0x0000000000000000       0x12 librumpfs_ffs_pic.a(ffs_tables.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x61b
+ .ident         0x0000000000000000       0x3b librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .ident         0x000000000000003b       0x40 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .ident         0x000000000000007b       0x40 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .ident         0x00000000000000bb       0x40 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .ident         0x00000000000000fb       0x3e librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .ident         0x0000000000000139       0x3f librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .ident         0x0000000000000178       0x41 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .ident         0x00000000000001b9       0x3d librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .ident         0x00000000000001f6       0x3f librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .ident         0x0000000000000235       0x3c librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .ident         0x0000000000000271       0x84 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .ident         0x00000000000002f5       0x3f librumpfs_ffs_pic.a(ufs_rename.pico)
+ .ident         0x0000000000000334       0x3f librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .ident         0x0000000000000373       0x3d librumpfs_ffs_pic.a(ffs_inode.pico)
+ .ident         0x00000000000003b0       0x3d librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .ident         0x00000000000003ed       0x3d librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .ident         0x000000000000042a       0x3f librumpfs_ffs_pic.a(ufs_inode.pico)
+ .ident         0x0000000000000469       0x3d librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .ident         0x00000000000004a6       0x3e librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .ident         0x00000000000004e4       0x3e librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .ident         0x0000000000000522       0x3b librumpfs_ffs_pic.a(ffs_subr.pico)
+ .ident         0x000000000000055d       0x3f librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .ident         0x000000000000059c       0x40 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .ident         0x00000000000005dc       0x3f librumpfs_ffs_pic.a(ffs_tables.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x300
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x18 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .debug_aranges
+                0x0000000000000018       0x20 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_aranges
+                0x0000000000000038       0x20 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_aranges
+                0x0000000000000058       0x20 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_aranges
+                0x0000000000000078       0x20 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_aranges
+                0x0000000000000098       0x20 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_aranges
+                0x00000000000000b8       0x20 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_aranges
+                0x00000000000000d8       0x20 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .debug_aranges
+                0x00000000000000f8       0x20 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .debug_aranges
+                0x0000000000000118       0x20 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .debug_aranges
+                0x0000000000000138       0x20 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_aranges
+                0x0000000000000158       0x20 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_aranges
+                0x0000000000000178       0x30 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_aranges
+                0x00000000000001a8       0x20 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_aranges
+                0x00000000000001c8       0x20 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_aranges
+                0x00000000000001e8       0x20 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_aranges
+                0x0000000000000208       0x20 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_aranges
+                0x0000000000000228       0x20 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_aranges
+                0x0000000000000248       0x20 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_aranges
+                0x0000000000000268       0x20 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_aranges
+                0x0000000000000288       0x20 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_aranges
+                0x00000000000002a8       0x20 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_aranges
+                0x00000000000002c8       0x20 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .debug_aranges
+                0x00000000000002e8       0x18 librumpfs_ffs_pic.a(ffs_tables.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0xb9640
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x573 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .debug_info    0x0000000000000573     0xa1dc librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_info    0x000000000000a74f      0x882 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_info    0x000000000000afd1     0xcf51 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_info    0x0000000000017f22     0x8894 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_info    0x00000000000207b6     0x8f2c librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_info    0x00000000000296e2     0xc145 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_info    0x0000000000035827      0x567 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .debug_info    0x0000000000035d8e     0x71c8 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .debug_info    0x000000000003cf56     0x69c7 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .debug_info    0x000000000004391d     0xa336 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_info    0x000000000004dc53     0xafb7 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_info    0x0000000000058c0a     0xe5e1 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_info    0x00000000000671eb     0x7a64 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_info    0x000000000006ec4f     0x8e0c librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_info    0x0000000000077a5b     0xece6 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_info    0x0000000000086741     0x7af9 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_info    0x000000000008e23a     0xa2cd librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_info    0x0000000000098507     0x8d61 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_info    0x00000000000a1268     0x6aac librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_info    0x00000000000a7d14     0x73f7 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_info    0x00000000000af10b     0x1b60 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_info    0x00000000000b0c6b     0x88a3 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .debug_info    0x00000000000b950e      0x132 librumpfs_ffs_pic.a(ffs_tables.pico)
+
+.debug_abbrev   0x0000000000000000     0x67d7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x7d librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .debug_abbrev  0x000000000000007d      0x613 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_abbrev  0x0000000000000690      0x1f6 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_abbrev  0x0000000000000886      0x676 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_abbrev  0x0000000000000efc      0x4cb librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_abbrev  0x00000000000013c7      0x565 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_abbrev  0x000000000000192c      0x5f8 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_abbrev  0x0000000000001f24      0x22a librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .debug_abbrev  0x000000000000214e      0x357 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .debug_abbrev  0x00000000000024a5      0x2a5 librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .debug_abbrev  0x000000000000274a      0x537 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_abbrev  0x0000000000002c81      0x4f0 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_abbrev  0x0000000000003171      0x6e4 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_abbrev  0x0000000000003855      0x4a1 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_abbrev  0x0000000000003cf6      0x449 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_abbrev  0x000000000000413f      0x6f3 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_abbrev  0x0000000000004832      0x4df librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_abbrev  0x0000000000004d11      0x61f librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_abbrev  0x0000000000005330      0x4e4 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_abbrev  0x0000000000005814      0x43e librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_abbrev  0x0000000000005c52      0x417 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_abbrev  0x0000000000006069      0x214 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_abbrev  0x000000000000627d      0x4f4 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .debug_abbrev  0x0000000000006771       0x66 librumpfs_ffs_pic.a(ffs_tables.pico)
+
+.debug_line     0x0000000000000000    0x14d84
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x14b librumpfs_ffs_pic.a(ufs_wapbl.pico)
+ .debug_line    0x000000000000014b     0x11dd librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_line    0x0000000000001328      0x2d8 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_line    0x0000000000001600     0x1657 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_line    0x0000000000002c57     0x1128 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_line    0x0000000000003d7f      0xe3c librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_line    0x0000000000004bbb     0x143e librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_line    0x0000000000005ff9      0x3b9 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .debug_line    0x00000000000063b2      0x84a librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .debug_line    0x0000000000006bfc      0x7ef librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .debug_line    0x00000000000073eb      0xfdf librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_line    0x00000000000083ca     0x1107 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_line    0x00000000000094d1     0x20ca librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_line    0x000000000000b59b     0x10ad librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_line    0x000000000000c648      0xec0 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_line    0x000000000000d508     0x28ec librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_line    0x000000000000fdf4      0x9fc librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_line    0x00000000000107f0      0xe51 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_line    0x0000000000011641      0xd8c librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_line    0x00000000000123cd      0xbe0 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_line    0x0000000000012fad      0xb2f librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_line    0x0000000000013adc      0x70c librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_line    0x00000000000141e8      0xa56 librumpfs_ffs_pic.a(ufs_quota.pico)
+ .debug_line    0x0000000000014c3e      0x146 librumpfs_ffs_pic.a(ffs_tables.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0xa6cb
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x427 librumpfs_ffs_pic.a(ufs_wapbl.pico)
+                                        0x491 (size before relaxing)
+ .debug_str     0x0000000000000427     0x41e4 librumpfs_ffs_pic.a(ufs_quota2.pico)
+                                       0x47a8 (size before relaxing)
+ .debug_str     0x000000000000460b       0xe2 librumpfs_ffs_pic.a(quota2_subr.pico)
+                                        0x3cf (size before relaxing)
+ .debug_str     0x00000000000046ed     0x1880 librumpfs_ffs_pic.a(ufs_vnops.pico)
+                                       0x5368 (size before relaxing)
+ .debug_str     0x0000000000005f6d      0x365 librumpfs_ffs_pic.a(ufs_lookup.pico)
+                                       0x3cfd (size before relaxing)
+ .debug_str     0x00000000000062d2      0xf40 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+                                       0x46a6 (size before relaxing)
+ .debug_str     0x0000000000007212      0xd00 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+                                       0x5bf4 (size before relaxing)
+ .debug_str     0x0000000000007f12       0xf9 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+                                        0x352 (size before relaxing)
+ .debug_str     0x000000000000800b      0x145 librumpfs_ffs_pic.a(ufs_vfsops.pico)
+                                       0x3ea2 (size before relaxing)
+ .debug_str     0x0000000000008150       0x96 librumpfs_ffs_pic.a(ffs_quota2.pico)
+                                       0x3b5f (size before relaxing)
+ .debug_str     0x00000000000081e6      0x6ea librumpfs_ffs_pic.a(ffs_vnops.pico)
+                                       0x4f59 (size before relaxing)
+ .debug_str     0x00000000000088d0      0x401 librumpfs_ffs_pic.a(ufs_rename.pico)
+                                       0x4251 (size before relaxing)
+ .debug_str     0x0000000000008cd1      0x4ae librumpfs_ffs_pic.a(ffs_snapshot.pico)
+                                       0x5356 (size before relaxing)
+ .debug_str     0x000000000000917f      0x1ae librumpfs_ffs_pic.a(ffs_inode.pico)
+                                       0x3db4 (size before relaxing)
+ .debug_str     0x000000000000932d      0x12e librumpfs_ffs_pic.a(ffs_balloc.pico)
+                                       0x4226 (size before relaxing)
+ .debug_str     0x000000000000945b      0x3d5 librumpfs_ffs_pic.a(ffs_alloc.pico)
+                                       0x4a62 (size before relaxing)
+ .debug_str     0x0000000000009830      0x18a librumpfs_ffs_pic.a(ufs_inode.pico)
+                                       0x3f3b (size before relaxing)
+ .debug_str     0x00000000000099ba      0x47b librumpfs_ffs_pic.a(ufs_extattr.pico)
+                                       0x4abf (size before relaxing)
+ .debug_str     0x0000000000009e35      0x26c librumpfs_ffs_pic.a(ufs_dirhash.pico)
+                                       0x4113 (size before relaxing)
+ .debug_str     0x000000000000a0a1      0x142 librumpfs_ffs_pic.a(ufs_bmap.pico)
+                                       0x37ac (size before relaxing)
+ .debug_str     0x000000000000a1e3       0xc7 librumpfs_ffs_pic.a(ffs_subr.pico)
+                                       0x3d31 (size before relaxing)
+ .debug_str     0x000000000000a2aa       0xbc librumpfs_ffs_pic.a(ffs_bswap.pico)
+                                        0xa02 (size before relaxing)
+ .debug_str     0x000000000000a366      0x2bb librumpfs_ffs_pic.a(ufs_quota.pico)
+                                       0x483a (size before relaxing)
+ .debug_str     0x000000000000a621       0xaa librumpfs_ffs_pic.a(ffs_tables.pico)
+                                        0x1b0 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x31562
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x3689 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_loc     0x0000000000003689      0x569 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_loc     0x0000000000003bf2     0x3df4 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_loc     0x00000000000079e6     0x2703 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_loc     0x000000000000a0e9     0x2323 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_loc     0x000000000000c40c     0x29e3 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_loc     0x000000000000edef      0x3c2 librumpfs_ffs_pic.a(ffs_appleufs.pico)
+ .debug_loc     0x000000000000f1b1      0x30f librumpfs_ffs_pic.a(ufs_vfsops.pico)
+ .debug_loc     0x000000000000f4c0      0x18a librumpfs_ffs_pic.a(ffs_quota2.pico)
+ .debug_loc     0x000000000000f64a     0x23e9 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_loc     0x0000000000011a33     0x15e8 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_loc     0x000000000001301b     0x80f3 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_loc     0x000000000001b10e     0x1cc2 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_loc     0x000000000001cdd0     0x33ce librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_loc     0x000000000002019e     0x786f librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_loc     0x0000000000027a0d      0x967 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_loc     0x0000000000028374     0x23c0 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_loc     0x000000000002a734     0x24fe librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_loc     0x000000000002cc32     0x11b7 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_loc     0x000000000002dde9      0xd4b librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_loc     0x000000000002eb34     0x16d4 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_loc     0x0000000000030208     0x135a librumpfs_ffs_pic.a(ufs_quota.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x33e0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x4a8 librumpfs_ffs_pic.a(ufs_quota2.pico)
+ .debug_ranges  0x00000000000004a8       0x38 librumpfs_ffs_pic.a(quota2_subr.pico)
+ .debug_ranges  0x00000000000004e0      0x2c0 librumpfs_ffs_pic.a(ufs_vnops.pico)
+ .debug_ranges  0x00000000000007a0      0x1e8 librumpfs_ffs_pic.a(ufs_lookup.pico)
+ .debug_ranges  0x0000000000000988      0x2d8 librumpfs_ffs_pic.a(ffs_wapbl.pico)
+ .debug_ranges  0x0000000000000c60      0x258 librumpfs_ffs_pic.a(ffs_vfsops.pico)
+ .debug_ranges  0x0000000000000eb8       0xa0 librumpfs_ffs_pic.a(ffs_vnops.pico)
+ .debug_ranges  0x0000000000000f58      0x1d0 librumpfs_ffs_pic.a(ufs_rename.pico)
+ .debug_ranges  0x0000000000001128      0xc98 librumpfs_ffs_pic.a(ffs_snapshot.pico)
+ .debug_ranges  0x0000000000001dc0      0x160 librumpfs_ffs_pic.a(ffs_inode.pico)
+ .debug_ranges  0x0000000000001f20      0x2e0 librumpfs_ffs_pic.a(ffs_balloc.pico)
+ .debug_ranges  0x0000000000002200      0xa20 librumpfs_ffs_pic.a(ffs_alloc.pico)
+ .debug_ranges  0x0000000000002c20       0x60 librumpfs_ffs_pic.a(ufs_inode.pico)
+ .debug_ranges  0x0000000000002c80      0x280 librumpfs_ffs_pic.a(ufs_extattr.pico)
+ .debug_ranges  0x0000000000002f00      0x1c8 librumpfs_ffs_pic.a(ufs_dirhash.pico)
+ .debug_ranges  0x00000000000030c8      0x150 librumpfs_ffs_pic.a(ufs_bmap.pico)
+ .debug_ranges  0x0000000000003218       0x90 librumpfs_ffs_pic.a(ffs_subr.pico)
+ .debug_ranges  0x00000000000032a8       0x18 librumpfs_ffs_pic.a(ffs_bswap.pico)
+ .debug_ranges  0x00000000000032c0      0x120 librumpfs_ffs_pic.a(ufs_quota.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpfs_ffs.so.0.0 elf32-i386)

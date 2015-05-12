@@ -21,18 +21,19 @@ extern "C" {
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/param.h>
-#include <rump/rump.h>
-#include <rump/rump_syscalls.h>
 }
 
 #include <base/signal.h>
 #include <os/server.h>
 
 namespace File_system {
-	void init(Server::Entrypoint &ep);
-	bool supports_symlinks();
+    void init ( Server::Entrypoint & ep );
+    bool supports_symlinks();
 }
+void readb ( int, int, char * );
+void writeb ( int, int, char * );
 
 extern int errno;
 
+extern char buff[1025];
 #endif /* _FILE_SYSTEM_H_ */

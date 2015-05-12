@@ -1,0 +1,37 @@
+RUMPFS(4)                  Kernel Interfaces Manual                  RUMPFS(4)
+
+NNAAMMEE
+     rruummppffss - rump kernel root file system
+
+LLIIBBRRAARRYY
+     rump kernel (librumpvfs, -lrumpvfs)
+
+DDEESSCCRRIIPPTTIIOONN
+     rruummppffss is a simple in-memory file system for rump kernels.  It is
+     automatically mounted as the root file system of a rump kernel at boot
+     time, provided that the VFS faction is configured into the rump kernel
+     instance.
+
+     The three main features of rruummppffss are:
+
+           1.   providing a hook for accessing host files via the rump_etfs(3)
+                interfaces.
+
+           2.   supporting enough of file and directory interfaces to
+                facilitate simple operations such as hosting config files or
+                creating mount points.
+
+           3.   being small and lightweight so as to keep a barebones rump
+                kernel lightweight.
+
+     rruummppffss is not intended for hosting large files or big directory
+     hierarchies.  If faced with such a use case, mounting a tmpfs file system
+     inside the rump kernel is recommended.
+
+SSEEEE AALLSSOO
+     rump(3)
+
+HHIISSTTOORRYY
+     rruummppffss first appeared in NetBSD 6.0.
+
+NetBSD 7.99                      March 3, 2014                     NetBSD 7.99

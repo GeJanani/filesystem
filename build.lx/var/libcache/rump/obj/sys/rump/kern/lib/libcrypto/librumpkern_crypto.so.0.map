@@ -1,0 +1,740 @@
+Archive member included because of file (symbol)
+
+librumpkern_crypto_pic.a(skipjack.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(des_module.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(des_cbc.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(des_setkey.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(cast128.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(camellia-api.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(camellia.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(bf_module.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(bf_skey.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(bf_cbc.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(bf_ecb.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(arc4.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(bf_enc.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(des_enc.pico)
+                              (--whole-archive)
+librumpkern_crypto_pic.a(des_ecb.pico)
+                              (--whole-archive)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(skipjack.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(skipjack.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(des_cbc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(des_cbc.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(des_setkey.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(des_setkey.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(cast128.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(cast128.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(camellia-api.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(camellia-api.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(camellia.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(camellia.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(bf_skey.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(bf_skey.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(arc4.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(arc4.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(des_enc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(des_enc.pico)
+ .group         0x0000000000000000        0x8 librumpkern_crypto_pic.a(des_ecb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpkern_crypto_pic.a(des_ecb.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpkern_crypto_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x184
+ *(.hash)
+ .hash          0x00000000000000b4      0x184 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000238      0x3a0
+ *(.dynsym)
+ .dynsym        0x0000000000000238      0x3a0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x00000000000005d8      0x514
+ *(.dynstr)
+ .dynstr        0x00000000000005d8      0x514 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000000aec        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000000aec        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000000aec        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000000aec       0xa0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000000aec       0x50 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000b3c       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x0000000000000b64       0x28 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x0000000000000b8c       0xd0
+ *(.rel.plt)
+ .rel.plt       0x0000000000000b8c       0xd0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x0000000000000c5c        0xa
+ *(.init)
+ .init          0x0000000000000c5c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000000c61        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000000c70      0x1b0
+ *(.plt)
+ .plt           0x0000000000000c70      0x1b0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000000e20     0xbd38
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000e20      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000f5b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000000f5b                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000f5f        0x1 90909090
+ .text          0x0000000000000f60     0x1425 librumpkern_crypto_pic.a(skipjack.pico)
+                0x0000000000000f70                rumpns_subkey_table_gen
+                0x0000000000000fc0                rumpns_skipjack_forwards
+                0x00000000000019b0                rumpns_skipjack_backwards
+ *fill*         0x0000000000002385        0xb 90909090
+ .text          0x0000000000002390        0xd librumpkern_crypto_pic.a(des_module.pico)
+ *fill*         0x000000000000239d        0x3 90909090
+ .text          0x00000000000023a0      0xd49 librumpkern_crypto_pic.a(des_cbc.pico)
+                0x00000000000023a0                rumpns_des_ncbc_encrypt
+                0x0000000000002a10                rumpns_des_ede3_cbc_encrypt
+ *fill*         0x00000000000030e9        0x7 90909090
+ .text          0x00000000000030f0      0x440 librumpkern_crypto_pic.a(des_setkey.pico)
+                0x00000000000030f0                rumpns_des_set_odd_parity
+                0x0000000000003130                rumpns_des_check_key_parity
+                0x0000000000003170                rumpns_des_is_weak_key
+                0x00000000000031d0                rumpns_des_set_key_unchecked
+                0x0000000000003430                rumpns_des_set_key_checked
+                0x0000000000003490                rumpns_des_set_key
+                0x00000000000034e0                rumpns_des_key_sched
+                0x0000000000003510                rumpns_des_fixup_key_parity
+ .text          0x0000000000003530     0x11b0 librumpkern_crypto_pic.a(cast128.pico)
+                0x0000000000003540                rumpns_cast128_encrypt
+                0x0000000000003a30                rumpns_cast128_decrypt
+                0x0000000000003f20                rumpns_cast128_setkey
+ .text          0x00000000000046e0       0xc9 librumpkern_crypto_pic.a(camellia-api.pico)
+                0x00000000000046e0                rumpns_camellia_set_key
+                0x0000000000004730                rumpns_camellia_decrypt
+                0x0000000000004770                rumpns_camellia_encrypt
+ *fill*         0x00000000000047a9        0x7 90909090
+ .text          0x00000000000047b0     0x5d6d librumpkern_crypto_pic.a(camellia.pico)
+                0x00000000000047c0                rumpns_camellia_setup128
+                0x00000000000054a0                rumpns_camellia_setup256
+                0x0000000000006710                rumpns_camellia_setup192
+                0x0000000000006780                rumpns_camellia_encrypt128
+                0x00000000000073c0                rumpns_camellia_decrypt128
+                0x0000000000008000                rumpns_camellia_encrypt256
+                0x0000000000009060                rumpns_camellia_decrypt256
+                0x000000000000a0c0                rumpns_Camellia_Ekeygen
+                0x000000000000a1a0                rumpns_Camellia_EncryptBlock
+                0x000000000000a360                rumpns_Camellia_DecryptBlock
+ *fill*         0x000000000000a51d        0x3 90909090
+ .text          0x000000000000a520        0xd librumpkern_crypto_pic.a(bf_module.pico)
+ *fill*         0x000000000000a52d        0x3 90909090
+ .text          0x000000000000a530      0x177 librumpkern_crypto_pic.a(bf_skey.pico)
+                0x000000000000a530                rumpns_BF_set_key
+ *fill*         0x000000000000a6a7        0x9 90909090
+ .text          0x000000000000a6b0      0x645 librumpkern_crypto_pic.a(bf_cbc.pico)
+                0x000000000000a6b0                rumpns_BF_cbc_encrypt
+ *fill*         0x000000000000acf5        0xb 90909090
+ .text          0x000000000000ad00       0xc7 librumpkern_crypto_pic.a(bf_ecb.pico)
+                0x000000000000ad00                rumpns_BF_ecb_encrypt
+ *fill*         0x000000000000adc7        0x9 90909090
+ .text          0x000000000000add0      0x1e8 librumpkern_crypto_pic.a(arc4.pico)
+                0x000000000000add0                rumpns_arc4_ctxlen
+                0x000000000000ade0                rumpns_arc4_setkey
+                0x000000000000ae70                rumpns_arc4_encrypt
+                0x000000000000af00                rumpns_arc4_stream
+                0x000000000000af80                rumpns_arc4_decrypt
+ *fill*         0x000000000000afb8        0x8 90909090
+ .text          0x000000000000afc0      0xc39 librumpkern_crypto_pic.a(bf_enc.pico)
+                0x000000000000afc0                rumpns_BF_encrypt
+                0x000000000000b5e0                rumpns_BF_decrypt
+ *fill*         0x000000000000bbf9        0x7 90909090
+ .text          0x000000000000bc00      0xced librumpkern_crypto_pic.a(des_enc.pico)
+                0x000000000000bc00                rumpns_des_encrypt1
+                0x000000000000c190                rumpns_des_encrypt2
+                0x000000000000c650                rumpns_des_encrypt3
+                0x000000000000c7a0                rumpns_des_decrypt3
+ *fill*         0x000000000000c8ed        0x3 90909090
+ .text          0x000000000000c8f0      0x22f librumpkern_crypto_pic.a(des_ecb.pico)
+                0x000000000000c8f0                rumpns_des_options
+                0x000000000000c970                rumpns_des_ecb_encrypt
+                0x000000000000ca30                rumpns_des_ecb3_encrypt
+ *fill*         0x000000000000cb1f        0x1 90909090
+ .text          0x000000000000cb20       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000000cb58        0x5
+ *(.fini)
+ .fini          0x000000000000cb58        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000cb5d                PROVIDE (__etext, .)
+                0x000000000000cb5d                PROVIDE (_etext, .)
+                0x000000000000cb5d                PROVIDE (etext, .)
+
+.rodata         0x000000000000cb60     0x5500
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000000cb60      0x100 librumpkern_crypto_pic.a(skipjack.pico)
+ .rodata.str1.1
+                0x000000000000cc60        0x9 librumpkern_crypto_pic.a(skipjack.pico)
+ .rodata.str1.1
+                0x000000000000cc69        0x4 librumpkern_crypto_pic.a(des_module.pico)
+ *fill*         0x000000000000cc6d        0x3 00
+ .rodata        0x000000000000cc70       0x80 librumpkern_crypto_pic.a(des_cbc.pico)
+ *fill*         0x000000000000ccf0       0x10 00
+ .rodata        0x000000000000cd00      0x940 librumpkern_crypto_pic.a(des_setkey.pico)
+ .rodata        0x000000000000d640     0x2000 librumpkern_crypto_pic.a(cast128.pico)
+ .rodata.str1.1
+                0x000000000000f640        0x8 librumpkern_crypto_pic.a(cast128.pico)
+ .rodata.str1.4
+                0x000000000000f648      0x11c librumpkern_crypto_pic.a(camellia.pico)
+ .rodata.str1.1
+                0x000000000000f764       0x15 librumpkern_crypto_pic.a(camellia.pico)
+ *fill*         0x000000000000f779        0x7 00
+ .rodata        0x000000000000f780     0x1000 librumpkern_crypto_pic.a(camellia.pico)
+ .rodata.str1.1
+                0x0000000000010780        0x9 librumpkern_crypto_pic.a(bf_module.pico)
+ *fill*         0x0000000000010789       0x17 00
+ .rodata        0x00000000000107a0     0x1048 librumpkern_crypto_pic.a(bf_skey.pico)
+ .rodata        0x00000000000117e8       0x40 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .rodata.str1.1
+                0x0000000000011828       0x21 librumpkern_crypto_pic.a(des_ecb.pico)
+ *fill*         0x0000000000011849       0x17 00
+ .rodata        0x0000000000011860      0x800 librumpkern_crypto_pic.a(des_ecb.pico)
+                0x0000000000011860                rumpns_des_SPtrans
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000012060      0x1ac
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000012060      0x1ac /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x000000000001220c      0xa70
+ *(.eh_frame)
+ .eh_frame      0x000000000001220c       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000012248       0xb4 librumpkern_crypto_pic.a(skipjack.pico)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x00000000000122fc       0x14 librumpkern_crypto_pic.a(des_module.pico)
+                                         0x2c (size before relaxing)
+ .eh_frame      0x0000000000012310       0xb8 librumpkern_crypto_pic.a(des_cbc.pico)
+                                         0xe4 (size before relaxing)
+ .eh_frame      0x00000000000123c8      0x170 librumpkern_crypto_pic.a(des_setkey.pico)
+                                        0x19c (size before relaxing)
+ .eh_frame      0x0000000000012538       0xd4 librumpkern_crypto_pic.a(cast128.pico)
+                                        0x100 (size before relaxing)
+ .eh_frame      0x000000000001260c       0x64 librumpkern_crypto_pic.a(camellia-api.pico)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000012670      0x268 librumpkern_crypto_pic.a(camellia.pico)
+                                        0x294 (size before relaxing)
+ .eh_frame      0x00000000000128d8       0x14 librumpkern_crypto_pic.a(bf_module.pico)
+                                         0x2c (size before relaxing)
+ .eh_frame      0x00000000000128ec       0x40 librumpkern_crypto_pic.a(bf_skey.pico)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x000000000001292c       0x5c librumpkern_crypto_pic.a(bf_cbc.pico)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000012988       0x38 librumpkern_crypto_pic.a(bf_ecb.pico)
+                                         0x64 (size before relaxing)
+ .eh_frame      0x00000000000129c0       0xd0 librumpkern_crypto_pic.a(arc4.pico)
+                                         0xfc (size before relaxing)
+ .eh_frame      0x0000000000012a90       0x68 librumpkern_crypto_pic.a(bf_enc.pico)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000012af8      0x100 librumpkern_crypto_pic.a(des_enc.pico)
+                                        0x12c (size before relaxing)
+ .eh_frame      0x0000000000012bf8       0x80 librumpkern_crypto_pic.a(des_ecb.pico)
+                                         0xac (size before relaxing)
+ .eh_frame      0x0000000000012c78        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000012c7c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000000013c7c                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x0000000000013c7c        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000013c7c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000013c80        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x0000000000013c84        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000013c84        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000013c88        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x0000000000013c88                __DTOR_END__
+
+.jcr            0x0000000000013c8c        0x4
+ *(.jcr)
+ .jcr           0x0000000000013c8c        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x0000000000013c8c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x0000000000013c90       0x64
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x0000000000013c90       0x14 librumpkern_crypto_pic.a(skipjack.pico)
+ .data.rel.ro.local
+                0x0000000000013ca4       0x14 librumpkern_crypto_pic.a(des_module.pico)
+ .data.rel.ro.local
+                0x0000000000013cb8       0x14 librumpkern_crypto_pic.a(cast128.pico)
+ .data.rel.ro.local
+                0x0000000000013ccc       0x14 librumpkern_crypto_pic.a(camellia.pico)
+ .data.rel.ro.local
+                0x0000000000013ce0       0x14 librumpkern_crypto_pic.a(bf_module.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000013cf4       0xa0
+ *(.dynamic)
+ .dynamic       0x0000000000013cf4       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000013cf4                _DYNAMIC
+
+.got            0x0000000000013d94       0x14
+ *(.got)
+ .got           0x0000000000013d94       0x14 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x0000000000013da8                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x0000000000013da8       0x74
+ *(.got.plt)
+ .got.plt       0x0000000000013da8       0x74 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000013da8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000013e20       0xa4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000013e20        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x0000000000013e20                __dso_handle
+ .data          0x0000000000013e24        0x0 librumpkern_crypto_pic.a(skipjack.pico)
+ .data          0x0000000000013e24        0x0 librumpkern_crypto_pic.a(des_module.pico)
+ .data          0x0000000000013e24        0x0 librumpkern_crypto_pic.a(des_cbc.pico)
+ *fill*         0x0000000000013e24       0x1c 00
+ .data          0x0000000000013e40       0x80 librumpkern_crypto_pic.a(des_setkey.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(cast128.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(camellia-api.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(camellia.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(bf_module.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(bf_skey.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(arc4.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(bf_enc.pico)
+ .data          0x0000000000013ec0        0x0 librumpkern_crypto_pic.a(des_enc.pico)
+ .data          0x0000000000013ec0        0x4 librumpkern_crypto_pic.a(des_ecb.pico)
+ .data          0x0000000000013ec4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x0000000000013ec4        0x0
+ .tm_clone_table
+                0x0000000000013ec4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x0000000000013ec4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x0000000000013ec4       0x14
+                0x0000000000013ec4                . = ALIGN (0x4)
+                0x0000000000013ec4                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x0000000000013ec4        0x4 librumpkern_crypto_pic.a(skipjack.pico)
+ link_set_modules
+                0x0000000000013ec8        0x4 librumpkern_crypto_pic.a(des_module.pico)
+ link_set_modules
+                0x0000000000013ecc        0x4 librumpkern_crypto_pic.a(cast128.pico)
+ link_set_modules
+                0x0000000000013ed0        0x4 librumpkern_crypto_pic.a(camellia.pico)
+ link_set_modules
+                0x0000000000013ed4        0x4 librumpkern_crypto_pic.a(bf_module.pico)
+                0x0000000000013ed8                PROVIDE (__stop_link_set_modules, .)
+
+.data1
+ *(.data1)
+                0x0000000000013ed8                _edata = .
+                0x0000000000013ed8                PROVIDE (edata, .)
+                0x0000000000013ed8                __bss_start = .
+
+.bss            0x0000000000013ee0       0x40
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000013ee0        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x0000000000013ee8        0x0 librumpkern_crypto_pic.a(skipjack.pico)
+ .bss           0x0000000000013ee8        0x0 librumpkern_crypto_pic.a(des_module.pico)
+ .bss           0x0000000000013ee8        0x0 librumpkern_crypto_pic.a(des_cbc.pico)
+ .bss           0x0000000000013ee8        0x4 librumpkern_crypto_pic.a(des_setkey.pico)
+                0x0000000000013ee8                rumpns_des_check_key
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(cast128.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(camellia-api.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(camellia.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(bf_module.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(bf_skey.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(arc4.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(bf_enc.pico)
+ .bss           0x0000000000013eec        0x0 librumpkern_crypto_pic.a(des_enc.pico)
+ *fill*         0x0000000000013eec       0x14 00
+ .bss           0x0000000000013f00       0x20 librumpkern_crypto_pic.a(des_ecb.pico)
+ .bss           0x0000000000013f20        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+                0x0000000000013f20                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000013f20                . = ALIGN (0x4)
+                0x0000000000013f20                . = ALIGN (0x4)
+                0x0000000000013f20                _end = .
+                0x0000000000013f20                PROVIDE (end, .)
+                0x0000000000013f20                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(skipjack.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(des_module.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(des_cbc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(des_setkey.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(cast128.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(camellia-api.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(camellia.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(bf_module.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(bf_skey.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(arc4.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(bf_enc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(des_enc.pico)
+ .comment       0x0000000000000000       0x12 librumpkern_crypto_pic.a(des_ecb.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x30f
+ .ident         0x0000000000000000       0x3d librumpkern_crypto_pic.a(skipjack.pico)
+ .ident         0x000000000000003d       0x3f librumpkern_crypto_pic.a(des_module.pico)
+ .ident         0x000000000000007c       0x3c librumpkern_crypto_pic.a(des_cbc.pico)
+ .ident         0x00000000000000b8       0x40 librumpkern_crypto_pic.a(des_setkey.pico)
+ .ident         0x00000000000000f8       0x3d librumpkern_crypto_pic.a(cast128.pico)
+ .ident         0x0000000000000135       0x3e librumpkern_crypto_pic.a(bf_module.pico)
+ .ident         0x0000000000000173       0x3c librumpkern_crypto_pic.a(bf_skey.pico)
+ .ident         0x00000000000001af       0x3c librumpkern_crypto_pic.a(bf_cbc.pico)
+ .ident         0x00000000000001eb       0x3b librumpkern_crypto_pic.a(bf_ecb.pico)
+ .ident         0x0000000000000226       0x34 librumpkern_crypto_pic.a(arc4.pico)
+ .ident         0x000000000000025a       0x3c librumpkern_crypto_pic.a(bf_enc.pico)
+ .ident         0x0000000000000296       0x3c librumpkern_crypto_pic.a(des_enc.pico)
+ .ident         0x00000000000002d2       0x3d librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpkern_crypto_pic.a(skipjack.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpkern_crypto_pic.a(des_module.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpkern_crypto_pic.a(des_setkey.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpkern_crypto_pic.a(cast128.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpkern_crypto_pic.a(camellia-api.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpkern_crypto_pic.a(camellia.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpkern_crypto_pic.a(bf_module.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpkern_crypto_pic.a(bf_skey.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .debug_aranges
+                0x0000000000000140       0x20 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .debug_aranges
+                0x0000000000000160       0x20 librumpkern_crypto_pic.a(arc4.pico)
+ .debug_aranges
+                0x0000000000000180       0x20 librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_aranges
+                0x00000000000001a0       0x20 librumpkern_crypto_pic.a(des_enc.pico)
+ .debug_aranges
+                0x00000000000001c0       0x20 librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x4011
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x56b librumpkern_crypto_pic.a(skipjack.pico)
+ .debug_info    0x000000000000056b      0x1ea librumpkern_crypto_pic.a(des_module.pico)
+ .debug_info    0x0000000000000755      0x500 librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_info    0x0000000000000c55      0x4df librumpkern_crypto_pic.a(des_setkey.pico)
+ .debug_info    0x0000000000001134      0x49f librumpkern_crypto_pic.a(cast128.pico)
+ .debug_info    0x00000000000015d3      0x2b1 librumpkern_crypto_pic.a(camellia-api.pico)
+ .debug_info    0x0000000000001884      0xa2b librumpkern_crypto_pic.a(camellia.pico)
+ .debug_info    0x00000000000022af      0x1ea librumpkern_crypto_pic.a(bf_module.pico)
+ .debug_info    0x0000000000002499      0x209 librumpkern_crypto_pic.a(bf_skey.pico)
+ .debug_info    0x00000000000026a2      0x29c librumpkern_crypto_pic.a(bf_cbc.pico)
+ .debug_info    0x000000000000293e      0x1d5 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .debug_info    0x0000000000002b13      0x38f librumpkern_crypto_pic.a(arc4.pico)
+ .debug_info    0x0000000000002ea2      0x85e librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_info    0x0000000000003700      0x4a2 librumpkern_crypto_pic.a(des_enc.pico)
+ .debug_info    0x0000000000003ba2      0x46f librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug_abbrev   0x0000000000000000     0x137c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x17a librumpkern_crypto_pic.a(skipjack.pico)
+ .debug_abbrev  0x000000000000017a       0xe2 librumpkern_crypto_pic.a(des_module.pico)
+ .debug_abbrev  0x000000000000025c      0x16c librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_abbrev  0x00000000000003c8      0x183 librumpkern_crypto_pic.a(des_setkey.pico)
+ .debug_abbrev  0x000000000000054b      0x166 librumpkern_crypto_pic.a(cast128.pico)
+ .debug_abbrev  0x00000000000006b1       0xef librumpkern_crypto_pic.a(camellia-api.pico)
+ .debug_abbrev  0x00000000000007a0      0x1a0 librumpkern_crypto_pic.a(camellia.pico)
+ .debug_abbrev  0x0000000000000940       0xe2 librumpkern_crypto_pic.a(bf_module.pico)
+ .debug_abbrev  0x0000000000000a22      0x132 librumpkern_crypto_pic.a(bf_skey.pico)
+ .debug_abbrev  0x0000000000000b54      0x143 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .debug_abbrev  0x0000000000000c97      0x134 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .debug_abbrev  0x0000000000000dcb      0x159 librumpkern_crypto_pic.a(arc4.pico)
+ .debug_abbrev  0x0000000000000f24      0x100 librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_abbrev  0x0000000000001024      0x18d librumpkern_crypto_pic.a(des_enc.pico)
+ .debug_abbrev  0x00000000000011b1      0x1cb librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug_line     0x0000000000000000     0x3475
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x42f librumpkern_crypto_pic.a(skipjack.pico)
+ .debug_line    0x000000000000042f      0x172 librumpkern_crypto_pic.a(des_module.pico)
+ .debug_line    0x00000000000005a1      0x5be librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_line    0x0000000000000b5f      0x271 librumpkern_crypto_pic.a(des_setkey.pico)
+ .debug_line    0x0000000000000dd0      0x7fb librumpkern_crypto_pic.a(cast128.pico)
+ .debug_line    0x00000000000015cb      0x1a0 librumpkern_crypto_pic.a(camellia-api.pico)
+ .debug_line    0x000000000000176b      0xb75 librumpkern_crypto_pic.a(camellia.pico)
+ .debug_line    0x00000000000022e0      0x176 librumpkern_crypto_pic.a(bf_module.pico)
+ .debug_line    0x0000000000002456      0x1f0 librumpkern_crypto_pic.a(bf_skey.pico)
+ .debug_line    0x0000000000002646      0x390 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .debug_line    0x00000000000029d6      0x1a0 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .debug_line    0x0000000000002b76      0x216 librumpkern_crypto_pic.a(arc4.pico)
+ .debug_line    0x0000000000002d8c      0x205 librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_line    0x0000000000002f91      0x30c librumpkern_crypto_pic.a(des_enc.pico)
+ .debug_line    0x000000000000329d      0x1d8 librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x11e0
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x335 librumpkern_crypto_pic.a(skipjack.pico)
+                                        0x394 (size before relaxing)
+ .debug_str     0x0000000000000335       0xcc librumpkern_crypto_pic.a(des_module.pico)
+                                        0x2f1 (size before relaxing)
+ .debug_str     0x0000000000000401      0x160 librumpkern_crypto_pic.a(des_cbc.pico)
+                                        0x258 (size before relaxing)
+ .debug_str     0x0000000000000561      0x168 librumpkern_crypto_pic.a(des_setkey.pico)
+                                        0x2b7 (size before relaxing)
+ .debug_str     0x00000000000006c9      0x195 librumpkern_crypto_pic.a(cast128.pico)
+                                        0x3e6 (size before relaxing)
+ .debug_str     0x000000000000085e      0x135 librumpkern_crypto_pic.a(camellia-api.pico)
+                                        0x228 (size before relaxing)
+ .debug_str     0x0000000000000993      0x1fc librumpkern_crypto_pic.a(camellia.pico)
+                                        0x47f (size before relaxing)
+ .debug_str     0x0000000000000b8f       0xda librumpkern_crypto_pic.a(bf_module.pico)
+                                        0x304 (size before relaxing)
+ .debug_str     0x0000000000000c69       0xd4 librumpkern_crypto_pic.a(bf_skey.pico)
+                                        0x1d1 (size before relaxing)
+ .debug_str     0x0000000000000d3d       0xb9 librumpkern_crypto_pic.a(bf_cbc.pico)
+                                        0x20f (size before relaxing)
+ .debug_str     0x0000000000000df6       0xae librumpkern_crypto_pic.a(bf_ecb.pico)
+                                        0x1da (size before relaxing)
+ .debug_str     0x0000000000000ea4      0x100 librumpkern_crypto_pic.a(arc4.pico)
+                                        0x1f5 (size before relaxing)
+ .debug_str     0x0000000000000fa4       0x9f librumpkern_crypto_pic.a(bf_enc.pico)
+                                        0x1c8 (size before relaxing)
+ .debug_str     0x0000000000001043       0xb4 librumpkern_crypto_pic.a(des_enc.pico)
+                                        0x20e (size before relaxing)
+ .debug_str     0x00000000000010f7       0xe9 librumpkern_crypto_pic.a(des_ecb.pico)
+                                        0x262 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x2bc7b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1e1b librumpkern_crypto_pic.a(skipjack.pico)
+ .debug_loc     0x0000000000001e1b     0x1ad6 librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_loc     0x00000000000038f1     0x1824 librumpkern_crypto_pic.a(des_setkey.pico)
+ .debug_loc     0x0000000000005115      0xb51 librumpkern_crypto_pic.a(cast128.pico)
+ .debug_loc     0x0000000000005c66       0xb4 librumpkern_crypto_pic.a(camellia-api.pico)
+ .debug_loc     0x0000000000005d1a    0x1f76f librumpkern_crypto_pic.a(camellia.pico)
+ .debug_loc     0x0000000000025489      0x1ea librumpkern_crypto_pic.a(bf_skey.pico)
+ .debug_loc     0x0000000000025673      0xe68 librumpkern_crypto_pic.a(bf_cbc.pico)
+ .debug_loc     0x00000000000264db      0x2b1 librumpkern_crypto_pic.a(bf_ecb.pico)
+ .debug_loc     0x000000000002678c      0x459 librumpkern_crypto_pic.a(arc4.pico)
+ .debug_loc     0x0000000000026be5     0x20b0 librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_loc     0x0000000000028c95     0x2b39 librumpkern_crypto_pic.a(des_enc.pico)
+ .debug_loc     0x000000000002b7ce      0x4ad librumpkern_crypto_pic.a(des_ecb.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0xc8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x38 librumpkern_crypto_pic.a(des_cbc.pico)
+ .debug_ranges  0x0000000000000038       0x30 librumpkern_crypto_pic.a(bf_enc.pico)
+ .debug_ranges  0x0000000000000068       0x60 librumpkern_crypto_pic.a(des_enc.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpkern_crypto.so.0.0 elf32-i386)

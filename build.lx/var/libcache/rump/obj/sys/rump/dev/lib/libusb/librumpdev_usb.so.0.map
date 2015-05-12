@@ -1,0 +1,800 @@
+Archive member included because of file (symbol)
+
+librumpdev_usb_pic.a(usb_verbose.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usbroothub_subr.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usb_mem.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(uhub.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usb_subr.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usb_quirks.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usbdi_util.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usbdi.pico)
+                              (--whole-archive)
+librumpdev_usb_pic.a(usb.pico)
+                              (--whole-archive)
+
+Allocating common symbols
+Common symbol       size              file
+
+rumpns_usb_blk_lock
+                    0x4               librumpdev_usb_pic.a(usb_mem.pico)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb_verbose.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb_verbose.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb_mem.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb_mem.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(uhub.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(uhub.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(uhub.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb_subr.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb_subr.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb_quirks.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb_quirks.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usbdi_util.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usbdi_util.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usbdi.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usbdi.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb.pico)
+ .group         0x0000000000000000        0x8 librumpdev_usb_pic.a(usb.pico)
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb.pico)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 librumpdev_usb_pic.a(usb.pico)
+ .group         0x0000000000000000        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+LOAD librumpdev_usb_pic.a
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/../../../../x86_64-elf/lib/32/libgcc_s.so
+LOAD /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x00000000000000b4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000000b4      0x708
+ *(.hash)
+ .hash          0x00000000000000b4      0x708 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000000007bc      0xfb0
+ *(.dynsym)
+ .dynsym        0x00000000000007bc      0xfb0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.dynstr         0x000000000000176c     0x1696
+ *(.dynstr)
+ .dynstr        0x000000000000176c     0x1696 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version    0x0000000000002e02        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_d  0x0000000000002e04        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.gnu.version_r  0x0000000000002e04        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.dyn        0x0000000000002e04      0x438
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000002e04      0x230 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel.ro
+                0x0000000000003034       0x70 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000030a4       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rel.data.rel  0x0000000000003144       0x60 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000031a4       0x88 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_modules
+                0x000000000000322c        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .rellink_set_rump_components
+                0x0000000000003234        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.rel.plt        0x000000000000323c      0x4f0
+ *(.rel.plt)
+ .rel.plt       0x000000000000323c      0x4f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.rel.iplt)
+
+.init           0x000000000000372c        0xa
+ *(.init)
+ .init          0x000000000000372c        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .init          0x0000000000003731        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.plt            0x0000000000003740      0x9f0
+ *(.plt)
+ .plt           0x0000000000003740      0x9f0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.iplt)
+
+.text           0x0000000000004130     0x89a8
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004130      0x13b /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .text.__x86.get_pc_thunk.bx
+                0x000000000000426b        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000426b                __x86.get_pc_thunk.bx
+ *fill*         0x000000000000426f        0x1 90909090
+ .text          0x0000000000004270      0x14c librumpdev_usb_pic.a(usb_verbose.pico)
+ *fill*         0x00000000000043bc        0x4 90909090
+ .text          0x00000000000043c0       0xda librumpdev_usb_pic.a(usbroothub_subr.pico)
+                0x00000000000043c0                rumpns_usb_makestrdesc
+                0x0000000000004460                rumpns_usb_makelangtbl
+ *fill*         0x000000000000449a        0x6 90909090
+ .text          0x00000000000044a0      0xd1b librumpdev_usb_pic.a(usb_mem.pico)
+                0x0000000000004840                rumpns_usb_allocmem_flags
+                0x0000000000004a30                rumpns_usb_allocmem
+                0x0000000000004a70                rumpns_usb_freemem
+                0x0000000000004b70                rumpns_usb_dmaaddr
+                0x0000000000004ce0                rumpns_usb_syncmem
+                0x0000000000004d40                rumpns_usb_reserve_allocm
+                0x0000000000004f40                rumpns_usb_reserve_freem
+                0x0000000000004fb0                rumpns_usb_setup_reserve
+ *fill*         0x00000000000051bb        0x5 90909090
+ .text          0x00000000000051c0       0x36 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ *fill*         0x00000000000051f6        0xa 90909090
+ .text          0x0000000000005200      0xf46 librumpdev_usb_pic.a(uhub.pico)
+                0x0000000000005200                rumpns_uhub_match
+                0x0000000000005230                rumpns_uhub_childdet
+                0x0000000000005320                rumpns_uhub_rescan
+                0x00000000000053a0                rumpns_uhub_detach
+                0x00000000000054f0                rumpns_uhub_attach
+ .text.__x86.get_pc_thunk.cx
+                0x0000000000006146        0x4 librumpdev_usb_pic.a(uhub.pico)
+                0x0000000000006146                __x86.get_pc_thunk.cx
+ *fill*         0x000000000000614a        0x6 90909090
+ .text          0x0000000000006150     0x260b librumpdev_usb_pic.a(usb_subr.pico)
+                0x00000000000068e0                rumpns_usbd_errstr
+                0x0000000000006950                rumpns_usbd_get_string_desc
+                0x0000000000006a40                rumpns_usbd_printBCD
+                0x0000000000006cf0                rumpns_usbd_devinfo_alloc
+                0x0000000000006d40                rumpns_usbd_devinfo_free
+                0x0000000000006d60                rumpns_usb_delay_ms_locked
+                0x0000000000006e00                rumpns_usb_delay_ms
+                0x0000000000006e30                rumpns_usbd_delay_ms_locked
+                0x0000000000006e70                rumpns_usbd_delay_ms
+                0x0000000000006eb0                rumpns_usbd_reset_port
+                0x0000000000006fa0                rumpns_usbd_find_idesc
+                0x0000000000007030                rumpns_usbd_find_edesc
+                0x00000000000070e0                rumpns_usbd_fill_iface_data
+                0x0000000000007320                rumpns_usbd_set_config_index
+                0x0000000000007600                rumpns_usbd_set_config_no
+                0x00000000000076c0                rumpns_usbd_setup_pipe_flags
+                0x00000000000077b0                rumpns_usbd_setup_pipe
+                0x0000000000007800                rumpns_usbd_kill_pipe
+                0x0000000000007870                rumpns_usbd_attach_roothub
+                0x0000000000007950                rumpns_usbd_probe_and_attach
+                0x0000000000007af0                rumpns_usbd_reattach_device
+                0x0000000000007c30                rumpns_usbd_get_initial_ddesc
+                0x0000000000007ce0                rumpns_usbd_reload_device_desc
+                0x0000000000007d40                rumpns_usbd_remove_device
+                0x0000000000007da0                rumpns_usbd_new_device
+                0x00000000000082e0                rumpns_usbd_fill_deviceinfo
+                0x0000000000008530                rumpns_usb_free_device
+                0x00000000000085d0                rumpns_usb_disconnect_port
+ *fill*         0x000000000000875b        0x5 90909090
+ .text          0x0000000000008760       0x7f librumpdev_usb_pic.a(usb_quirks.pico)
+                0x0000000000008760                rumpns_usbd_find_quirk
+ *fill*         0x00000000000087df        0x1 90909090
+ .text          0x00000000000087e0      0xd9a librumpdev_usb_pic.a(usbdi_util.pico)
+                0x00000000000087e0                rumpns_usbd_get_desc
+                0x0000000000008850                rumpns_usbd_get_config_desc
+                0x00000000000088b0                rumpns_usbd_get_config_desc_full
+                0x00000000000088f0                rumpns_usbd_get_device_desc
+                0x0000000000008930                rumpns_usbd_get_device_status
+                0x0000000000008990                rumpns_usbd_get_hub_status
+                0x00000000000089f0                rumpns_usbd_set_address
+                0x0000000000008a50                rumpns_usbd_get_port_status
+                0x0000000000008ab0                rumpns_usbd_clear_hub_feature
+                0x0000000000008b10                rumpns_usbd_set_hub_feature
+                0x0000000000008b70                rumpns_usbd_clear_port_feature
+                0x0000000000008be0                rumpns_usbd_set_port_feature
+                0x0000000000008c50                rumpns_usbd_get_protocol
+                0x0000000000008cf0                rumpns_usbd_set_protocol
+                0x0000000000008da0                rumpns_usbd_set_report
+                0x0000000000008e50                rumpns_usbd_get_report
+                0x0000000000008f00                rumpns_usbd_set_idle
+                0x0000000000008fa0                rumpns_usbd_get_report_descriptor
+                0x0000000000009010                rumpns_usbd_get_hid_descriptor
+                0x00000000000090a0                rumpns_usbd_read_report_desc
+                0x0000000000009190                rumpns_usbd_get_config
+                0x00000000000091f0                rumpns_usbd_bulk_transfer
+                0x00000000000092b0                rumpns_usbd_intr_transfer
+                0x0000000000009370                rumpns_usb_detach_wait
+                0x00000000000093d0                rumpns_usb_detach_broadcast
+                0x00000000000093f0                rumpns_usb_detach_waitold
+                0x0000000000009460                rumpns_usb_detach_wakeupold
+                0x0000000000009480                rumpns_usb_find_desc
+                0x00000000000094e0                rumpns_usb_find_desc_if
+ *fill*         0x000000000000957a        0x6 90909090
+ .text          0x0000000000009580     0x1c98 librumpdev_usb_pic.a(usbdi.pico)
+                0x0000000000009680                rumpns_usbd_open_pipe
+                0x00000000000096b0                rumpns_usbd_transfer
+                0x00000000000098d0                rumpns_usbd_sync_transfer
+                0x0000000000009900                rumpns_usbd_sync_transfer_sig
+                0x0000000000009930                rumpns_usbd_alloc_buffer
+                0x00000000000099c0                rumpns_usbd_free_buffer
+                0x0000000000009a20                rumpns_usbd_get_buffer
+                0x0000000000009a40                rumpns_usbd_alloc_xfer
+                0x0000000000009ad0                rumpns_usbd_free_xfer
+                0x0000000000009b70                rumpns_usbd_close_pipe
+                0x0000000000009c50                rumpns_usbd_setup_xfer
+                0x0000000000009ca0                rumpns_usbd_open_pipe_intr
+                0x0000000000009dc0                rumpns_usbd_setup_default_xfer
+                0x0000000000009e30                rumpns_usbd_setup_isoc_xfer
+                0x0000000000009e90                rumpns_usbd_get_xfer_status
+                0x0000000000009ef0                rumpns_usbd_get_config_descriptor
+                0x0000000000009f30                rumpns_usbd_get_interface_descriptor
+                0x0000000000009f70                rumpns_usbd_get_device_descriptor
+                0x0000000000009f80                rumpns_usbd_interface2endpoint_descriptor
+                0x0000000000009fb0                rumpns_usbd_abort_pipe
+                0x000000000000a080                rumpns_usbd_abort_default_pipe
+                0x000000000000a0b0                rumpns_usbd_clear_endpoint_stall_async
+                0x000000000000a0f0                rumpns_usbd_clear_endpoint_toggle
+                0x000000000000a110                rumpns_usbd_endpoint_count
+                0x000000000000a160                rumpns_usbd_interface_count
+                0x000000000000a180                rumpns_usbd_interface2device_handle
+                0x000000000000a190                rumpns_usbd_device2interface_handle
+                0x000000000000a1f0                rumpns_usbd_pipe2device_handle
+                0x000000000000a200                rumpns_usbd_get_no_alts
+                0x000000000000a260                rumpns_usbd_get_interface_altindex
+                0x000000000000a270                rumpns_usb_transfer_complete
+                0x000000000000a780                rumpns_usb_insert_transfer
+                0x000000000000a860                rumpns_usbd_do_request_flags_pipe
+                0x000000000000aa70                rumpns_usbd_do_request_flags
+                0x000000000000aac0                rumpns_usbd_do_request
+                0x000000000000ab10                rumpns_usbd_get_interface
+                0x000000000000ab70                rumpns_usbd_set_interface
+                0x000000000000ac50                rumpns_usbd_clear_endpoint_stall_task
+                0x000000000000ace0                rumpns_usbd_clear_endpoint_stall
+                0x000000000000ad70                rumpns_usbd_get_quirks
+                0x000000000000adb0                rumpns_usbd_dopoll
+                0x000000000000add0                rumpns_usbd_set_polling
+                0x000000000000ae40                rumpns_usbd_get_endpoint_descriptor
+                0x000000000000ae90                rumpns_usbd_ratecheck
+                0x000000000000aec0                rumpns_usb_match_device
+                0x000000000000af10                rumpns_usb_desc_iter_init
+                0x000000000000af60                rumpns_usb_desc_iter_next
+                0x000000000000b020                rumpns_usbd_get_string0
+                0x000000000000b1e0                rumpns_usbd_get_string
+ *fill*         0x000000000000b218        0x8 90909090
+ .text          0x000000000000b220     0x187d librumpdev_usb_pic.a(usb.pico)
+                0x000000000000bde0                rumpns_usbioctl
+                0x000000000000c140                rumpns_usbkqfilter
+                0x000000000000c1f0                rumpns_usbclose
+                0x000000000000c420                rumpns_usbpoll
+                0x000000000000c4d0                rumpns_usbopen
+                0x000000000000c580                rumpns_usbread
+                0x000000000000c690                rumpns_usb_add_task
+                0x000000000000c790                rumpns_usb_rem_task
+                0x000000000000c840                rumpns_usbctlprint
+                0x000000000000c880                rumpns_usb_needs_explore
+                0x000000000000c8e0                rumpns_usb_needs_reattach
+                0x000000000000c940                rumpns_usbd_add_dev_event
+                0x000000000000c9c0                rumpns_usbd_add_drv_event
+                0x000000000000ca40                rumpns_usb_schedsoftintr
+ *fill*         0x000000000000ca9d        0x3 90909090
+ .text          0x000000000000caa0       0x38 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(.gnu.warning)
+
+.fini           0x000000000000cad8        0x5
+ *(.fini)
+ .fini          0x000000000000cad8        0x5 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000000cadd                PROVIDE (__etext, .)
+                0x000000000000cadd                PROVIDE (_etext, .)
+                0x000000000000cadd                PROVIDE (etext, .)
+
+.rodata         0x000000000000cae0     0xc0bb
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000000cae0     0xad0c librumpdev_usb_pic.a(usb_verbose.pico)
+                0x000000000000cae0                rumpns_usb_nwords
+ .rodata.str1.1
+                0x00000000000177ec        0xb librumpdev_usb_pic.a(usb_verbose.pico)
+ *fill*         0x00000000000177f7        0x1 00
+ .rodata.str1.4
+                0x00000000000177f8      0x1f7 librumpdev_usb_pic.a(usb_mem.pico)
+ .rodata.str1.1
+                0x00000000000179ef       0x58 librumpdev_usb_pic.a(usb_mem.pico)
+ .rodata        0x0000000000017a47       0x13 librumpdev_usb_pic.a(usb_mem.pico)
+ .rodata.str1.1
+                0x0000000000017a5a       0x74 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ *fill*         0x0000000000017ace        0x2 00
+ .rodata.str1.4
+                0x0000000000017ad0      0x1a7 librumpdev_usb_pic.a(uhub.pico)
+ .rodata.str1.1
+                0x0000000000017c77      0x103 librumpdev_usb_pic.a(uhub.pico)
+                                        0x11a (size before relaxing)
+ .rodata.str1.1
+                0x0000000000017d7a      0x1b2 librumpdev_usb_pic.a(usb_subr.pico)
+                                        0x1ea (size before relaxing)
+ .rodata.str1.4
+                0x0000000000017f2c      0x248 librumpdev_usb_pic.a(usb_subr.pico)
+                                        0x27c (size before relaxing)
+ *fill*         0x0000000000018174        0xc 00
+ .rodata        0x0000000000018180      0x2d8 librumpdev_usb_pic.a(usb_quirks.pico)
+                0x0000000000018180                rumpns_usbd_no_quirk
+ .rodata.str1.4
+                0x0000000000018458       0x4a librumpdev_usb_pic.a(usbdi_util.pico)
+ .rodata.str1.1
+                0x00000000000184a2        0x7 librumpdev_usb_pic.a(usbdi_util.pico)
+ *fill*         0x00000000000184a9        0x3 00
+ .rodata.str1.4
+                0x00000000000184ac      0x379 librumpdev_usb_pic.a(usbdi.pico)
+                                        0x3ad (size before relaxing)
+ .rodata.str1.1
+                0x0000000000018825       0xd5 librumpdev_usb_pic.a(usbdi.pico)
+                                         0xe1 (size before relaxing)
+ .rodata        0x00000000000188fa       0x16 librumpdev_usb_pic.a(usbdi.pico)
+ .rodata.str1.4
+                0x0000000000018910      0x124 librumpdev_usb_pic.a(usb.pico)
+                                        0x17a (size before relaxing)
+ .rodata.str1.1
+                0x0000000000018a34      0x167 librumpdev_usb_pic.a(usb.pico)
+                                        0x180 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000018b9c      0x57c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000018b9c      0x57c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+
+.eh_frame       0x0000000000019118     0x1db4
+ *(.eh_frame)
+ .eh_frame      0x0000000000019118       0x3c /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000019154       0x74 librumpdev_usb_pic.a(usb_verbose.pico)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x00000000000191c8       0x6c librumpdev_usb_pic.a(usbroothub_subr.pico)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000019234      0x200 librumpdev_usb_pic.a(usb_mem.pico)
+                                        0x22c (size before relaxing)
+ .eh_frame      0x0000000000019434       0x20 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000019454      0x1b0 librumpdev_usb_pic.a(uhub.pico)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x0000000000019604      0x7e4 librumpdev_usb_pic.a(usb_subr.pico)
+                                        0x810 (size before relaxing)
+ .eh_frame      0x0000000000019de8       0x30 librumpdev_usb_pic.a(usb_quirks.pico)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x0000000000019e18      0x478 librumpdev_usb_pic.a(usbdi_util.pico)
+                                        0x4a4 (size before relaxing)
+ .eh_frame      0x000000000001a290      0x740 librumpdev_usb_pic.a(usbdi.pico)
+                                        0x76c (size before relaxing)
+ .eh_frame      0x000000000001a9d0      0x4f8 librumpdev_usb_pic.a(usb.pico)
+                                        0x538 (size before relaxing)
+ .eh_frame      0x000000000001aec8        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000001aecc                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000001b000                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+
+.ctors          0x000000000001b000        0x8
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000001b000        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000001b004        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.dtors          0x000000000001b008        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000001b008        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000001b00c        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+                0x000000000001b00c                __DTOR_END__
+
+.jcr            0x000000000001b010        0x4
+ *(.jcr)
+ .jcr           0x000000000001b010        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .jcr           0x000000000001b010        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.data.rel.ro    0x000000000001b020      0x1f0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000001b020       0x14 librumpdev_usb_pic.a(usb_verbose.pico)
+ .data.rel.ro.local
+                0x000000000001b034       0xf8 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ *fill*         0x000000000001b12c       0x14 00
+ .data.rel.ro.local
+                0x000000000001b140       0x50 librumpdev_usb_pic.a(usb_subr.pico)
+ .data.rel.ro.local
+                0x000000000001b190       0x30 librumpdev_usb_pic.a(usb.pico)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000001b1c0       0x1c librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ *fill*         0x000000000001b1dc        0x4 00
+ .data.rel.ro   0x000000000001b1e0       0x30 librumpdev_usb_pic.a(usb.pico)
+                0x000000000001b1e0                rumpns_usb_cdevsw
+
+.dynamic        0x000000000001b210       0xa0
+ *(.dynamic)
+ .dynamic       0x000000000001b210       0xa0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001b210                _DYNAMIC
+
+.got            0x000000000001b2b0       0x44
+ *(.got)
+ .got           0x000000000001b2b0       0x44 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.igot)
+                0x000000000001b2f4                . = DATA_SEGMENT_RELRO_END (., 0xc)
+
+.got.plt        0x000000000001b2f4      0x284
+ *(.got.plt)
+ .got.plt       0x000000000001b2f4      0x284 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001b2f4                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000001b580      0x174
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000001b580        0x4 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                0x000000000001b580                __dso_handle
+ .data          0x000000000001b584        0x0 librumpdev_usb_pic.a(usb_verbose.pico)
+ .data          0x000000000001b584        0x0 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .data          0x000000000001b584        0x0 librumpdev_usb_pic.a(usb_mem.pico)
+ .data          0x000000000001b584        0x0 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ *fill*         0x000000000001b584       0x1c 00
+ .data.rel.local
+                0x000000000001b5a0       0x98 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+                0x000000000001b5a0                rumpns_uhub_cd
+                0x000000000001b5c0                rumpns_usb_cd
+ .data          0x000000000001b638        0x0 librumpdev_usb_pic.a(uhub.pico)
+ *fill*         0x000000000001b638        0x8 00
+ .data.rel      0x000000000001b640       0x6c librumpdev_usb_pic.a(uhub.pico)
+                0x000000000001b640                rumpns_uroothub_ca
+                0x000000000001b680                rumpns_uhub_ca
+ .data          0x000000000001b6ac        0x0 librumpdev_usb_pic.a(usb_subr.pico)
+ .data.rel.local
+                0x000000000001b6ac        0x8 librumpdev_usb_pic.a(usb_subr.pico)
+                0x000000000001b6ac                rumpns_usb_findproduct
+                0x000000000001b6b0                rumpns_usb_findvendor
+ .data          0x000000000001b6b4        0x0 librumpdev_usb_pic.a(usb_quirks.pico)
+ .data          0x000000000001b6b4        0x0 librumpdev_usb_pic.a(usbdi_util.pico)
+ .data          0x000000000001b6b4        0xc librumpdev_usb_pic.a(usbdi.pico)
+ .data          0x000000000001b6c0        0x0 librumpdev_usb_pic.a(usb.pico)
+ .data.rel.local
+                0x000000000001b6c0       0x34 librumpdev_usb_pic.a(usb.pico)
+                0x000000000001b6c0                rumpns_usb_ca
+ .data          0x000000000001b6f4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.tm_clone_table
+                0x000000000001b6f4        0x0
+ .tm_clone_table
+                0x000000000001b6f4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .tm_clone_table
+                0x000000000001b6f4        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+link_set_modules
+                0x000000000001b6f4        0x4
+                0x000000000001b6f4                . = ALIGN (0x4)
+                0x000000000001b6f4                PROVIDE (__start_link_set_modules, ABSOLUTE (.))
+ link_set_modules
+                0x000000000001b6f4        0x4 librumpdev_usb_pic.a(usb_verbose.pico)
+                0x000000000001b6f8                PROVIDE (__stop_link_set_modules, .)
+
+link_set_rump_components
+                0x000000000001b6f8        0x4
+                0x000000000001b6f8                . = ALIGN (0x4)
+                0x000000000001b6f8                PROVIDE (__start_link_set_rump_components, ABSOLUTE (.))
+ link_set_rump_components
+                0x000000000001b6f8        0x4 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+                0x000000000001b6fc                PROVIDE (__stop_link_set_rump_components, .)
+
+.data1
+ *(.data1)
+                0x000000000001b6fc                _edata = .
+                0x000000000001b6fc                PROVIDE (edata, .)
+                0x000000000001b6fc                __bss_start = .
+
+.bss            0x000000000001b700       0xdc
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000001b700        0x8 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+ .bss           0x000000000001b708        0x8 librumpdev_usb_pic.a(usb_verbose.pico)
+ .bss           0x000000000001b710        0x0 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .bss           0x000000000001b710       0x14 librumpdev_usb_pic.a(usb_mem.pico)
+ .bss           0x000000000001b724        0x0 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .bss           0x000000000001b724        0x4 librumpdev_usb_pic.a(uhub.pico)
+                0x000000000001b724                rumpns_uhub_ubermatch
+ .bss           0x000000000001b728        0xd librumpdev_usb_pic.a(usb_subr.pico)
+                0x000000000001b728                rumpns_usbverbose_loaded
+                0x000000000001b72c                rumpns_usb_cookie_no
+ *fill*         0x000000000001b735        0x3 00
+ .bss           0x000000000001b738        0x0 librumpdev_usb_pic.a(usb_quirks.pico)
+ .bss           0x000000000001b738        0x0 librumpdev_usb_pic.a(usbdi_util.pico)
+ .bss           0x000000000001b738        0x0 librumpdev_usb_pic.a(usbdi.pico)
+ *fill*         0x000000000001b738        0x8 00
+ .bss           0x000000000001b740       0x98 librumpdev_usb_pic.a(usb.pico)
+ .bss           0x000000000001b7d8        0x0 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+ *(COMMON)
+ COMMON         0x000000000001b7d8        0x4 librumpdev_usb_pic.a(usb_mem.pico)
+                0x000000000001b7d8                rumpns_usb_blk_lock
+                0x000000000001b7dc                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000001b7dc                . = ALIGN (0x4)
+                0x000000000001b7dc                . = ALIGN (0x4)
+                0x000000000001b7dc                _end = .
+                0x000000000001b7dc                PROVIDE (end, .)
+                0x000000000001b7dc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb_verbose.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb_mem.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(uhub.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb_subr.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb_quirks.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usbdi_util.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usbdi.pico)
+ .comment       0x0000000000000000       0x12 librumpdev_usb_pic.a(usb.pico)
+ .comment       0x0000000000000000       0x12 /usr/local/genode-gcc/bin/../lib/gcc/x86_64-elf/4.7.4/32/crtend.o
+
+.ident          0x0000000000000000      0x1db
+ .ident         0x0000000000000000       0x40 librumpdev_usb_pic.a(usb_verbose.pico)
+ .ident         0x0000000000000040       0x3a librumpdev_usb_pic.a(usb_mem.pico)
+ .ident         0x000000000000007a       0x38 librumpdev_usb_pic.a(uhub.pico)
+ .ident         0x00000000000000b2       0x3f librumpdev_usb_pic.a(usb_subr.pico)
+ .ident         0x00000000000000f1       0x3d librumpdev_usb_pic.a(usb_quirks.pico)
+ .ident         0x000000000000012e       0x3d librumpdev_usb_pic.a(usbdi_util.pico)
+ .ident         0x000000000000016b       0x39 librumpdev_usb_pic.a(usbdi.pico)
+ .ident         0x00000000000001a4       0x37 librumpdev_usb_pic.a(usb.pico)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 librumpdev_usb_pic.a(usb_verbose.pico)
+ .debug_aranges
+                0x0000000000000020       0x20 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .debug_aranges
+                0x0000000000000040       0x20 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_aranges
+                0x0000000000000060       0x20 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .debug_aranges
+                0x0000000000000080       0x20 librumpdev_usb_pic.a(uhub.pico)
+ .debug_aranges
+                0x00000000000000a0       0x20 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_aranges
+                0x00000000000000c0       0x20 librumpdev_usb_pic.a(usb_quirks.pico)
+ .debug_aranges
+                0x00000000000000e0       0x20 librumpdev_usb_pic.a(usbdi_util.pico)
+ .debug_aranges
+                0x0000000000000100       0x20 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_aranges
+                0x0000000000000120       0x20 librumpdev_usb_pic.a(usb.pico)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x30d7e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x56d librumpdev_usb_pic.a(usb_verbose.pico)
+ .debug_info    0x000000000000056d      0x1f1 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .debug_info    0x000000000000075e     0x63a0 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_info    0x0000000000006afe     0x5713 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .debug_info    0x000000000000c211     0x6334 librumpdev_usb_pic.a(uhub.pico)
+ .debug_info    0x0000000000012545     0x7e17 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_info    0x000000000001a35c      0x30d librumpdev_usb_pic.a(usb_quirks.pico)
+ .debug_info    0x000000000001a669     0x6472 librumpdev_usb_pic.a(usbdi_util.pico)
+ .debug_info    0x0000000000020adb     0x72f2 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_info    0x0000000000027dcd     0x8fb1 librumpdev_usb_pic.a(usb.pico)
+
+.debug_abbrev   0x0000000000000000     0x2415
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x202 librumpdev_usb_pic.a(usb_verbose.pico)
+ .debug_abbrev  0x0000000000000202      0x133 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .debug_abbrev  0x0000000000000335      0x453 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_abbrev  0x0000000000000788      0x273 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .debug_abbrev  0x00000000000009fb      0x460 librumpdev_usb_pic.a(uhub.pico)
+ .debug_abbrev  0x0000000000000e5b      0x656 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_abbrev  0x00000000000014b1      0x105 librumpdev_usb_pic.a(usb_quirks.pico)
+ .debug_abbrev  0x00000000000015b6      0x340 librumpdev_usb_pic.a(usbdi_util.pico)
+ .debug_abbrev  0x00000000000018f6      0x525 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_abbrev  0x0000000000001e1b      0x5fa librumpdev_usb_pic.a(usb.pico)
+
+.debug_line     0x0000000000000000     0x4660
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x24e librumpdev_usb_pic.a(usb_verbose.pico)
+ .debug_line    0x000000000000024e      0x1ce librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .debug_line    0x000000000000041c      0x7d2 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_line    0x0000000000000bee      0x63e librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .debug_line    0x000000000000122c      0x7d0 librumpdev_usb_pic.a(uhub.pico)
+ .debug_line    0x00000000000019fc      0xcb3 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_line    0x00000000000026af      0x1ae librumpdev_usb_pic.a(usb_quirks.pico)
+ .debug_line    0x000000000000285d      0x6db librumpdev_usb_pic.a(usbdi_util.pico)
+ .debug_line    0x0000000000002f38      0xbb4 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_line    0x0000000000003aec      0xb74 librumpdev_usb_pic.a(usb.pico)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x6371
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x392 librumpdev_usb_pic.a(usb_verbose.pico)
+                                        0x403 (size before relaxing)
+ .debug_str     0x0000000000000392      0x11e librumpdev_usb_pic.a(usbroothub_subr.pico)
+                                        0x232 (size before relaxing)
+ .debug_str     0x00000000000004b0     0x2f64 librumpdev_usb_pic.a(usb_mem.pico)
+                                       0x341a (size before relaxing)
+ .debug_str     0x0000000000003414      0xc8b librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+                                       0x3302 (size before relaxing)
+ .debug_str     0x000000000000409f      0x4f4 librumpdev_usb_pic.a(uhub.pico)
+                                       0x342d (size before relaxing)
+ .debug_str     0x0000000000004593      0x62f librumpdev_usb_pic.a(usb_subr.pico)
+                                       0x378b (size before relaxing)
+ .debug_str     0x0000000000004bc2       0xbc librumpdev_usb_pic.a(usb_quirks.pico)
+                                        0x323 (size before relaxing)
+ .debug_str     0x0000000000004c7e      0x3f7 librumpdev_usb_pic.a(usbdi_util.pico)
+                                       0x3405 (size before relaxing)
+ .debug_str     0x0000000000005075      0x3ea librumpdev_usb_pic.a(usbdi.pico)
+                                       0x370a (size before relaxing)
+ .debug_str     0x000000000000545f      0xf12 librumpdev_usb_pic.a(usb.pico)
+                                       0x459a (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x7161
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x126 librumpdev_usb_pic.a(usb_verbose.pico)
+ .debug_loc     0x0000000000000126      0x160 librumpdev_usb_pic.a(usbroothub_subr.pico)
+ .debug_loc     0x0000000000000286      0xa01 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_loc     0x0000000000000c87       0x44 librumpdev_usb_pic.a(usb_at_ugenhc.pico)
+ .debug_loc     0x0000000000000ccb      0xd61 librumpdev_usb_pic.a(uhub.pico)
+ .debug_loc     0x0000000000001a2c     0x2316 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_loc     0x0000000000003d42       0xa5 librumpdev_usb_pic.a(usb_quirks.pico)
+ .debug_loc     0x0000000000003de7      0xa3b librumpdev_usb_pic.a(usbdi_util.pico)
+ .debug_loc     0x0000000000004822     0x17e5 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_loc     0x0000000000006007     0x115a librumpdev_usb_pic.a(usb.pico)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x3c8
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x20 librumpdev_usb_pic.a(usb_mem.pico)
+ .debug_ranges  0x0000000000000020       0x68 librumpdev_usb_pic.a(uhub.pico)
+ .debug_ranges  0x0000000000000088      0x128 librumpdev_usb_pic.a(usb_subr.pico)
+ .debug_ranges  0x00000000000001b0      0x170 librumpdev_usb_pic.a(usbdi.pico)
+ .debug_ranges  0x0000000000000320       0xa8 librumpdev_usb_pic.a(usb.pico)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(librumpdev_usb.so.0.0 elf32-i386)
