@@ -138,8 +138,16 @@ main.o main.d: /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/main.cc \
  /home/k/GeDONE/build.lx/var/libcache/rump/include/machine/mcontext.h \
  /home/k/GeDONE/build.lx/var/libcache/rump/include/machine/param.h \
  /home/k/GeDONE/build.lx/var/libcache/rump/include/machine/limits.h \
- /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/directory.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/ext2.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Filesystem.h \
  /home/k/GeDONE/repos/os/include/os/path.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Filesystem.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/File.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Directory.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Node.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Directory.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/RadixTree.h \
+ /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/directory.h \
  /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/node.h \
  /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/util.h \
  /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/file.h \
@@ -424,9 +432,25 @@ main.o main.d: /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/main.cc \
 
 /home/k/GeDONE/build.lx/var/libcache/rump/include/machine/limits.h:
 
-/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/directory.h:
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/ext2.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Filesystem.h:
 
 /home/k/GeDONE/repos/os/include/os/path.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Filesystem.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/File.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Directory.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Ext2Node.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/Directory.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/RadixTree.h:
+
+/home/k/GeDONE/repos/dde_rump/src/server/rump_fs/directory.h:
 
 /home/k/GeDONE/repos/dde_rump/src/server/rump_fs/node.h:
 

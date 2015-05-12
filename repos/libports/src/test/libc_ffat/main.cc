@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 
 		/* create subdirectory with relative path */
 		CALL_AND_CHECK(ret, mkdir(dir_name2, 0777), ((ret == 0) || (errno == EEXIST)), "dir_name=%s", dir_name2);
-
+return 0;
 		/* write pattern to a file */
 		CALL_AND_CHECK(fd, open(file_name, O_CREAT | O_WRONLY), fd >= 0, "file_name=%s", file_name);
 		CALL_AND_CHECK(count, write(fd, pattern, pattern_size), (size_t)count == pattern_size, "");

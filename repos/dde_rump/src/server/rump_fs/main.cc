@@ -20,6 +20,10 @@
 #include <root/component.h>
 #include  <rump_fs/fs.h>
 #include "file_system.h"
+#include "Ext2Filesystem.h"
+#include "Ext2Directory.h"
+#include "Ext2Node.h"
+#include "RadixTree.h"
 #include "directory.h"
 #include "node_handle_registry.h"
 
@@ -32,7 +36,7 @@ namespace File_system {
 
 
 
-
+Filesystem * pFs;
 
 class File_system::Session_component : public Session_rpc_object {
     public:
@@ -216,7 +220,19 @@ class File_system::Session_component : public Session_rpc_object {
 
         Dir_handle dir ( Path const & path, bool create ) {
             char const * path_str = path.string();
-            
+            char * temp = new ( &_md_alloc ) char[Genode::strlen ( path_str ) + 1];
+            Genode::memcpy ( temp, path_str, Genode::strlen ( path_str ) + 1 );
+            //Trying to create a directory and create directory function in ext2 will list out the contents of the parent directory
+            //after finishing creation
+            //remove directory will also work
+            //but to check whether two calls from libc_vfs::mkdir are working or not remove directory is commented
+            //to check the functionality this can be uncommented
+            PINF ( " Creating Directory \n" );
+            PINF ( "\n %s \n", temp );
+            pFs->Filesystem::createDirectory ( temp );
+            //PINF("\n Removing Directory :: \n");
+            //PINF("\n %s \n",path_str);
+            //pFs->Filesystem::remove(temp);
             _assert_valid_path ( path_str );
             /* skip leading '/' */
             path_str++;
@@ -456,7 +472,13 @@ struct File_system::Main
         resource_dispatcher ( ep, *this, &Main::resource_handler ) {
         env()->parent()->announce ( ep.manage ( fs_root ) );
         env()->parent()->resource_avail_sigh ( resource_dispatcher );
-        
+        File_system::init ( ep );
+        pFs = new ( &sliced_heap ) Ext2Filesystem ( ( sliced_heap ) );
+        pFs->initialise();
+        RadixTree<void *>::m_alloc = &sliced_heap;
+        Ext2Directory::m_alloc = &sliced_heap;
+        Ext2Node::m_alloc = &sliced_heap;
+        Filesystem::m_alloc = &sliced_heap;
     }
 };
 
@@ -464,6 +486,10 @@ struct File_system::Main
 /**********************
  ** Server framework **
  **********************/
+Genode::Allocator * RadixTree<void *>::m_alloc;
+Genode::Allocator * Ext2Node::m_alloc;
+Genode::Allocator * Ext2Directory::m_alloc;
+Genode::Allocator * Filesystem::m_alloc;
 char const  *  Server::name()
 {
     return "rump_fs_ep";

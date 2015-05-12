@@ -26,7 +26,7 @@
 		<config file="ext2.raw" block_size="512"/>
 	</start>
 	<start name="rump_fs">
-		<resource name="RAM" quantum="8M" />
+		<resource name="RAM" quantum="250M" />
 		<provides><service name="File_system"/></provides>
 		<config fs="ext2fs"><policy label="" root="/" writeable="yes"/></config>
 	</start>

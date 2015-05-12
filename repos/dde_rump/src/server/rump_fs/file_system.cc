@@ -24,7 +24,7 @@
 #include <block_session/connection.h>
 
 //===========================/
-
+#include "ext2.h"
 
 char buff[1025];
 
@@ -33,7 +33,9 @@ static bool _supports_symlinks;
 using namespace Genode;
 //=================================
 
+Superblock sb_ext2_main;
 
+Superblock sb_ext2_main2;
 
 static bool const verbose = false;
 

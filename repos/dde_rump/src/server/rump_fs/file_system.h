@@ -25,7 +25,7 @@ extern "C" {
 
 #include <base/signal.h>
 #include <os/server.h>
-
+#include "ext2.h"
 namespace File_system {
     void init ( Server::Entrypoint & ep );
     bool supports_symlinks();
@@ -34,6 +34,6 @@ void readb ( int, int, char * );
 void writeb ( int, int, char * );
 
 extern int errno;
-
+extern Superblock sb_ext2_main;
 extern char buff[1025];
 #endif /* _FILE_SYSTEM_H_ */
